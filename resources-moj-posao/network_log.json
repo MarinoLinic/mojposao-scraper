@@ -1,0 +1,661 @@
+[
+  {
+    "label": "IT / Zagreb",
+    "url": "https://mojposao.hr/pretraga-poslova?locations=Grad+Zagreb+i+Zagreba%C4%8Dka+%C5%BEupanija&locations=Zagreb&positions=IT,+telekomunikacije&sortBy=adtype",
+    "method": "GET",
+    "status": 200,
+    "content_type": "text/html;charset=utf-8",
+    "body": null
+  },
+  {
+    "label": "IT / Zagreb",
+    "url": "blob:https://mojposao.hr/bce1eb23-eef1-4c86-a80a-f6b774d72e68",
+    "method": "GET",
+    "status": 200,
+    "content_type": "",
+    "body": null
+  },
+  {
+    "label": "IT / Zagreb",
+    "url": "https://mojposao.hr/api/proxy/content/alma-footer",
+    "method": "GET",
+    "status": 200,
+    "content_type": "text/html",
+    "body": null
+  },
+  {
+    "label": "IT / Zagreb",
+    "url": "https://mojposao.hr/api/proxy/suggestions/locations?locations=ChIJe_jnWFN_ZkcRILQrhlCtAAM&locations=ChIJOcwCyZLWZUcRisL7KJYkRTo",
+    "method": "GET",
+    "status": 200,
+    "content_type": "application/json",
+    "body": {
+      "secondary": [
+        {
+          "key": "region",
+          "additionalItems": [],
+          "items": [
+            {
+              "id": "ChIJe_jnWFN_ZkcRILQrhlCtAAM",
+              "name": "Grad Zagreb i Zagrebačka županija"
+            },
+            {
+              "id": "ChIJH9UfuVWxZ0cRgLQrhlCtAAM",
+              "name": "Bjelovarsko-bilogorska županija"
+            },
+            {
+              "id": "ChIJU2fhnTGWXUcR0LQrhlCtAAM",
+              "name": "Brodsko-posavska županija"
+            },
+            {
+              "id": "ChIJm75pQHO2SxMRQLUrhlCtAAM",
+              "name": "Dubrovačko-neretvanska županija"
+            },
+            {
+              "id": "ChIJq2fmnSmxfEcRMLUrhlCtAAM",
+              "name": "Istarska županija"
+            },
+            {
+              "id": "ChIJxWnA7B0SZEcRULQrhlCtAAM",
+              "name": "Karlovačka županija"
+            },
+            {
+              "id": "ChIJn5-3YNYlZkcRcLQrhlCtAAM",
+              "name": "Koprivničko-križevačka županija"
+            },
+            {
+              "id": "ChIJCeYzNirpZUcRMLQrhlCtAAM",
+              "name": "Krapinsko-zagorska županija"
+            },
+            {
+              "id": "ChIJl4jQ8frXY0cRoLQrhlCtAAM",
+              "name": "Ličko-senjska županija"
+            },
+            {
+              "id": "ChIJr3LZtraxaEcRULUrhlCtAAM",
+              "name": "Međimurska županija"
+            },
+            {
+              "id": "ChIJu1vQGT0eXUcR8LQrhlCtAAM",
+              "name": "Osječko-baranjska županija"
+            },
+            {
+              "id": "ChIJw71yz1GHXUcRwLQrhlCtAAM",
+              "name": "Požeško-slavonska županija"
+            },
+            {
+              "id": "ChIJq__QoTFxY0cRkLQrhlCtAAM",
+              "name": "Primorsko-goranska županija"
+            },
+            {
+              "id": "ChIJyazZSX4rNRMRALUrhlCtAAM",
+              "name": "Šibensko-kninska županija"
+            },
+            {
+              "id": "ChIJy8MorGrnZkcRQLQrhlCtAAM",
+              "name": "Sisačko-moslavačka županija"
+            },
+            {
+              "id": "ChIJ2WylVSZhNRMRILUrhlCtAAM",
+              "name": "Splitsko-dalmatinska županija"
+            },
+            {
+              "id": "ChIJT2DcICcBZkcRYLQrhlCtAAM",
+              "name": "Varaždinska županija"
+            },
+            {
+              "id": "ChIJcQeW2fKMZ0cRsLQrhlCtAAM",
+              "name": "Virovitičko-podravska županija"
+            },
+            {
+              "id": "ChIJCXUtzGB8XEcRELUrhlCtAAM",
+              "name": "Vukovarsko-srijemska županija"
+            },
+            {
+              "id": "ChIJAbEBKibsYUcR4LQrhlCtAAM",
+              "name": "Zadarska županija"
+            }
+          ]
+        },
+        {
+          "key": "international",
+          "additionalItems": [],
+          "items": [
+            {
+              "id": "Europa i Svijet",
+              "name": "Europa i Svijet"
+            }
+          ]
+        }
+      ],
+      "primary": [
+        {
+          "key": "popular",
+          "additionalItems": [],
+          "items": [
+            {
+              "id": "ChIJOcwCyZLWZUcRisL7KJYkRTo",
+              "name": "Zagreb"
+            },
+            {
+              "id": "ChIJF_W8a_xdNRMRmJ-0MfaPeaE",
+              "name": "Split"
+            },
+            {
+              "id": "ChIJLb6qFyWhZEcRcLbLPThvPDc",
+              "name": "Rijeka"
+            },
+            {
+              "id": "ChIJdYByaajnXEcRlRGkIVZyjFs",
+              "name": "Osijek"
+            },
+            {
+              "id": "ChIJj7jA0mL6YUcRhAf0Exw-MhI",
+              "name": "Zadar"
+            },
+            {
+              "id": "ChIJfQMx_M-qaEcR2dZfheqe-ts",
+              "name": "Varaždin"
+            },
+            {
+              "id": "ChIJbXszCd7SfEcRDVhOezpKMnI",
+              "name": "Pula"
+            },
+            {
+              "id": "ChIJV8zmJQG6XUcR1QoGG0C0nKk",
+              "name": "Slavonski Brod"
+            },
+            {
+              "id": "ChIJwS3fuTEjZEcRcLsrhlCtAAQ",
+              "name": "Karlovac"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "label": "IT / Zagreb",
+    "url": "https://mojposao.hr/api/proxy/suggestions/positions?positions=11",
+    "method": "GET",
+    "status": 200,
+    "content_type": "application/json",
+    "body": {
+      "secondary": [
+        {
+          "items": [
+            {
+              "id": 1,
+              "name": "Administrativna zanimanja"
+            },
+            {
+              "id": 2,
+              "name": "Arhitektura"
+            },
+            {
+              "id": 3,
+              "name": "Bankarstvo"
+            },
+            {
+              "id": 4,
+              "name": "Briga o ljepoti, sport"
+            },
+            {
+              "id": 5,
+              "name": "Dizajn i umjetnost"
+            },
+            {
+              "id": 6,
+              "name": "Elektrotehnika"
+            },
+            {
+              "id": 7,
+              "name": "Farmaceutika i biotehnologija"
+            },
+            {
+              "id": 8,
+              "name": "Ekonomija, Financije i računovodstvo"
+            },
+            {
+              "id": 9,
+              "name": "Graditeljstvo, geodezija, geologija"
+            },
+            {
+              "id": 10,
+              "name": "Instalacije, održavanje i popravci"
+            },
+            {
+              "id": 11,
+              "name": "IT, telekomunikacije"
+            },
+            {
+              "id": 12,
+              "name": "Ljudski resursi"
+            },
+            {
+              "id": 13,
+              "name": "Marketing, PR i mediji"
+            },
+            {
+              "id": 14,
+              "name": "Obrazovanje i znanost"
+            },
+            {
+              "id": 15,
+              "name": "Ostalo"
+            },
+            {
+              "id": 16,
+              "name": "Poljoprivreda, šumarstvo, ribarstvo"
+            },
+            {
+              "id": 17,
+              "name": "Pravo"
+            },
+            {
+              "id": 18,
+              "name": "Prodaja (Trgovina)"
+            },
+            {
+              "id": 19,
+              "name": "Proizvodnja i zanatske usluge"
+            },
+            {
+              "id": 20,
+              "name": "Promet, transport, pomorstvo"
+            },
+            {
+              "id": 21,
+              "name": "Sigurnost i zaštita"
+            },
+            {
+              "id": 22,
+              "name": "Skladištenje i logistika"
+            },
+            {
+              "id": 23,
+              "name": "Skrb (o djeci, starijima...)"
+            },
+            {
+              "id": 24,
+              "name": "Strojarstvo i brodogradnja"
+            },
+            {
+              "id": 25,
+              "name": "Turizam i ugostiteljstvo"
+            },
+            {
+              "id": 26,
+              "name": "Zdravstvo, socijalni rad"
+            },
+            {
+              "id": 27,
+              "name": "Management"
+            },
+            {
+              "id": 28,
+              "name": "Državna služba i neprofitne organizacije"
+            }
+          ],
+          "additionalItems": [],
+          "key": "categories"
+        }
+      ],
+      "primary": [
+        {
+          "items": [],
+          "additionalItems": [],
+          "key": "recommended"
+        }
+      ]
+    }
+  },
+  {
+    "label": "Part-time / Zagreb",
+    "url": "https://mojposao.hr/pretraga-poslova?locations=Zagreb&employmentType=4",
+    "method": "GET",
+    "status": 200,
+    "content_type": "text/html;charset=utf-8",
+    "body": null
+  },
+  {
+    "label": "Part-time / Zagreb",
+    "url": "blob:https://mojposao.hr/c648036c-be9f-49eb-bab5-8283fd9d31e7",
+    "method": "GET",
+    "status": 200,
+    "content_type": "",
+    "body": null
+  },
+  {
+    "label": "Part-time / Zagreb",
+    "url": "https://mojposao.hr/api/proxy/content/alma-footer",
+    "method": "GET",
+    "status": 200,
+    "content_type": "text/html",
+    "body": null
+  },
+  {
+    "label": "Part-time / Zagreb",
+    "url": "https://mojposao.hr/api/proxy/suggestions/positions?",
+    "method": "GET",
+    "status": 200,
+    "content_type": "application/json",
+    "body": {
+      "secondary": [
+        {
+          "items": [
+            {
+              "id": 1,
+              "name": "Administrativna zanimanja"
+            },
+            {
+              "id": 2,
+              "name": "Arhitektura"
+            },
+            {
+              "id": 3,
+              "name": "Bankarstvo"
+            },
+            {
+              "id": 4,
+              "name": "Briga o ljepoti, sport"
+            },
+            {
+              "id": 5,
+              "name": "Dizajn i umjetnost"
+            },
+            {
+              "id": 6,
+              "name": "Elektrotehnika"
+            },
+            {
+              "id": 7,
+              "name": "Farmaceutika i biotehnologija"
+            },
+            {
+              "id": 8,
+              "name": "Ekonomija, Financije i računovodstvo"
+            },
+            {
+              "id": 9,
+              "name": "Graditeljstvo, geodezija, geologija"
+            },
+            {
+              "id": 10,
+              "name": "Instalacije, održavanje i popravci"
+            },
+            {
+              "id": 11,
+              "name": "IT, telekomunikacije"
+            },
+            {
+              "id": 12,
+              "name": "Ljudski resursi"
+            },
+            {
+              "id": 13,
+              "name": "Marketing, PR i mediji"
+            },
+            {
+              "id": 14,
+              "name": "Obrazovanje i znanost"
+            },
+            {
+              "id": 15,
+              "name": "Ostalo"
+            },
+            {
+              "id": 16,
+              "name": "Poljoprivreda, šumarstvo, ribarstvo"
+            },
+            {
+              "id": 17,
+              "name": "Pravo"
+            },
+            {
+              "id": 18,
+              "name": "Prodaja (Trgovina)"
+            },
+            {
+              "id": 19,
+              "name": "Proizvodnja i zanatske usluge"
+            },
+            {
+              "id": 20,
+              "name": "Promet, transport, pomorstvo"
+            },
+            {
+              "id": 21,
+              "name": "Sigurnost i zaštita"
+            },
+            {
+              "id": 22,
+              "name": "Skladištenje i logistika"
+            },
+            {
+              "id": 23,
+              "name": "Skrb (o djeci, starijima...)"
+            },
+            {
+              "id": 24,
+              "name": "Strojarstvo i brodogradnja"
+            },
+            {
+              "id": 25,
+              "name": "Turizam i ugostiteljstvo"
+            },
+            {
+              "id": 26,
+              "name": "Zdravstvo, socijalni rad"
+            },
+            {
+              "id": 27,
+              "name": "Management"
+            },
+            {
+              "id": 28,
+              "name": "Državna služba i neprofitne organizacije"
+            }
+          ],
+          "additionalItems": [],
+          "key": "categories"
+        }
+      ],
+      "primary": [
+        {
+          "items": [
+            {
+              "id": 1344,
+              "name": "Trgovac; Prodavač"
+            },
+            {
+              "id": 1001,
+              "name": "Administrator"
+            },
+            {
+              "id": 2342,
+              "name": "Administrativni referent"
+            },
+            {
+              "id": 1673,
+              "name": "Uredski administrator"
+            },
+            {
+              "id": 1615,
+              "name": "Prodajni savjetnik"
+            },
+            {
+              "id": 1007,
+              "name": "Djelatnik u korisničkoj službi"
+            },
+            {
+              "id": 1406,
+              "name": "Recepcionar"
+            },
+            {
+              "id": 1327,
+              "name": "Prodajni predstavnik"
+            },
+            {
+              "id": 1328,
+              "name": "Prodavač u maloprodajnom objektu"
+            }
+          ],
+          "additionalItems": [],
+          "key": "popular"
+        }
+      ]
+    }
+  },
+  {
+    "label": "Part-time / Zagreb",
+    "url": "https://mojposao.hr/api/proxy/suggestions/locations?locations=ChIJOcwCyZLWZUcRisL7KJYkRTo",
+    "method": "GET",
+    "status": 200,
+    "content_type": "application/json",
+    "body": {
+      "secondary": [
+        {
+          "key": "region",
+          "additionalItems": [],
+          "items": [
+            {
+              "id": "ChIJe_jnWFN_ZkcRILQrhlCtAAM",
+              "name": "Grad Zagreb i Zagrebačka županija"
+            },
+            {
+              "id": "ChIJH9UfuVWxZ0cRgLQrhlCtAAM",
+              "name": "Bjelovarsko-bilogorska županija"
+            },
+            {
+              "id": "ChIJU2fhnTGWXUcR0LQrhlCtAAM",
+              "name": "Brodsko-posavska županija"
+            },
+            {
+              "id": "ChIJm75pQHO2SxMRQLUrhlCtAAM",
+              "name": "Dubrovačko-neretvanska županija"
+            },
+            {
+              "id": "ChIJq2fmnSmxfEcRMLUrhlCtAAM",
+              "name": "Istarska županija"
+            },
+            {
+              "id": "ChIJxWnA7B0SZEcRULQrhlCtAAM",
+              "name": "Karlovačka županija"
+            },
+            {
+              "id": "ChIJn5-3YNYlZkcRcLQrhlCtAAM",
+              "name": "Koprivničko-križevačka županija"
+            },
+            {
+              "id": "ChIJCeYzNirpZUcRMLQrhlCtAAM",
+              "name": "Krapinsko-zagorska županija"
+            },
+            {
+              "id": "ChIJl4jQ8frXY0cRoLQrhlCtAAM",
+              "name": "Ličko-senjska županija"
+            },
+            {
+              "id": "ChIJr3LZtraxaEcRULUrhlCtAAM",
+              "name": "Međimurska županija"
+            },
+            {
+              "id": "ChIJu1vQGT0eXUcR8LQrhlCtAAM",
+              "name": "Osječko-baranjska županija"
+            },
+            {
+              "id": "ChIJw71yz1GHXUcRwLQrhlCtAAM",
+              "name": "Požeško-slavonska županija"
+            },
+            {
+              "id": "ChIJq__QoTFxY0cRkLQrhlCtAAM",
+              "name": "Primorsko-goranska županija"
+            },
+            {
+              "id": "ChIJyazZSX4rNRMRALUrhlCtAAM",
+              "name": "Šibensko-kninska županija"
+            },
+            {
+              "id": "ChIJy8MorGrnZkcRQLQrhlCtAAM",
+              "name": "Sisačko-moslavačka županija"
+            },
+            {
+              "id": "ChIJ2WylVSZhNRMRILUrhlCtAAM",
+              "name": "Splitsko-dalmatinska županija"
+            },
+            {
+              "id": "ChIJT2DcICcBZkcRYLQrhlCtAAM",
+              "name": "Varaždinska županija"
+            },
+            {
+              "id": "ChIJcQeW2fKMZ0cRsLQrhlCtAAM",
+              "name": "Virovitičko-podravska županija"
+            },
+            {
+              "id": "ChIJCXUtzGB8XEcRELUrhlCtAAM",
+              "name": "Vukovarsko-srijemska županija"
+            },
+            {
+              "id": "ChIJAbEBKibsYUcR4LQrhlCtAAM",
+              "name": "Zadarska županija"
+            }
+          ]
+        },
+        {
+          "key": "international",
+          "additionalItems": [],
+          "items": [
+            {
+              "id": "Europa i Svijet",
+              "name": "Europa i Svijet"
+            }
+          ]
+        }
+      ],
+      "primary": [
+        {
+          "key": "popular",
+          "additionalItems": [],
+          "items": [
+            {
+              "id": "ChIJOcwCyZLWZUcRisL7KJYkRTo",
+              "name": "Zagreb"
+            },
+            {
+              "id": "ChIJF_W8a_xdNRMRmJ-0MfaPeaE",
+              "name": "Split"
+            },
+            {
+              "id": "ChIJLb6qFyWhZEcRcLbLPThvPDc",
+              "name": "Rijeka"
+            },
+            {
+              "id": "ChIJdYByaajnXEcRlRGkIVZyjFs",
+              "name": "Osijek"
+            },
+            {
+              "id": "ChIJj7jA0mL6YUcRhAf0Exw-MhI",
+              "name": "Zadar"
+            },
+            {
+              "id": "ChIJfQMx_M-qaEcR2dZfheqe-ts",
+              "name": "Varaždin"
+            },
+            {
+              "id": "ChIJbXszCd7SfEcRDVhOezpKMnI",
+              "name": "Pula"
+            },
+            {
+              "id": "ChIJV8zmJQG6XUcR1QoGG0C0nKk",
+              "name": "Slavonski Brod"
+            },
+            {
+              "id": "ChIJwS3fuTEjZEcRcLsrhlCtAAQ",
+              "name": "Karlovac"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

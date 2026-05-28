@@ -1,0 +1,31 @@
+FETCH: 
+fetch("https://mojposao.hr/api/proxy/suggestions/locations?locations=ChIJe_jnWFN_ZkcRILQrhlCtAAM&locations=ChIJOcwCyZLWZUcRisL7KJYkRTo", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "hr",
+    "baggage": "sentry-environment=production,sentry-public_key=61cf523bd31fd34a8438105854408435,sentry-trace_id=fdd080f6e9e54dbd95c507faeca4d008,sentry-sample_rate=0.0002,sentry-transaction=search___hr,sentry-sampled=false",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"148\", \"Google Chrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "sentry-trace": "fdd080f6e9e54dbd95c507faeca4d008-9ee7e2b38fc0d017-0",
+    "x-app": "mojposao.hr"
+  },
+  "referrer": "https://mojposao.hr/pretraga-poslova?locations=Grad+Zagreb+i+Zagreba%C4%8Dka+%C5%BEupanija&locations=Zagreb&positions=IT,+telekomunikacije&sortBy=adtype",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+});
+
+COOKIE:
+token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOiI4NDdlMjk2Yi1lNGQ1LTQwZjAtOWMzOS05YmQ4MTNmY2U2Y2EiLCJpYXQiOjE3Nzk5NTM2ODYsImV4cCI6MTgxNTk1MzY4Nn0.wOV8Pllvu5ELt3iuA1zcG7b7iOxdAwp9-zuK40LhZ2Y; almacareer_ccm=%7B%22categories%22%3A%5B%22necessary%22%2C%22ad%22%2C%22analytics%22%2C%22functionality%22%2C%22personalization%22%5D%2C%22revision%22%3A0%2C%22data%22%3A%7B%22serviceName%22%3A%22mojposao.hr%22%2C%22uid%22%3A%22DJOnZs1lQ-_IFbKu4ac67%22%7D%2C%22consentTimestamp%22%3A%222026-05-28T07%3A34%3A50.202Z%22%2C%22consentId%22%3A%2273387a65-6fce-41c9-97b1-656837989f93%22%2C%22services%22%3A%7B%22necessary%22%3A%5B%5D%2C%22ad%22%3A%5B%5D%2C%22analytics%22%3A%5B%5D%2C%22functionality%22%3A%5B%5D%2C%22personalization%22%3A%5B%5D%7D%2C%22languageCode%22%3A%22hr%22%2C%22lastConsentTimestamp%22%3A%222026-05-28T07%3A34%3A50.202Z%22%2C%22expirationTime%22%3A1811489690202%7D; _gcl_au=1.1.1493076058.1779953690; _ga=GA1.1.1219334626.1779953688; _fbp=fb.1.1779953690488.992388300131421992; _tt_enable_cookie=1; _ttp=01KSPR3SYSNNMB6XDTMFTGA6Q7_.tt.1; g_state={"i_l":0,"i_ll":1779957355792,"i_b":"hdebMkL6pVXK/yb6O/itbSK057Kfn3UcjOeOqdl32Yw","i_e":{"enable_itp_optimization":0},"i_et":1779953690553}; __rtbh.uid=%7B%22eventType%22%3A%22uid%22%2C%22id%22%3A%22undefined%22%2C%22expiryDate%22%3A%222027-05-28T08%3A35%3A55.944Z%22%7D; __rtbh.lid=%7B%22eventType%22%3A%22lid%22%2C%22id%22%3A%224gL6DkynWb5b40KbAuTI%22%2C%22expiryDate%22%3A%222027-05-28T08%3A35%3A55.944Z%22%7D; _ga_YXSMCZJGSK=GS2.1.s1779957081$o2$g1$t1779957355$j60$l0$h0; cto_bundle=lST5U181RmhJdU9nMDd3V05QZDE0YXVrRlBLTUd1N3lidXFmTTN4ZHpKMzNlSk1Wb0pLTENBMVhlNUVjb3lLb2piQXRWb3MydXlCVVI0eiUyRlVmMzNWJTJGTFZER3R4c3cwa3pJJTJCTEpUUjNCWjhycXNSSnpIJTJGNkRkSSUyRm9NSExORzlqVyUyQm56dQ; ttcsid_D3F6MTJC77UAH4NB5PL0=1779957083533::ttxxWNRycOkDIHgQ0fKj.2.1779957356056.1; ttcsid=1779956960824::B3dgE2JY_n2K5UC-GS8j.2.1779957356056.0::1.391955.395232::0.0.0.0::332053.316.264
+
+REFERER:
+https://mojposao.hr/pretraga-poslova?locations=Grad+Zagreb+i+Zagreba%C4%8Dka+%C5%BEupanija&locations=Zagreb&positions=IT,+telekomunikacije&sortBy=adtype
+
+RESPONSE:
+{"secondary":[{"key":"region","additionalItems":[],"items":[{"id":"ChIJe_jnWFN_ZkcRILQrhlCtAAM","name":"Grad Zagreb i Zagrebačka županija"},{"id":"ChIJH9UfuVWxZ0cRgLQrhlCtAAM","name":"Bjelovarsko-bilogorska županija"},{"id":"ChIJU2fhnTGWXUcR0LQrhlCtAAM","name":"Brodsko-posavska županija"},{"id":"ChIJm75pQHO2SxMRQLUrhlCtAAM","name":"Dubrovačko-neretvanska županija"},{"id":"ChIJq2fmnSmxfEcRMLUrhlCtAAM","name":"Istarska županija"},{"id":"ChIJxWnA7B0SZEcRULQrhlCtAAM","name":"Karlovačka županija"},{"id":"ChIJn5-3YNYlZkcRcLQrhlCtAAM","name":"Koprivničko-križevačka županija"},{"id":"ChIJCeYzNirpZUcRMLQrhlCtAAM","name":"Krapinsko-zagorska županija"},{"id":"ChIJl4jQ8frXY0cRoLQrhlCtAAM","name":"Ličko-senjska županija"},{"id":"ChIJr3LZtraxaEcRULUrhlCtAAM","name":"Međimurska županija"},{"id":"ChIJu1vQGT0eXUcR8LQrhlCtAAM","name":"Osječko-baranjska županija"},{"id":"ChIJw71yz1GHXUcRwLQrhlCtAAM","name":"Požeško-slavonska županija"},{"id":"ChIJq__QoTFxY0cRkLQrhlCtAAM","name":"Primorsko-goranska županija"},{"id":"ChIJyazZSX4rNRMRALUrhlCtAAM","name":"Šibensko-kninska županija"},{"id":"ChIJy8MorGrnZkcRQLQrhlCtAAM","name":"Sisačko-moslavačka županija"},{"id":"ChIJ2WylVSZhNRMRILUrhlCtAAM","name":"Splitsko-dalmatinska županija"},{"id":"ChIJT2DcICcBZkcRYLQrhlCtAAM","name":"Varaždinska županija"},{"id":"ChIJcQeW2fKMZ0cRsLQrhlCtAAM","name":"Virovitičko-podravska županija"},{"id":"ChIJCXUtzGB8XEcRELUrhlCtAAM","name":"Vukovarsko-srijemska županija"},{"id":"ChIJAbEBKibsYUcR4LQrhlCtAAM","name":"Zadarska županija"}]},{"key":"international","additionalItems":[],"items":[{"id":"Europa i Svijet","name":"Europa i Svijet"}]}],"primary":[{"key":"popular","additionalItems":[],"items":[{"id":"ChIJOcwCyZLWZUcRisL7KJYkRTo","name":"Zagreb"},{"id":"ChIJF_W8a_xdNRMRmJ-0MfaPeaE","name":"Split"},{"id":"ChIJLb6qFyWhZEcRcLbLPThvPDc","name":"Rijeka"},{"id":"ChIJdYByaajnXEcRlRGkIVZyjFs","name":"Osijek"},{"id":"ChIJj7jA0mL6YUcRhAf0Exw-MhI","name":"Zadar"},{"id":"ChIJfQMx_M-qaEcR2dZfheqe-ts","name":"Varaždin"},{"id":"ChIJbXszCd7SfEcRDVhOezpKMnI","name":"Pula"},{"id":"ChIJV8zmJQG6XUcR1QoGG0C0nKk","name":"Slavonski Brod"},{"id":"ChIJwS3fuTEjZEcRcLsrhlCtAAQ","name":"Karlovac"}]}]}

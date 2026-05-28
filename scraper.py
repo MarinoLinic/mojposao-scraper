@@ -122,7 +122,7 @@ def warmup_session(session):
 
 
 def fetch_page_content(session, url):
-    """Fetches a search page with retries on failure."""
+    """Fetches a single page with retries on failure."""
     for attempt in range(1, MAX_RETRIES + 1):
         try:
             response = session.get(url, timeout=15)
@@ -138,33 +138,103 @@ def fetch_page_content(session, url):
     return None
 
 
+def fetch_all_pages(session, base_url):
+    """
+    Fetches all paginated result pages for a search URL.
+    MojPosao uses ?page=2, ?page=3, etc.
+    Returns a list of HTML strings (one per page fetched).
+    """
+    pages_html = []
+    page = 1
+
+    while True:
+        separator = "&" if "?" in base_url else "?"
+        url = base_url if page == 1 else f"{base_url}{separator}page={page}"
+        print(f"  Fetching page {page}: {url}")
+        html = fetch_page_content(session, url)
+        if not html:
+            print(f"  Failed to fetch page {page}. Stopping pagination.")
+            break
+
+        pages_html.append(html)
+
+        # Check if a "next page" link exists; if not, we're done
+        soup = BeautifulSoup(html, "html.parser")
+        next_link = soup.find("a", {"data-test": "pagination-next"}) or \
+                    soup.find("a", attrs={"aria-label": lambda v: v and "next" in v.lower()}) or \
+                    soup.find("a", class_=lambda c: c and "next" in c)
+
+        # Fallback: compare jobs found so far vs total advertised
+        if page == 1:
+            total = parse_total_jobs(html)
+            if total:
+                print(f"  Page header reports {total} total jobs.")
+
+        if not next_link:
+            print(f"  No next-page link found after page {page}. Done.")
+            break
+
+        page += 1
+        delay = random.uniform(3, 8)
+        print(f"  Waiting {delay:.1f}s before next page...")
+        time.sleep(delay)
+
+    return pages_html
+
+
+def parse_total_jobs(html_content):
+    """Extracts the total job count shown in the page heading, e.g. '(70)'."""
+    soup = BeautifulSoup(html_content, "html.parser")
+    heading = soup.find("h1")
+    if heading:
+        b_el = heading.find("b")
+        if b_el:
+            try:
+                return int(b_el.get_text(strip=True).strip("()"))
+            except ValueError:
+                pass
+    return None
+
+
 def parse_job_data(html_content):
     soup = BeautifulSoup(html_content, "html.parser")
     jobs = []
+    seen_links = set()
+
     container = soup.find("div", class_="search-results")
     if not container:
         print("  Could not find the search results container.")
         return jobs
 
     for element in container.find_all(recursive=False):
-        if (
-            element.find("span", class_="illustration_header__message")
-            and "Nemamo više poslova" in element.text
-        ):
+        # Stop at the recommendation section — those aren't real search results
+        if element.find("span", class_="illustration_header__message"):
             print("  Found recommendation section. Stopping.")
             break
 
         for card in element.find_all("div", class_="job-card"):
             title_el = card.find("h3", {"data-test": "job-card-content-title"})
-            link_el = card.find("a", href=True)
+            # All card variants use an <a> containing the title
+            link_el = card.find("a", href=lambda h: h and h.startswith("/posao/"))
             date_el = card.find("time")
 
-            if title_el and link_el:
-                jobs.append({
-                    "title": title_el.get_text(strip=True),
-                    "link": "https://mojposao.hr" + link_el["href"],
-                    "date": date_el.get_text(strip=True) if date_el else "Nema datuma.",
-                })
+            if not (title_el and link_el):
+                continue
+
+            # Strip tracking params so dedup works reliably across runs
+            raw_href = link_el["href"]
+            clean_href = raw_href.split("?")[0]
+            full_link = "https://mojposao.hr" + clean_href
+
+            if full_link in seen_links:
+                continue
+            seen_links.add(full_link)
+
+            jobs.append({
+                "title": title_el.get_text(strip=True),
+                "link": full_link,
+                "date": date_el.get_text(strip=True) if date_el else "Nema datuma.",
+            })
     return jobs
 
 
@@ -243,18 +313,26 @@ def run_search(search):
     session = make_session()
     warmup_session(session)
 
-    html = fetch_page_content(session, search["url"])
-    if not html:
-        print(f"  Could not fetch page. Skipping.")
+    pages_html = fetch_all_pages(session, search["url"])
+    if not pages_html:
+        print(f"  Could not fetch any pages. Skipping.")
         return
 
-    current_jobs = parse_job_data(html)
-    print(f"  Found {len(current_jobs)} jobs on page.")
+    # Parse all pages, deduplicating by link across pages
+    all_jobs = []
+    seen_links_this_run = set()
+    for html in pages_html:
+        for job in parse_job_data(html):
+            if job["link"] not in seen_links_this_run:
+                seen_links_this_run.add(job["link"])
+                all_jobs.append(job)
 
-    new_jobs = [job for job in current_jobs if job["link"] not in seen_jobs]
+    print(f"  Found {len(all_jobs)} total jobs across {len(pages_html)} page(s).")
+
+    new_jobs = [job for job in all_jobs if job["link"] not in seen_jobs]
     print(f"  {len(new_jobs)} new jobs.")
 
-    for job in current_jobs:
+    for job in all_jobs:
         seen_jobs[job["link"]] = {"title": job["title"], "date": job["date"]}
 
     save_seen_jobs(search["seen_file"], seen_jobs)
