@@ -35,6 +35,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add seen_jobs_part_time.json seen_jobs_it.json
+          git add --ignore-missing seen_jobs_part_time.json seen_jobs_it.json
           git diff --cached --quiet || git commit -m "chore: update seen jobs [skip ci]"
           git push origin HEAD:main
