@@ -232,10 +232,137 @@ def summarise_json_shape(body) -> dict:
 
 
 # ══════════════════════════════════════════════════════════════════════════════
+#  EMBEDDED STATE EXTRACTOR
+# ══════════════════════════════════════════════════════════════════════════════
+
+# These are the global JS variables that frameworks use to embed server-side
+# state into HTML. We try them all in order.
+STATE_PATTERNS = [
+    # Nuxt 2 / Vue SSR
+    (r'window\.__INITIAL_STATE__\s*=\s*', "__INITIAL_STATE__"),
+    # Next.js
+    (r'<script id="__NEXT_DATA__"[^>]*>\s*', "__NEXT_DATA__"),
+    # Nuxt 3
+    (r'window\.__NUXT__\s*=\s*', "__NUXT__"),
+    # Generic
+    (r'window\.__APP_STATE__\s*=\s*', "__APP_STATE__"),
+    (r'window\.__STATE__\s*=\s*', "__STATE__"),
+    (r'window\.__data__\s*=\s*', "__data__"),
+    (r'window\.__PRELOADED_STATE__\s*=\s*', "__PRELOADED_STATE__"),  # Redux
+    (r'window\.__STORE__\s*=\s*', "__STORE__"),
+]
+
+def extract_page_state(html: str) -> dict:
+    """
+    Scan HTML for embedded server-side JSON state objects.
+    Returns a dict keyed by state variable name, value is parsed JSON.
+    Tries all known framework patterns (Nuxt, Next.js, Redux, etc.)
+    """
+    found = {}
+    for pattern, name in STATE_PATTERNS:
+        match = re.search(pattern, html)
+        if not match:
+            continue
+        start = match.end()
+        # Walk forward to find the matching closing brace/bracket
+        opener = html[start] if start < len(html) else ""
+        if opener not in ("{", "["):
+            continue
+        closer = "}" if opener == "{" else "]"
+        depth, i, in_str, escape = 0, start, False, False
+        for i, ch in enumerate(html[start:], start):
+            if escape:
+                escape = False
+                continue
+            if ch == "\\" and in_str:
+                escape = True
+                continue
+            if ch == '"' and not escape:
+                in_str = not in_str
+                continue
+            if in_str:
+                continue
+            if ch == opener:
+                depth += 1
+            elif ch == closer:
+                depth -= 1
+                if depth == 0:
+                    break
+        raw = html[start:i + 1]
+        try:
+            found[name] = json.loads(raw)
+            print(f"  [STATE] Found {name} ({len(raw):,} bytes)")
+        except Exception:
+            # Sometimes Nuxt uses a non-standard format — try eval-safe extraction
+            pass
+    return found
+
+
+def extract_filter_schema(state: dict) -> dict:
+    """
+    Given a parsed state object, try to find filter/parameter schema.
+    Returns a dict with keys: url_params, fields, listings_sample, pagination.
+    Works generically by walking the tree looking for known key names.
+    """
+    result = {
+        "url_params":      [],   # ordered list of valid URL param names
+        "fields":          {},   # current filter values / structure
+        "listings_sample": [],   # first few listing objects
+        "pagination":      {},   # page count, total count
+        "raw_keys":        [],   # all top-level keys found for debugging
+    }
+
+    def walk(obj, depth=0):
+        """Recursively search the state tree for known scraping-relevant keys."""
+        if depth > 6 or not isinstance(obj, (dict, list)):
+            return
+        if isinstance(obj, list):
+            for item in obj[:3]:
+                walk(item, depth + 1)
+            return
+
+        keys = set(obj.keys())
+        if depth <= 2:
+            result["raw_keys"].extend(f"{'  '*depth}{k}" for k in keys)
+
+        # URL parameter order list
+        if "urlParametersOrder" in keys and not result["url_params"]:
+            result["url_params"] = obj["urlParametersOrder"]
+
+        # Filter field definitions
+        if "fields" in keys and isinstance(obj["fields"], dict) and not result["fields"]:
+            result["fields"] = obj["fields"]
+
+        # Listings (try several common key names)
+        for listings_key in ("regularListings", "listings", "items", "results", "ads", "data"):
+            if listings_key in keys and isinstance(obj[listings_key], list) and obj[listings_key]:
+                if not result["listings_sample"]:
+                    result["listings_sample"] = obj[listings_key][:2]
+                break
+
+        # Pagination
+        for count_key in ("listingsCount", "totalCount", "total", "count"):
+            if count_key in keys and not result["pagination"].get("total"):
+                result["pagination"]["total"] = obj[count_key]
+        for page_key in ("totalPageCount", "pageCount", "totalPages", "pages"):
+            if page_key in keys and not result["pagination"].get("pages"):
+                result["pagination"]["pages"] = obj[page_key]
+
+        for v in obj.values():
+            walk(v, depth + 1)
+
+    for state_obj in state.values():
+        walk(state_obj)
+
+    return result
+
+
+# ══════════════════════════════════════════════════════════════════════════════
 #  CAPTURE LOGIC
 # ══════════════════════════════════════════════════════════════════════════════
 
-def capture_page(page, search: dict, all_entries: list, candidate_entries: list, site_name: str = "site"):
+def capture_page(page, search: dict, all_entries: list, candidate_entries: list, site_name: str = "site") -> dict:
+    """Capture network calls and HTML for one URL. Returns extracted page state (may be empty dict)."""
     label = search["label"]
     url   = search["url"]
     print(f"\n{'═'*65}")
@@ -348,7 +475,8 @@ def capture_page(page, search: dict, all_entries: list, candidate_entries: list,
 
     page.remove_listener("response", on_response)
 
-    # ── Save full rendered HTML ───────────────────────────────────────────────
+    # ── Save full rendered HTML + extract embedded state ─────────────────────
+    page_state = {}
     if SAVE_HTML:
         safe_label = re.sub(r"[^\w\-]", "_", label).strip("_").lower()
         html_path  = OUTPUT_DIR / f"{site_name}_{safe_label}.html"
@@ -356,14 +484,31 @@ def capture_page(page, search: dict, all_entries: list, candidate_entries: list,
         html_path.write_text(html, encoding="utf-8")
         print(f"  HTML saved → {html_path}  ({len(html):,} bytes)")
 
+        # Extract embedded JS state (Nuxt, Next.js, Redux, etc.)
+        raw_state = extract_page_state(html)
+        if raw_state:
+            schema = extract_filter_schema(raw_state)
+            page_state = {"label": label, "url": url, "raw": raw_state, "schema": schema}
+            # Save state as clean JSON alongside HTML
+            state_path = OUTPUT_DIR / f"{site_name}_{safe_label}_state.json"
+            state_path.write_text(
+                json.dumps(raw_state, ensure_ascii=False, indent=2), encoding="utf-8"
+            )
+            print(f"  State saved → {state_path}")
+            if schema["pagination"]:
+                print(f"  Pagination: {schema['pagination']}")
+            if schema["url_params"]:
+                print(f"  Filter params found: {len(schema['url_params'])} parameters")
+
     print(f"  Done: {label}")
+    return page_state
 
 
 # ══════════════════════════════════════════════════════════════════════════════
 #  REPORT GENERATOR
 # ══════════════════════════════════════════════════════════════════════════════
 
-def build_report(candidate_entries: list, site_name: str = "site") -> str:
+def build_report(candidate_entries: list, site_name: str = "site", page_states: list | None = None) -> str:
     lines = []
     W = 70
 
@@ -374,6 +519,56 @@ def build_report(candidate_entries: list, site_name: str = "site") -> str:
 
     lines.append("NETWORK ANALYSIS REPORT")
     lines.append(f"Site: {site_name}   |   {len(candidate_entries)} captured calls")
+
+    # ── Embedded state (most valuable — show first) ───────────────────────────
+    if page_states:
+        h1("EMBEDDED PAGE STATE (server-rendered data in HTML)")
+        for ps in page_states:
+            schema = ps["schema"]
+            h2(ps["label"].upper())
+            li(f"URL: {ps['url']}")
+
+            # State variable names found
+            state_vars = list(ps["raw"].keys())
+            li(f"State objects found: {', '.join(state_vars)}")
+
+            # Pagination
+            if schema["pagination"]:
+                pg = schema["pagination"]
+                total   = pg.get("total", "?")
+                pages   = pg.get("pages", "?")
+                li(f"Pagination: {total} total listings across {pages} pages")
+
+            # Listings sample
+            if schema["listings_sample"]:
+                sample = schema["listings_sample"][0]
+                li(f"Listing fields available: {list(sample.keys())}")
+                li(f"Sample listing:")
+                for k, v in sample.items():
+                    lines.append(f"      {k:<30} {repr(v)[:60]}")
+
+            # Filter fields
+            if schema["fields"]:
+                li("Filter fields (current values from this page load):")
+                for k, v in schema["fields"].items():
+                    lines.append(f"      {k:<30} {repr(v)[:60]}")
+
+            # Full URL parameter list
+            if schema["url_params"]:
+                li(f"All valid URL parameters ({len(schema['url_params'])} total):")
+                # Group into rows of 4 for readability
+                params = schema["url_params"]
+                for i in range(0, len(params), 4):
+                    chunk = params[i:i+4]
+                    lines.append("      " + "  |  ".join(f"{p}" for p in chunk))
+
+        lines.append("")
+        lines.append("  → TIP: The state JSON files (*_state.json) contain the complete")
+        lines.append("         raw data — open them to see every listing, filter option,")
+        lines.append("         and configuration value the page loaded.")
+        lines.append("  → TIP: For scraping, parse window.__INITIAL_STATE__ (or equiv.)")
+        lines.append("         directly from the HTML — no API calls needed.")
+
 
     # ── Group by tag ──────────────────────────────────────────────────────────
     by_tag: dict[str, list] = defaultdict(list)
@@ -530,6 +725,7 @@ def build_report(candidate_entries: list, site_name: str = "site") -> str:
 def main():
     all_entries       = []
     candidate_entries = []
+    all_page_states   = []
 
     # Auto-derive site name from hostname if not set in config
     site_name = SITE_NAME
@@ -585,7 +781,9 @@ def main():
         time.sleep(2)
 
         for search in SEARCH_URLS:
-            capture_page(page, search, all_entries, candidate_entries, site_name)
+            state = capture_page(page, search, all_entries, candidate_entries, site_name)
+            if state:
+                all_page_states.append(state)
             time.sleep(2)
 
         browser.close()
@@ -602,7 +800,7 @@ def main():
         json.dumps(candidate_entries, ensure_ascii=False, indent=2), encoding="utf-8"
     )
 
-    report = build_report(candidate_entries, site_name)
+    report = build_report(candidate_entries, site_name, all_page_states)
     out_rep.write_text(report, encoding="utf-8")
 
     print(f"\n{'═'*65}")
@@ -613,6 +811,9 @@ def main():
         for search in SEARCH_URLS:
             safe_label = re.sub(r"[^\w\-]", "_", search["label"]).strip("_").lower()
             print(f"  HTML          → {OUTPUT_DIR / f'{site_name}_{safe_label}.html'}")
+            state_f = OUTPUT_DIR / f"{site_name}_{safe_label}_state.json"
+            if state_f.exists():
+                print(f"  State JSON    → {state_f}")
     print(f"{'═'*65}")
     print(report)
 
