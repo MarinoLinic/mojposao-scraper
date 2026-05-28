@@ -14,6 +14,9 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v3
+        with:
+          persist-credentials: true
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -32,9 +35,11 @@ jobs:
         run: python scraper.py
 
       - name: Commit and push seen_jobs.json
+        env:
+          GITHUB_REF: ${{ github.ref }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add seen_jobs.json
           git diff --cached --quiet || git commit -m "chore: update seen jobs [skip ci]"
-          git push
+          git push origin "HEAD:refs/heads/${GITHUB_REF#refs/heads/}"
