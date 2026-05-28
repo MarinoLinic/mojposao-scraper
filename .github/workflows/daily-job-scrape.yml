@@ -9,17 +9,14 @@ jobs:
   scrape-jobs:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # needed to push seen_jobs.json back
+      contents: write
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v3
-        with:
-          persist-credentials: true
-          fetch-depth: 0
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
@@ -34,10 +31,10 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python scraper.py
 
-      - name: Commit and push seen_jobs.json
+      - name: Commit and push seen jobs databases
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add seen_jobs.json
+          git add seen_jobs_part_time.json seen_jobs_it.json
           git diff --cached --quiet || git commit -m "chore: update seen jobs [skip ci]"
           git push origin HEAD:main

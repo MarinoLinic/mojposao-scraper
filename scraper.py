@@ -7,8 +7,18 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-URL = "https://mojposao.hr/pretraga-poslova?locations=Zagreb&employmentType=4"
-SEEN_JOBS_FILE = "seen_jobs.json"
+SEARCHES = [
+    {
+        "name": "part_time",
+        "url": "https://mojposao.hr/pretraga-poslova?locations=Zagreb&employmentType=4",
+        "seen_file": "seen_jobs_part_time.json",
+    },
+    {
+        "name": "it",
+        "url": "https://mojposao.hr/pretraga-poslova?locations=Grad+Zagreb+i+Zagreba%C4%8Dka+%C5%BEupanija&locations=Zagreb&positions=IT,+telekomunikacije&sortBy=adtype",
+        "seen_file": "seen_jobs_it.json",
+    },
+]
 
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
@@ -23,17 +33,15 @@ USER_AGENTS = [
 ]
 
 
-def load_seen_jobs():
-    """Loads the set of already-seen job links from the JSON file."""
-    if not os.path.exists(SEEN_JOBS_FILE):
+def load_seen_jobs(filepath):
+    if not os.path.exists(filepath):
         return {}
-    with open(SEEN_JOBS_FILE, "r", encoding="utf-8") as f:
+    with open(filepath, "r", encoding="utf-8") as f:
         return json.load(f)
 
 
-def save_seen_jobs(seen_jobs: dict):
-    """Saves the seen jobs dict back to the JSON file."""
-    with open(SEEN_JOBS_FILE, "w", encoding="utf-8") as f:
+def save_seen_jobs(filepath, seen_jobs):
+    with open(filepath, "w", encoding="utf-8") as f:
         json.dump(seen_jobs, f, ensure_ascii=False, indent=2)
 
 
@@ -44,115 +52,117 @@ def fetch_page_content(url):
         response.raise_for_status()
         return response.text
     except requests.RequestException as e:
-        print(f"Error fetching URL {url}: {e}")
+        print(f"  Error fetching {url}: {e}")
         return None
 
 
 def parse_job_data(html_content):
     soup = BeautifulSoup(html_content, "html.parser")
     jobs = []
-    search_results_container = soup.find("div", class_="search-results")
-    if not search_results_container:
-        print("Could not find the main search results container.")
+    container = soup.find("div", class_="search-results")
+    if not container:
+        print("  Could not find the search results container.")
         return jobs
 
-    for element in search_results_container.find_all(recursive=False):
-        if element.find("span", class_="illustration_header__message") and "Nemamo više poslova" in element.text:
-            print("Found the recommendation section. Stopping.")
+    for element in container.find_all(recursive=False):
+        if (
+            element.find("span", class_="illustration_header__message")
+            and "Nemamo više poslova" in element.text
+        ):
+            print("  Found recommendation section. Stopping.")
             break
 
         for card in element.find_all("div", class_="job-card"):
-            title_element = card.find("h3", {"data-test": "job-card-content-title"})
-            link_element = card.find("a", href=True)
-            date_element = card.find("time")
+            title_el = card.find("h3", {"data-test": "job-card-content-title"})
+            link_el = card.find("a", href=True)
+            date_el = card.find("time")
 
-            if title_element and link_element:
-                title = title_element.get_text(strip=True)
-                link = "https://mojposao.hr" + link_element['href']
-                date = date_element.get_text(strip=True) if date_element else "No date available."
-                jobs.append({"title": title, "link": link, "date": date})
+            if title_el and link_el:
+                jobs.append({
+                    "title": title_el.get_text(strip=True),
+                    "link": "https://mojposao.hr" + link_el["href"],
+                    "date": date_el.get_text(strip=True) if date_el else "Nema datuma.",
+                })
     return jobs
 
 
-def escape_markdown_v2(text):
+def escape_md(text):
     escape_chars = r'_*[]()~`>#+-=|{}.!'
-    return "".join(['\\' + char if char in escape_chars else char for char in text])
+    return "".join('\\' + c if c in escape_chars else c for c in text)
 
 
-def send_telegram_message(jobs_list, is_first_run=False):
+def send_telegram_message(jobs_list, label):
     if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
-        print("Telegram credentials not set.")
+        print("  Telegram credentials not set.")
         return
     if not jobs_list:
-        print("No new jobs to send.")
+        print(f"  [{label}] No new jobs. Skipping notification.")
         return
 
-    header = f"Found *{len(jobs_list)}* new job{'s' if len(jobs_list) != 1 else ''}\\!" if not is_first_run \
-        else f"First run\\! Loaded *{len(jobs_list)}* existing jobs\\. Future messages will only show new ones\\."
+    count_line = f"*{escape_md(label)}* \u2014 {len(jobs_list)} new job{'s' if len(jobs_list) != 1 else ''}\\!\n"
+    lines = [count_line]
+    for job in jobs_list:
+        lines.append(
+            f"*{escape_md(job['title'])}*\n"
+            f"Prijava do: {escape_md(job['date'])}\n"
+            f"[Link za prijavu]({job['link']})\n"
+            f"\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\- "
+        )
 
-    message_lines = [header + "\n"]
-
-    if not is_first_run:
-        for job in jobs_list:
-            title = escape_markdown_v2(job['title'])
-            date = escape_markdown_v2(job['date'])
-            message_lines.append(
-                f"*{title}*\n"
-                f"Prijava do: {date}\n"
-                f"[Link za prijavu]({job['link']})\n"
-                f"\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\- "
-            )
-
-    text = "\n".join(message_lines)
     payload = {
-        'chat_id': TELEGRAM_CHAT_ID,
-        'text': text,
-        'parse_mode': 'MarkdownV2',
-        'disable_web_page_preview': True
+        "chat_id": TELEGRAM_CHAT_ID,
+        "text": "\n".join(lines),
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": True,
     }
 
     try:
         response = requests.post(
             f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage",
             json=payload,
-            timeout=10
+            timeout=10,
         )
         response.raise_for_status()
-        print(f"Notification sent to Telegram.")
+        print(f"  [{label}] Notification sent.")
     except requests.RequestException as e:
-        print(f"Failed to send Telegram notification: {e}")
-        if hasattr(e, 'response') and e.response:
-            print(f"Response from Telegram: {e.response.text}")
+        print(f"  [{label}] Failed to send notification: {e}")
+        if hasattr(e, "response") and e.response:
+            print(f"  Telegram response: {e.response.text}")
+
+
+def run_search(search):
+    name = search["name"]
+    label = "Part-time (Zagreb)" if name == "part_time" else "IT / Telekomunikacije (Zagreb)"
+    print(f"\n[{name}] Starting...")
+
+    seen_jobs = load_seen_jobs(search["seen_file"])
+    print(f"  Loaded {len(seen_jobs)} previously seen jobs.")
+
+    html = fetch_page_content(search["url"])
+    if not html:
+        print(f"  Could not fetch page. Skipping.")
+        return
+
+    current_jobs = parse_job_data(html)
+    print(f"  Found {len(current_jobs)} jobs on page.")
+
+    new_jobs = [job for job in current_jobs if job["link"] not in seen_jobs]
+    print(f"  {len(new_jobs)} new jobs.")
+
+    for job in current_jobs:
+        seen_jobs[job["link"]] = {"title": job["title"], "date": job["date"]}
+
+    save_seen_jobs(search["seen_file"], seen_jobs)
+    print(f"  Saved {len(seen_jobs)} total seen jobs to {search['seen_file']}.")
+
+    send_telegram_message(new_jobs, label)
 
 
 def main():
     print("Starting job scraper...")
-
-    seen_jobs = load_seen_jobs()
-    is_first_run = len(seen_jobs) == 0
-    print(f"Loaded {len(seen_jobs)} previously seen jobs.")
-
-    html = fetch_page_content(URL)
-    if not html:
-        print("Could not retrieve page content. Exiting.")
-        return
-
-    current_jobs = parse_job_data(html)
-    print(f"Found {len(current_jobs)} jobs on the page.")
-
-    # Find jobs whose link we've never seen before
-    new_jobs = [job for job in current_jobs if job['link'] not in seen_jobs]
-    print(f"{len(new_jobs)} new jobs to notify about.")
-
-    # Add ALL current jobs to seen (and keep old deleted ones too)
-    for job in current_jobs:
-        seen_jobs[job['link']] = {"title": job['title'], "date": job['date']}
-
-    save_seen_jobs(seen_jobs)
-    print(f"Saved {len(seen_jobs)} total seen jobs.")
-
-    send_telegram_message(new_jobs, is_first_run=is_first_run)
-    print("Scraper finished.")
+    for search in SEARCHES:
+        run_search(search)
+    print("\nScraper finished.")
 
 
 if __name__ == "__main__":
