@@ -87,8 +87,8 @@ def send_telegram_message(jobs_list, is_first_run=False):
         print("No new jobs to send.")
         return
 
-    header = f"🆕 Found *{len(jobs_list)}* new job{'s' if len(jobs_list) != 1 else ''}\\!" if not is_first_run \
-        else f"👋 First run\\! Loaded *{len(jobs_list)}* existing jobs\\. Future messages will only show new ones\\."
+    header = f"Found *{len(jobs_list)}* new job{'s' if len(jobs_list) != 1 else ''}\\!" if not is_first_run \
+        else f"First run\\! Loaded *{len(jobs_list)}* existing jobs\\. Future messages will only show new ones\\."
 
     message_lines = [header + "\n"]
 
