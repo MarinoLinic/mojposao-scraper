@@ -181,34 +181,57 @@ def send_telegram_message(jobs_list, label):
         print(f"  [{label}] No new jobs. Skipping notification.")
         return
 
-    lines = [f"*{escape_md(label)}* \\- {len(jobs_list)} new job{'s' if len(jobs_list) != 1 else ''}\\!\n"]
-    for job in jobs_list:
-        lines.append(
+    def build_job_block(job):
+        return (
             f"*{escape_md(job['title'])}*\n"
             f"Prijava do: {escape_md(job['date'])}\n"
             f"[Link za prijavu]({job['link']})\n"
             f"\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\- "
         )
 
-    payload = {
-        "chat_id": TELEGRAM_CHAT_ID,
-        "text": "\n".join(lines),
-        "parse_mode": "MarkdownV2",
-        "disable_web_page_preview": True,
-    }
+    # Split into chunks that fit within Telegram's 4096 char limit
+    MAX_CHARS = 3800  # leave headroom for the header
+    header = f"*{escape_md(label)}* \\- {len(jobs_list)} new job{'s' if len(jobs_list) != 1 else ''}\\!\n\n"
 
-    try:
-        response = requests.post(
-            f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage",
-            json=payload,
-            timeout=10,
-        )
-        response.raise_for_status()
-        print(f"  [{label}] Notification sent.")
-    except requests.RequestException as e:
-        print(f"  [{label}] Failed to send notification: {e}")
-        if hasattr(e, "response") and e.response:
-            print(f"  Telegram response: {e.response.text}")
+    chunks = []
+    current_lines = [header]
+    current_len = len(header)
+
+    for job in jobs_list:
+        block = build_job_block(job) + "\n"
+        if current_len + len(block) > MAX_CHARS:
+            chunks.append("".join(current_lines))
+            current_lines = []
+            current_len = 0
+        current_lines.append(block)
+        current_len += len(block)
+
+    if current_lines:
+        chunks.append("".join(current_lines))
+
+    print(f"  [{label}] Sending {len(jobs_list)} jobs across {len(chunks)} message(s).")
+
+    for i, text in enumerate(chunks):
+        payload = {
+            "chat_id": TELEGRAM_CHAT_ID,
+            "text": text,
+            "parse_mode": "MarkdownV2",
+            "disable_web_page_preview": True,
+        }
+        try:
+            response = requests.post(
+                f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage",
+                json=payload,
+                timeout=10,
+            )
+            response.raise_for_status()
+            print(f"  [{label}] Sent message {i + 1}/{len(chunks)}.")
+            if i < len(chunks) - 1:
+                time.sleep(1)  # small pause between messages
+        except requests.RequestException as e:
+            print(f"  [{label}] Failed to send message {i + 1}: {e}")
+            if hasattr(e, "response") and e.response:
+                print(f"  Telegram response: {e.response.text}")
 
 
 def run_search(search):
