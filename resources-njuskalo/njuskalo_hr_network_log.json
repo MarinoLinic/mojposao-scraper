@@ -1,0 +1,8032 @@
+[
+  {
+    "label": "Apartments for sale / Zagreb",
+    "url": "https://www.njuskalo.hr/prodaja-stanova?geo[locationIds]=1247,1248,1249,1250,1252,1253,1254,1255,1256,1257,1258,1259,1260,1261,1262,1263,1264,1251&price[max]=360000&livingArea[max]=100&adsWithImages=1&numberOfRooms[min]=four-rooms&numberOfRooms[max]=five-rooms&buildingInfo[lift]=1&sort=new",
+    "method": "GET",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "query_params": {
+      "geo[locationIds]": "1247,1248,1249,1250,1252,1253,1254,1255,1256,1257,1258,1259,1260,1261,1262,1263,1264,1251",
+      "price[max]": "360000",
+      "livingArea[max]": "100",
+      "adsWithImages": "1",
+      "numberOfRooms[min]": "four-rooms",
+      "numberOfRooms[max]": "five-rooms",
+      "buildingInfo[lift]": "1",
+      "sort": "new"
+    },
+    "request_body": null,
+    "tags": [
+      "geo/location",
+      "listings"
+    ],
+    "repeated": false,
+    "body": null,
+    "body_shape": null
+  },
+  {
+    "label": "Apartments for sale / Zagreb",
+    "url": "https://www.njuskalo.hr/papi/pages/browse-listings/locations-hierarchy?level=0",
+    "method": "GET",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "query_params": {
+      "level": "0"
+    },
+    "request_body": null,
+    "tags": [
+      "geo/location",
+      "pagination",
+      "listings",
+      "internal-api"
+    ],
+    "repeated": false,
+    "body": [
+      {
+        "id": 1150,
+        "label": "Bjelovarsko-bilogorska",
+        "value": 1150,
+        "route": {
+          "slugs": [
+            "bjelovarsko-bilogorska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1151,
+        "label": "Brodsko-posavska",
+        "value": 1151,
+        "route": {
+          "slugs": [
+            "brodsko-posavska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1152,
+        "label": "Dubrovačko-neretvanska",
+        "value": 1152,
+        "route": {
+          "slugs": [
+            "dubrovacko-neretvanska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1154,
+        "label": "Istarska",
+        "value": 1154,
+        "route": {
+          "slugs": [
+            "istra"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1155,
+        "label": "Karlovačka",
+        "value": 1155,
+        "route": {
+          "slugs": [
+            "karlovacka"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1156,
+        "label": "Koprivničko-križevačka",
+        "value": 1156,
+        "route": {
+          "slugs": [
+            "koprivnicko-krizevacka"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1157,
+        "label": "Krapinsko-zagorska",
+        "value": 1157,
+        "route": {
+          "slugs": [
+            "krapinsko-zagorska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1158,
+        "label": "Ličko-senjska",
+        "value": 1158,
+        "route": {
+          "slugs": [
+            "licko-senjska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1159,
+        "label": "Međimurska",
+        "value": 1159,
+        "route": {
+          "slugs": [
+            "medimurje"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1160,
+        "label": "Osječko-baranjska",
+        "value": 1160,
+        "route": {
+          "slugs": [
+            "osjecko-baranjska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1161,
+        "label": "Požeško-slavonska",
+        "value": 1161,
+        "route": {
+          "slugs": [
+            "pozesko-slavonska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1162,
+        "label": "Primorsko-goranska",
+        "value": 1162,
+        "route": {
+          "slugs": [
+            "primorsko-goranska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1163,
+        "label": "Sisačko-moslavačka",
+        "value": 1163,
+        "route": {
+          "slugs": [
+            "sisacko-moslavacka"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1164,
+        "label": "Splitsko-dalmatinska",
+        "value": 1164,
+        "route": {
+          "slugs": [
+            "splitsko-dalmatinska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1165,
+        "label": "Šibensko-kninska",
+        "value": 1165,
+        "route": {
+          "slugs": [
+            "sibensko-kninska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1166,
+        "label": "Varaždinska",
+        "value": 1166,
+        "route": {
+          "slugs": [
+            "varazdinska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1167,
+        "label": "Virovitičko-podravska",
+        "value": 1167,
+        "route": {
+          "slugs": [
+            "viroviticko-podravska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1168,
+        "label": "Vukovarsko-srijemska",
+        "value": 1168,
+        "route": {
+          "slugs": [
+            "vukovarsko-srijemska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1169,
+        "label": "Zadarska",
+        "value": 1169,
+        "route": {
+          "slugs": [
+            "zadarska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1153,
+        "label": "Grad Zagreb",
+        "value": 1153,
+        "route": {
+          "slugs": [
+            "zagreb"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1170,
+        "label": "Zagrebačka",
+        "value": 1170,
+        "route": {
+          "slugs": [
+            "zagrebacka"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": -20,
+        "label": "Cijela Hrvatska",
+        "value": -20,
+        "route": null,
+        "groupSelect": [
+          1150,
+          1151,
+          1152,
+          1154,
+          1155,
+          1156,
+          1157,
+          1158,
+          1159,
+          1160,
+          1161,
+          1162,
+          1163,
+          1164,
+          1165,
+          1166,
+          1167,
+          1168,
+          1169,
+          1153,
+          1170
+        ],
+        "parentId": null
+      },
+      {
+        "id": -30,
+        "label": "Izvan Hrvatske - Unutar EU",
+        "value": -30,
+        "route": null,
+        "parentId": null
+      },
+      {
+        "id": -40,
+        "label": "Izvan Hrvatske - Izvan EU",
+        "value": -40,
+        "route": null,
+        "parentId": null
+      }
+    ],
+    "body_shape": {
+      "(root array)": "array[24]",
+      "(first item keys)": [
+        "id",
+        "label",
+        "value",
+        "route",
+        "parentId"
+      ]
+    }
+  },
+  {
+    "label": "Apartments for sale / Zagreb",
+    "url": "https://www.njuskalo.hr/papi/pages/browse-listings/locations-hierarchy?level=1&parentIds=1153",
+    "method": "GET",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "query_params": {
+      "level": "1",
+      "parentIds": "1153"
+    },
+    "request_body": null,
+    "tags": [
+      "geo/location",
+      "pagination",
+      "listings",
+      "internal-api"
+    ],
+    "repeated": false,
+    "body": [
+      {
+        "id": 1153,
+        "label": "Grad Zagreb",
+        "choices": [
+          {
+            "id": 1247,
+            "label": "Brezovica",
+            "value": 1247,
+            "route": {
+              "slugs": [
+                "brezovica"
+              ],
+              "query": {}
+            },
+            "parentId": 1153
+          },
+          {
+            "id": 1248,
+            "label": "Črnomerec",
+            "value": 1248,
+            "route": {
+              "slugs": [
+                "crnomerec"
+              ],
+              "query": {}
+            },
+            "parentId": 1153
+          },
+          {
+            "id": 1249,
+            "label": "Donja Dubrava",
+            "value": 1249,
+            "route": {
+              "slugs": [
+                "donja-dubrava"
+              ],
+              "query": {}
+            },
+            "parentId": 1153
+          },
+          {
+            "id": 1250,
+            "label": "Donji Grad",
+            "value": 1250,
+            "route": {
+              "slugs": [
+                "donji-grad"
+              ],
+              "query": {}
+            },
+            "parentId": 1153
+          },
+          {
+            "id": 1251,
+            "label": "Gornja Dubrava",
+            "value": 1251,
+            "route": {
+              "slugs": [
+                "gornja-dubrava"
+              ],
+              "query": {}
+            },
+            "parentId": 1153
+          },
+          {
+            "id": 1252,
+            "label": "Gornji Grad - Medveščak",
+            "value": 1252,
+            "route": {
+              "slugs": [
+                "gornji-grad-medvescak"
+              ],
+              "query": {}
+            },
+            "parentId": 1153
+          },
+          {
+            "id": 1253,
+            "label": "Maksimir",
+            "value": 1253,
+            "route": {
+              "slugs": [
+                "maksimir"
+              ],
+              "query": {}
+            },
+            "parentId": 1153
+          },
+          {
+            "id": 1254,
+            "label": "Novi Zagreb - Istok",
+            "value": 1254,
+            "route": {
+              "slugs": [
+                "novi-zagreb-istok"
+              ],
+              "query": {}
+            },
+            "parentId": 1153
+          },
+          {
+            "id": 1255,
+            "label": "Novi Zagreb - Zapad",
+            "value": 1255,
+            "route": {
+              "slugs": [
+                "novi-zagreb-zapad"
+              ],
+              "query": {}
+            },
+            "parentId": 1153
+          },
+          {
+            "id": 1256,
+            "label": "Peščenica - Žitnjak",
+            "value": 1256,
+            "route": {
+              "slugs": [
+                "pescenica-zitnjak"
+              ],
+              "query": {}
+            },
+            "parentId": 1153
+          },
+          {
+            "id": 1257,
+            "label": "Podsljeme",
+            "value": 1257,
+            "route": {
+              "slugs": [
+                "podsljeme"
+              ],
+              "query": {}
+            },
+            "parentId": 1153
+          },
+          {
+            "id": 1258,
+            "label": "Podsused - Vrapče",
+            "value": 1258,
+            "route": {
+              "slugs": [
+                "podsused-vrapce"
+              ],
+              "query": {}
+            },
+            "parentId": 1153
+          },
+          {
+            "id": 1259,
+            "label": "Sesvete",
+            "value": 1259,
+            "route": {
+              "slugs": [
+                "sesvete"
+              ],
+              "query": {}
+            },
+            "parentId": 1153
+          },
+          {
+            "id": 1260,
+            "label": "Stenjevec",
+            "value": 1260,
+            "route": {
+              "slugs": [
+                "stenjevec"
+              ],
+              "query": {}
+            },
+            "parentId": 1153
+          },
+          {
+            "id": 1261,
+            "label": "Trešnjevka - Jug",
+            "value": 1261,
+            "route": {
+              "slugs": [
+                "tresnjevka-jug"
+              ],
+              "query": {}
+            },
+            "parentId": 1153
+          },
+          {
+            "id": 1262,
+            "label": "Trešnjevka - Sjever",
+            "value": 1262,
+            "route": {
+              "slugs": [
+                "tresnjevka-sjever"
+              ],
+              "query": {}
+            },
+            "parentId": 1153
+          },
+          {
+            "id": 1263,
+            "label": "Trnje",
+            "value": 1263,
+            "route": {
+              "slugs": [
+                "trnje"
+              ],
+              "query": {}
+            },
+            "parentId": 1153
+          },
+          {
+            "id": 1264,
+            "label": "Zagreb - Okolica",
+            "value": 1264,
+            "route": {
+              "slugs": [
+                "zagreb-okolica"
+              ],
+              "query": {}
+            },
+            "parentId": 1153
+          }
+        ]
+      }
+    ],
+    "body_shape": {
+      "(root array)": "array[1]",
+      "(first item keys)": [
+        "id",
+        "label",
+        "choices"
+      ]
+    }
+  },
+  {
+    "label": "Apartments for sale / Zagreb",
+    "url": "https://www.njuskalo.hr/papi/pages/browse-listings/locations-hierarchy?level=2&parentIds=1247%2C1248%2C1249%2C1250%2C1251%2C1252%2C1253%2C1254%2C1255%2C1256%2C1257%2C1258%2C1259%2C1260%2C1261%2C1262%2C1263%2C1264",
+    "method": "GET",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "query_params": {
+      "level": "2",
+      "parentIds": "1247,1248,1249,1250,1251,1252,1253,1254,1255,1256,1257,1258,1259,1260,1261,1262,1263,1264"
+    },
+    "request_body": null,
+    "tags": [
+      "geo/location",
+      "pagination",
+      "listings",
+      "internal-api"
+    ],
+    "repeated": false,
+    "body": [
+      {
+        "id": 1247,
+        "label": "Brezovica",
+        "choices": [
+          {
+            "id": 2595,
+            "label": "Brezovica",
+            "value": 2595,
+            "route": {
+              "slugs": [
+                "brezovica-brezovica"
+              ],
+              "query": {}
+            },
+            "parentId": 1247
+          },
+          {
+            "id": 2827,
+            "label": "Brebernica",
+            "value": 2827,
+            "route": {
+              "slugs": [
+                "brezovica-brebernica"
+              ],
+              "query": {}
+            },
+            "parentId": 1247
+          },
+          {
+            "id": 2832,
+            "label": "Demerje",
+            "value": 2832,
+            "route": {
+              "slugs": [
+                "brezovica-demerje"
+              ],
+              "query": {}
+            },
+            "parentId": 1247
+          },
+          {
+            "id": 2833,
+            "label": "Desprim",
+            "value": 2833,
+            "route": {
+              "slugs": [
+                "brezovica-desprim"
+              ],
+              "query": {}
+            },
+            "parentId": 1247
+          },
+          {
+            "id": 2836,
+            "label": "Donji Dragonožec",
+            "value": 2836,
+            "route": {
+              "slugs": [
+                "brezovica-donji-dragonozec"
+              ],
+              "query": {}
+            },
+            "parentId": 1247
+          },
+          {
+            "id": 2837,
+            "label": "Donji Trpuci",
+            "value": 2837,
+            "route": {
+              "slugs": [
+                "brezovica-donji-trpuci"
+              ],
+              "query": {}
+            },
+            "parentId": 1247
+          },
+          {
+            "id": 2839,
+            "label": "Drežnik Brezovički",
+            "value": 2839,
+            "route": {
+              "slugs": [
+                "brezovica-dreznik-brezovicki"
+              ],
+              "query": {}
+            },
+            "parentId": 1247
+          },
+          {
+            "id": 2846,
+            "label": "Goli Breg",
+            "value": 2846,
+            "route": {
+              "slugs": [
+                "brezovica-goli-breg"
+              ],
+              "query": {}
+            },
+            "parentId": 1247
+          },
+          {
+            "id": 2849,
+            "label": "Gornji Dragonožec",
+            "value": 2849,
+            "route": {
+              "slugs": [
+                "brezovica-gornji-dragonozec"
+              ],
+              "query": {}
+            },
+            "parentId": 1247
+          },
+          {
+            "id": 2850,
+            "label": "Gornji Trpuci",
+            "value": 2850,
+            "route": {
+              "slugs": [
+                "brezovica-gornji-trpuci"
+              ],
+              "query": {}
+            },
+            "parentId": 1247
+          },
+          {
+            "id": 2851,
+            "label": "Grančari",
+            "value": 2851,
+            "route": {
+              "slugs": [
+                "brezovica-grancari"
+              ],
+              "query": {}
+            },
+            "parentId": 1247
+          },
+          {
+            "id": 2852,
+            "label": "Havidić Selo",
+            "value": 2852,
+            "route": {
+              "slugs": [
+                "brezovica-havidic-selo"
+              ],
+              "query": {}
+            },
+            "parentId": 1247
+          },
+          {
+            "id": 2853,
+            "label": "Horvati",
+            "value": 2853,
+            "route": {
+              "slugs": [
+                "brezovica-horvati"
+              ],
+              "query": {}
+            },
+            "parentId": 1247
+          },
+          {
+            "id": 2856,
+            "label": "Hudi Bitek",
+            "value": 2856,
+            "route": {
+              "slugs": [
+                "brezovica-hudi-bitek"
+              ],
+              "query": {}
+            },
+            "parentId": 1247
+          },
+          {
+            "id": 2864,
+            "label": "Kupinečki Kraljevec",
+            "value": 2864,
+            "route": {
+              "slugs": [
+                "brezovica-kupinecki-kraljevec"
+              ],
+              "query": {}
+            },
+            "parentId": 1247
+          },
+          {
+            "id": 2865,
+            "label": "Lipnica",
+            "value": 2865,
+            "route": {
+              "slugs": [
+                "brezovica-lipnica"
+              ],
+              "query": {}
+            },
+            "parentId": 1247
+          },
+          {
+            "id": 2872,
+            "label": "Odranski Obrež",
+            "value": 2872,
+            "route": {
+              "slugs": [
+                "brezovica-odranski-obrez"
+              ],
+              "query": {}
+            },
+            "parentId": 1247
+          },
+          {
+            "id": 2880,
+            "label": "Starjak",
+            "value": 2880,
+            "route": {
+              "slugs": [
+                "brezovica-starjak"
+              ],
+              "query": {}
+            },
+            "parentId": 1247
+          },
+          {
+            "id": 2881,
+            "label": "Strmec",
+            "value": 2881,
+            "route": {
+              "slugs": [
+                "brezovica-strmec"
+              ],
+              "query": {}
+            },
+            "parentId": 1247
+          },
+          {
+            "id": 2889,
+            "label": "Zadvorsko",
+            "value": 2889,
+            "route": {
+              "slugs": [
+                "brezovica-zadvorsko"
+              ],
+              "query": {}
+            },
+            "parentId": 1247
+          }
+        ]
+      },
+      {
+        "id": 1248,
+        "label": "Črnomerec",
+        "choices": [
+          {
+            "id": 2596,
+            "label": "Bijenik",
+            "value": 2596,
+            "route": {
+              "slugs": [
+                "crnomerec-bijenik"
+              ],
+              "query": {}
+            },
+            "parentId": 1248
+          },
+          {
+            "id": 2597,
+            "label": "Črnomerec",
+            "value": 2597,
+            "route": {
+              "slugs": [
+                "crnomerec-crnomerec"
+              ],
+              "query": {}
+            },
+            "parentId": 1248
+          },
+          {
+            "id": 2598,
+            "label": "Fraterščica",
+            "value": 2598,
+            "route": {
+              "slugs": [
+                "crnomerec-fraterscica"
+              ],
+              "query": {}
+            },
+            "parentId": 1248
+          },
+          {
+            "id": 2599,
+            "label": "Gornje Selo",
+            "value": 2599,
+            "route": {
+              "slugs": [
+                "crnomerec-gornje-selo"
+              ],
+              "query": {}
+            },
+            "parentId": 1248
+          },
+          {
+            "id": 2600,
+            "label": "Gornje Vrapče",
+            "value": 2600,
+            "route": {
+              "slugs": [
+                "crnomerec-gornje-vrapce"
+              ],
+              "query": {}
+            },
+            "parentId": 1248
+          },
+          {
+            "id": 2601,
+            "label": "Gornji Lukšić",
+            "value": 2601,
+            "route": {
+              "slugs": [
+                "crnomerec-gornji-luksic"
+              ],
+              "query": {}
+            },
+            "parentId": 1248
+          },
+          {
+            "id": 2602,
+            "label": "Jelenovac",
+            "value": 2602,
+            "route": {
+              "slugs": [
+                "crnomerec-jelenovac"
+              ],
+              "query": {}
+            },
+            "parentId": 1248
+          },
+          {
+            "id": 2603,
+            "label": "Krvarić",
+            "value": 2603,
+            "route": {
+              "slugs": [
+                "crnomerec-krvaric"
+              ],
+              "query": {}
+            },
+            "parentId": 1248
+          },
+          {
+            "id": 2604,
+            "label": "Kustošija",
+            "value": 2604,
+            "route": {
+              "slugs": [
+                "crnomerec-kustosija"
+              ],
+              "query": {}
+            },
+            "parentId": 1248
+          },
+          {
+            "id": 2605,
+            "label": "Lukšić",
+            "value": 2605,
+            "route": {
+              "slugs": [
+                "crnomerec-luksic"
+              ],
+              "query": {}
+            },
+            "parentId": 1248
+          },
+          {
+            "id": 2606,
+            "label": "Mikulići",
+            "value": 2606,
+            "route": {
+              "slugs": [
+                "crnomerec-mikulici"
+              ],
+              "query": {}
+            },
+            "parentId": 1248
+          },
+          {
+            "id": 2607,
+            "label": "Sveti Duh",
+            "value": 2607,
+            "route": {
+              "slugs": [
+                "crnomerec-sveti-duh"
+              ],
+              "query": {}
+            },
+            "parentId": 1248
+          },
+          {
+            "id": 2608,
+            "label": "Šestinski dol",
+            "value": 2608,
+            "route": {
+              "slugs": [
+                "crnomerec-sestinski-dol"
+              ],
+              "query": {}
+            },
+            "parentId": 1248
+          },
+          {
+            "id": 2609,
+            "label": "Vrhovec",
+            "value": 2609,
+            "route": {
+              "slugs": [
+                "crnomerec-vrhovec"
+              ],
+              "query": {}
+            },
+            "parentId": 1248
+          },
+          {
+            "id": 2610,
+            "label": "Završje",
+            "value": 2610,
+            "route": {
+              "slugs": [
+                "crnomerec-zavrsje"
+              ],
+              "query": {}
+            },
+            "parentId": 1248
+          }
+        ]
+      },
+      {
+        "id": 1249,
+        "label": "Donja Dubrava",
+        "choices": [
+          {
+            "id": 2611,
+            "label": "Čulinec",
+            "value": 2611,
+            "route": {
+              "slugs": [
+                "donja-dubrava-culinec"
+              ],
+              "query": {}
+            },
+            "parentId": 1249
+          },
+          {
+            "id": 2612,
+            "label": "Donja Dubrava",
+            "value": 2612,
+            "route": {
+              "slugs": [
+                "donja-dubrava-donja-dubrava"
+              ],
+              "query": {}
+            },
+            "parentId": 1249
+          },
+          {
+            "id": 2613,
+            "label": "Dubrava",
+            "value": 2613,
+            "route": {
+              "slugs": [
+                "donja-dubrava-dubrava"
+              ],
+              "query": {}
+            },
+            "parentId": 1249
+          },
+          {
+            "id": 2614,
+            "label": "Krčevine",
+            "value": 2614,
+            "route": {
+              "slugs": [
+                "donja-dubrava-krcevine"
+              ],
+              "query": {}
+            },
+            "parentId": 1249
+          },
+          {
+            "id": 2615,
+            "label": "Resnički gaj",
+            "value": 2615,
+            "route": {
+              "slugs": [
+                "donja-dubrava-resnicki-gaj"
+              ],
+              "query": {}
+            },
+            "parentId": 1249
+          },
+          {
+            "id": 2616,
+            "label": "Retkovec",
+            "value": 2616,
+            "route": {
+              "slugs": [
+                "donja-dubrava-retkovec"
+              ],
+              "query": {}
+            },
+            "parentId": 1249
+          },
+          {
+            "id": 2617,
+            "label": "Trnava",
+            "value": 2617,
+            "route": {
+              "slugs": [
+                "donja-dubrava-trnava"
+              ],
+              "query": {}
+            },
+            "parentId": 1249
+          }
+        ]
+      },
+      {
+        "id": 1250,
+        "label": "Donji Grad",
+        "choices": [
+          {
+            "id": 2619,
+            "label": "Donji grad",
+            "value": 2619,
+            "route": {
+              "slugs": [
+                "donji-grad-donji-grad"
+              ],
+              "query": {}
+            },
+            "parentId": 1250
+          }
+        ]
+      },
+      {
+        "id": 1251,
+        "label": "Gornja Dubrava",
+        "choices": [
+          {
+            "id": 2620,
+            "label": "Branovec",
+            "value": 2620,
+            "route": {
+              "slugs": [
+                "gornja-dubrava-branovec"
+              ],
+              "query": {}
+            },
+            "parentId": 1251
+          },
+          {
+            "id": 2621,
+            "label": "Budaki",
+            "value": 2621,
+            "route": {
+              "slugs": [
+                "gornja-dubrava-budaki"
+              ],
+              "query": {}
+            },
+            "parentId": 1251
+          },
+          {
+            "id": 2622,
+            "label": "Cesari",
+            "value": 2622,
+            "route": {
+              "slugs": [
+                "gornja-dubrava-cesari"
+              ],
+              "query": {}
+            },
+            "parentId": 1251
+          },
+          {
+            "id": 2623,
+            "label": "Čučerje",
+            "value": 2623,
+            "route": {
+              "slugs": [
+                "gornja-dubrava-cucerje"
+              ],
+              "query": {}
+            },
+            "parentId": 1251
+          },
+          {
+            "id": 2624,
+            "label": "Čugovec",
+            "value": 2624,
+            "route": {
+              "slugs": [
+                "gornja-dubrava-cugovec"
+              ],
+              "query": {}
+            },
+            "parentId": 1251
+          },
+          {
+            "id": 2625,
+            "label": "Čuki",
+            "value": 2625,
+            "route": {
+              "slugs": [
+                "gornja-dubrava-cuki"
+              ],
+              "query": {}
+            },
+            "parentId": 1251
+          },
+          {
+            "id": 2626,
+            "label": "Dankovec",
+            "value": 2626,
+            "route": {
+              "slugs": [
+                "gornja-dubrava-dankovec"
+              ],
+              "query": {}
+            },
+            "parentId": 1251
+          },
+          {
+            "id": 2627,
+            "label": "Degidovec",
+            "value": 2627,
+            "route": {
+              "slugs": [
+                "gornja-dubrava-degidovec"
+              ],
+              "query": {}
+            },
+            "parentId": 1251
+          },
+          {
+            "id": 2764,
+            "label": "Dubec",
+            "value": 2764,
+            "route": {
+              "slugs": [
+                "gornja-dubrava-dubec"
+              ],
+              "query": {}
+            },
+            "parentId": 1251
+          },
+          {
+            "id": 2628,
+            "label": "Dudaki",
+            "value": 2628,
+            "route": {
+              "slugs": [
+                "gornja-dubrava-dudaki"
+              ],
+              "query": {}
+            },
+            "parentId": 1251
+          },
+          {
+            "id": 2629,
+            "label": "Fabijanići",
+            "value": 2629,
+            "route": {
+              "slugs": [
+                "gornja-dubrava-fabijanici"
+              ],
+              "query": {}
+            },
+            "parentId": 1251
+          },
+          {
+            "id": 2630,
+            "label": "Furdini",
+            "value": 2630,
+            "route": {
+              "slugs": [
+                "gornja-dubrava-furdini"
+              ],
+              "query": {}
+            },
+            "parentId": 1251
+          },
+          {
+            "id": 2631,
+            "label": "Gorni Dankovec",
+            "value": 2631,
+            "route": {
+              "slugs": [
+                "gornja-dubrava-gorni-dankovec"
+              ],
+              "query": {}
+            },
+            "parentId": 1251
+          },
+          {
+            "id": 2632,
+            "label": "Gornja Dubrava",
+            "value": 2632,
+            "route": {
+              "slugs": [
+                "gornja-dubrava-gornja-dubrava"
+              ],
+              "query": {}
+            },
+            "parentId": 1251
+          },
+          {
+            "id": 2633,
+            "label": "Gornji Slanovec",
+            "value": 2633,
+            "route": {
+              "slugs": [
+                "gornja-dubrava-gornji-slanovec"
+              ],
+              "query": {}
+            },
+            "parentId": 1251
+          },
+          {
+            "id": 2634,
+            "label": "Grad mladih",
+            "value": 2634,
+            "route": {
+              "slugs": [
+                "gornja-dubrava-grad-mladih"
+              ],
+              "query": {}
+            },
+            "parentId": 1251
+          },
+          {
+            "id": 2635,
+            "label": "Grana",
+            "value": 2635,
+            "route": {
+              "slugs": [
+                "gornja-dubrava-grana"
+              ],
+              "query": {}
+            },
+            "parentId": 1251
+          },
+          {
+            "id": 2636,
+            "label": "Granešina",
+            "value": 2636,
+            "route": {
+              "slugs": [
+                "gornja-dubrava-granesina"
+              ],
+              "query": {}
+            },
+            "parentId": 1251
+          },
+          {
+            "id": 2637,
+            "label": "Jalševec",
+            "value": 2637,
+            "route": {
+              "slugs": [
+                "gornja-dubrava-jalsevec"
+              ],
+              "query": {}
+            },
+            "parentId": 1251
+          },
+          {
+            "id": 2638,
+            "label": "Klaka",
+            "value": 2638,
+            "route": {
+              "slugs": [
+                "gornja-dubrava-klaka"
+              ],
+              "query": {}
+            },
+            "parentId": 1251
+          },
+          {
+            "id": 2639,
+            "label": "Medvedski breg",
+            "value": 2639,
+            "route": {
+              "slugs": [
+                "gornja-dubrava-medvedski-breg"
+              ],
+              "query": {}
+            },
+            "parentId": 1251
+          },
+          {
+            "id": 2640,
+            "label": "Micudaji",
+            "value": 2640,
+            "route": {
+              "slugs": [
+                "gornja-dubrava-micudaji"
+              ],
+              "query": {}
+            },
+            "parentId": 1251
+          },
+          {
+            "id": 2641,
+            "label": "Mihovci",
+            "value": 2641,
+            "route": {
+              "slugs": [
+                "gornja-dubrava-mihovci"
+              ],
+              "query": {}
+            },
+            "parentId": 1251
+          },
+          {
+            "id": 2642,
+            "label": "Miroševec",
+            "value": 2642,
+            "route": {
+              "slugs": [
+                "gornja-dubrava-mirosevec"
+              ],
+              "query": {}
+            },
+            "parentId": 1251
+          },
+          {
+            "id": 2643,
+            "label": "Naglići",
+            "value": 2643,
+            "route": {
+              "slugs": [
+                "gornja-dubrava-naglici"
+              ],
+              "query": {}
+            },
+            "parentId": 1251
+          },
+          {
+            "id": 2644,
+            "label": "Novaki",
+            "value": 2644,
+            "route": {
+              "slugs": [
+                "gornja-dubrava-novaki"
+              ],
+              "query": {}
+            },
+            "parentId": 1251
+          },
+          {
+            "id": 2645,
+            "label": "Novoselčina",
+            "value": 2645,
+            "route": {
+              "slugs": [
+                "gornja-dubrava-novoselcina"
+              ],
+              "query": {}
+            },
+            "parentId": 1251
+          },
+          {
+            "id": 2646,
+            "label": "Novoselec",
+            "value": 2646,
+            "route": {
+              "slugs": [
+                "gornja-dubrava-novoselec"
+              ],
+              "query": {}
+            },
+            "parentId": 1251
+          },
+          {
+            "id": 2647,
+            "label": "Oporovec",
+            "value": 2647,
+            "route": {
+              "slugs": [
+                "gornja-dubrava-oporovec"
+              ],
+              "query": {}
+            },
+            "parentId": 1251
+          },
+          {
+            "id": 2648,
+            "label": "Orešići",
+            "value": 2648,
+            "route": {
+              "slugs": [
+                "gornja-dubrava-oresici"
+              ],
+              "query": {}
+            },
+            "parentId": 1251
+          },
+          {
+            "id": 13349,
+            "label": "Poljanice",
+            "value": 13349,
+            "route": {
+              "slugs": [
+                "gornja-dubrava-poljanice"
+              ],
+              "query": {}
+            },
+            "parentId": 1251
+          },
+          {
+            "id": 2649,
+            "label": "Studentski grad",
+            "value": 2649,
+            "route": {
+              "slugs": [
+                "gornja-dubrava-studentski-grad"
+              ],
+              "query": {}
+            },
+            "parentId": 1251
+          },
+          {
+            "id": 2650,
+            "label": "Svibovci",
+            "value": 2650,
+            "route": {
+              "slugs": [
+                "gornja-dubrava-svibovci"
+              ],
+              "query": {}
+            },
+            "parentId": 1251
+          },
+          {
+            "id": 2651,
+            "label": "Trnovčica",
+            "value": 2651,
+            "route": {
+              "slugs": [
+                "gornja-dubrava-trnovcica"
+              ],
+              "query": {}
+            },
+            "parentId": 1251
+          },
+          {
+            "id": 2652,
+            "label": "Trstenik",
+            "value": 2652,
+            "route": {
+              "slugs": [
+                "gornja-dubrava-trstenik"
+              ],
+              "query": {}
+            },
+            "parentId": 1251
+          },
+          {
+            "id": 2653,
+            "label": "Trupeljaki",
+            "value": 2653,
+            "route": {
+              "slugs": [
+                "gornja-dubrava-trupeljaki"
+              ],
+              "query": {}
+            },
+            "parentId": 1251
+          },
+          {
+            "id": 2654,
+            "label": "Žgulići",
+            "value": 2654,
+            "route": {
+              "slugs": [
+                "gornja-dubrava-zgulici"
+              ],
+              "query": {}
+            },
+            "parentId": 1251
+          }
+        ]
+      },
+      {
+        "id": 1252,
+        "label": "Gornji Grad - Medveščak",
+        "choices": [
+          {
+            "id": 2655,
+            "label": "Britanac",
+            "value": 2655,
+            "route": {
+              "slugs": [
+                "gornji-grad-medvescak-britanac"
+              ],
+              "query": {}
+            },
+            "parentId": 1252
+          },
+          {
+            "id": 2656,
+            "label": "Centar",
+            "value": 2656,
+            "route": {
+              "slugs": [
+                "gornji-grad-medvescak-centar"
+              ],
+              "query": {}
+            },
+            "parentId": 1252
+          },
+          {
+            "id": 2657,
+            "label": "Dolac",
+            "value": 2657,
+            "route": {
+              "slugs": [
+                "gornji-grad-medvescak-dolac"
+              ],
+              "query": {}
+            },
+            "parentId": 1252
+          },
+          {
+            "id": 2658,
+            "label": "Gornji grad",
+            "value": 2658,
+            "route": {
+              "slugs": [
+                "gornji-grad-medvescak-gornji-grad"
+              ],
+              "query": {}
+            },
+            "parentId": 1252
+          },
+          {
+            "id": 2659,
+            "label": "Gupčeva zvijezda",
+            "value": 2659,
+            "route": {
+              "slugs": [
+                "gornji-grad-medvescak-gupceva-zvijezda"
+              ],
+              "query": {}
+            },
+            "parentId": 1252
+          },
+          {
+            "id": 2660,
+            "label": "Kaptol",
+            "value": 2660,
+            "route": {
+              "slugs": [
+                "gornji-grad-medvescak-kaptol"
+              ],
+              "query": {}
+            },
+            "parentId": 1252
+          },
+          {
+            "id": 2661,
+            "label": "Kraljevec",
+            "value": 2661,
+            "route": {
+              "slugs": [
+                "gornji-grad-medvescak-kraljevec"
+              ],
+              "query": {}
+            },
+            "parentId": 1252
+          },
+          {
+            "id": 2662,
+            "label": "Ksaver",
+            "value": 2662,
+            "route": {
+              "slugs": [
+                "gornji-grad-medvescak-ksaver"
+              ],
+              "query": {}
+            },
+            "parentId": 1252
+          },
+          {
+            "id": 2663,
+            "label": "Medveščak",
+            "value": 2663,
+            "route": {
+              "slugs": [
+                "gornji-grad-medvescak-medvescak"
+              ],
+              "query": {}
+            },
+            "parentId": 1252
+          },
+          {
+            "id": 2664,
+            "label": "Mirogoj",
+            "value": 2664,
+            "route": {
+              "slugs": [
+                "gornji-grad-medvescak-mirogoj"
+              ],
+              "query": {}
+            },
+            "parentId": 1252
+          },
+          {
+            "id": 2665,
+            "label": "Pantovčak",
+            "value": 2665,
+            "route": {
+              "slugs": [
+                "gornji-grad-medvescak-pantovcak"
+              ],
+              "query": {}
+            },
+            "parentId": 1252
+          },
+          {
+            "id": 2666,
+            "label": "Prekrižje",
+            "value": 2666,
+            "route": {
+              "slugs": [
+                "gornji-grad-medvescak-prekrizje"
+              ],
+              "query": {}
+            },
+            "parentId": 1252
+          },
+          {
+            "id": 2667,
+            "label": "Ribnjak",
+            "value": 2667,
+            "route": {
+              "slugs": [
+                "gornji-grad-medvescak-ribnjak"
+              ],
+              "query": {}
+            },
+            "parentId": 1252
+          },
+          {
+            "id": 2668,
+            "label": "Šalata",
+            "value": 2668,
+            "route": {
+              "slugs": [
+                "gornji-grad-medvescak-salata"
+              ],
+              "query": {}
+            },
+            "parentId": 1252
+          },
+          {
+            "id": 2669,
+            "label": "Tuškanac",
+            "value": 2669,
+            "route": {
+              "slugs": [
+                "gornji-grad-medvescak-tuskanac"
+              ],
+              "query": {}
+            },
+            "parentId": 1252
+          },
+          {
+            "id": 2670,
+            "label": "Voćarsko naselje",
+            "value": 2670,
+            "route": {
+              "slugs": [
+                "gornji-grad-medvescak-vocarsko-naselje"
+              ],
+              "query": {}
+            },
+            "parentId": 1252
+          },
+          {
+            "id": 2671,
+            "label": "Zelengaj",
+            "value": 2671,
+            "route": {
+              "slugs": [
+                "gornji-grad-medvescak-zelengaj"
+              ],
+              "query": {}
+            },
+            "parentId": 1252
+          }
+        ]
+      },
+      {
+        "id": 1253,
+        "label": "Maksimir",
+        "choices": [
+          {
+            "id": 2672,
+            "label": "Donji Bukovac",
+            "value": 2672,
+            "route": {
+              "slugs": [
+                "maksimir-donji-bukovac"
+              ],
+              "query": {}
+            },
+            "parentId": 1253
+          },
+          {
+            "id": 2673,
+            "label": "Gornji Bukovac",
+            "value": 2673,
+            "route": {
+              "slugs": [
+                "maksimir-gornji-bukovac"
+              ],
+              "query": {}
+            },
+            "parentId": 1253
+          },
+          {
+            "id": 2674,
+            "label": "Lašćina",
+            "value": 2674,
+            "route": {
+              "slugs": [
+                "maksimir-lascina"
+              ],
+              "query": {}
+            },
+            "parentId": 1253
+          },
+          {
+            "id": 2675,
+            "label": "Maksimir",
+            "value": 2675,
+            "route": {
+              "slugs": [
+                "maksimir-maksimir"
+              ],
+              "query": {}
+            },
+            "parentId": 1253
+          },
+          {
+            "id": 2676,
+            "label": "Ravnice",
+            "value": 2676,
+            "route": {
+              "slugs": [
+                "maksimir-ravnice"
+              ],
+              "query": {}
+            },
+            "parentId": 1253
+          },
+          {
+            "id": 2677,
+            "label": "Remete",
+            "value": 2677,
+            "route": {
+              "slugs": [
+                "maksimir-remete"
+              ],
+              "query": {}
+            },
+            "parentId": 1253
+          },
+          {
+            "id": 12932,
+            "label": "Srebrnjak",
+            "value": 12932,
+            "route": {
+              "slugs": [
+                "maksimir-srebrnjak"
+              ],
+              "query": {}
+            },
+            "parentId": 1253
+          },
+          {
+            "id": 13739,
+            "label": "Svetice",
+            "value": 13739,
+            "route": {
+              "slugs": [
+                "maksimir-svetice"
+              ],
+              "query": {}
+            },
+            "parentId": 1253
+          }
+        ]
+      },
+      {
+        "id": 1254,
+        "label": "Novi Zagreb - Istok",
+        "choices": [
+          {
+            "id": 2678,
+            "label": "Bundek",
+            "value": 2678,
+            "route": {
+              "slugs": [
+                "novi-zagreb-istok-bundek"
+              ],
+              "query": {}
+            },
+            "parentId": 1254
+          },
+          {
+            "id": 2830,
+            "label": "Buzin",
+            "value": 2830,
+            "route": {
+              "slugs": [
+                "novi-zagreb-istok-buzin"
+              ],
+              "query": {}
+            },
+            "parentId": 1254
+          },
+          {
+            "id": 2679,
+            "label": "Dugave",
+            "value": 2679,
+            "route": {
+              "slugs": [
+                "novi-zagreb-istok-dugave"
+              ],
+              "query": {}
+            },
+            "parentId": 1254
+          },
+          {
+            "id": 2680,
+            "label": "Hrelić",
+            "value": 2680,
+            "route": {
+              "slugs": [
+                "novi-zagreb-istok-hrelic"
+              ],
+              "query": {}
+            },
+            "parentId": 1254
+          },
+          {
+            "id": 2681,
+            "label": "Jakuševec",
+            "value": 2681,
+            "route": {
+              "slugs": [
+                "novi-zagreb-istok-jakusevec"
+              ],
+              "query": {}
+            },
+            "parentId": 1254
+          },
+          {
+            "id": 15227,
+            "label": "Kamenarka",
+            "value": 15227,
+            "route": {
+              "slugs": [
+                "novi-zagreb-istok-kamenarka"
+              ],
+              "query": {}
+            },
+            "parentId": 1254
+          },
+          {
+            "id": 2682,
+            "label": "Sloboština",
+            "value": 2682,
+            "route": {
+              "slugs": [
+                "novi-zagreb-istok-slobostina"
+              ],
+              "query": {}
+            },
+            "parentId": 1254
+          },
+          {
+            "id": 2683,
+            "label": "Sopot",
+            "value": 2683,
+            "route": {
+              "slugs": [
+                "novi-zagreb-istok-sopot"
+              ],
+              "query": {}
+            },
+            "parentId": 1254
+          },
+          {
+            "id": 2684,
+            "label": "Središće",
+            "value": 2684,
+            "route": {
+              "slugs": [
+                "novi-zagreb-istok-sredisce"
+              ],
+              "query": {}
+            },
+            "parentId": 1254
+          },
+          {
+            "id": 2685,
+            "label": "Travno",
+            "value": 2685,
+            "route": {
+              "slugs": [
+                "novi-zagreb-istok-travno"
+              ],
+              "query": {}
+            },
+            "parentId": 1254
+          },
+          {
+            "id": 2686,
+            "label": "Utrina",
+            "value": 2686,
+            "route": {
+              "slugs": [
+                "novi-zagreb-istok-utrina"
+              ],
+              "query": {}
+            },
+            "parentId": 1254
+          },
+          {
+            "id": 2884,
+            "label": "Veliko Polje",
+            "value": 2884,
+            "route": {
+              "slugs": [
+                "novi-zagreb-istok-veliko-polje"
+              ],
+              "query": {}
+            },
+            "parentId": 1254
+          },
+          {
+            "id": 2687,
+            "label": "Zapruđe",
+            "value": 2687,
+            "route": {
+              "slugs": [
+                "novi-zagreb-istok-zaprude"
+              ],
+              "query": {}
+            },
+            "parentId": 1254
+          }
+        ]
+      },
+      {
+        "id": 1255,
+        "label": "Novi Zagreb - Zapad",
+        "choices": [
+          {
+            "id": 2688,
+            "label": "Blato",
+            "value": 2688,
+            "route": {
+              "slugs": [
+                "novi-zagreb-zapad-blato"
+              ],
+              "query": {}
+            },
+            "parentId": 1255
+          },
+          {
+            "id": 2826,
+            "label": "Botinec",
+            "value": 2826,
+            "route": {
+              "slugs": [
+                "novi-zagreb-zapad-botinec"
+              ],
+              "query": {}
+            },
+            "parentId": 1255
+          },
+          {
+            "id": 2835,
+            "label": "Donji Čehi",
+            "value": 2835,
+            "route": {
+              "slugs": [
+                "novi-zagreb-zapad-donji-cehi"
+              ],
+              "query": {}
+            },
+            "parentId": 1255
+          },
+          {
+            "id": 2690,
+            "label": "Glogovec",
+            "value": 2690,
+            "route": {
+              "slugs": [
+                "novi-zagreb-zapad-glogovec"
+              ],
+              "query": {}
+            },
+            "parentId": 1255
+          },
+          {
+            "id": 2848,
+            "label": "Gornji Čehi",
+            "value": 2848,
+            "route": {
+              "slugs": [
+                "novi-zagreb-zapad-gornji-cehi"
+              ],
+              "query": {}
+            },
+            "parentId": 1255
+          },
+          {
+            "id": 2854,
+            "label": "Hrašće Turopoljsko",
+            "value": 2854,
+            "route": {
+              "slugs": [
+                "novi-zagreb-zapad-hrasce-turopoljsko"
+              ],
+              "query": {}
+            },
+            "parentId": 1255
+          },
+          {
+            "id": 2855,
+            "label": "Hrvatski Leskovac",
+            "value": 2855,
+            "route": {
+              "slugs": [
+                "novi-zagreb-zapad-hrvatski-leskovac"
+              ],
+              "query": {}
+            },
+            "parentId": 1255
+          },
+          {
+            "id": 2859,
+            "label": "Ježdovec",
+            "value": 2859,
+            "route": {
+              "slugs": [
+                "novi-zagreb-zapad-jezdovec"
+              ],
+              "query": {}
+            },
+            "parentId": 1255
+          },
+          {
+            "id": 2691,
+            "label": "Kajzerica",
+            "value": 2691,
+            "route": {
+              "slugs": [
+                "novi-zagreb-zapad-kajzerica"
+              ],
+              "query": {}
+            },
+            "parentId": 1255
+          },
+          {
+            "id": 12110,
+            "label": "Lanište",
+            "value": 12110,
+            "route": {
+              "slugs": [
+                "novi-zagreb-zapad-laniste"
+              ],
+              "query": {}
+            },
+            "parentId": 1255
+          },
+          {
+            "id": 2866,
+            "label": "Lučko",
+            "value": 2866,
+            "route": {
+              "slugs": [
+                "novi-zagreb-zapad-lucko"
+              ],
+              "query": {}
+            },
+            "parentId": 1255
+          },
+          {
+            "id": 2868,
+            "label": "Mala Mlaka",
+            "value": 2868,
+            "route": {
+              "slugs": [
+                "novi-zagreb-zapad-mala-mlaka"
+              ],
+              "query": {}
+            },
+            "parentId": 1255
+          },
+          {
+            "id": 2692,
+            "label": "Podbrežje",
+            "value": 2692,
+            "route": {
+              "slugs": [
+                "novi-zagreb-zapad-podbrezje"
+              ],
+              "query": {}
+            },
+            "parentId": 1255
+          },
+          {
+            "id": 2871,
+            "label": "Odra",
+            "value": 2871,
+            "route": {
+              "slugs": [
+                "novi-zagreb-zapad-odra"
+              ],
+              "query": {}
+            },
+            "parentId": 1255
+          },
+          {
+            "id": 2693,
+            "label": "Otočec",
+            "value": 2693,
+            "route": {
+              "slugs": [
+                "novi-zagreb-zapad-otocec"
+              ],
+              "query": {}
+            },
+            "parentId": 1255
+          },
+          {
+            "id": 2694,
+            "label": "Otok",
+            "value": 2694,
+            "route": {
+              "slugs": [
+                "novi-zagreb-zapad-otok"
+              ],
+              "query": {}
+            },
+            "parentId": 1255
+          },
+          {
+            "id": 2696,
+            "label": "Remetinec",
+            "value": 2696,
+            "route": {
+              "slugs": [
+                "novi-zagreb-zapad-remetinec"
+              ],
+              "query": {}
+            },
+            "parentId": 1255
+          },
+          {
+            "id": 2697,
+            "label": "Savski gaj",
+            "value": 2697,
+            "route": {
+              "slugs": [
+                "novi-zagreb-zapad-savski-gaj"
+              ],
+              "query": {}
+            },
+            "parentId": 1255
+          },
+          {
+            "id": 2698,
+            "label": "Siget",
+            "value": 2698,
+            "route": {
+              "slugs": [
+                "novi-zagreb-zapad-siget"
+              ],
+              "query": {}
+            },
+            "parentId": 1255
+          },
+          {
+            "id": 2699,
+            "label": "Sveta Klara",
+            "value": 2699,
+            "route": {
+              "slugs": [
+                "novi-zagreb-zapad-sveta-klara"
+              ],
+              "query": {}
+            },
+            "parentId": 1255
+          },
+          {
+            "id": 2700,
+            "label": "Trnsko",
+            "value": 2700,
+            "route": {
+              "slugs": [
+                "novi-zagreb-zapad-trnsko"
+              ],
+              "query": {}
+            },
+            "parentId": 1255
+          },
+          {
+            "id": 2701,
+            "label": "Trokut",
+            "value": 2701,
+            "route": {
+              "slugs": [
+                "novi-zagreb-zapad-trokut"
+              ],
+              "query": {}
+            },
+            "parentId": 1255
+          }
+        ]
+      },
+      {
+        "id": 1256,
+        "label": "Peščenica - Žitnjak",
+        "choices": [
+          {
+            "id": 2702,
+            "label": "Bogdani",
+            "value": 2702,
+            "route": {
+              "slugs": [
+                "pescenica-zitnjak-bogdani"
+              ],
+              "query": {}
+            },
+            "parentId": 1256
+          },
+          {
+            "id": 2703,
+            "label": "Borongaj",
+            "value": 2703,
+            "route": {
+              "slugs": [
+                "pescenica-zitnjak-borongaj"
+              ],
+              "query": {}
+            },
+            "parentId": 1256
+          },
+          {
+            "id": 2704,
+            "label": "Borongajski lug",
+            "value": 2704,
+            "route": {
+              "slugs": [
+                "pescenica-zitnjak-borongajski-lug"
+              ],
+              "query": {}
+            },
+            "parentId": 1256
+          },
+          {
+            "id": 2857,
+            "label": "Ivanja Reka",
+            "value": 2857,
+            "route": {
+              "slugs": [
+                "pescenica-zitnjak-ivanja-reka"
+              ],
+              "query": {}
+            },
+            "parentId": 1256
+          },
+          {
+            "id": 2705,
+            "label": "Borovje",
+            "value": 2705,
+            "route": {
+              "slugs": [
+                "pescenica-zitnjak-borovje"
+              ],
+              "query": {}
+            },
+            "parentId": 1256
+          },
+          {
+            "id": 13740,
+            "label": "Donje Svetice",
+            "value": 13740,
+            "route": {
+              "slugs": [
+                "pescenica-zitnjak-donje-svetice"
+              ],
+              "query": {}
+            },
+            "parentId": 1256
+          },
+          {
+            "id": 2706,
+            "label": "Dubec",
+            "value": 2706,
+            "route": {
+              "slugs": [
+                "pescenica-zitnjak-dubec"
+              ],
+              "query": {}
+            },
+            "parentId": 1256
+          },
+          {
+            "id": 2707,
+            "label": "Ferenščica",
+            "value": 2707,
+            "route": {
+              "slugs": [
+                "pescenica-zitnjak-ferenscica"
+              ],
+              "query": {}
+            },
+            "parentId": 1256
+          },
+          {
+            "id": 12934,
+            "label": "Folnegovićevo naselje",
+            "value": 12934,
+            "route": {
+              "slugs": [
+                "pescenica-zitnjak-folnegovicevo-naselje"
+              ],
+              "query": {}
+            },
+            "parentId": 1256
+          },
+          {
+            "id": 2708,
+            "label": "Gate - Gmajna",
+            "value": 2708,
+            "route": {
+              "slugs": [
+                "pescenica-zitnjak-gate-gmajna"
+              ],
+              "query": {}
+            },
+            "parentId": 1256
+          },
+          {
+            "id": 2709,
+            "label": "Kozari",
+            "value": 2709,
+            "route": {
+              "slugs": [
+                "pescenica-zitnjak-kozari"
+              ],
+              "query": {}
+            },
+            "parentId": 1256
+          },
+          {
+            "id": 2710,
+            "label": "Kozari bok",
+            "value": 2710,
+            "route": {
+              "slugs": [
+                "pescenica-zitnjak-kozari-bok"
+              ],
+              "query": {}
+            },
+            "parentId": 1256
+          },
+          {
+            "id": 2711,
+            "label": "Kozari put",
+            "value": 2711,
+            "route": {
+              "slugs": [
+                "pescenica-zitnjak-kozari-put"
+              ],
+              "query": {}
+            },
+            "parentId": 1256
+          },
+          {
+            "id": 2712,
+            "label": "Peščenica",
+            "value": 2712,
+            "route": {
+              "slugs": [
+                "pescenica-zitnjak-pescenica"
+              ],
+              "query": {}
+            },
+            "parentId": 1256
+          },
+          {
+            "id": 2713,
+            "label": "Petruševec",
+            "value": 2713,
+            "route": {
+              "slugs": [
+                "pescenica-zitnjak-petrusevec"
+              ],
+              "query": {}
+            },
+            "parentId": 1256
+          },
+          {
+            "id": 2714,
+            "label": "Resničina",
+            "value": 2714,
+            "route": {
+              "slugs": [
+                "pescenica-zitnjak-resnicina"
+              ],
+              "query": {}
+            },
+            "parentId": 1256
+          },
+          {
+            "id": 2715,
+            "label": "Resnik",
+            "value": 2715,
+            "route": {
+              "slugs": [
+                "pescenica-zitnjak-resnik"
+              ],
+              "query": {}
+            },
+            "parentId": 1256
+          },
+          {
+            "id": 2716,
+            "label": "Savica - Šanci",
+            "value": 2716,
+            "route": {
+              "slugs": [
+                "pescenica-zitnjak-savica-sanci"
+              ],
+              "query": {}
+            },
+            "parentId": 1256
+          },
+          {
+            "id": 2717,
+            "label": "Struge",
+            "value": 2717,
+            "route": {
+              "slugs": [
+                "pescenica-zitnjak-struge"
+              ],
+              "query": {}
+            },
+            "parentId": 1256
+          },
+          {
+            "id": 2718,
+            "label": "Trstik",
+            "value": 2718,
+            "route": {
+              "slugs": [
+                "pescenica-zitnjak-trstik"
+              ],
+              "query": {}
+            },
+            "parentId": 1256
+          },
+          {
+            "id": 2719,
+            "label": "Volovčica",
+            "value": 2719,
+            "route": {
+              "slugs": [
+                "pescenica-zitnjak-volovcica"
+              ],
+              "query": {}
+            },
+            "parentId": 1256
+          },
+          {
+            "id": 2618,
+            "label": "Vukomerec",
+            "value": 2618,
+            "route": {
+              "slugs": [
+                "pescenica-zitnjak-vukomerec"
+              ],
+              "query": {}
+            },
+            "parentId": 1256
+          },
+          {
+            "id": 2720,
+            "label": "Žitnjak",
+            "value": 2720,
+            "route": {
+              "slugs": [
+                "pescenica-zitnjak-zitnjak"
+              ],
+              "query": {}
+            },
+            "parentId": 1256
+          }
+        ]
+      },
+      {
+        "id": 1257,
+        "label": "Podsljeme",
+        "choices": [
+          {
+            "id": 2721,
+            "label": "Bačun",
+            "value": 2721,
+            "route": {
+              "slugs": [
+                "podsljeme-bacun"
+              ],
+              "query": {}
+            },
+            "parentId": 1257
+          },
+          {
+            "id": 2722,
+            "label": "Bidrovec",
+            "value": 2722,
+            "route": {
+              "slugs": [
+                "podsljeme-bidrovec"
+              ],
+              "query": {}
+            },
+            "parentId": 1257
+          },
+          {
+            "id": 2723,
+            "label": "Dedići",
+            "value": 2723,
+            "route": {
+              "slugs": [
+                "podsljeme-dedici"
+              ],
+              "query": {}
+            },
+            "parentId": 1257
+          },
+          {
+            "id": 2724,
+            "label": "Deščevec",
+            "value": 2724,
+            "route": {
+              "slugs": [
+                "podsljeme-descevec"
+              ],
+              "query": {}
+            },
+            "parentId": 1257
+          },
+          {
+            "id": 2725,
+            "label": "Dolje",
+            "value": 2725,
+            "route": {
+              "slugs": [
+                "podsljeme-dolje"
+              ],
+              "query": {}
+            },
+            "parentId": 1257
+          },
+          {
+            "id": 2726,
+            "label": "Gračani",
+            "value": 2726,
+            "route": {
+              "slugs": [
+                "podsljeme-gracani"
+              ],
+              "query": {}
+            },
+            "parentId": 1257
+          },
+          {
+            "id": 2727,
+            "label": "Kraljičin zdenac",
+            "value": 2727,
+            "route": {
+              "slugs": [
+                "podsljeme-kraljicin-zdenac"
+              ],
+              "query": {}
+            },
+            "parentId": 1257
+          },
+          {
+            "id": 2728,
+            "label": "Markuševec",
+            "value": 2728,
+            "route": {
+              "slugs": [
+                "podsljeme-markusevec"
+              ],
+              "query": {}
+            },
+            "parentId": 1257
+          },
+          {
+            "id": 2729,
+            "label": "Mlinovi",
+            "value": 2729,
+            "route": {
+              "slugs": [
+                "podsljeme-mlinovi"
+              ],
+              "query": {}
+            },
+            "parentId": 1257
+          },
+          {
+            "id": 2730,
+            "label": "Popovec",
+            "value": 2730,
+            "route": {
+              "slugs": [
+                "podsljeme-popovec"
+              ],
+              "query": {}
+            },
+            "parentId": 1257
+          },
+          {
+            "id": 2731,
+            "label": "Slanovec",
+            "value": 2731,
+            "route": {
+              "slugs": [
+                "podsljeme-slanovec"
+              ],
+              "query": {}
+            },
+            "parentId": 1257
+          },
+          {
+            "id": 2732,
+            "label": "Sljeme",
+            "value": 2732,
+            "route": {
+              "slugs": [
+                "podsljeme-sljeme"
+              ],
+              "query": {}
+            },
+            "parentId": 1257
+          },
+          {
+            "id": 2733,
+            "label": "Šestine",
+            "value": 2733,
+            "route": {
+              "slugs": [
+                "podsljeme-sestine"
+              ],
+              "query": {}
+            },
+            "parentId": 1257
+          },
+          {
+            "id": 2734,
+            "label": "Šestinski Kraljevec",
+            "value": 2734,
+            "route": {
+              "slugs": [
+                "podsljeme-sestinski-kraljevec"
+              ],
+              "query": {}
+            },
+            "parentId": 1257
+          },
+          {
+            "id": 2735,
+            "label": "Šestinski vrh",
+            "value": 2735,
+            "route": {
+              "slugs": [
+                "podsljeme-sestinski-vrh"
+              ],
+              "query": {}
+            },
+            "parentId": 1257
+          },
+          {
+            "id": 2736,
+            "label": "Štefanovec",
+            "value": 2736,
+            "route": {
+              "slugs": [
+                "podsljeme-stefanovec"
+              ],
+              "query": {}
+            },
+            "parentId": 1257
+          },
+          {
+            "id": 2737,
+            "label": "Vidovec",
+            "value": 2737,
+            "route": {
+              "slugs": [
+                "podsljeme-vidovec"
+              ],
+              "query": {}
+            },
+            "parentId": 1257
+          }
+        ]
+      },
+      {
+        "id": 1258,
+        "label": "Podsused - Vrapče",
+        "choices": [
+          {
+            "id": 2738,
+            "label": "Bizek",
+            "value": 2738,
+            "route": {
+              "slugs": [
+                "podsused-vrapce-bizek"
+              ],
+              "query": {}
+            },
+            "parentId": 1258
+          },
+          {
+            "id": 2739,
+            "label": "Bolfani",
+            "value": 2739,
+            "route": {
+              "slugs": [
+                "podsused-vrapce-bolfani"
+              ],
+              "query": {}
+            },
+            "parentId": 1258
+          },
+          {
+            "id": 2740,
+            "label": "Borčec",
+            "value": 2740,
+            "route": {
+              "slugs": [
+                "podsused-vrapce-borcec"
+              ],
+              "query": {}
+            },
+            "parentId": 1258
+          },
+          {
+            "id": 2741,
+            "label": "Dolec",
+            "value": 2741,
+            "route": {
+              "slugs": [
+                "podsused-vrapce-dolec"
+              ],
+              "query": {}
+            },
+            "parentId": 1258
+          },
+          {
+            "id": 2742,
+            "label": "Donji Jarek",
+            "value": 2742,
+            "route": {
+              "slugs": [
+                "podsused-vrapce-donji-jarek"
+              ],
+              "query": {}
+            },
+            "parentId": 1258
+          },
+          {
+            "id": 2743,
+            "label": "Dubravica",
+            "value": 2743,
+            "route": {
+              "slugs": [
+                "podsused-vrapce-dubravica"
+              ],
+              "query": {}
+            },
+            "parentId": 1258
+          },
+          {
+            "id": 2744,
+            "label": "Gajnice",
+            "value": 2744,
+            "route": {
+              "slugs": [
+                "podsused-vrapce-gajnice"
+              ],
+              "query": {}
+            },
+            "parentId": 1258
+          },
+          {
+            "id": 2745,
+            "label": "Goljak",
+            "value": 2745,
+            "route": {
+              "slugs": [
+                "podsused-vrapce-goljak"
+              ],
+              "query": {}
+            },
+            "parentId": 1258
+          },
+          {
+            "id": 2746,
+            "label": "Gornji Jarek",
+            "value": 2746,
+            "route": {
+              "slugs": [
+                "podsused-vrapce-gornji-jarek"
+              ],
+              "query": {}
+            },
+            "parentId": 1258
+          },
+          {
+            "id": 2747,
+            "label": "Grmoščica",
+            "value": 2747,
+            "route": {
+              "slugs": [
+                "podsused-vrapce-grmoscica"
+              ],
+              "query": {}
+            },
+            "parentId": 1258
+          },
+          {
+            "id": 2748,
+            "label": "Jačkovina",
+            "value": 2748,
+            "route": {
+              "slugs": [
+                "podsused-vrapce-jackovina"
+              ],
+              "query": {}
+            },
+            "parentId": 1258
+          },
+          {
+            "id": 2749,
+            "label": "Lisičina",
+            "value": 2749,
+            "route": {
+              "slugs": [
+                "podsused-vrapce-lisicina"
+              ],
+              "query": {}
+            },
+            "parentId": 1258
+          },
+          {
+            "id": 2750,
+            "label": "Orešje",
+            "value": 2750,
+            "route": {
+              "slugs": [
+                "podsused-vrapce-oresje"
+              ],
+              "query": {}
+            },
+            "parentId": 1258
+          },
+          {
+            "id": 2751,
+            "label": "Perjavica",
+            "value": 2751,
+            "route": {
+              "slugs": [
+                "podsused-vrapce-perjavica"
+              ],
+              "query": {}
+            },
+            "parentId": 1258
+          },
+          {
+            "id": 2752,
+            "label": "Podsused",
+            "value": 2752,
+            "route": {
+              "slugs": [
+                "podsused-vrapce-podsused"
+              ],
+              "query": {}
+            },
+            "parentId": 1258
+          },
+          {
+            "id": 2753,
+            "label": "Ponikve",
+            "value": 2753,
+            "route": {
+              "slugs": [
+                "podsused-vrapce-ponikve"
+              ],
+              "query": {}
+            },
+            "parentId": 1258
+          },
+          {
+            "id": 2754,
+            "label": "Susedgrad",
+            "value": 2754,
+            "route": {
+              "slugs": [
+                "podsused-vrapce-susedgrad"
+              ],
+              "query": {}
+            },
+            "parentId": 1258
+          },
+          {
+            "id": 2755,
+            "label": "Teškovec",
+            "value": 2755,
+            "route": {
+              "slugs": [
+                "podsused-vrapce-teskovec"
+              ],
+              "query": {}
+            },
+            "parentId": 1258
+          },
+          {
+            "id": 2756,
+            "label": "Trdica",
+            "value": 2756,
+            "route": {
+              "slugs": [
+                "podsused-vrapce-trdica"
+              ],
+              "query": {}
+            },
+            "parentId": 1258
+          },
+          {
+            "id": 2757,
+            "label": "Vrapče",
+            "value": 2757,
+            "route": {
+              "slugs": [
+                "podsused-vrapce-vrapce"
+              ],
+              "query": {}
+            },
+            "parentId": 1258
+          }
+        ]
+      },
+      {
+        "id": 1259,
+        "label": "Sesvete",
+        "choices": [
+          {
+            "id": 2823,
+            "label": "Adamovec",
+            "value": 2823,
+            "route": {
+              "slugs": [
+                "sesvete-adamovec"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2824,
+            "label": "Belovar",
+            "value": 2824,
+            "route": {
+              "slugs": [
+                "sesvete-belovar"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2825,
+            "label": "Blaguša",
+            "value": 2825,
+            "route": {
+              "slugs": [
+                "sesvete-blagusa"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2758,
+            "label": "Bok",
+            "value": 2758,
+            "route": {
+              "slugs": [
+                "sesvete-bok"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2759,
+            "label": "Brestje",
+            "value": 2759,
+            "route": {
+              "slugs": [
+                "sesvete-brestje"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2760,
+            "label": "Brestovčina",
+            "value": 2760,
+            "route": {
+              "slugs": [
+                "sesvete-brestovcina"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2829,
+            "label": "Budenec",
+            "value": 2829,
+            "route": {
+              "slugs": [
+                "sesvete-budenec"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2831,
+            "label": "Cerje",
+            "value": 2831,
+            "route": {
+              "slugs": [
+                "sesvete-cerje"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2761,
+            "label": "Divjače",
+            "value": 2761,
+            "route": {
+              "slugs": [
+                "sesvete-divjace"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2834,
+            "label": "Dobrodol",
+            "value": 2834,
+            "route": {
+              "slugs": [
+                "sesvete-dobrodol"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2762,
+            "label": "Donja zemlja",
+            "value": 2762,
+            "route": {
+              "slugs": [
+                "sesvete-donja-zemlja"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2763,
+            "label": "Donje polje",
+            "value": 2763,
+            "route": {
+              "slugs": [
+                "sesvete-donje-polje"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2838,
+            "label": "Drenčec",
+            "value": 2838,
+            "route": {
+              "slugs": [
+                "sesvete-drencec"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2765,
+            "label": "Dugava",
+            "value": 2765,
+            "route": {
+              "slugs": [
+                "sesvete-dugava"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2841,
+            "label": "Đurđekovec",
+            "value": 2841,
+            "route": {
+              "slugs": [
+                "sesvete-durdekovec"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2766,
+            "label": "Gajišće",
+            "value": 2766,
+            "route": {
+              "slugs": [
+                "sesvete-gajisce"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2842,
+            "label": "Gajec",
+            "value": 2842,
+            "route": {
+              "slugs": [
+                "sesvete-gajec"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2843,
+            "label": "Glavnica Donja",
+            "value": 2843,
+            "route": {
+              "slugs": [
+                "sesvete-glavnica-donja"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2844,
+            "label": "Glavnica Gornja",
+            "value": 2844,
+            "route": {
+              "slugs": [
+                "sesvete-glavnica-gornja"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2845,
+            "label": "Glavničica",
+            "value": 2845,
+            "route": {
+              "slugs": [
+                "sesvete-glavnicica"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2847,
+            "label": "Goranec",
+            "value": 2847,
+            "route": {
+              "slugs": [
+                "sesvete-goranec"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2767,
+            "label": "Gornje grmlje",
+            "value": 2767,
+            "route": {
+              "slugs": [
+                "sesvete-gornje-grmlje"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2768,
+            "label": "Gornje polje",
+            "value": 2768,
+            "route": {
+              "slugs": [
+                "sesvete-gornje-polje"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2769,
+            "label": "Gornje šume",
+            "value": 2769,
+            "route": {
+              "slugs": [
+                "sesvete-gornje-sume"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2770,
+            "label": "Iver",
+            "value": 2770,
+            "route": {
+              "slugs": [
+                "sesvete-iver"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2858,
+            "label": "Jesenovec",
+            "value": 2858,
+            "route": {
+              "slugs": [
+                "sesvete-jesenovec"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2860,
+            "label": "Kašina",
+            "value": 2860,
+            "route": {
+              "slugs": [
+                "sesvete-kasina"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2861,
+            "label": "Kašinska Sopnica",
+            "value": 2861,
+            "route": {
+              "slugs": [
+                "sesvete-kasinska-sopnica"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2772,
+            "label": "Kobiljak",
+            "value": 2772,
+            "route": {
+              "slugs": [
+                "sesvete-kobiljak"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2773,
+            "label": "Kraljevečki Novaki",
+            "value": 2773,
+            "route": {
+              "slugs": [
+                "sesvete-kraljevecki-novaki"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2774,
+            "label": "Krči",
+            "value": 2774,
+            "route": {
+              "slugs": [
+                "sesvete-krci"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2862,
+            "label": "Kučilovina",
+            "value": 2862,
+            "route": {
+              "slugs": [
+                "sesvete-kucilovina"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2863,
+            "label": "Kućanec",
+            "value": 2863,
+            "route": {
+              "slugs": [
+                "sesvete-kucanec"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2775,
+            "label": "Laz",
+            "value": 2775,
+            "route": {
+              "slugs": [
+                "sesvete-laz"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2776,
+            "label": "Leskovec",
+            "value": 2776,
+            "route": {
+              "slugs": [
+                "sesvete-leskovec"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2777,
+            "label": "Lug",
+            "value": 2777,
+            "route": {
+              "slugs": [
+                "sesvete-lug"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2867,
+            "label": "Lužan",
+            "value": 2867,
+            "route": {
+              "slugs": [
+                "sesvete-luzan"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2778,
+            "label": "Magdalena",
+            "value": 2778,
+            "route": {
+              "slugs": [
+                "sesvete-magdalena"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2779,
+            "label": "Markovo polje",
+            "value": 2779,
+            "route": {
+              "slugs": [
+                "sesvete-markovo-polje"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2780,
+            "label": "Mokrica",
+            "value": 2780,
+            "route": {
+              "slugs": [
+                "sesvete-mokrica"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2870,
+            "label": "Moravče",
+            "value": 2870,
+            "route": {
+              "slugs": [
+                "sesvete-moravce"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2771,
+            "label": "Novi Jelkovec",
+            "value": 2771,
+            "route": {
+              "slugs": [
+                "sesvete-novi-jelkovec"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2873,
+            "label": "Paruževina",
+            "value": 2873,
+            "route": {
+              "slugs": [
+                "sesvete-paruzevina"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2874,
+            "label": "Planina Donja",
+            "value": 2874,
+            "route": {
+              "slugs": [
+                "sesvete-planina-donja"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2875,
+            "label": "Planina Gornja",
+            "value": 2875,
+            "route": {
+              "slugs": [
+                "sesvete-planina-gornja"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2781,
+            "label": "Plavišče",
+            "value": 2781,
+            "route": {
+              "slugs": [
+                "sesvete-plavisce"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2782,
+            "label": "Pod Magdalenom",
+            "value": 2782,
+            "route": {
+              "slugs": [
+                "sesvete-pod-magdalenom"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2876,
+            "label": "Popovec",
+            "value": 2876,
+            "route": {
+              "slugs": [
+                "sesvete-popovec"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2783,
+            "label": "Poredje",
+            "value": 2783,
+            "route": {
+              "slugs": [
+                "sesvete-poredje"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2877,
+            "label": "Prekvršje",
+            "value": 2877,
+            "route": {
+              "slugs": [
+                "sesvete-prekvrsje"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2878,
+            "label": "Prepuštovec",
+            "value": 2878,
+            "route": {
+              "slugs": [
+                "sesvete-prepustovec"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2784,
+            "label": "Selčina",
+            "value": 2784,
+            "route": {
+              "slugs": [
+                "sesvete-selcina"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2785,
+            "label": "Sesvete",
+            "value": 2785,
+            "route": {
+              "slugs": [
+                "sesvete-sesvete"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2786,
+            "label": "Sesvetska sela",
+            "value": 2786,
+            "route": {
+              "slugs": [
+                "sesvete-sesvetska-sela"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2787,
+            "label": "Sesvetska selnica",
+            "value": 2787,
+            "route": {
+              "slugs": [
+                "sesvete-sesvetska-selnica"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2788,
+            "label": "Sesvetski Kobiljak",
+            "value": 2788,
+            "route": {
+              "slugs": [
+                "sesvete-sesvetski-kobiljak"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2789,
+            "label": "Sesvetski Kraljevec",
+            "value": 2789,
+            "route": {
+              "slugs": [
+                "sesvete-sesvetski-kraljevec"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2790,
+            "label": "Setice",
+            "value": 2790,
+            "route": {
+              "slugs": [
+                "sesvete-setice"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2791,
+            "label": "Siget",
+            "value": 2791,
+            "route": {
+              "slugs": [
+                "sesvete-siget"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2879,
+            "label": "Soblinec",
+            "value": 2879,
+            "route": {
+              "slugs": [
+                "sesvete-soblinec"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2792,
+            "label": "Sodol",
+            "value": 2792,
+            "route": {
+              "slugs": [
+                "sesvete-sodol"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2793,
+            "label": "Sopnica",
+            "value": 2793,
+            "route": {
+              "slugs": [
+                "sesvete-sopnica"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2882,
+            "label": "Šašinovec",
+            "value": 2882,
+            "route": {
+              "slugs": [
+                "sesvete-sasinovec"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2883,
+            "label": "Šimunčevec",
+            "value": 2883,
+            "route": {
+              "slugs": [
+                "sesvete-simuncevec"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2794,
+            "label": "Trdica",
+            "value": 2794,
+            "route": {
+              "slugs": [
+                "sesvete-trdica"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2795,
+            "label": "Trdice",
+            "value": 2795,
+            "route": {
+              "slugs": [
+                "sesvete-trdice"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2796,
+            "label": "Vretenec",
+            "value": 2796,
+            "route": {
+              "slugs": [
+                "sesvete-vretenec"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2885,
+            "label": "Vuger Selo",
+            "value": 2885,
+            "route": {
+              "slugs": [
+                "sesvete-vuger-selo"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2886,
+            "label": "Vugrovec Donji",
+            "value": 2886,
+            "route": {
+              "slugs": [
+                "sesvete-vugrovec-donji"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2887,
+            "label": "Vugrovec Gornji",
+            "value": 2887,
+            "route": {
+              "slugs": [
+                "sesvete-vugrovec-gornji"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2888,
+            "label": "Vurnovec",
+            "value": 2888,
+            "route": {
+              "slugs": [
+                "sesvete-vurnovec"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2797,
+            "label": "Zavječe",
+            "value": 2797,
+            "route": {
+              "slugs": [
+                "sesvete-zavjece"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          },
+          {
+            "id": 2890,
+            "label": "Žerjavinec",
+            "value": 2890,
+            "route": {
+              "slugs": [
+                "sesvete-zerjavinec"
+              ],
+              "query": {}
+            },
+            "parentId": 1259
+          }
+        ]
+      },
+      {
+        "id": 1260,
+        "label": "Stenjevec",
+        "choices": [
+          {
+            "id": 2798,
+            "label": "Donje Vrapče",
+            "value": 2798,
+            "route": {
+              "slugs": [
+                "stenjevec-donje-vrapce"
+              ],
+              "query": {}
+            },
+            "parentId": 1260
+          },
+          {
+            "id": 2799,
+            "label": "Jankomir",
+            "value": 2799,
+            "route": {
+              "slugs": [
+                "stenjevec-jankomir"
+              ],
+              "query": {}
+            },
+            "parentId": 1260
+          },
+          {
+            "id": 2800,
+            "label": "Malešnica",
+            "value": 2800,
+            "route": {
+              "slugs": [
+                "stenjevec-malesnica"
+              ],
+              "query": {}
+            },
+            "parentId": 1260
+          },
+          {
+            "id": 2801,
+            "label": "Savska Opatovina",
+            "value": 2801,
+            "route": {
+              "slugs": [
+                "stenjevec-savska-opatovina"
+              ],
+              "query": {}
+            },
+            "parentId": 1260
+          },
+          {
+            "id": 2802,
+            "label": "Stenjevec",
+            "value": 2802,
+            "route": {
+              "slugs": [
+                "stenjevec-stenjevec"
+              ],
+              "query": {}
+            },
+            "parentId": 1260
+          },
+          {
+            "id": 2803,
+            "label": "Špansko",
+            "value": 2803,
+            "route": {
+              "slugs": [
+                "stenjevec-spansko"
+              ],
+              "query": {}
+            },
+            "parentId": 1260
+          }
+        ]
+      },
+      {
+        "id": 1261,
+        "label": "Trešnjevka - Jug",
+        "choices": [
+          {
+            "id": 2804,
+            "label": "Gajevo",
+            "value": 2804,
+            "route": {
+              "slugs": [
+                "tresnjevka-jug-gajevo"
+              ],
+              "query": {}
+            },
+            "parentId": 1261
+          },
+          {
+            "id": 2805,
+            "label": "Gredice",
+            "value": 2805,
+            "route": {
+              "slugs": [
+                "tresnjevka-jug-gredice"
+              ],
+              "query": {}
+            },
+            "parentId": 1261
+          },
+          {
+            "id": 2806,
+            "label": "Horvati",
+            "value": 2806,
+            "route": {
+              "slugs": [
+                "tresnjevka-jug-horvati"
+              ],
+              "query": {}
+            },
+            "parentId": 1261
+          },
+          {
+            "id": 2807,
+            "label": "Jarun",
+            "value": 2807,
+            "route": {
+              "slugs": [
+                "tresnjevka-jug-jarun"
+              ],
+              "query": {}
+            },
+            "parentId": 1261
+          },
+          {
+            "id": 2808,
+            "label": "Knežija",
+            "value": 2808,
+            "route": {
+              "slugs": [
+                "tresnjevka-jug-knezija"
+              ],
+              "query": {}
+            },
+            "parentId": 1261
+          },
+          {
+            "id": 2809,
+            "label": "Prečko",
+            "value": 2809,
+            "route": {
+              "slugs": [
+                "tresnjevka-jug-precko"
+              ],
+              "query": {}
+            },
+            "parentId": 1261
+          },
+          {
+            "id": 2810,
+            "label": "Srednjaci",
+            "value": 2810,
+            "route": {
+              "slugs": [
+                "tresnjevka-jug-srednjaci"
+              ],
+              "query": {}
+            },
+            "parentId": 1261
+          },
+          {
+            "id": 2811,
+            "label": "Staglišće",
+            "value": 2811,
+            "route": {
+              "slugs": [
+                "tresnjevka-jug-staglisce"
+              ],
+              "query": {}
+            },
+            "parentId": 1261
+          },
+          {
+            "id": 2812,
+            "label": "Vrbani",
+            "value": 2812,
+            "route": {
+              "slugs": [
+                "tresnjevka-jug-vrbani"
+              ],
+              "query": {}
+            },
+            "parentId": 1261
+          }
+        ]
+      },
+      {
+        "id": 1262,
+        "label": "Trešnjevka - Sjever",
+        "choices": [
+          {
+            "id": 2813,
+            "label": "Rudeš",
+            "value": 2813,
+            "route": {
+              "slugs": [
+                "tresnjevka-sjever-rudes"
+              ],
+              "query": {}
+            },
+            "parentId": 1262
+          },
+          {
+            "id": 2814,
+            "label": "Trešnjevka",
+            "value": 2814,
+            "route": {
+              "slugs": [
+                "tresnjevka-sjever-tresnjevka"
+              ],
+              "query": {}
+            },
+            "parentId": 1262
+          },
+          {
+            "id": 2815,
+            "label": "Voltino",
+            "value": 2815,
+            "route": {
+              "slugs": [
+                "tresnjevka-sjever-voltino"
+              ],
+              "query": {}
+            },
+            "parentId": 1262
+          }
+        ]
+      },
+      {
+        "id": 1263,
+        "label": "Trnje",
+        "choices": [
+          {
+            "id": 2816,
+            "label": "Cvjetno naselje",
+            "value": 2816,
+            "route": {
+              "slugs": [
+                "trnje-cvjetno-naselje"
+              ],
+              "query": {}
+            },
+            "parentId": 1263
+          },
+          {
+            "id": 15019,
+            "label": "Kanal",
+            "value": 15019,
+            "route": {
+              "slugs": [
+                "trnje-kanal"
+              ],
+              "query": {}
+            },
+            "parentId": 1263
+          },
+          {
+            "id": 2817,
+            "label": "Kruge",
+            "value": 2817,
+            "route": {
+              "slugs": [
+                "trnje-kruge"
+              ],
+              "query": {}
+            },
+            "parentId": 1263
+          },
+          {
+            "id": 2818,
+            "label": "Martinovka",
+            "value": 2818,
+            "route": {
+              "slugs": [
+                "trnje-martinovka"
+              ],
+              "query": {}
+            },
+            "parentId": 1263
+          },
+          {
+            "id": 2819,
+            "label": "Savica",
+            "value": 2819,
+            "route": {
+              "slugs": [
+                "trnje-savica"
+              ],
+              "query": {}
+            },
+            "parentId": 1263
+          },
+          {
+            "id": 2820,
+            "label": "Sigečica",
+            "value": 2820,
+            "route": {
+              "slugs": [
+                "trnje-sigecica"
+              ],
+              "query": {}
+            },
+            "parentId": 1263
+          },
+          {
+            "id": 2821,
+            "label": "Trnje",
+            "value": 2821,
+            "route": {
+              "slugs": [
+                "trnje-trnje"
+              ],
+              "query": {}
+            },
+            "parentId": 1263
+          },
+          {
+            "id": 2822,
+            "label": "Vrbik",
+            "value": 2822,
+            "route": {
+              "slugs": [
+                "trnje-vrbik"
+              ],
+              "query": {}
+            },
+            "parentId": 1263
+          }
+        ]
+      },
+      {
+        "id": 1264,
+        "label": "Zagreb - Okolica",
+        "choices": [
+          {
+            "id": 2828,
+            "label": "Brezovica",
+            "value": 2828,
+            "route": {
+              "slugs": [
+                "zagreb-okolica-brezovica"
+              ],
+              "query": {}
+            },
+            "parentId": 1264
+          },
+          {
+            "id": 2840,
+            "label": "Dumovec",
+            "value": 2840,
+            "route": {
+              "slugs": [
+                "zagreb-okolica-dumovec"
+              ],
+              "query": {}
+            },
+            "parentId": 1264
+          }
+        ]
+      }
+    ],
+    "body_shape": {
+      "(root array)": "array[18]",
+      "(first item keys)": [
+        "id",
+        "label",
+        "choices"
+      ]
+    }
+  },
+  {
+    "label": "Apartments for sale / Zagreb",
+    "url": "https://www.njuskalo.hr/papi/pages/browse-listings/banner-targeting",
+    "method": "POST",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "query_params": {},
+    "request_body": {
+      "url": "/prodaja-stanova?geo[locationIds]=1247,1248,1249,1250,1252,1253,1254,1255,1256,1257,1258,1259,1260,1261,1262,1263,1264,1251&price[max]=360000&livingArea[max]=100&adsWithImages=1&numberOfRooms[min]=four-rooms&numberOfRooms[max]=five-rooms&buildingInfo[lift]=1&sort=new",
+      "categoryId": 9580
+    },
+    "tags": [
+      "pagination",
+      "listings",
+      "ads/targeting",
+      "internal-api"
+    ],
+    "repeated": false,
+    "body": {
+      "site": "www.njuskalo.hr",
+      "url": "https://www.njuskalo.hr/prodaja-stanova?geo[locationIds]=1247,1248,1249,1250,1252,1253,1254,1255,1256,1257,1258,1259,1260,1261,1262,1263,1264,1251&price[max]=360000&livingArea[max]=100&adsWithImages=1&numberOfRooms[min]=four-rooms&numberOfRooms[max]=five-rooms&buildingInfo[lift]=1&sort=new",
+      "mainsection": "nekretnine",
+      "category": "prodaja-stanova",
+      "cont_type": "kategorija",
+      "location": "grad-zagreb",
+      "min_price": "null",
+      "max_price": "185kE"
+    },
+    "body_shape": {
+      "site": "'www.njuskalo.hr'",
+      "url": "\"https://www.njuskalo.hr/prodaja-stanova?…\"",
+      "mainsection": "'nekretnine'",
+      "category": "'prodaja-stanova'",
+      "cont_type": "'kategorija'",
+      "location": "'grad-zagreb'",
+      "min_price": "'null'",
+      "max_price": "'185kE'"
+    }
+  },
+  {
+    "label": "Cars for sale",
+    "url": "https://www.njuskalo.hr/auti?geo[locationIds]=1153&adsWithImages=1&condition[used]=1&sort=cheap",
+    "method": "GET",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "query_params": {
+      "geo[locationIds]": "1153",
+      "adsWithImages": "1",
+      "condition[used]": "1",
+      "sort": "cheap"
+    },
+    "request_body": null,
+    "tags": [
+      "geo/location",
+      "listings"
+    ],
+    "repeated": false,
+    "body": null,
+    "body_shape": null
+  },
+  {
+    "label": "Cars for sale",
+    "url": "https://www.njuskalo.hr/papi/pages/browse-listings/category-hierarchy?level=1&parentIds=2",
+    "method": "GET",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "query_params": {
+      "level": "1",
+      "parentIds": "2"
+    },
+    "request_body": null,
+    "tags": [
+      "pagination",
+      "category-tree",
+      "listings",
+      "internal-api"
+    ],
+    "repeated": false,
+    "body": [
+      {
+        "id": 13688,
+        "label": "Osobni automobili",
+        "value": 13688,
+        "route": {
+          "slugs": [
+            "auti"
+          ],
+          "query": {}
+        },
+        "parentId": 2
+      },
+      {
+        "id": 1149,
+        "label": "Gospodarska vozila",
+        "value": 1149,
+        "route": {
+          "slugs": [
+            "gospodarska-vozila"
+          ],
+          "query": {}
+        },
+        "parentId": 2
+      },
+      {
+        "id": 9,
+        "label": "Oldtimeri",
+        "value": 9,
+        "route": {
+          "slugs": [
+            "oldtimeri"
+          ],
+          "query": {}
+        },
+        "parentId": 2
+      },
+      {
+        "id": 1148,
+        "label": "Motocikli / Motori",
+        "value": 1148,
+        "route": {
+          "slugs": [
+            "motori"
+          ],
+          "query": {}
+        },
+        "parentId": 2
+      },
+      {
+        "id": 12140,
+        "label": "Kamperi i kamp prikolice",
+        "value": 12140,
+        "route": {
+          "slugs": [
+            "kamperi-kamp-prikolice"
+          ],
+          "query": {}
+        },
+        "parentId": 2
+      },
+      {
+        "id": 9838,
+        "label": "Rezervni dijelovi i oprema",
+        "value": 9838,
+        "route": {
+          "slugs": [
+            "rezervni-dijelovi"
+          ],
+          "query": {}
+        },
+        "parentId": 2
+      },
+      {
+        "id": 13506,
+        "label": "Karambolirani automobili",
+        "value": 13506,
+        "route": {
+          "slugs": [
+            "karambolirani-auti"
+          ],
+          "query": {}
+        },
+        "parentId": 2
+      }
+    ],
+    "body_shape": {
+      "(root array)": "array[7]",
+      "(first item keys)": [
+        "id",
+        "label",
+        "value",
+        "route",
+        "parentId"
+      ]
+    }
+  },
+  {
+    "label": "Cars for sale",
+    "url": "https://www.njuskalo.hr/papi/pages/browse-listings/category-hierarchy?level=0",
+    "method": "GET",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "query_params": {
+      "level": "0"
+    },
+    "request_body": null,
+    "tags": [
+      "pagination",
+      "category-tree",
+      "listings",
+      "internal-api"
+    ],
+    "repeated": false,
+    "body": [
+      {
+        "id": 2,
+        "label": "Auto Moto",
+        "value": 2,
+        "route": {
+          "slugs": [],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1,
+        "label": "Nekretnine",
+        "value": 1,
+        "route": {
+          "slugs": [],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 12004,
+        "label": "Nautika",
+        "value": 12004,
+        "route": {
+          "slugs": [
+            "nautika"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 16163,
+        "label": "Turistički smještaj",
+        "value": 16163,
+        "route": {
+          "slugs": [
+            "turisticki-smjestaj"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 9726,
+        "label": "Sve za dom",
+        "value": 9726,
+        "route": {
+          "slugs": [
+            "sve-za-dom"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 12599,
+        "label": "Hrana i piće",
+        "value": 12599,
+        "route": {
+          "slugs": [
+            "hrana-pice"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 9788,
+        "label": "Kućni ljubimci",
+        "value": 9788,
+        "route": {
+          "slugs": [
+            "kucni-ljubimci"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 3,
+        "label": "Informatička oprema",
+        "value": 3,
+        "route": {
+          "slugs": [
+            "informatika"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 9643,
+        "label": "Mobiteli",
+        "value": 9643,
+        "route": {
+          "slugs": [
+            "mobiteli"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 9654,
+        "label": "Audio, video i foto",
+        "value": 9654,
+        "route": {
+          "slugs": [
+            "audio-video-foto"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 9696,
+        "label": "Glazbala",
+        "value": 9696,
+        "route": {
+          "slugs": [
+            "glazbala"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 9749,
+        "label": "Literatura",
+        "value": 9749,
+        "route": {
+          "slugs": [
+            "knjige"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 9737,
+        "label": "Sportska oprema",
+        "value": 9737,
+        "route": {
+          "slugs": [
+            "sportska-oprema"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 9798,
+        "label": "Pronađeno blago",
+        "value": 9798,
+        "route": {
+          "slugs": [
+            "blago"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 9807,
+        "label": "Dječji svijet",
+        "value": 9807,
+        "route": {
+          "slugs": [
+            "djecji-svijet"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 9761,
+        "label": "Strojevi i alati",
+        "value": 9761,
+        "route": {
+          "slugs": [
+            "strojevi-alati"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 12378,
+        "label": "Od glave do pete",
+        "value": 12378,
+        "route": {
+          "slugs": [],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 12551,
+        "label": "Poslovi",
+        "value": 12551,
+        "route": {
+          "slugs": [
+            "posao"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 12111,
+        "label": "Usluge",
+        "value": 12111,
+        "route": {
+          "slugs": [
+            "usluge"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 9823,
+        "label": "Ostalo",
+        "value": 9823,
+        "route": {
+          "slugs": [
+            "ostalo"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      }
+    ],
+    "body_shape": {
+      "(root array)": "array[20]",
+      "(first item keys)": [
+        "id",
+        "label",
+        "value",
+        "route",
+        "parentId"
+      ]
+    }
+  },
+  {
+    "label": "Cars for sale",
+    "url": "https://www.njuskalo.hr/papi/pages/browse-listings/vehicles-hierarchy?level=0",
+    "method": "GET",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "query_params": {
+      "level": "0"
+    },
+    "request_body": null,
+    "tags": [
+      "pagination",
+      "listings",
+      "internal-api"
+    ],
+    "repeated": false,
+    "body": [
+      {
+        "id": 15449,
+        "label": "Abarth",
+        "value": 15449,
+        "route": {
+          "slugs": [
+            "abarth"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 13366,
+        "label": "Acura",
+        "value": 13366,
+        "route": {
+          "slugs": [
+            "acura"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 15521,
+        "label": "Aiways",
+        "value": 15521,
+        "route": {
+          "slugs": [
+            "aiways"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 10923,
+        "label": "Alfa Romeo",
+        "value": 10923,
+        "route": {
+          "slugs": [
+            "alfa-romeo"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 15868,
+        "label": "Alpine",
+        "value": 15868,
+        "route": {
+          "slugs": [
+            "alpine"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 10949,
+        "label": "Aro",
+        "value": 10949,
+        "route": {
+          "slugs": [
+            "aro"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 10952,
+        "label": "Aston Martin",
+        "value": 10952,
+        "route": {
+          "slugs": [
+            "aston-martin"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 10962,
+        "label": "Audi",
+        "value": 10962,
+        "route": {
+          "slugs": [
+            "audi"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 16059,
+        "label": "Baic",
+        "value": 16059,
+        "route": {
+          "slugs": [
+            "baic"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 10994,
+        "label": "Bentley",
+        "value": 10994,
+        "route": {
+          "slugs": [
+            "bentley"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11005,
+        "label": "BMW",
+        "value": 11005,
+        "route": {
+          "slugs": [
+            "bmw"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 15509,
+        "label": "Bugatti",
+        "value": 15509,
+        "route": {
+          "slugs": [
+            "bugatti"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 16010,
+        "label": "BYD",
+        "value": 16010,
+        "route": {
+          "slugs": [
+            "byd"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11030,
+        "label": "Cadillac",
+        "value": 11030,
+        "route": {
+          "slugs": [
+            "cadillac"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11041,
+        "label": "Chevrolet",
+        "value": 11041,
+        "route": {
+          "slugs": [
+            "chevrolet"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11061,
+        "label": "Chrysler",
+        "value": 11061,
+        "route": {
+          "slugs": [
+            "chrysler"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11079,
+        "label": "Citroën",
+        "value": 11079,
+        "route": {
+          "slugs": [
+            "citroen"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 15419,
+        "label": "Cupra",
+        "value": 15419,
+        "route": {
+          "slugs": [
+            "cupra"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11117,
+        "label": "Dacia",
+        "value": 11117,
+        "route": {
+          "slugs": [
+            "dacia"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11119,
+        "label": "Daewoo",
+        "value": 11119,
+        "route": {
+          "slugs": [
+            "daewoo"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11134,
+        "label": "Daihatsu",
+        "value": 11134,
+        "route": {
+          "slugs": [
+            "daihatsu"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11149,
+        "label": "Dodge",
+        "value": 11149,
+        "route": {
+          "slugs": [
+            "dodge"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 12311,
+        "label": "Dongfeng",
+        "value": 12311,
+        "route": {
+          "slugs": [
+            "dongfeng"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 15582,
+        "label": "DFSK",
+        "value": 15582,
+        "route": {
+          "slugs": [
+            "dfsk"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 15422,
+        "label": "DS Automobiles",
+        "value": 15422,
+        "route": {
+          "slugs": [
+            "ds-automobiles"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 13713,
+        "label": "Electa",
+        "value": 13713,
+        "route": {
+          "slugs": [
+            "electa"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11160,
+        "label": "Ferrari",
+        "value": 11160,
+        "route": {
+          "slugs": [
+            "ferrari"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11179,
+        "label": "Fiat",
+        "value": 11179,
+        "route": {
+          "slugs": [
+            "fiat"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 13963,
+        "label": "Fisker",
+        "value": 13963,
+        "route": {
+          "slugs": [
+            "Fisker"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11221,
+        "label": "Ford",
+        "value": 11221,
+        "route": {
+          "slugs": [
+            "ford"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 16223,
+        "label": "Foton",
+        "value": 16223,
+        "route": {
+          "slugs": [
+            "foton"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 15830,
+        "label": "Forthing",
+        "value": 15830,
+        "route": {
+          "slugs": [
+            "forthing"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 15862,
+        "label": "Geely",
+        "value": 15862,
+        "route": {
+          "slugs": [
+            "geely"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 12630,
+        "label": "GMC",
+        "value": 12630,
+        "route": {
+          "slugs": [
+            "gmc"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11262,
+        "label": "Great Wall Motor",
+        "value": 11262,
+        "route": {
+          "slugs": [
+            "great-wall-motor"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11268,
+        "label": "Honda",
+        "value": 11268,
+        "route": {
+          "slugs": [
+            "honda"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 16063,
+        "label": "Hongqi",
+        "value": 16063,
+        "route": {
+          "slugs": [
+            "hongqi"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11293,
+        "label": "Hummer",
+        "value": 11293,
+        "route": {
+          "slugs": [
+            "hummer"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11297,
+        "label": "Hyundai",
+        "value": 11297,
+        "route": {
+          "slugs": [
+            "hyundai"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 13395,
+        "label": "Infiniti",
+        "value": 13395,
+        "route": {
+          "slugs": [
+            "infiniti"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 15789,
+        "label": "Innocenti",
+        "value": 15789,
+        "route": {
+          "slugs": [
+            "innocenti"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11321,
+        "label": "Isuzu",
+        "value": 11321,
+        "route": {
+          "slugs": [
+            "isuzu"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 15468,
+        "label": "Iveco",
+        "value": 15468,
+        "route": {
+          "slugs": [
+            "iveco"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 15334,
+        "label": "JAC",
+        "value": 15334,
+        "route": {
+          "slugs": [
+            "jac"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 16052,
+        "label": "Jaecoo",
+        "value": 16052,
+        "route": {
+          "slugs": [
+            "jaecoo"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11329,
+        "label": "Jaguar",
+        "value": 11329,
+        "route": {
+          "slugs": [
+            "jaguar"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11337,
+        "label": "Jeep",
+        "value": 11337,
+        "route": {
+          "slugs": [
+            "jeep"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 16232,
+        "label": "JMEV ",
+        "value": 16232,
+        "route": {
+          "slugs": [
+            "jmev"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11348,
+        "label": "Kia",
+        "value": 11348,
+        "route": {
+          "slugs": [
+            "kia"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11821,
+        "label": "KGM SsangYong",
+        "value": 11821,
+        "route": {
+          "slugs": [
+            "kgm-ssangyong"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 15832,
+        "label": "KTM",
+        "value": 15832,
+        "route": {
+          "slugs": [
+            "ktm"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11372,
+        "label": "Lada",
+        "value": 11372,
+        "route": {
+          "slugs": [
+            "lada"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11383,
+        "label": "Lamborghini",
+        "value": 11383,
+        "route": {
+          "slugs": [
+            "lamborghini"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11389,
+        "label": "Lancia",
+        "value": 11389,
+        "route": {
+          "slugs": [
+            "lancia"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11408,
+        "label": "Land Rover",
+        "value": 11408,
+        "route": {
+          "slugs": [
+            "land-rover"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 16046,
+        "label": "Leapmotor",
+        "value": 16046,
+        "route": {
+          "slugs": [
+            "leapmotor"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 16228,
+        "label": "Lepas",
+        "value": 16228,
+        "route": {
+          "slugs": [
+            "lepas"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11413,
+        "label": "Lexus",
+        "value": 11413,
+        "route": {
+          "slugs": [
+            "lexus"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11421,
+        "label": "Lincoln",
+        "value": 11421,
+        "route": {
+          "slugs": [
+            "lincoln"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11423,
+        "label": "Lotus",
+        "value": 11423,
+        "route": {
+          "slugs": [
+            "lotus"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 15878,
+        "label": "Lynk & Co",
+        "value": 15878,
+        "route": {
+          "slugs": [
+            "lynk-co"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 15049,
+        "label": "LTI",
+        "value": 15049,
+        "route": {
+          "slugs": [
+            "lti"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 12150,
+        "label": "Mahindra",
+        "value": 12150,
+        "route": {
+          "slugs": [
+            "mahindra"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11429,
+        "label": "Maserati",
+        "value": 11429,
+        "route": {
+          "slugs": [
+            "maserati"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11445,
+        "label": "Maybach",
+        "value": 11445,
+        "route": {
+          "slugs": [
+            "maybach"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11448,
+        "label": "Mazda",
+        "value": 11448,
+        "route": {
+          "slugs": [
+            "mazda"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 15791,
+        "label": "McLaren",
+        "value": 15791,
+        "route": {
+          "slugs": [
+            "mclaren"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11481,
+        "label": "Mercedes-Benz",
+        "value": 11481,
+        "route": {
+          "slugs": [
+            "mercedes"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11515,
+        "label": "MG",
+        "value": 11515,
+        "route": {
+          "slugs": [
+            "mg"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11517,
+        "label": "MINI",
+        "value": 11517,
+        "route": {
+          "slugs": [
+            "mini"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11521,
+        "label": "Mitsubishi",
+        "value": 11521,
+        "route": {
+          "slugs": [
+            "mitsubishi"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 15828,
+        "label": "MPM",
+        "value": 15828,
+        "route": {
+          "slugs": [
+            "mpm-motors"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 16081,
+        "label": "M-Hero",
+        "value": 16081,
+        "route": {
+          "slugs": [
+            "m-hero"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11540,
+        "label": "Nissan",
+        "value": 11540,
+        "route": {
+          "slugs": [
+            "nissan"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11574,
+        "label": "NSU",
+        "value": 11574,
+        "route": {
+          "slugs": [
+            "nsu"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 16049,
+        "label": "Omoda",
+        "value": 16049,
+        "route": {
+          "slugs": [
+            "omoda"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11576,
+        "label": "Opel",
+        "value": 11576,
+        "route": {
+          "slugs": [
+            "opel"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11617,
+        "label": "Peugeot",
+        "value": 11617,
+        "route": {
+          "slugs": [
+            "peugeot"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 15575,
+        "label": "Polestar",
+        "value": 15575,
+        "route": {
+          "slugs": [
+            "polestar"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11657,
+        "label": "Pontiac",
+        "value": 11657,
+        "route": {
+          "slugs": [
+            "pontiac"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11664,
+        "label": "Porsche",
+        "value": 11664,
+        "route": {
+          "slugs": [
+            "porsche"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11679,
+        "label": "Proton",
+        "value": 11679,
+        "route": {
+          "slugs": [
+            "proton"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 12186,
+        "label": "Puch",
+        "value": 12186,
+        "route": {
+          "slugs": [
+            "puch"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11687,
+        "label": "Renault",
+        "value": 11687,
+        "route": {
+          "slugs": [
+            "renault"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11733,
+        "label": "Rolls-Royce",
+        "value": 11733,
+        "route": {
+          "slugs": [
+            "rolls-royce"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11744,
+        "label": "Rover",
+        "value": 11744,
+        "route": {
+          "slugs": [
+            "rover"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11774,
+        "label": "Saab",
+        "value": 11774,
+        "route": {
+          "slugs": [
+            "saab"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11783,
+        "label": "Seat",
+        "value": 11783,
+        "route": {
+          "slugs": [
+            "seat"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 12164,
+        "label": "Santana",
+        "value": 12164,
+        "route": {
+          "slugs": [
+            "santana"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11815,
+        "label": "Smart",
+        "value": 11815,
+        "route": {
+          "slugs": [
+            "smart"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11827,
+        "label": "Subaru",
+        "value": 11827,
+        "route": {
+          "slugs": [
+            "subaru"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11845,
+        "label": "Suzuki",
+        "value": 11845,
+        "route": {
+          "slugs": [
+            "suzuki"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11796,
+        "label": "Škoda",
+        "value": 11796,
+        "route": {
+          "slugs": [
+            "skoda"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 12296,
+        "label": "Tata",
+        "value": 12296,
+        "route": {
+          "slugs": [
+            "tata"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 13331,
+        "label": "Tesla",
+        "value": 13331,
+        "route": {
+          "slugs": [
+            "tesla"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11868,
+        "label": "Toyota",
+        "value": 11868,
+        "route": {
+          "slugs": [
+            "toyota"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11900,
+        "label": "Trabant",
+        "value": 11900,
+        "route": {
+          "slugs": [
+            "trabant"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11903,
+        "label": "USA",
+        "value": 11903,
+        "route": {
+          "slugs": [
+            "usa"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 12510,
+        "label": "UAZ",
+        "value": 12510,
+        "route": {
+          "slugs": [
+            "uaz"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11915,
+        "label": "Volvo",
+        "value": 11915,
+        "route": {
+          "slugs": [
+            "volvo"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 16078,
+        "label": "Voyah",
+        "value": 16078,
+        "route": {
+          "slugs": [
+            "voyah"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11944,
+        "label": "VW",
+        "value": 11944,
+        "route": {
+          "slugs": [
+            "volkswagen"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11984,
+        "label": "Wartburg",
+        "value": 11984,
+        "route": {
+          "slugs": [
+            "wartburg"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 15652,
+        "label": "XEV",
+        "value": 15652,
+        "route": {
+          "slugs": [
+            "xev"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 16154,
+        "label": "Xpeng",
+        "value": 16154,
+        "route": {
+          "slugs": [
+            "xpeng"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11988,
+        "label": "Yugo",
+        "value": 11988,
+        "route": {
+          "slugs": [
+            "yugo"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 11997,
+        "label": "Zastava",
+        "value": 11997,
+        "route": {
+          "slugs": [
+            "zastava"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 13966,
+        "label": "Zhidou",
+        "value": 13966,
+        "route": {
+          "slugs": [
+            "zhidou"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      }
+    ],
+    "body_shape": {
+      "(root array)": "array[108]",
+      "(first item keys)": [
+        "id",
+        "label",
+        "value",
+        "route",
+        "parentId"
+      ]
+    }
+  },
+  {
+    "label": "Cars for sale",
+    "url": "https://www.njuskalo.hr/papi/pages/browse-listings/category-hierarchy?level=2&parentIds=13688",
+    "method": "GET",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "query_params": {
+      "level": "2",
+      "parentIds": "13688"
+    },
+    "request_body": null,
+    "tags": [
+      "pagination",
+      "category-tree",
+      "listings",
+      "internal-api"
+    ],
+    "repeated": false,
+    "body": [
+      {
+        "id": 7,
+        "label": "Rabljeni automobili",
+        "value": 7,
+        "route": {
+          "slugs": [
+            "rabljeni-auti"
+          ],
+          "query": {}
+        },
+        "parentId": 13688
+      },
+      {
+        "id": 13689,
+        "label": "Novi automobili",
+        "value": 13689,
+        "route": {
+          "slugs": [
+            "novi-auti"
+          ],
+          "query": {}
+        },
+        "parentId": 13688
+      }
+    ],
+    "body_shape": {
+      "(root array)": "array[2]",
+      "(first item keys)": [
+        "id",
+        "label",
+        "value",
+        "route",
+        "parentId"
+      ]
+    }
+  },
+  {
+    "label": "Cars for sale",
+    "url": "https://www.njuskalo.hr/papi/pages/browse-listings/locations-hierarchy?level=0",
+    "method": "GET",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "query_params": {
+      "level": "0"
+    },
+    "request_body": null,
+    "tags": [
+      "geo/location",
+      "pagination",
+      "listings",
+      "internal-api"
+    ],
+    "repeated": false,
+    "body": [
+      {
+        "id": 1150,
+        "label": "Bjelovarsko-bilogorska",
+        "value": 1150,
+        "route": {
+          "slugs": [
+            "bjelovarsko-bilogorska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1151,
+        "label": "Brodsko-posavska",
+        "value": 1151,
+        "route": {
+          "slugs": [
+            "brodsko-posavska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1152,
+        "label": "Dubrovačko-neretvanska",
+        "value": 1152,
+        "route": {
+          "slugs": [
+            "dubrovacko-neretvanska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1154,
+        "label": "Istarska",
+        "value": 1154,
+        "route": {
+          "slugs": [
+            "istra"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1155,
+        "label": "Karlovačka",
+        "value": 1155,
+        "route": {
+          "slugs": [
+            "karlovacka"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1156,
+        "label": "Koprivničko-križevačka",
+        "value": 1156,
+        "route": {
+          "slugs": [
+            "koprivnicko-krizevacka"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1157,
+        "label": "Krapinsko-zagorska",
+        "value": 1157,
+        "route": {
+          "slugs": [
+            "krapinsko-zagorska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1158,
+        "label": "Ličko-senjska",
+        "value": 1158,
+        "route": {
+          "slugs": [
+            "licko-senjska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1159,
+        "label": "Međimurska",
+        "value": 1159,
+        "route": {
+          "slugs": [
+            "medimurje"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1160,
+        "label": "Osječko-baranjska",
+        "value": 1160,
+        "route": {
+          "slugs": [
+            "osjecko-baranjska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1161,
+        "label": "Požeško-slavonska",
+        "value": 1161,
+        "route": {
+          "slugs": [
+            "pozesko-slavonska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1162,
+        "label": "Primorsko-goranska",
+        "value": 1162,
+        "route": {
+          "slugs": [
+            "primorsko-goranska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1163,
+        "label": "Sisačko-moslavačka",
+        "value": 1163,
+        "route": {
+          "slugs": [
+            "sisacko-moslavacka"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1164,
+        "label": "Splitsko-dalmatinska",
+        "value": 1164,
+        "route": {
+          "slugs": [
+            "splitsko-dalmatinska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1165,
+        "label": "Šibensko-kninska",
+        "value": 1165,
+        "route": {
+          "slugs": [
+            "sibensko-kninska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1166,
+        "label": "Varaždinska",
+        "value": 1166,
+        "route": {
+          "slugs": [
+            "varazdinska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1167,
+        "label": "Virovitičko-podravska",
+        "value": 1167,
+        "route": {
+          "slugs": [
+            "viroviticko-podravska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1168,
+        "label": "Vukovarsko-srijemska",
+        "value": 1168,
+        "route": {
+          "slugs": [
+            "vukovarsko-srijemska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1169,
+        "label": "Zadarska",
+        "value": 1169,
+        "route": {
+          "slugs": [
+            "zadarska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1153,
+        "label": "Grad Zagreb",
+        "value": 1153,
+        "route": {
+          "slugs": [
+            "zagreb"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1170,
+        "label": "Zagrebačka",
+        "value": 1170,
+        "route": {
+          "slugs": [
+            "zagrebacka"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": -20,
+        "label": "Cijela Hrvatska",
+        "value": -20,
+        "route": null,
+        "groupSelect": [
+          1150,
+          1151,
+          1152,
+          1154,
+          1155,
+          1156,
+          1157,
+          1158,
+          1159,
+          1160,
+          1161,
+          1162,
+          1163,
+          1164,
+          1165,
+          1166,
+          1167,
+          1168,
+          1169,
+          1153,
+          1170
+        ],
+        "parentId": null
+      },
+      {
+        "id": -30,
+        "label": "Izvan Hrvatske - Unutar EU",
+        "value": -30,
+        "route": null,
+        "parentId": null
+      },
+      {
+        "id": -40,
+        "label": "Izvan Hrvatske - Izvan EU",
+        "value": -40,
+        "route": null,
+        "parentId": null
+      }
+    ],
+    "body_shape": {
+      "(root array)": "array[24]",
+      "(first item keys)": [
+        "id",
+        "label",
+        "value",
+        "route",
+        "parentId"
+      ]
+    }
+  },
+  {
+    "label": "Cars for sale",
+    "url": "https://www.njuskalo.hr/papi/pages/browse-listings/banner-targeting",
+    "method": "POST",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "query_params": {},
+    "request_body": {
+      "url": "/auti?geo[locationIds]=1153&adsWithImages=1&condition[used]=1&sort=cheap",
+      "categoryId": 13688
+    },
+    "tags": [
+      "pagination",
+      "listings",
+      "ads/targeting",
+      "internal-api"
+    ],
+    "repeated": false,
+    "body": {
+      "site": "www.njuskalo.hr",
+      "url": "https://www.njuskalo.hr/auti?geo[locationIds]=1153&adsWithImages=1&condition[used]=1&sort=cheap",
+      "mainsection": "auto-moto",
+      "category": "auti",
+      "cont_type": "kategorija",
+      "body_type": "null",
+      "min_price": "null",
+      "max_price": "null"
+    },
+    "body_shape": {
+      "site": "'www.njuskalo.hr'",
+      "url": "\"https://www.njuskalo.hr/auti?geo[locatio…\"",
+      "mainsection": "'auto-moto'",
+      "category": "'auti'",
+      "cont_type": "'kategorija'",
+      "body_type": "'null'",
+      "min_price": "'null'",
+      "max_price": "'null'"
+    }
+  },
+  {
+    "label": "Renting apartments",
+    "url": "https://www.njuskalo.hr/iznajmljivanje-stanova?geo[locationIds]=1153,1170&sort=old",
+    "method": "GET",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "query_params": {
+      "geo[locationIds]": "1153,1170",
+      "sort": "old"
+    },
+    "request_body": null,
+    "tags": [
+      "geo/location",
+      "listings"
+    ],
+    "repeated": false,
+    "body": null,
+    "body_shape": null
+  },
+  {
+    "label": "Renting apartments",
+    "url": "https://www.njuskalo.hr/papi/pages/browse-listings/locations-hierarchy?level=1&parentIds=1153%2C1170",
+    "method": "GET",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "query_params": {
+      "level": "1",
+      "parentIds": "1153,1170"
+    },
+    "request_body": null,
+    "tags": [
+      "geo/location",
+      "pagination",
+      "listings",
+      "internal-api"
+    ],
+    "repeated": false,
+    "body": [
+      {
+        "id": 1153,
+        "label": "Grad Zagreb",
+        "choices": [
+          {
+            "id": 1247,
+            "label": "Brezovica",
+            "value": 1247,
+            "route": {
+              "slugs": [
+                "brezovica"
+              ],
+              "query": {}
+            },
+            "parentId": 1153
+          },
+          {
+            "id": 1248,
+            "label": "Črnomerec",
+            "value": 1248,
+            "route": {
+              "slugs": [
+                "crnomerec"
+              ],
+              "query": {}
+            },
+            "parentId": 1153
+          },
+          {
+            "id": 1249,
+            "label": "Donja Dubrava",
+            "value": 1249,
+            "route": {
+              "slugs": [
+                "donja-dubrava"
+              ],
+              "query": {}
+            },
+            "parentId": 1153
+          },
+          {
+            "id": 1250,
+            "label": "Donji Grad",
+            "value": 1250,
+            "route": {
+              "slugs": [
+                "donji-grad"
+              ],
+              "query": {}
+            },
+            "parentId": 1153
+          },
+          {
+            "id": 1251,
+            "label": "Gornja Dubrava",
+            "value": 1251,
+            "route": {
+              "slugs": [
+                "gornja-dubrava"
+              ],
+              "query": {}
+            },
+            "parentId": 1153
+          },
+          {
+            "id": 1252,
+            "label": "Gornji Grad - Medveščak",
+            "value": 1252,
+            "route": {
+              "slugs": [
+                "gornji-grad-medvescak"
+              ],
+              "query": {}
+            },
+            "parentId": 1153
+          },
+          {
+            "id": 1253,
+            "label": "Maksimir",
+            "value": 1253,
+            "route": {
+              "slugs": [
+                "maksimir"
+              ],
+              "query": {}
+            },
+            "parentId": 1153
+          },
+          {
+            "id": 1254,
+            "label": "Novi Zagreb - Istok",
+            "value": 1254,
+            "route": {
+              "slugs": [
+                "novi-zagreb-istok"
+              ],
+              "query": {}
+            },
+            "parentId": 1153
+          },
+          {
+            "id": 1255,
+            "label": "Novi Zagreb - Zapad",
+            "value": 1255,
+            "route": {
+              "slugs": [
+                "novi-zagreb-zapad"
+              ],
+              "query": {}
+            },
+            "parentId": 1153
+          },
+          {
+            "id": 1256,
+            "label": "Peščenica - Žitnjak",
+            "value": 1256,
+            "route": {
+              "slugs": [
+                "pescenica-zitnjak"
+              ],
+              "query": {}
+            },
+            "parentId": 1153
+          },
+          {
+            "id": 1257,
+            "label": "Podsljeme",
+            "value": 1257,
+            "route": {
+              "slugs": [
+                "podsljeme"
+              ],
+              "query": {}
+            },
+            "parentId": 1153
+          },
+          {
+            "id": 1258,
+            "label": "Podsused - Vrapče",
+            "value": 1258,
+            "route": {
+              "slugs": [
+                "podsused-vrapce"
+              ],
+              "query": {}
+            },
+            "parentId": 1153
+          },
+          {
+            "id": 1259,
+            "label": "Sesvete",
+            "value": 1259,
+            "route": {
+              "slugs": [
+                "sesvete"
+              ],
+              "query": {}
+            },
+            "parentId": 1153
+          },
+          {
+            "id": 1260,
+            "label": "Stenjevec",
+            "value": 1260,
+            "route": {
+              "slugs": [
+                "stenjevec"
+              ],
+              "query": {}
+            },
+            "parentId": 1153
+          },
+          {
+            "id": 1261,
+            "label": "Trešnjevka - Jug",
+            "value": 1261,
+            "route": {
+              "slugs": [
+                "tresnjevka-jug"
+              ],
+              "query": {}
+            },
+            "parentId": 1153
+          },
+          {
+            "id": 1262,
+            "label": "Trešnjevka - Sjever",
+            "value": 1262,
+            "route": {
+              "slugs": [
+                "tresnjevka-sjever"
+              ],
+              "query": {}
+            },
+            "parentId": 1153
+          },
+          {
+            "id": 1263,
+            "label": "Trnje",
+            "value": 1263,
+            "route": {
+              "slugs": [
+                "trnje"
+              ],
+              "query": {}
+            },
+            "parentId": 1153
+          },
+          {
+            "id": 1264,
+            "label": "Zagreb - Okolica",
+            "value": 1264,
+            "route": {
+              "slugs": [
+                "zagreb-okolica"
+              ],
+              "query": {}
+            },
+            "parentId": 1153
+          }
+        ]
+      },
+      {
+        "id": 1170,
+        "label": "Zagrebačka",
+        "choices": [
+          {
+            "id": 1728,
+            "label": "Bedenica",
+            "value": 1728,
+            "route": {
+              "slugs": [
+                "bedenica"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1729,
+            "label": "Bistra",
+            "value": 1729,
+            "route": {
+              "slugs": [
+                "bistra"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1730,
+            "label": "Brckovljani",
+            "value": 1730,
+            "route": {
+              "slugs": [
+                "brckovljani"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1731,
+            "label": "Brdovec",
+            "value": 1731,
+            "route": {
+              "slugs": [
+                "brdovec"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1732,
+            "label": "Dubrava",
+            "value": 1732,
+            "route": {
+              "slugs": [
+                "dubrava"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1733,
+            "label": "Dubravica",
+            "value": 1733,
+            "route": {
+              "slugs": [
+                "dubravica"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1734,
+            "label": "Dugo Selo",
+            "value": 1734,
+            "route": {
+              "slugs": [
+                "dugo-selo"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1735,
+            "label": "Dugo Selo - Okolica",
+            "value": 1735,
+            "route": {
+              "slugs": [
+                "dugo-selo-okolica"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1736,
+            "label": "Farkaševac",
+            "value": 1736,
+            "route": {
+              "slugs": [
+                "farkasevac"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1737,
+            "label": "Gradec",
+            "value": 1737,
+            "route": {
+              "slugs": [
+                "gradec"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1738,
+            "label": "Ivanić-Grad",
+            "value": 1738,
+            "route": {
+              "slugs": [
+                "ivanic-grad"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1739,
+            "label": "Ivanić-Grad - Okolica",
+            "value": 1739,
+            "route": {
+              "slugs": [
+                "ivanic-grad-okolica"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1740,
+            "label": "Jakovlje",
+            "value": 1740,
+            "route": {
+              "slugs": [
+                "jakovlje"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1741,
+            "label": "Jastrebarsko",
+            "value": 1741,
+            "route": {
+              "slugs": [
+                "jastrebarsko"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1742,
+            "label": "Jastrebarsko - Okolica",
+            "value": 1742,
+            "route": {
+              "slugs": [
+                "jastrebarsko-okolica"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1743,
+            "label": "Klinča Sela",
+            "value": 1743,
+            "route": {
+              "slugs": [
+                "klinca-sela"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1744,
+            "label": "Kloštar Ivanić",
+            "value": 1744,
+            "route": {
+              "slugs": [
+                "klostar-ivanic"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1745,
+            "label": "Krašić",
+            "value": 1745,
+            "route": {
+              "slugs": [
+                "krasic"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1746,
+            "label": "Kravarsko",
+            "value": 1746,
+            "route": {
+              "slugs": [
+                "kravarsko"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1747,
+            "label": "Križ",
+            "value": 1747,
+            "route": {
+              "slugs": [
+                "kriz"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1748,
+            "label": "Luka",
+            "value": 1748,
+            "route": {
+              "slugs": [
+                "luka"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1749,
+            "label": "Marija Gorica",
+            "value": 1749,
+            "route": {
+              "slugs": [
+                "marija-gorica"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1750,
+            "label": "Orle",
+            "value": 1750,
+            "route": {
+              "slugs": [
+                "orle"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1751,
+            "label": "Pisarovina",
+            "value": 1751,
+            "route": {
+              "slugs": [
+                "pisarovina"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1752,
+            "label": "Pokupsko",
+            "value": 1752,
+            "route": {
+              "slugs": [
+                "pokupsko"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1753,
+            "label": "Preseka",
+            "value": 1753,
+            "route": {
+              "slugs": [
+                "preseka"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1754,
+            "label": "Pušća",
+            "value": 1754,
+            "route": {
+              "slugs": [
+                "pusca"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1755,
+            "label": "Rakovec",
+            "value": 1755,
+            "route": {
+              "slugs": [
+                "rakovec"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1756,
+            "label": "Rugvica",
+            "value": 1756,
+            "route": {
+              "slugs": [
+                "rugvica"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1757,
+            "label": "Samobor",
+            "value": 1757,
+            "route": {
+              "slugs": [
+                "samobor"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1758,
+            "label": "Samobor - Okolica",
+            "value": 1758,
+            "route": {
+              "slugs": [
+                "samobor-okolica"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1759,
+            "label": "Stupnik",
+            "value": 1759,
+            "route": {
+              "slugs": [
+                "stupnik"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1760,
+            "label": "Sveta Nedelja",
+            "value": 1760,
+            "route": {
+              "slugs": [
+                "sveta-nedjelja"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1761,
+            "label": "Sveti Ivan Zelina",
+            "value": 1761,
+            "route": {
+              "slugs": [
+                "sveti-ivan-zelina"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1762,
+            "label": "Velika Gorica",
+            "value": 1762,
+            "route": {
+              "slugs": [
+                "velika-gorica"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1763,
+            "label": "Velika Gorica - Okolica",
+            "value": 1763,
+            "route": {
+              "slugs": [
+                "velika-gorica-okolica"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1764,
+            "label": "Vrbovec",
+            "value": 1764,
+            "route": {
+              "slugs": [
+                "vrbovec"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1765,
+            "label": "Zaprešić",
+            "value": 1765,
+            "route": {
+              "slugs": [
+                "zapresic"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1766,
+            "label": "Zaprešić - Okolica",
+            "value": 1766,
+            "route": {
+              "slugs": [
+                "zapresic-okolica"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          },
+          {
+            "id": 1767,
+            "label": "Žumberak",
+            "value": 1767,
+            "route": {
+              "slugs": [
+                "zumberak"
+              ],
+              "query": {}
+            },
+            "parentId": 1170
+          }
+        ]
+      }
+    ],
+    "body_shape": {
+      "(root array)": "array[2]",
+      "(first item keys)": [
+        "id",
+        "label",
+        "choices"
+      ]
+    }
+  },
+  {
+    "label": "Renting apartments",
+    "url": "https://www.njuskalo.hr/papi/pages/browse-listings/locations-hierarchy?level=0",
+    "method": "GET",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "query_params": {
+      "level": "0"
+    },
+    "request_body": null,
+    "tags": [
+      "geo/location",
+      "pagination",
+      "listings",
+      "internal-api"
+    ],
+    "repeated": false,
+    "body": [
+      {
+        "id": 1150,
+        "label": "Bjelovarsko-bilogorska",
+        "value": 1150,
+        "route": {
+          "slugs": [
+            "bjelovarsko-bilogorska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1151,
+        "label": "Brodsko-posavska",
+        "value": 1151,
+        "route": {
+          "slugs": [
+            "brodsko-posavska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1152,
+        "label": "Dubrovačko-neretvanska",
+        "value": 1152,
+        "route": {
+          "slugs": [
+            "dubrovacko-neretvanska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1154,
+        "label": "Istarska",
+        "value": 1154,
+        "route": {
+          "slugs": [
+            "istra"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1155,
+        "label": "Karlovačka",
+        "value": 1155,
+        "route": {
+          "slugs": [
+            "karlovacka"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1156,
+        "label": "Koprivničko-križevačka",
+        "value": 1156,
+        "route": {
+          "slugs": [
+            "koprivnicko-krizevacka"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1157,
+        "label": "Krapinsko-zagorska",
+        "value": 1157,
+        "route": {
+          "slugs": [
+            "krapinsko-zagorska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1158,
+        "label": "Ličko-senjska",
+        "value": 1158,
+        "route": {
+          "slugs": [
+            "licko-senjska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1159,
+        "label": "Međimurska",
+        "value": 1159,
+        "route": {
+          "slugs": [
+            "medimurje"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1160,
+        "label": "Osječko-baranjska",
+        "value": 1160,
+        "route": {
+          "slugs": [
+            "osjecko-baranjska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1161,
+        "label": "Požeško-slavonska",
+        "value": 1161,
+        "route": {
+          "slugs": [
+            "pozesko-slavonska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1162,
+        "label": "Primorsko-goranska",
+        "value": 1162,
+        "route": {
+          "slugs": [
+            "primorsko-goranska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1163,
+        "label": "Sisačko-moslavačka",
+        "value": 1163,
+        "route": {
+          "slugs": [
+            "sisacko-moslavacka"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1164,
+        "label": "Splitsko-dalmatinska",
+        "value": 1164,
+        "route": {
+          "slugs": [
+            "splitsko-dalmatinska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1165,
+        "label": "Šibensko-kninska",
+        "value": 1165,
+        "route": {
+          "slugs": [
+            "sibensko-kninska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1166,
+        "label": "Varaždinska",
+        "value": 1166,
+        "route": {
+          "slugs": [
+            "varazdinska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1167,
+        "label": "Virovitičko-podravska",
+        "value": 1167,
+        "route": {
+          "slugs": [
+            "viroviticko-podravska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1168,
+        "label": "Vukovarsko-srijemska",
+        "value": 1168,
+        "route": {
+          "slugs": [
+            "vukovarsko-srijemska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1169,
+        "label": "Zadarska",
+        "value": 1169,
+        "route": {
+          "slugs": [
+            "zadarska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1153,
+        "label": "Grad Zagreb",
+        "value": 1153,
+        "route": {
+          "slugs": [
+            "zagreb"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1170,
+        "label": "Zagrebačka",
+        "value": 1170,
+        "route": {
+          "slugs": [
+            "zagrebacka"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": -20,
+        "label": "Cijela Hrvatska",
+        "value": -20,
+        "route": null,
+        "groupSelect": [
+          1150,
+          1151,
+          1152,
+          1154,
+          1155,
+          1156,
+          1157,
+          1158,
+          1159,
+          1160,
+          1161,
+          1162,
+          1163,
+          1164,
+          1165,
+          1166,
+          1167,
+          1168,
+          1169,
+          1153,
+          1170
+        ],
+        "parentId": null
+      },
+      {
+        "id": -30,
+        "label": "Izvan Hrvatske - Unutar EU",
+        "value": -30,
+        "route": null,
+        "parentId": null
+      },
+      {
+        "id": -40,
+        "label": "Izvan Hrvatske - Izvan EU",
+        "value": -40,
+        "route": null,
+        "parentId": null
+      }
+    ],
+    "body_shape": {
+      "(root array)": "array[24]",
+      "(first item keys)": [
+        "id",
+        "label",
+        "value",
+        "route",
+        "parentId"
+      ]
+    }
+  },
+  {
+    "label": "Renting apartments",
+    "url": "https://www.njuskalo.hr/papi/pages/browse-listings/banner-targeting",
+    "method": "POST",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "query_params": {},
+    "request_body": {
+      "url": "/iznajmljivanje-stanova?geo[locationIds]=1153,1170&sort=old",
+      "categoryId": 10920
+    },
+    "tags": [
+      "pagination",
+      "listings",
+      "ads/targeting",
+      "internal-api"
+    ],
+    "repeated": false,
+    "body": {
+      "site": "www.njuskalo.hr",
+      "url": "https://www.njuskalo.hr/iznajmljivanje-stanova?geo[locationIds]=1153,1170&sort=old",
+      "mainsection": "nekretnine",
+      "category": "iznajmljivanje-stanova",
+      "cont_type": "kategorija",
+      "location": "grad-zagreb,zagrebacka",
+      "min_price": "null",
+      "max_price": "null"
+    },
+    "body_shape": {
+      "site": "'www.njuskalo.hr'",
+      "url": "\"https://www.njuskalo.hr/iznajmljivanje-s…\"",
+      "mainsection": "'nekretnine'",
+      "category": "'iznajmljivanje-stanova'",
+      "cont_type": "'kategorija'",
+      "location": "'grad-zagreb,zagrebacka'",
+      "min_price": "'null'",
+      "max_price": "'null'"
+    }
+  },
+  {
+    "label": "Marketplace",
+    "url": "https://www.njuskalo.hr/marketplace",
+    "method": "GET",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "query_params": {},
+    "request_body": null,
+    "tags": [
+      "geo/location"
+    ],
+    "repeated": false,
+    "body": null,
+    "body_shape": null
+  },
+  {
+    "label": "Blago",
+    "url": "https://www.njuskalo.hr/papi/pages/browse-listings/locations-hierarchy?level=0",
+    "method": "GET",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "query_params": {
+      "level": "0"
+    },
+    "request_body": null,
+    "tags": [
+      "geo/location",
+      "pagination",
+      "listings",
+      "internal-api"
+    ],
+    "repeated": false,
+    "body": [
+      {
+        "id": 1150,
+        "label": "Bjelovarsko-bilogorska",
+        "value": 1150,
+        "route": {
+          "slugs": [
+            "bjelovarsko-bilogorska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1151,
+        "label": "Brodsko-posavska",
+        "value": 1151,
+        "route": {
+          "slugs": [
+            "brodsko-posavska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1152,
+        "label": "Dubrovačko-neretvanska",
+        "value": 1152,
+        "route": {
+          "slugs": [
+            "dubrovacko-neretvanska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1154,
+        "label": "Istarska",
+        "value": 1154,
+        "route": {
+          "slugs": [
+            "istra"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1155,
+        "label": "Karlovačka",
+        "value": 1155,
+        "route": {
+          "slugs": [
+            "karlovacka"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1156,
+        "label": "Koprivničko-križevačka",
+        "value": 1156,
+        "route": {
+          "slugs": [
+            "koprivnicko-krizevacka"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1157,
+        "label": "Krapinsko-zagorska",
+        "value": 1157,
+        "route": {
+          "slugs": [
+            "krapinsko-zagorska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1158,
+        "label": "Ličko-senjska",
+        "value": 1158,
+        "route": {
+          "slugs": [
+            "licko-senjska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1159,
+        "label": "Međimurska",
+        "value": 1159,
+        "route": {
+          "slugs": [
+            "medimurje"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1160,
+        "label": "Osječko-baranjska",
+        "value": 1160,
+        "route": {
+          "slugs": [
+            "osjecko-baranjska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1161,
+        "label": "Požeško-slavonska",
+        "value": 1161,
+        "route": {
+          "slugs": [
+            "pozesko-slavonska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1162,
+        "label": "Primorsko-goranska",
+        "value": 1162,
+        "route": {
+          "slugs": [
+            "primorsko-goranska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1163,
+        "label": "Sisačko-moslavačka",
+        "value": 1163,
+        "route": {
+          "slugs": [
+            "sisacko-moslavacka"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1164,
+        "label": "Splitsko-dalmatinska",
+        "value": 1164,
+        "route": {
+          "slugs": [
+            "splitsko-dalmatinska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1165,
+        "label": "Šibensko-kninska",
+        "value": 1165,
+        "route": {
+          "slugs": [
+            "sibensko-kninska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1166,
+        "label": "Varaždinska",
+        "value": 1166,
+        "route": {
+          "slugs": [
+            "varazdinska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1167,
+        "label": "Virovitičko-podravska",
+        "value": 1167,
+        "route": {
+          "slugs": [
+            "viroviticko-podravska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1168,
+        "label": "Vukovarsko-srijemska",
+        "value": 1168,
+        "route": {
+          "slugs": [
+            "vukovarsko-srijemska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1169,
+        "label": "Zadarska",
+        "value": 1169,
+        "route": {
+          "slugs": [
+            "zadarska"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1153,
+        "label": "Grad Zagreb",
+        "value": 1153,
+        "route": {
+          "slugs": [
+            "zagreb"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": 1170,
+        "label": "Zagrebačka",
+        "value": 1170,
+        "route": {
+          "slugs": [
+            "zagrebacka"
+          ],
+          "query": {}
+        },
+        "parentId": null
+      },
+      {
+        "id": -20,
+        "label": "Cijela Hrvatska",
+        "value": -20,
+        "route": null,
+        "groupSelect": [
+          1150,
+          1151,
+          1152,
+          1154,
+          1155,
+          1156,
+          1157,
+          1158,
+          1159,
+          1160,
+          1161,
+          1162,
+          1163,
+          1164,
+          1165,
+          1166,
+          1167,
+          1168,
+          1169,
+          1153,
+          1170
+        ],
+        "parentId": null
+      },
+      {
+        "id": -30,
+        "label": "Izvan Hrvatske - Unutar EU",
+        "value": -30,
+        "route": null,
+        "parentId": null
+      },
+      {
+        "id": -40,
+        "label": "Izvan Hrvatske - Izvan EU",
+        "value": -40,
+        "route": null,
+        "parentId": null
+      }
+    ],
+    "body_shape": {
+      "(root array)": "array[24]",
+      "(first item keys)": [
+        "id",
+        "label",
+        "value",
+        "route",
+        "parentId"
+      ]
+    }
+  },
+  {
+    "label": "Blago",
+    "url": "https://www.njuskalo.hr/papi/pages/browse-listings/banner-targeting",
+    "method": "POST",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "query_params": {},
+    "request_body": {
+      "url": "/blago",
+      "categoryId": 9798
+    },
+    "tags": [
+      "pagination",
+      "listings",
+      "ads/targeting",
+      "internal-api"
+    ],
+    "repeated": false,
+    "body": {
+      "site": "www.njuskalo.hr",
+      "url": "https://www.njuskalo.hr/blago",
+      "mainsection": "blago",
+      "category": "blago",
+      "cont_type": "kategorija"
+    },
+    "body_shape": {
+      "site": "'www.njuskalo.hr'",
+      "url": "'https://www.njuskalo.hr/blago'",
+      "mainsection": "'blago'",
+      "category": "'blago'",
+      "cont_type": "'kategorija'"
+    }
+  }
+]

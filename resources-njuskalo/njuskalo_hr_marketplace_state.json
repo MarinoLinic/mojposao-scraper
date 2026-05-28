@@ -1,0 +1,1044 @@
+{
+  "__INITIAL_STATE__": {
+    "main": {
+      "loading": false,
+      "error": null,
+      "spaActive": false,
+      "appWebViewActive": false,
+      "appWebViewType": "web",
+      "featureFlags": {
+        "isABTestForHomepageEnabled": false,
+        "isAdMetricsFeatureEnabled": false,
+        "isRecommenderForAutoMotoFeatureEnabled": true,
+        "isRecommenderForHomepageFeatureEnabled": true,
+        "isRecommenderForMarketplaceFeatureEnabled": true,
+        "isRecommenderForRealEstateFeatureEnabled": true,
+        "isAdaptiveSearchFiltersFeatureEnabled": true,
+        "isAdsenseFeatureEnabled": true,
+        "isAnalyticsFeatureEnabled": false,
+        "isPlatformStatisticsFeatureEnabled": false,
+        "isCategoryRecommenderFeatureEnabled": true,
+        "isCategorySuggestFeatureEnabled": true,
+        "isCustomerSuccessToolFeatureEnabled": true,
+        "defractalEnabled": true,
+        "isDemandManagerFeatureEnabled": true,
+        "isBannerLazyLoadFeatureEnabled": true,
+        "isEscrowActive": true,
+        "isDidomiFeatureEnabled": true,
+        "dotmetricsEnabled": true,
+        "isFallbackCookiePolicyFeatureEnabled": false,
+        "displayBanners": true,
+        "isXitiEnabled": true,
+        "googleTagManagerEnabled": true,
+        "hotJarEnabled": true,
+        "liveChatEnabled": true,
+        "microsoftClarityEnabled": true,
+        "midasEnabled": true,
+        "isNewAdManipulationEnabled": false,
+        "isNjupopCataloguesFeatureEnabled": true,
+        "isPrivacyPolicyNotificationEnabled": false,
+        "isOfferistaWidgetEnabled": false,
+        "isPushupSchedulingFeatureEnabled": false,
+        "isQuickSearchWidgetAutoMotoEnabled": false,
+        "isQuickSearchWidgetRealestateEnabled": false,
+        "isReadRecentUserQueryFeatureEnabled": true,
+        "isRecaptchaFeatureEnabled": true,
+        "isRecommenderFeatureEnabled": true,
+        "isSearchByImageEnabled": true,
+        "isSearchByImageWebPromoEnabled": true,
+        "isPopularCarModelsFeatureEnabled": true,
+        "shieldSquareEnabled": true,
+        "shouldShowAdDisplayCountInMyAdsList": true,
+        "showNearbyListingsBoxEnabled": true,
+        "isShowAdsOnGeoMapEnabled": true,
+        "isShowNotificationEnabled": false,
+        "isTagWidgetFeatureEnabled": true,
+        "isTrendingCategoriesRecommenderFeatureEnabled": true,
+        "areNewDsaCategoriesEnabled": true,
+        "vavenEnabled": false,
+        "isMobileManifestAndroidActive": true,
+        "isMobileManifestIOSActive": true,
+        "isQaAttributesFeatureEnabled": false,
+        "isCookieSwitchToSearchEnabled": false,
+        "isCookieSwitchToSimilarListingsEnabled": false,
+        "isCookieSwitchToNearbyListingsEnabled": false,
+        "isCookieSwitchAllRoutesEnabled": false
+      },
+      "unsupportedBrowserNotice": null,
+      "isAdblockDetected": false,
+      "user": null,
+      "siteNotice": "",
+      "trackers": {
+        "dotmetrics": {
+          "id": 15830
+        },
+        "xiti": {
+          "xtn2": "Marketplace",
+          "xtpage": "marketplac_home",
+          "x1": "other",
+          "x2": "transaction",
+          "x3": "Marketplace",
+          "x4": "",
+          "recommenderFingerprint": null
+        },
+        "googleTagManager": {
+          "dataLayer": [
+            {
+              "NjuskaloVirtualPageview": "/marketplace/"
+            }
+          ]
+        },
+        "defractal": {
+          "defractalPage": {
+            "type": "homepage",
+            "fullChannel": "marketplace"
+          }
+        }
+      },
+      "banners": {
+        "slots": [
+          {
+            "id": "dfp_halfpage_njuskalo",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    300,
+                    50
+                  ],
+                  [
+                    300,
+                    600
+                  ],
+                  [
+                    160,
+                    600
+                  ],
+                  [
+                    300,
+                    250
+                  ],
+                  "fluid"
+                ],
+                "dfp-zone-container-dfp_halfpage_njuskalo"
+              ]
+            ],
+            "contexts": [
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "id": "dfp_billboard_njuskalo",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    970,
+                    250
+                  ],
+                  [
+                    300,
+                    250
+                  ],
+                  "fluid",
+                  [
+                    728,
+                    90
+                  ],
+                  [
+                    1250,
+                    250
+                  ]
+                ],
+                "dfp-zone-container-dfp_billboard_njuskalo"
+              ]
+            ],
+            "contexts": [
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "id": "dfp_floating_njuskalo",
+            "content": [
+              "defineOutOfPageSlot",
+              [
+                "dfp-zone-container-dfp_floating_njuskalo"
+              ]
+            ],
+            "contexts": [
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "id": "dfp_floating_njuskalo_mobile",
+            "content": [
+              "defineOutOfPageSlot",
+              [
+                "dfp-zone-container-dfp_floating_njuskalo_mobile"
+              ]
+            ],
+            "contexts": [
+              1
+            ]
+          },
+          {
+            "id": "dfp_rectangle_1_njuskalo_mobile",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    336,
+                    280
+                  ],
+                  "fluid",
+                  [
+                    300,
+                    250
+                  ]
+                ],
+                "dfp-zone-container-dfp_rectangle_1_njuskalo_mobile"
+              ]
+            ],
+            "contexts": [
+              1,
+              2
+            ]
+          }
+        ]
+      },
+      "applicationVersion": "32df26981387f6fa4a9e00f31c7d8bc4a90b5801",
+      "serverTime": 1779971600943,
+      "mainNavigationCategories": [
+        {
+          "id": 2,
+          "title": "Auto Moto Nautika",
+          "url": "/auto-moto",
+          "iconId": "auto-moto",
+          "hasEscrow": false
+        },
+        {
+          "id": 1,
+          "title": "Nekretnine",
+          "url": "/nekretnine",
+          "iconId": "real-estate",
+          "hasEscrow": false
+        },
+        {
+          "id": "njupop",
+          "title": "Katalozi",
+          "url": "https://katalozi.njuskalo.hr",
+          "iconId": "discounts",
+          "hasEscrow": false
+        },
+        {
+          "id": "marketplace",
+          "title": "Marketplace",
+          "url": "/marketplace",
+          "iconId": "miscellaneous",
+          "hasEscrow": true,
+          "subCategories": [
+            {
+              "id": 12378,
+              "title": "Od glave do pete",
+              "url": "/od-glave-do-pete"
+            },
+            {
+              "id": 9737,
+              "title": "Sport i oprema",
+              "url": "/sportska-oprema"
+            },
+            {
+              "id": 9726,
+              "title": "Sve za dom",
+              "url": "/sve-za-dom"
+            },
+            {
+              "id": 9807,
+              "title": "Dječji svijet",
+              "url": "/djecji-svijet"
+            },
+            {
+              "id": 9761,
+              "title": "Strojevi i alati",
+              "url": "/strojevi-alati"
+            },
+            {
+              "id": 12111,
+              "title": "Usluge",
+              "url": "/usluge"
+            },
+            {
+              "id": 9654,
+              "title": "Audio Video Foto",
+              "url": "/audio-video-foto"
+            },
+            {
+              "id": 9643,
+              "title": "Mobiteli",
+              "url": "/mobiteli"
+            },
+            {
+              "id": 9696,
+              "title": "Glazbala",
+              "url": "/glazbala"
+            },
+            {
+              "id": 9749,
+              "title": "Literatura",
+              "url": "/knjige"
+            },
+            {
+              "id": 3,
+              "title": "Informatika",
+              "url": "/informatika"
+            },
+            {
+              "id": 9788,
+              "title": "Kućni ljubimci",
+              "url": "/kucni-ljubimci"
+            },
+            {
+              "id": 9798,
+              "title": "Pronađeno blago",
+              "url": "/blago"
+            },
+            {
+              "id": 9823,
+              "title": "Ostalo",
+              "url": "/ostalo"
+            },
+            {
+              "id": 9830,
+              "title": "Poklanjam",
+              "url": "/poklanjam"
+            },
+            {
+              "id": 12599,
+              "title": "Hrana i piće",
+              "url": "/hrana-pice"
+            },
+            {
+              "id": 16163,
+              "title": "Turistički smještaj",
+              "url": "/turisticki-smjestaj"
+            },
+            {
+              "id": 12551,
+              "title": "Poslovi",
+              "url": "/posao"
+            }
+          ]
+        }
+      ],
+      "showEnvironmentMarker": false
+    },
+    "homeMarketplacePage": {
+      "pageData": {
+        "meta": {
+          "title": "Marketplace - oglasnik Njuskalo.hr",
+          "description": "Sve od igle do lokomotive dostupno je na Njuškalo Marketplaceu. Stvari i oprema za dom, djecu, hobije i posao - u malim oglasima sa slikama, opisom i cijenom.",
+          "keywords": "",
+          "openGraphTitle": "Marketplace",
+          "openGraphType": "category"
+        },
+        "categoryMeta": {
+          "id": -1,
+          "title": "Marketplace",
+          "description": "Sve od igle do lokomotive dostupno je na Njuškalo Marketplaceu. Stvari i oprema za dom, djecu, hobije i posao - u malim oglasima sa slikama, opisom i cijenom."
+        },
+        "categories": [
+          {
+            "id": 12378,
+            "url": "/od-glave-do-pete",
+            "title": "Od glave do pete",
+            "iconId": "from-head-to-toe",
+            "subCategories": null,
+            "hasEscrow": false
+          },
+          {
+            "id": 9737,
+            "url": "/sportska-oprema",
+            "title": "Sport i oprema",
+            "iconId": "sports-and-equipment",
+            "subCategories": null,
+            "hasEscrow": false
+          },
+          {
+            "id": 9726,
+            "url": "/sve-za-dom",
+            "title": "Sve za dom",
+            "iconId": "household-items",
+            "subCategories": null,
+            "hasEscrow": false
+          },
+          {
+            "id": 9807,
+            "url": "/djecji-svijet",
+            "title": "Dječji svijet",
+            "iconId": "everything-for-kids",
+            "subCategories": null,
+            "hasEscrow": false
+          },
+          {
+            "id": 9761,
+            "url": "/strojevi-alati",
+            "title": "Strojevi i alati",
+            "iconId": "machines-and-tools",
+            "subCategories": null,
+            "hasEscrow": false
+          },
+          {
+            "id": 12111,
+            "url": "/usluge",
+            "title": "Usluge",
+            "iconId": "services",
+            "subCategories": null,
+            "hasEscrow": false
+          },
+          {
+            "id": 9654,
+            "url": "/audio-video-foto",
+            "title": "Audio Video Foto",
+            "iconId": "audio-video-photo",
+            "subCategories": null,
+            "hasEscrow": false
+          },
+          {
+            "id": 9643,
+            "url": "/mobiteli",
+            "title": "Mobiteli",
+            "iconId": "mobile-phones",
+            "subCategories": null,
+            "hasEscrow": false
+          },
+          {
+            "id": 9696,
+            "url": "/glazbala",
+            "title": "Glazbala",
+            "iconId": "musical-instruments",
+            "subCategories": null,
+            "hasEscrow": false
+          },
+          {
+            "id": 9749,
+            "url": "/knjige",
+            "title": "Literatura",
+            "iconId": "literature",
+            "subCategories": null,
+            "hasEscrow": false
+          },
+          {
+            "id": 3,
+            "url": "/informatika",
+            "title": "Informatika",
+            "iconId": "informatics",
+            "subCategories": null,
+            "hasEscrow": false
+          },
+          {
+            "id": 9788,
+            "url": "/kucni-ljubimci",
+            "title": "Kućni ljubimci",
+            "iconId": "pets",
+            "subCategories": null,
+            "hasEscrow": false
+          },
+          {
+            "id": 9798,
+            "url": "/blago",
+            "title": "Pronađeno blago",
+            "iconId": "antiques",
+            "subCategories": null,
+            "hasEscrow": false
+          },
+          {
+            "id": 9823,
+            "url": "/ostalo",
+            "title": "Ostalo",
+            "iconId": "miscellaneous",
+            "subCategories": null,
+            "hasEscrow": false
+          },
+          {
+            "id": 9830,
+            "url": "/poklanjam",
+            "title": "Poklanjam",
+            "iconId": "gifts",
+            "subCategories": null,
+            "hasEscrow": false
+          },
+          {
+            "id": 12599,
+            "url": "/hrana-pice",
+            "title": "Hrana i piće",
+            "iconId": "food-and-drinks",
+            "subCategories": null,
+            "hasEscrow": false
+          },
+          {
+            "id": 16163,
+            "url": "/turisticki-smjestaj",
+            "title": "Turistički smještaj",
+            "iconId": "tourism",
+            "subCategories": null,
+            "hasEscrow": false
+          },
+          {
+            "id": 12551,
+            "url": "/posao",
+            "title": "Poslovi",
+            "iconId": "jobs",
+            "subCategories": null,
+            "hasEscrow": false
+          }
+        ],
+        "superVauListings": [
+          {
+            "id": "eddeb25860d3ebf16ad1a925f0e6b81205aa4956",
+            "title": "Ideal Plus d.o.o.<br>https://www.idealplus.hr<br>Ugostiteljska Oprema<br>Sve na jednom mjestu",
+            "shortDescription": "",
+            "image": "https://www.njuskalo.hr/3d/super_vau/SVT_Ideal-Plus.jpg",
+            "zoneId": 789,
+            "url": "/tvrtka/ideal-plus%20",
+            "hidePrice": false
+          },
+          {
+            "id": "89b07154873a30f9957fb23473c196587a1afd56",
+            "title": "Certificirani fasadni sustavi. Njemačke kvalitete.<br>Sve za suhu gradnju,žbuku te ostali građevinski materijal.",
+            "shortDescription": "",
+            "image": "https://www.njuskalo.hr/3d/super_vau/svt_magmax.jpg",
+            "zoneId": 789,
+            "url": "/tvrtka/magnetic-doo",
+            "hidePrice": false
+          },
+          {
+            "id": "f385bf510c0171972ae7532c3a224af915a05024",
+            "title": "Udobnost koja traje 30 godina.<br>Od 1996. do danas gradimo interijere koji traju.",
+            "shortDescription": "Hvala Vam što ste dio naše priče",
+            "richDescription": true,
+            "image": "https://www.njuskalo.hr/3d/super_vau/svt_kopind.o.o._20260515142134223_ndcx.png",
+            "zoneId": 789,
+            "url": "/tvrtka/kopindoo",
+            "hidePrice": false
+          }
+        ],
+        "horizontalSuperVauListings": [
+          {
+            "id": 46523396,
+            "categorySlug": "transportni-stambeni-kontejneri",
+            "titleSlug": "akcija-kontejner-vikendica-antracit-varmus",
+            "title": "AKCIJA! Kontejner vikendica antracit - Varmus Modular",
+            "image": "https://www.njuskalo.hr/image-360x360c/transportni-stambeni-kontejneri/akcija-kontejner-vikendica-antracit-varmus-slika-244127655.jpg",
+            "zoneId": 790,
+            "url": "/transportni-stambeni-kontejneri/akcija-kontejner-vikendica-antracit-varmus-oglas-46523396",
+            "hidePrice": false
+          },
+          {
+            "id": 46358573,
+            "categorySlug": "gradevinska-skela",
+            "titleSlug": "plettac-alu-gradevinska-skela-fasadna-150qm-jeftina-brza-dostava",
+            "title": "Besplatna dostava ! 150qm ! PLETTAC ALU, Građevinska Skela fasadna",
+            "image": "https://www.njuskalo.hr/image-360x360c/gradevinska-skela/plettac-alu-gradevinska-skela-fasadna-150qm-jeftina-brza-dostava-slika-242353456.jpg",
+            "zoneId": 790,
+            "url": "/gradevinska-skela/plettac-alu-gradevinska-skela-fasadna-150qm-jeftina-brza-dostava-oglas-46358573",
+            "hidePrice": false
+          },
+          {
+            "id": 50257507,
+            "categorySlug": "ostale-usluge",
+            "titleSlug": "implatanti-stomatoloske-usluge-izbjeljivanje-zuba-all-on-4-ljuskice",
+            "title": "Implatanti, Izbjeljivanje zuba, smile-creator.hr",
+            "image": "https://www.njuskalo.hr/image-360x360c/ostale-usluge/implatanti-stomatoloske-usluge-izbjeljivanje-zuba-all-on-4-ljuskice-slika-274899883.jpg",
+            "zoneId": 790,
+            "url": "/ostale-usluge/implatanti-stomatoloske-usluge-izbjeljivanje-zuba-all-on-4-ljuskice-oglas-50257507",
+            "hidePrice": false
+          },
+          {
+            "id": 46552481,
+            "categorySlug": "vrtni-namjestaj",
+            "titleSlug": "stolica-ugostiteljstvo-parma",
+            "title": "STOLICA ZA UGOSTITELJSTVO PARMA",
+            "image": "https://www.njuskalo.hr/image-360x360c/vrtni-namjestaj/stolica-ugostiteljstvo-parma-slika-244343541.jpg",
+            "zoneId": 790,
+            "url": "/vrtni-namjestaj/stolica-ugostiteljstvo-parma-oglas-46552481",
+            "hidePrice": false
+          }
+        ],
+        "recommendedListings": [
+          {
+            "id": 40929366,
+            "title": "Party kuća Sjenica-imanje za sve vrste proslava",
+            "categorySlug": "najam-prostora",
+            "titleSlug": "party-kuca-sjenica-kuca-sve-vrste-proslava",
+            "priceFormatted": "1,00 €",
+            "image": "https://www.njuskalo.hr/image-360x360c/najam-prostora/party-kuca-sjenica-kuca-sve-vrste-proslava-slika-197870334.jpg",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "isSaved": false
+          },
+          {
+            "id": 48369627,
+            "title": "Audio-Technica ATM33a Cardioid Condenser mikrofon",
+            "categorySlug": "mikrofoni",
+            "titleSlug": "audio-technica-atm33a-cardioid-condenser-mikrofon",
+            "priceFormatted": "83,00 €",
+            "image": "https://www.njuskalo.hr/image-360x360c/mikrofoni/audio-technica-atm33a-cardioid-condenser-mikrofon-slika-260361030.jpg",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "isSaved": false
+          },
+          {
+            "id": 34080389,
+            "title": "TRAKTOR LAMBORGHINI SPIRE 75 TREND DT",
+            "categorySlug": "traktori",
+            "titleSlug": "traktor-lamborghini-spire-75-trend-dt",
+            "priceFormatted": "29.500,00 €",
+            "image": "https://www.njuskalo.hr/image-360x360c/traktori/traktor-lamborghini-spire-75-trend-dt-slika-181810695.jpg",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "isSaved": false
+          },
+          {
+            "id": 50237933,
+            "title": "Štenci hrvatskog ovčara",
+            "categorySlug": "psi-s-rodovnicom",
+            "titleSlug": "stenci-hrvatskog-ovcara",
+            "priceFormatted": "350,00 €",
+            "image": "https://www.njuskalo.hr/image-360x360c/psi-s-rodovnicom/stenci-hrvatskog-ovcara-slika-274710254.jpg",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "isSaved": false
+          },
+          {
+            "id": 50509205,
+            "title": "Junice",
+            "categorySlug": "govedarstvo",
+            "titleSlug": "junice",
+            "priceFormatted": "1,00 €",
+            "image": "https://www.njuskalo.hr/image-360x360c/govedarstvo/junice-slika-276965883.jpg",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "isSaved": false
+          },
+          {
+            "id": 47227492,
+            "title": "SAME SILVER W 95",
+            "categorySlug": "traktori",
+            "titleSlug": "same-silver-w-95",
+            "priceFormatted": "23.900,00 €",
+            "image": "https://www.njuskalo.hr/image-360x360c/traktori/same-silver-w-95-slika-251218929.jpg",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "isSaved": false
+          },
+          {
+            "id": 50415306,
+            "title": "Super prilika mini shi tzu",
+            "categorySlug": "psi",
+            "titleSlug": "mini-shi-tzu",
+            "priceFormatted": "400,00 €",
+            "image": "https://www.njuskalo.hr/image-360x360c/psi/mini-shi-tzu-slika-278220910.jpg",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "isSaved": false
+          },
+          {
+            "id": 46912894,
+            "title": "Cane Corso štenci- moguća i  dostava",
+            "categorySlug": "psi",
+            "titleSlug": "cane-corso-stenci",
+            "priceFormatted": "800,00 €",
+            "image": "https://www.njuskalo.hr/image-360x360c/psi/cane-corso-stenci-slika-275663976.jpg",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "isSaved": false
+          }
+        ],
+        "currentlyActualContent": [
+          {
+            "id": 165,
+            "title": "Od starih do novih vrata preseli s nama!",
+            "description": "Selidba nije laka. Pronađi pouzdanu uslugu na Njuškalu i preseli bez stresa.",
+            "image": "https://www.njuskalo.hr/slika-200x150-273228370.jpg",
+            "routeType": "category",
+            "rootSlug": "transporti-selidbe",
+            "queryParams": {},
+            "url": "/transporti-selidbe",
+            "iconId": "transporti-selidbe"
+          },
+          {
+            "id": 173,
+            "title": "Uredi terasu za kavu na suncu!",
+            "description": "Pronađi stol i stolice za terasu ili balkon na Njuškalu!",
+            "image": "https://www.njuskalo.hr/slika-200x150-275460911.jpg",
+            "routeType": "category",
+            "rootSlug": "vrtni-namjestaj",
+            "queryParams": {},
+            "url": "/vrtni-namjestaj",
+            "iconId": "vrtni-namjestaj"
+          },
+          {
+            "id": 172,
+            "title": "Proljeće kuca na tvoj ormar!",
+            "description": "Pronađi majice, lagane jakne i traperice na jednom mjestu!",
+            "image": "https://www.njuskalo.hr/slika-200x150-275460869.jpg",
+            "routeType": "category",
+            "rootSlug": "zenska-moda",
+            "queryParams": {},
+            "url": "/zenska-moda",
+            "iconId": "zenska-moda"
+          },
+          {
+            "id": 177,
+            "title": "Budite spremni za rad!",
+            "description": "Radovi su u tijeku, imaj prikladnu odjeću!",
+            "image": "https://www.njuskalo.hr/slika-200x150-275461229.jpg",
+            "routeType": "category",
+            "rootSlug": "radna-odjeca",
+            "queryParams": {},
+            "url": "/radna-odjeca",
+            "iconId": "radna-odjeca"
+          },
+          {
+            "id": 178,
+            "title": "Košulje se kriju u Njuškalovom ormaru!",
+            "description": "Pronađi mušku košulju za svaki stil i prigodu uz našu ponudu.",
+            "image": "https://www.njuskalo.hr/slika-200x150-275461398.jpg",
+            "routeType": "category",
+            "rootSlug": "muske-kosulje",
+            "queryParams": {},
+            "url": "/muske-kosulje",
+            "iconId": "muske-kosulje"
+          },
+          {
+            "id": 175,
+            "title": "Sve za teretanu bez svjedoka",
+            "description": "Sprave za vježbanje, bučice i podloge - pronađi sve što ti treba na Njuškalu!",
+            "image": "https://www.njuskalo.hr/slika-200x150-275461035.jpg",
+            "routeType": "category",
+            "rootSlug": "fitness-oprema-sprave",
+            "queryParams": {},
+            "url": "/fitness-oprema-sprave",
+            "iconId": "fitness-oprema-sprave"
+          },
+          {
+            "id": 174,
+            "title": "Za mamu!",
+            "description": "Pokloni joj torbu ili novčanik za majčin dan.",
+            "image": "https://www.njuskalo.hr/slika-200x150-275460980.jpg",
+            "routeType": "category",
+            "rootSlug": "torbe",
+            "queryParams": {},
+            "url": "/torbe",
+            "iconId": "torbe"
+          },
+          {
+            "id": 171,
+            "title": "I ljubimci vole proljeće.",
+            "description": "Povodci i oprema spremna za duže ture po kvartu.",
+            "image": "https://www.njuskalo.hr/slika-200x150-275460734.jpg",
+            "routeType": "category",
+            "rootSlug": "oprema-psi",
+            "queryParams": {},
+            "url": "/oprema-psi",
+            "iconId": "oprema-psi"
+          },
+          {
+            "id": 176,
+            "title": "Prvi maj zove na roštilj i druženje!",
+            "description": "Na Njuškalu pronađi roštilj za svoj vrt ili terasu.",
+            "image": "https://www.njuskalo.hr/slika-200x150-275461115.jpg",
+            "routeType": "category",
+            "rootSlug": "elektricni-rostilji",
+            "queryParams": {},
+            "url": "/elektricni-rostilji",
+            "iconId": "elektricni-rostilji"
+          }
+        ],
+        "offeristaWidget": null,
+        "trends": [
+          {
+            "id": "66",
+            "url": "https://www.njuskalo.hr/search/?keywords=payprotect&isOnlinePaymentEnabled=1&sort=new",
+            "title": "Payprotect oglasi",
+            "image": "https://www.njuskalo.hr/slika-original-216602517.jpg",
+            "listings": [
+              {
+                "id": 44376929,
+                "title": "Auto Revuenon 55mm f/1.7 m42 52mm filter poklopci sjenilo",
+                "categorySlug": "objektivi",
+                "titleSlug": "pentacon-auto-multi-coating-50mm-f-1.8-m42-49mm-hoya-filter-poklopci-t",
+                "priceFormatted": "45,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/objektivi/pentacon-auto-multi-coating-50mm-f-1.8-m42-49mm-hoya-filter-poklopci-t-slika-226758528.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false,
+                "isSaved": false
+              },
+              {
+                "id": 50695125,
+                "title": "NORTH KOREA / SJEVERNA KOREJA (1995) 50 Chon UNC",
+                "categorySlug": "numizmatika-novcanice",
+                "titleSlug": "north-korea-sjeverna-koreja-1995-50-chon-unc",
+                "priceFormatted": "2,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/numizmatika-novcanice/north-korea-sjeverna-koreja-1995-50-chon-unc-slika-278678324.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false,
+                "isSaved": false
+              },
+              {
+                "id": 44359894,
+                "title": "Porst Color Reflex MC Auto 55mm F=1.4 m42 55mm UV filter poklopci",
+                "categorySlug": "objektivi",
+                "titleSlug": "auto-revuenon-55mm-f-1.4-m42-follow-focus-prsten-poklopci",
+                "priceFormatted": "80,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/objektivi/auto-revuenon-55mm-f-1.4-m42-follow-focus-prsten-poklopci-slika-265712320.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false,
+                "isSaved": false
+              },
+              {
+                "id": 50371254,
+                "title": "Tone Seliškar: Družina Sinji galeb (1955.)",
+                "categorySlug": "djecji-romani",
+                "titleSlug": "tone-seliskar-druzina-sinji-galeb-1955",
+                "priceFormatted": "10,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/djecji-romani/tone-seliskar-druzina-sinji-galeb-1955-slika-275885777.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false,
+                "isSaved": false
+              },
+              {
+                "id": 50371139,
+                "title": "Vera Stein-Ehrlich: Individualna psihologija u školskoj praksi",
+                "categorySlug": "psihologija-literatura",
+                "titleSlug": "vera-stein-ehrlich-individualna-psihologija-skolskoj-praksi",
+                "priceFormatted": "12,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/psihologija-literatura/vera-stein-ehrlich-individualna-psihologija-skolskoj-praksi-slika-275884562.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false,
+                "isSaved": false
+              },
+              {
+                "id": 50371046,
+                "title": "Čitanka; komplet",
+                "categorySlug": "hrvatska-knjizevnost",
+                "titleSlug": "citanka-komplet",
+                "priceFormatted": "40,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/hrvatska-knjizevnost/citanka-komplet-slika-275883882.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false,
+                "isSaved": false
+              },
+              {
+                "id": 50370563,
+                "title": "Milan Šega: Čarobni ključić",
+                "categorySlug": "djecji-romani",
+                "titleSlug": "milan-sega-carobni-kljucic",
+                "priceFormatted": "110,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/djecji-romani/milan-sega-carobni-kljucic-slika-275879817.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false,
+                "isSaved": false
+              },
+              {
+                "id": 50370447,
+                "title": "Krišan Čandar: Preokrenuto drvo RIJETKO",
+                "categorySlug": "djecji-romani",
+                "titleSlug": "krisan-candar-preokrenuto-drvo-rijetko",
+                "priceFormatted": "150,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/djecji-romani/krisan-candar-preokrenuto-drvo-rijetko-slika-275878902.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false,
+                "isSaved": false
+              },
+              {
+                "id": 50185772,
+                "title": "Plakati Lukrecija, Otelo i Lohengrin (HNK Zagreb)",
+                "categorySlug": "suveniri",
+                "titleSlug": "plakati-lukrecija-otelo-lohengrin-hnk-zagreb",
+                "priceFormatted": "10,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/suveniri/plakati-lukrecija-otelo-lohengrin-hnk-zagreb-slika-274214971.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false,
+                "isSaved": false
+              },
+              {
+                "id": 39502537,
+                "title": "35mm SLR analogni fotoaparat na 36x24mm film sa objektivom torbicom i",
+                "categorySlug": "analogni-fotoaparati",
+                "titleSlug": "35mm-slr-analogni-fotoaparat-36x24mm-film-dodatnom-opremom",
+                "priceFormatted": "40,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/analogni-fotoaparati/35mm-slr-analogni-fotoaparat-36x24mm-film-dodatnom-opremom-slika-278626595.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false,
+                "isSaved": false
+              }
+            ]
+          }
+        ],
+        "popularContent": [
+          {
+            "id": "17",
+            "title": "Usluga uređenja vrta",
+            "url": "/uredjenje-vrta-okucnice"
+          },
+          {
+            "id": "18",
+            "title": "Sportska oprema",
+            "url": "/sportska-oprema"
+          },
+          {
+            "id": "21",
+            "title": "Ženske cipele",
+            "url": "/zenske-cipele"
+          },
+          {
+            "id": "30",
+            "title": "Obrada tla",
+            "url": "/oprema-obrada-tla"
+          },
+          {
+            "id": "31",
+            "title": "Igračke",
+            "url": "/djecje-igracke"
+          },
+          {
+            "id": "44",
+            "title": "Vrtni namještaj",
+            "url": "/vrtni-namjestaj"
+          }
+        ],
+        "popularBrands": null,
+        "catalogs": [
+          {
+            "id": "44c04ff360bb6572d520960edd022c2d54083fbb",
+            "title": "Eurospin katalog Pametna kupnja 27.05. - 02.06.2026.",
+            "url": "https://katalozi.njuskalo.hr/katalog/eurospin-katalog-pametna-kupnja-2705-02062026-22220",
+            "image": "https://images-katalozi.njuskalo.hr/data/image/160x160/51331/catalogue-eurospin-katalog-pametna-kupnja-2705-02062026-page-0-256650323.jpg"
+          },
+          {
+            "id": "ad378b48a0f1ff69c7f3120d38ec88cf1c05f36f",
+            "title": "SPAR - INTERSPAR katalog Akcija 27.05. - 02.06.2026.",
+            "url": "https://katalozi.njuskalo.hr/katalog/spar-interspar-katalog-akcija-2705-02062026-22219",
+            "image": "https://images-katalozi.njuskalo.hr/data/image/160x160/51331/catalogue-spar-interspar-katalog-akcija-2705-02062026-page-0-256650281.jpg"
+          },
+          {
+            "id": "8105c1c4d821f255c351fec15281ff1aaa62f498",
+            "title": "Plodine katalog Akcija 27.05. - 02.06.2026.",
+            "url": "https://katalozi.njuskalo.hr/katalog/plodine-katalog-akcija-2705-02062026-22221",
+            "image": "https://images-katalozi.njuskalo.hr/data/image/160x160/51331/catalogue-plodine-katalog-akcija-2705-02062026-page-0-256650339.jpg"
+          },
+          {
+            "id": "e9b620a538d56aef6796e2d07757ee1e6c0c4478",
+            "title": "Lidl katalog Super ponuda od ponedjeljka 25.05. - 31.05.2026.",
+            "url": "https://katalozi.njuskalo.hr/katalog/lidl-katalog-super-ponuda-od-ponedjeljka-2505-31052026-22213",
+            "image": "https://images-katalozi.njuskalo.hr/data/image/160x160/51330/catalogue-lidl-katalog-super-ponuda-od-ponedjeljka-2505-31052026-page-0-256649579.jpg"
+          },
+          {
+            "id": "3e281546f0af38b01cbed1bb42a805d712461613",
+            "title": "Diskont Stanić katalog Akcija 28.05. - 10.06.2026.",
+            "url": "https://katalozi.njuskalo.hr/katalog/diskont-stanic-katalog-akcija-2805-10062026-22225",
+            "image": "https://images-katalozi.njuskalo.hr/data/image/160x160/51331/catalogue-diskont-stanic-katalog-akcija-2805-10062026-page-0-256650520.jpg"
+          },
+          {
+            "id": "a8afdf178870bff87a93097f966bf24212bfa24d",
+            "title": "Vacom katalog Super ponuda 19.05.-19.07.2026.",
+            "url": "https://katalozi.njuskalo.hr/katalog/vacom-katalog-super-ponuda-1905-19072026-22212",
+            "image": "https://images-katalozi.njuskalo.hr/data/image/160x160/51330/catalogue-vacom-katalog-akcija-1905-19072026-page-0-256649519.jpg"
+          },
+          {
+            "id": "6d3eb74b6d22d730cb0b1212e9f3262f0d45a123",
+            "title": "KiK katalog Akcija 22.05.-31.05.2026.",
+            "url": "https://katalozi.njuskalo.hr/katalog/kik-katalog-akcija-2205-31052026-22206",
+            "image": "https://images-katalozi.njuskalo.hr/data/image/160x160/51330/catalogue-kik-katalog-akcija-2205-31052026-page-0-256649199.jpg"
+          },
+          {
+            "id": "4545e228c4394498c5a23e9a9d7b7fd75af5a083",
+            "title": "Studenac katalog Akcija 27.05.-02.06.2026.",
+            "url": "https://katalozi.njuskalo.hr/katalog/studenac-katalog-akcija-2705-02062026-22232",
+            "image": "https://images-katalozi.njuskalo.hr/data/image/160x160/51331/catalogue-studenac-katalog-akcija-2705-02062026-page-0-256650790.jpg"
+          },
+          {
+            "id": "eef0b1ed33b0a00aa46d1d367e0e6951717f3aee",
+            "title": "NTL katalog Akcija 27.05. - 02.06.2026. Zapad",
+            "url": "https://katalozi.njuskalo.hr/katalog/ntl-katalog-akcija-2705-02062026-zapad-22217",
+            "image": "https://images-katalozi.njuskalo.hr/data/image/160x160/51331/catalogue-ntl-katalog-akcija-2705-02062026-zapad-page-0-256650059.jpg"
+          },
+          {
+            "id": "9b5f5d1e81ad91f4bc692f110284256eaa520ae0",
+            "title": "Boso katalog Akcija 21.05. - 03.06.2026.",
+            "url": "https://katalozi.njuskalo.hr/katalog/boso-katalog-akcija-2105-03062026-22230",
+            "image": "https://images-katalozi.njuskalo.hr/data/image/160x160/51331/catalogue-boso-katalog-akcija-2105-03062026-page-0-256650632.jpg"
+          },
+          {
+            "id": "ed9539311c51628804d04f91a6b71bdc1dc7290c",
+            "title": "Izolirka katalog Lakše je graditi s nama 02.05.-31.05.2026.",
+            "url": "https://katalozi.njuskalo.hr/katalog/izolirka-katalog-lakse-je-graditi-s-nama-0205-31052026-22119",
+            "image": "https://images-katalozi.njuskalo.hr/data/image/160x160/51329/catalogue-izolirka-katalog-lakse-je-graditi-s-nama-0205-31052026-page-0-256642896.jpg"
+          },
+          {
+            "id": "67bfa25dc79cfe99919fa7349c0654541f2ba79a",
+            "title": "Lesnina katalog Akcija 16.05.-31.05.2026.",
+            "url": "https://katalozi.njuskalo.hr/katalog/lesnina-katalog-akcija-1605-31052026-22188",
+            "image": "https://images-katalozi.njuskalo.hr/data/image/160x160/51330/catalogue-lesnina-katalog-akcija-1605-31052026-page-0-256647850.jpg"
+          },
+          {
+            "id": "7eac2c02cc48d1406cf5a97a417f189f72d43cfd",
+            "title": "dm katalog Akcija 16.05.-31.05.2026.",
+            "url": "https://katalozi.njuskalo.hr/katalog/dm-katalog-akcija-1605-31052026-22174",
+            "image": "https://images-katalozi.njuskalo.hr/data/image/160x160/51330/catalogue-dm-katalog-akcija-1605-31052026-page-0-256646740.jpg"
+          },
+          {
+            "id": "0513ffb3e6195368aaaa177a26c7d59bc6155851",
+            "title": "Smit commerce katalog Akcija 15.05. - 14.06.2026.",
+            "url": "https://katalozi.njuskalo.hr/katalog/smit-commerce-katalog-akcija-1505-14062026-22189",
+            "image": "https://images-katalozi.njuskalo.hr/data/image/160x160/51330/catalogue-smit-commerce-katalog-akcija-1505-14052026-page-0-256647975.jpg"
+          },
+          {
+            "id": "11d61ee31106dcff17685eeca1c7f962355d1c92",
+            "title": "Pet Centar katalog Akcija 04.05.-31.05.2026.",
+            "url": "https://katalozi.njuskalo.hr/katalog/pet-centar-katalog-akcija-0405-31052026-22145",
+            "image": "https://images-katalozi.njuskalo.hr/data/image/160x160/51329/catalogue-pet-centar-katalog-akcija-0405-31052026-page-0-256644625.jpg"
+          },
+          {
+            "id": "d38651bcda9bcb09130db366be60ea37c39c85f2",
+            "title": "ZOOCITY katalog Svibanj 30.04.-29.05.2026.",
+            "url": "https://katalozi.njuskalo.hr/katalog/zoocity-katalog-svibanj-3004-29052026-22126",
+            "image": "https://images-katalozi.njuskalo.hr/data/image/160x160/51329/catalogue-zoocity-katalog-akcija-3004-29052026-page-0-256643746.jpg"
+          },
+          {
+            "id": "878a488e933010b4f446a5757ecd57eb00daa90f",
+            "title": "Lesnina katalog Vaš osjećaj doma 28.04.-29.05.2026.",
+            "url": "https://katalozi.njuskalo.hr/katalog/lesnina-katalog-vas-osjecaj-doma-2804-29052026-22108",
+            "image": "https://images-katalozi.njuskalo.hr/data/image/160x160/51329/catalogue-lesnina-katalog-vas-osjecaj-doma-2804-29052026-page-0-256641599.jpg"
+          }
+        ],
+        "bannerZones": [
+          "dfpFloating",
+          "dfpFloatingMobile",
+          "dfpBillboard",
+          "dfpRectangle1Mobile",
+          "dfpHalfpage"
+        ]
+      },
+      "bannerTargeting": {
+        "site": "www.njuskalo.hr",
+        "url": "https://www.njuskalo.hr",
+        "cont_type": "naslovnica",
+        "mainsection": "marketplace"
+      }
+    }
+  }
+}

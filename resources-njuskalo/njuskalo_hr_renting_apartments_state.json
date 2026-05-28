@@ -1,0 +1,4522 @@
+{
+  "__INITIAL_STATE__": {
+    "main": {
+      "loading": false,
+      "error": null,
+      "spaActive": false,
+      "appWebViewActive": false,
+      "appWebViewType": "web",
+      "featureFlags": {
+        "isABTestForHomepageEnabled": false,
+        "isAdMetricsFeatureEnabled": false,
+        "isRecommenderForAutoMotoFeatureEnabled": true,
+        "isRecommenderForHomepageFeatureEnabled": true,
+        "isRecommenderForMarketplaceFeatureEnabled": true,
+        "isRecommenderForRealEstateFeatureEnabled": true,
+        "isAdaptiveSearchFiltersFeatureEnabled": true,
+        "isAdsenseFeatureEnabled": true,
+        "isAnalyticsFeatureEnabled": false,
+        "isPlatformStatisticsFeatureEnabled": false,
+        "isCategoryRecommenderFeatureEnabled": true,
+        "isCategorySuggestFeatureEnabled": true,
+        "isCustomerSuccessToolFeatureEnabled": true,
+        "defractalEnabled": true,
+        "isDemandManagerFeatureEnabled": true,
+        "isBannerLazyLoadFeatureEnabled": true,
+        "isEscrowActive": true,
+        "isDidomiFeatureEnabled": true,
+        "dotmetricsEnabled": true,
+        "isFallbackCookiePolicyFeatureEnabled": false,
+        "displayBanners": true,
+        "isXitiEnabled": true,
+        "googleTagManagerEnabled": true,
+        "hotJarEnabled": true,
+        "liveChatEnabled": true,
+        "microsoftClarityEnabled": true,
+        "midasEnabled": true,
+        "isNewAdManipulationEnabled": false,
+        "isNjupopCataloguesFeatureEnabled": true,
+        "isPrivacyPolicyNotificationEnabled": false,
+        "isOfferistaWidgetEnabled": false,
+        "isPushupSchedulingFeatureEnabled": false,
+        "isQuickSearchWidgetAutoMotoEnabled": false,
+        "isQuickSearchWidgetRealestateEnabled": false,
+        "isReadRecentUserQueryFeatureEnabled": true,
+        "isRecaptchaFeatureEnabled": true,
+        "isRecommenderFeatureEnabled": true,
+        "isSearchByImageEnabled": true,
+        "isSearchByImageWebPromoEnabled": true,
+        "isPopularCarModelsFeatureEnabled": true,
+        "shieldSquareEnabled": true,
+        "shouldShowAdDisplayCountInMyAdsList": true,
+        "showNearbyListingsBoxEnabled": true,
+        "isShowAdsOnGeoMapEnabled": true,
+        "isShowNotificationEnabled": false,
+        "isTagWidgetFeatureEnabled": true,
+        "isTrendingCategoriesRecommenderFeatureEnabled": true,
+        "areNewDsaCategoriesEnabled": true,
+        "vavenEnabled": false,
+        "isMobileManifestAndroidActive": true,
+        "isMobileManifestIOSActive": true,
+        "isQaAttributesFeatureEnabled": false,
+        "isCookieSwitchToSearchEnabled": false,
+        "isCookieSwitchToSimilarListingsEnabled": false,
+        "isCookieSwitchToNearbyListingsEnabled": false,
+        "isCookieSwitchAllRoutesEnabled": false
+      },
+      "unsupportedBrowserNotice": null,
+      "isAdblockDetected": false,
+      "user": null,
+      "siteNotice": "",
+      "trackers": {
+        "dotmetrics": {
+          "id": 924
+        },
+        "xiti": {
+          "xtn2": "Realestates",
+          "xtpage": "iznajmljivanje-stanova::locationIds",
+          "x1": "other",
+          "x2": "transaction",
+          "x3": "Realestates",
+          "x4": "iznajmljivanje-stanova",
+          "recommenderFingerprint": null
+        },
+        "googleTagManager": {
+          "dataLayer": [
+            {
+              "NjuskaloVirtualPageview": "/nekretnine/iznajmljivanje-stanova/"
+            },
+            {
+              "page_type": "listing",
+              "ad_category_1": "Nekretnine",
+              "ad_category_2": "Iznajmljivanje stanova"
+            }
+          ]
+        },
+        "adsense": {
+          "channelId": "4824949629,8263005104",
+          "hintsKeywords": "stanovi najam stan",
+          "locationName": ""
+        },
+        "defractal": {
+          "defractalPage": {
+            "type": "BROWSE",
+            "tags": [
+              "unknown"
+            ],
+            "fullChannel": "",
+            "channel": "nekretnine",
+            "classA": "iznajmljivanje-stanova",
+            "classB": "",
+            "classC": "",
+            "classD": ""
+          }
+        },
+        "midas": {
+          "categoryId": 10920,
+          "subCategoryId": 10920,
+          "campaignId": null,
+          "rootCategoryId": 1
+        },
+        "etarget": {
+          "id": "iznajmljivanje-stanova"
+        }
+      },
+      "banners": {
+        "slots": [
+          {
+            "id": "dfp_halfpage_njuskalo",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    300,
+                    50
+                  ],
+                  [
+                    300,
+                    600
+                  ],
+                  [
+                    160,
+                    600
+                  ],
+                  [
+                    300,
+                    250
+                  ],
+                  "fluid"
+                ],
+                "dfp-zone-container-dfp_halfpage_njuskalo"
+              ]
+            ],
+            "contexts": [
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "id": "dfp_rectangle_njuskalo",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    300,
+                    250
+                  ],
+                  "fluid"
+                ],
+                "dfp-zone-container-dfp_rectangle_njuskalo"
+              ]
+            ],
+            "contexts": [
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "id": "dfp_list_top_njuskalo",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    336,
+                    280
+                  ],
+                  "fluid",
+                  [
+                    1,
+                    1
+                  ],
+                  [
+                    300,
+                    250
+                  ]
+                ],
+                "dfp-zone-container-dfp_list_top_njuskalo"
+              ]
+            ],
+            "contexts": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "id": "dfp_list_bottom_njuskalo",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    468,
+                    60
+                  ],
+                  "fluid",
+                  [
+                    300,
+                    250
+                  ],
+                  [
+                    320,
+                    50
+                  ],
+                  [
+                    336,
+                    280
+                  ],
+                  [
+                    320,
+                    100
+                  ],
+                  [
+                    688,
+                    350
+                  ],
+                  [
+                    300,
+                    100
+                  ]
+                ],
+                "dfp-zone-container-dfp_list_bottom_njuskalo"
+              ]
+            ],
+            "contexts": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "id": "dfp_list_middle_njuskalo",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    468,
+                    60
+                  ],
+                  "fluid",
+                  [
+                    336,
+                    280
+                  ],
+                  [
+                    300,
+                    250
+                  ]
+                ],
+                "dfp-zone-container-dfp_list_middle_njuskalo"
+              ]
+            ],
+            "contexts": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "id": "dfp_floating_njuskalo",
+            "content": [
+              "defineOutOfPageSlot",
+              [
+                "dfp-zone-container-dfp_floating_njuskalo"
+              ]
+            ],
+            "contexts": [
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "id": "dfp_middle1_njuskalo",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    300,
+                    250
+                  ],
+                  [
+                    468,
+                    60
+                  ],
+                  [
+                    336,
+                    280
+                  ],
+                  "fluid"
+                ],
+                "dfp-zone-container-dfp_middle1_njuskalo"
+              ]
+            ],
+            "contexts": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "id": "dfp_floating_njuskalo_mobile",
+            "content": [
+              "defineOutOfPageSlot",
+              [
+                "dfp-zone-container-dfp_floating_njuskalo_mobile"
+              ]
+            ],
+            "contexts": [
+              1
+            ]
+          },
+          {
+            "id": "dfp_adlist_middle1_njuskalo_mobile",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    300,
+                    250
+                  ],
+                  [
+                    300,
+                    600
+                  ],
+                  [
+                    320,
+                    50
+                  ],
+                  "fluid",
+                  [
+                    320,
+                    480
+                  ],
+                  [
+                    320,
+                    100
+                  ],
+                  [
+                    320,
+                    618
+                  ],
+                  [
+                    336,
+                    280
+                  ],
+                  [
+                    320,
+                    250
+                  ],
+                  [
+                    320,
+                    640
+                  ]
+                ],
+                "dfp-zone-container-dfp_adlist_middle1_njuskalo_mobile"
+              ]
+            ],
+            "contexts": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "dfp_adlist_below_njuskalo_mobile",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    300,
+                    250
+                  ],
+                  [
+                    320,
+                    50
+                  ],
+                  "fluid",
+                  [
+                    320,
+                    100
+                  ]
+                ],
+                "dfp-zone-container-dfp_adlist_below_njuskalo_mobile"
+              ]
+            ],
+            "contexts": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "dfp_list_bottom_njuskalo_mobile",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    320,
+                    100
+                  ],
+                  [
+                    320,
+                    50
+                  ],
+                  [
+                    336,
+                    280
+                  ],
+                  [
+                    320,
+                    480
+                  ],
+                  [
+                    300,
+                    250
+                  ],
+                  [
+                    360,
+                    360
+                  ],
+                  "fluid"
+                ],
+                "dfp-zone-container-dfp_list_bottom_njuskalo_mobile"
+              ]
+            ],
+            "contexts": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "dfp_list_middle_njuskalo_mobile",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    320,
+                    100
+                  ],
+                  [
+                    336,
+                    280
+                  ],
+                  "fluid",
+                  [
+                    320,
+                    50
+                  ],
+                  [
+                    300,
+                    250
+                  ]
+                ],
+                "dfp-zone-container-dfp_list_middle_njuskalo_mobile"
+              ]
+            ],
+            "contexts": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "dfp_list_top_njuskalo_mobile",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    300,
+                    250
+                  ],
+                  "fluid",
+                  [
+                    336,
+                    280
+                  ],
+                  [
+                    320,
+                    250
+                  ],
+                  [
+                    320,
+                    50
+                  ],
+                  [
+                    1,
+                    1
+                  ],
+                  [
+                    320,
+                    100
+                  ]
+                ],
+                "dfp-zone-container-dfp_list_top_njuskalo_mobile"
+              ]
+            ],
+            "contexts": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "dfp_skyscraper_njuskalo",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    120,
+                    600
+                  ],
+                  "fluid",
+                  [
+                    230,
+                    618
+                  ],
+                  [
+                    160,
+                    600
+                  ]
+                ],
+                "dfp-zone-container-dfp_skyscraper_njuskalo"
+              ]
+            ],
+            "contexts": [
+              7,
+              8
+            ]
+          },
+          {
+            "id": "dfp_list_middle_3_5_njuskalo_mobile",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    336,
+                    280
+                  ],
+                  [
+                    320,
+                    100
+                  ],
+                  [
+                    300,
+                    250
+                  ],
+                  [
+                    320,
+                    480
+                  ],
+                  "fluid",
+                  [
+                    320,
+                    50
+                  ]
+                ],
+                "dfp-zone-container-dfp_list_middle_3_5_njuskalo_mobile"
+              ]
+            ],
+            "contexts": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "dfp_interstitial_njuskalo_mobile",
+            "content": [
+              "defineOutOfPageSlot",
+              [
+                "INTERSTITIAL"
+              ]
+            ],
+            "contexts": [
+              1
+            ]
+          },
+          {
+            "id": "nju_midas_ad_unit",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    336,
+                    280
+                  ],
+                  "fluid",
+                  [
+                    300,
+                    250
+                  ],
+                  [
+                    468,
+                    60
+                  ]
+                ],
+                "dfp-zone-container-nju_midas_ad_unit"
+              ]
+            ],
+            "contexts": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "id": "nju_midas_ad_unit_mobile",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    300,
+                    250
+                  ],
+                  [
+                    320,
+                    480
+                  ],
+                  [
+                    320,
+                    50
+                  ],
+                  [
+                    336,
+                    280
+                  ],
+                  [
+                    320,
+                    100
+                  ],
+                  "fluid"
+                ],
+                "dfp-zone-container-nju_midas_ad_unit_mobile"
+              ]
+            ],
+            "contexts": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "dfp_halfpage_2_njuskalo",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  "fluid",
+                  [
+                    300,
+                    250
+                  ],
+                  [
+                    160,
+                    600
+                  ],
+                  [
+                    300,
+                    300
+                  ],
+                  [
+                    300,
+                    600
+                  ]
+                ],
+                "dfp-zone-container-dfp_halfpage_2_njuskalo"
+              ]
+            ],
+            "contexts": [
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "id": "dfp_list_middle_3_5_njuskalo_desktop",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    468,
+                    60
+                  ],
+                  "fluid",
+                  [
+                    300,
+                    250
+                  ],
+                  [
+                    336,
+                    280
+                  ]
+                ],
+                "dfp-zone-container-dfp_list_middle_3_5_njuskalo_desktop"
+              ]
+            ],
+            "contexts": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          }
+        ]
+      },
+      "applicationVersion": "32df26981387f6fa4a9e00f31c7d8bc4a90b5801",
+      "serverTime": 1779971585344,
+      "mainNavigationCategories": [
+        {
+          "id": 2,
+          "title": "Auto Moto Nautika",
+          "url": "/auto-moto",
+          "iconId": "auto-moto",
+          "hasEscrow": false
+        },
+        {
+          "id": 1,
+          "title": "Nekretnine",
+          "url": "/nekretnine",
+          "iconId": "real-estate",
+          "hasEscrow": false
+        },
+        {
+          "id": "njupop",
+          "title": "Katalozi",
+          "url": "https://katalozi.njuskalo.hr",
+          "iconId": "discounts",
+          "hasEscrow": false
+        },
+        {
+          "id": "marketplace",
+          "title": "Marketplace",
+          "url": "/marketplace",
+          "iconId": "miscellaneous",
+          "hasEscrow": true,
+          "subCategories": [
+            {
+              "id": 12378,
+              "title": "Od glave do pete",
+              "url": "/od-glave-do-pete"
+            },
+            {
+              "id": 9737,
+              "title": "Sport i oprema",
+              "url": "/sportska-oprema"
+            },
+            {
+              "id": 9726,
+              "title": "Sve za dom",
+              "url": "/sve-za-dom"
+            },
+            {
+              "id": 9807,
+              "title": "Dječji svijet",
+              "url": "/djecji-svijet"
+            },
+            {
+              "id": 9761,
+              "title": "Strojevi i alati",
+              "url": "/strojevi-alati"
+            },
+            {
+              "id": 12111,
+              "title": "Usluge",
+              "url": "/usluge"
+            },
+            {
+              "id": 9654,
+              "title": "Audio Video Foto",
+              "url": "/audio-video-foto"
+            },
+            {
+              "id": 9643,
+              "title": "Mobiteli",
+              "url": "/mobiteli"
+            },
+            {
+              "id": 9696,
+              "title": "Glazbala",
+              "url": "/glazbala"
+            },
+            {
+              "id": 9749,
+              "title": "Literatura",
+              "url": "/knjige"
+            },
+            {
+              "id": 3,
+              "title": "Informatika",
+              "url": "/informatika"
+            },
+            {
+              "id": 9788,
+              "title": "Kućni ljubimci",
+              "url": "/kucni-ljubimci"
+            },
+            {
+              "id": 9798,
+              "title": "Pronađeno blago",
+              "url": "/blago"
+            },
+            {
+              "id": 9823,
+              "title": "Ostalo",
+              "url": "/ostalo"
+            },
+            {
+              "id": 9830,
+              "title": "Poklanjam",
+              "url": "/poklanjam"
+            },
+            {
+              "id": 12599,
+              "title": "Hrana i piće",
+              "url": "/hrana-pice"
+            },
+            {
+              "id": 16163,
+              "title": "Turistički smještaj",
+              "url": "/turisticki-smjestaj"
+            },
+            {
+              "id": 12551,
+              "title": "Poslovi",
+              "url": "/posao"
+            }
+          ]
+        }
+      ],
+      "showEnvironmentMarker": false
+    },
+    "browseListingsStore": {
+      "pageData": {
+        "meta": {
+          "title": "Iznajmljivanje stanova | Stanovi najam - nekretnine Njuškalo",
+          "description": "Nekretnine > mjesečno iznajmljivanje stanova . Velik izbor stanova za mjesečno iznajmljivanje u malim oglasima sa slikom, opisom i cijenom mjesečnog najma stana .",
+          "keywords": "iznajmljivanje stanova, najam stanova, stanovi iznajmljivanje, stanovi najam, stan najam",
+          "openGraphTitle": "Iznajmljivanje stanova",
+          "openGraphType": "category",
+          "openGraphImage": "ikone_fb_90x90_nekretnine_stanovi"
+        },
+        "listHeader": {
+          "title": "Iznajmljivanje stanova",
+          "description": "<a href=\"/nekretnine\">Njuškalo nekretnine</a>: mjesečno iznajmljivanje stanova, mjesečni najam stanova ."
+        },
+        "breadcrumbs": [
+          {
+            "caption": "Oglasnik",
+            "route": "/",
+            "active": false
+          },
+          {
+            "caption": "Nekretnine",
+            "route": "/nekretnine",
+            "active": false
+          },
+          {
+            "caption": "Iznajmljivanje stanova",
+            "route": "/iznajmljivanje-stanova",
+            "active": true
+          }
+        ],
+        "canonicalUrl": "https://www.njuskalo.hr/iznajmljivanje-stanova",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Oglasnik",
+                  "item": "http://www.njuskalo.hr/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Nekretnine",
+                  "item": "http://www.njuskalo.hr/nekretnine"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Iznajmljivanje stanova",
+                  "item": "http://www.njuskalo.hr/iznajmljivanje-stanova"
+                }
+              ]
+            }
+          ]
+        },
+        "isFiltered": true,
+        "isFilteredWithAuxFields": false,
+        "isLeaf": false,
+        "hasMapView": true,
+        "submitFreeListingCallToAction": null,
+        "promotedListings": [
+          {
+            "id": 50605403,
+            "title": "Trešnjevka- potpuno nov/nekorišten 2-sobni stan (1. kat), lift &amp; GPM !",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Stan u stambenoj zgradi, 1. kat"
+              },
+              {
+                "caption": null,
+                "value": "Stambena površina: 46.78 m2"
+              },
+              {
+                "caption": "Lokacija",
+                "value": "Trešnjevka - Sjever, Trešnjevka"
+              }
+            ],
+            "createdAt": "2026-05-14T23:10:04.000Z",
+            "createdAtFormatted": "15.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/nekretnine/tresnjevka-potpuno-nov-nekoristen-2-sobni-stan-2-kat-lift-gpm-slika-278075122.jpg",
+            "priceFormatted": "900 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "nekretnine",
+            "titleSlug": "tresnjevka-potpuno-nov-nekoristen-2-sobni-stan-2-kat-lift-gpm",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": true,
+            "hasMap": true,
+            "hasGroundPlan": true,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": true,
+            "location": "Trešnjevka - Sjever, Trešnjevka"
+          },
+          {
+            "id": 46673348,
+            "title": "Stan: Zagreb (Kvatrić), 82.00 m2",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Stan u stambenoj zgradi, 5. kat"
+              },
+              {
+                "caption": null,
+                "value": "Stambena površina: 82 m2"
+              },
+              {
+                "caption": "Lokacija",
+                "value": "Maksimir, Maksimir"
+              }
+            ],
+            "createdAt": "2026-05-17T18:30:33.000Z",
+            "createdAtFormatted": "17.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/nekretnine/stan-zagreb-maksimir-82.00-m2-slika-245714769.jpg",
+            "priceFormatted": "850 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "nekretnine",
+            "titleSlug": "stan-zagreb-maksimir-82.00-m2",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": true,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": true,
+            "location": "Maksimir, Maksimir"
+          },
+          {
+            "id": 50627467,
+            "title": "Stan: Zagreb (Utrina), 28.00 m2",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Stan u stambenoj zgradi, 7. kat"
+              },
+              {
+                "caption": null,
+                "value": "Stambena površina: 28 m2"
+              },
+              {
+                "caption": "Lokacija",
+                "value": "Novi Zagreb - Istok, Zapruđe"
+              }
+            ],
+            "createdAt": "2026-05-24T18:08:49.000Z",
+            "createdAtFormatted": "24.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/nekretnine/stan-zagreb-utrina-28.00-m2-slika-278082942.jpg",
+            "priceFormatted": "550 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "nekretnine",
+            "titleSlug": "stan-zagreb-utrina-28.00-m2",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": true,
+            "location": "Novi Zagreb - Istok, Zapruđe"
+          },
+          {
+            "id": 50372014,
+            "title": "Stan: Samobor, 78.00 m2",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Stan u stambenoj zgradi, 3. kat"
+              },
+              {
+                "caption": null,
+                "value": "Stambena površina: 78 m2"
+              },
+              {
+                "caption": "Lokacija",
+                "value": "Samobor, Giznik"
+              }
+            ],
+            "createdAt": "2026-05-26T12:41:10.000Z",
+            "createdAtFormatted": "26.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/nekretnine/stan-samobor-78.00-m2-slika-275891776.jpg",
+            "priceFormatted": "900 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "nekretnine",
+            "titleSlug": "stan-samobor-78.00-m2",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": true,
+            "location": "Samobor, Giznik"
+          },
+          {
+            "id": 50537171,
+            "title": "ZAPRUĐE (Baburičina ul.) - LIJEP I SVIJETAO 2.SOB STAN 35m2",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Stan u stambenoj zgradi, 2. kat"
+              },
+              {
+                "caption": null,
+                "value": "Stambena površina: 35 m2"
+              },
+              {
+                "caption": "Lokacija",
+                "value": "Novi Zagreb - Istok, Zapruđe"
+              }
+            ],
+            "createdAt": "2026-05-27T06:33:23.000Z",
+            "createdAtFormatted": "27.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/nekretnine/zaprude-baburicina-ul-lijep-svijetao-2-sob-stan-35m2-slika-277211515.jpg",
+            "priceFormatted": "700 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "nekretnine",
+            "titleSlug": "zaprude-baburicina-ul-lijep-svijetao-2-sob-stan-35m2",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": true,
+            "location": "Novi Zagreb - Istok, Zapruđe"
+          },
+          {
+            "id": 50071367,
+            "title": "Iznajmljuje se prostran stan - Gornji Bukovac (Jazbina), 116 m²",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Stan u stambenoj zgradi, 2. kat"
+              },
+              {
+                "caption": null,
+                "value": "Stambena površina: 116 m2"
+              },
+              {
+                "caption": "Lokacija",
+                "value": "Maksimir, Gornji Bukovac"
+              }
+            ],
+            "createdAt": "2026-05-28T10:24:35.000Z",
+            "createdAtFormatted": "28.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/nekretnine/iznajmljuje-se-prostran-stan-gornji-bukovac-jazbina-116-m-slika-273387432.jpg",
+            "priceFormatted": "1.000 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "nekretnine",
+            "titleSlug": "iznajmljuje-se-prostran-stan-gornji-bukovac-jazbina-116-m",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": true,
+            "location": "Maksimir, Gornji Bukovac"
+          }
+        ],
+        "userPromotedListings": [],
+        "regularListings": [
+          {
+            "id": 37559725,
+            "title": "Šalata-Zelenjak-lijep 3s stan s terasom &amp; parkingom",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Stan u kući, 1. kat"
+              },
+              {
+                "caption": null,
+                "value": "Stambena površina: 130 m2"
+              },
+              {
+                "caption": "Lokacija",
+                "value": "Gornji Grad - Medveščak, Šalata"
+              }
+            ],
+            "createdAt": "2022-05-24T23:30:07.000Z",
+            "createdAtFormatted": "25.05.2022.",
+            "image": "https://www.njuskalo.hr/image-200x150/nekretnine/salata-zelenjak-lijep-3s-stan-terasom-parkingom-slika-278380087.jpg",
+            "priceFormatted": "1.800 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "nekretnine",
+            "titleSlug": "salata-zelenjak-lijep-3s-stan-terasom-parkingom",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": false,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Gornji Grad - Medveščak, Šalata",
+            "condition": "",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 40365726,
+            "title": "Heinezelova/C. Darwina-VMD NOVOGRADNJA-prekrasan 4s stan s lođom &amp; 2 p",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Stan u stambenoj zgradi, 6. kat"
+              },
+              {
+                "caption": null,
+                "value": "Stambena površina: 100.76 m2"
+              },
+              {
+                "caption": "Lokacija",
+                "value": "Peščenica - Žitnjak, Donje Svetice"
+              }
+            ],
+            "createdAt": "2023-09-19T09:48:48.000Z",
+            "createdAtFormatted": "19.09.2023.",
+            "image": "https://www.njuskalo.hr/image-200x150/nekretnine/heinezelova-c-darwina-vmd-novogradnja-prekrasan-4s-stan-lodom-2-p-slika-278637467.jpg",
+            "priceFormatted": "2.400 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "nekretnine",
+            "titleSlug": "heinezelova-c-darwina-vmd-novogradnja-prekrasan-4s-stan-lodom-2-p",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": false,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Peščenica - Žitnjak, Donje Svetice",
+            "condition": "",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 38076943,
+            "title": "Zagreb, Donji grad, stan 145m2 za najam, strogi centar",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Stan u stambenoj zgradi, visoko prizemlje"
+              },
+              {
+                "caption": null,
+                "value": "Stambena površina: 145 m2"
+              },
+              {
+                "caption": "Lokacija",
+                "value": "Donji Grad, Donji grad"
+              }
+            ],
+            "createdAt": "2024-01-30T14:43:38.000Z",
+            "createdAtFormatted": "30.01.2024.",
+            "image": "https://www.njuskalo.hr/image-200x150/nekretnine/zagreb-donji-grad-stan-145m2-najam-strogi-centar-slika-177046304.jpg",
+            "priceFormatted": "1.600 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "nekretnine",
+            "titleSlug": "zagreb-donji-grad-stan-145m2-najam-strogi-centar",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Donji Grad, Donji grad",
+            "condition": "",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 42830623,
+            "title": "STAN, NAJAM, ZAGREB, CENTAR, RIBNJAK, 100 m2, 4-soban",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Stan u stambenoj zgradi, 4. kat"
+              },
+              {
+                "caption": null,
+                "value": "Stambena površina: 141 m2"
+              },
+              {
+                "caption": "Lokacija",
+                "value": "Donji Grad, Donji grad"
+              }
+            ],
+            "createdAt": "2024-02-09T05:30:43.000Z",
+            "createdAtFormatted": "09.02.2024.",
+            "image": "https://www.njuskalo.hr/image-200x150/nekretnine/stan-najam-zagreb-centar-ribnjak-100-m2-4-soban-slika-264646182.jpg",
+            "priceFormatted": "1.700 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "nekretnine",
+            "titleSlug": "stan-najam-zagreb-centar-ribnjak-100-m2-4-soban",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": true,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Donji Grad, Donji grad",
+            "condition": "",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 42845907,
+            "title": "NAJAM: Stan, Zagreb, Trešnjevka Sjever, 63m2 3S",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Stan u stambenoj zgradi, visoko prizemlje"
+              },
+              {
+                "caption": null,
+                "value": "Stambena površina: 63 m2"
+              },
+              {
+                "caption": "Lokacija",
+                "value": "Trešnjevka - Sjever, Trešnjevka"
+              }
+            ],
+            "createdAt": "2024-03-05T02:01:50.000Z",
+            "createdAtFormatted": "05.03.2024.",
+            "image": "https://www.njuskalo.hr/image-200x150/nekretnine/najam-stan-zagreb-tresnjevka-sjever-63m2-3s-slika-272770518.jpg",
+            "priceFormatted": "750 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "nekretnine",
+            "titleSlug": "najam-stan-zagreb-tresnjevka-sjever-63m2-3s",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Trešnjevka - Sjever, Trešnjevka",
+            "condition": "",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 43212976,
+            "title": "2 soban stan 42 m2 iznajmljivanje",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Stan u stambenoj zgradi, visoko prizemlje"
+              },
+              {
+                "caption": null,
+                "value": "Stambena površina: 42 m2"
+              },
+              {
+                "caption": "Lokacija",
+                "value": "Trešnjevka - Jug, Knežija"
+              }
+            ],
+            "createdAt": "2024-04-10T10:51:09.000Z",
+            "createdAtFormatted": "10.04.2024.",
+            "image": "https://www.njuskalo.hr/image-200x150/nekretnine/2-soban-stan-42-m2-iznajmljivanje-slika-216676939.jpg",
+            "priceFormatted": "580 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "nekretnine",
+            "titleSlug": "2-soban-stan-42-m2-iznajmljivanje",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Trešnjevka - Jug, Knežija",
+            "condition": "",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 43407886,
+            "title": "CENTAR-KLAIĆEVA- 2S-45M2",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Stan u stambenoj zgradi, 3. kat"
+              },
+              {
+                "caption": null,
+                "value": "Stambena površina: 45 m2"
+              },
+              {
+                "caption": "Lokacija",
+                "value": "Gornji Grad - Medveščak, Centar"
+              }
+            ],
+            "createdAt": "2024-04-15T17:33:57.000Z",
+            "createdAtFormatted": "15.04.2024.",
+            "image": "https://www.njuskalo.hr/image-200x150/nekretnine/centar-klaiceva-2s-45m2-slika-217998664.jpg",
+            "priceFormatted": "800 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "nekretnine",
+            "titleSlug": "centar-klaiceva-2s-45m2",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": true,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Gornji Grad - Medveščak, Centar",
+            "condition": "",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 43513290,
+            "title": "Stan za radnike, Trešnjevka",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Stan u stambenoj zgradi, 2. kat"
+              },
+              {
+                "caption": null,
+                "value": "Stambena površina: 90 m2"
+              },
+              {
+                "caption": "Lokacija",
+                "value": "Trešnjevka - Sjever, Trešnjevka"
+              }
+            ],
+            "createdAt": "2024-04-20T05:31:10.000Z",
+            "createdAtFormatted": "20.04.2024.",
+            "image": "https://www.njuskalo.hr/image-200x150/nekretnine/stan-radnike-tresnjevka-slika-218753722.jpg",
+            "priceFormatted": "200 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "nekretnine",
+            "titleSlug": "stan-radnike-tresnjevka",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Trešnjevka - Sjever, Trešnjevka",
+            "condition": "",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 43699094,
+            "title": "Zagreb - Centar - Trosoban stan - 3. kat - LIFT - Najam",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Stan u stambenoj zgradi, 3. kat"
+              },
+              {
+                "caption": null,
+                "value": "Stambena površina: 93 m2"
+              },
+              {
+                "caption": "Lokacija",
+                "value": "Donji Grad, Donji grad"
+              }
+            ],
+            "createdAt": "2024-05-10T01:25:21.000Z",
+            "createdAtFormatted": "10.05.2024.",
+            "image": "https://www.njuskalo.hr/image-200x150/nekretnine/zagreb-centar-trosoban-stan-3-kat-lift-najam-slika-276188049.jpg",
+            "priceFormatted": "1.300 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "nekretnine",
+            "titleSlug": "zagreb-centar-trosoban-stan-3-kat-lift-najam",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": false,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Donji Grad, Donji grad",
+            "condition": "",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 44049919,
+            "title": "Smještaj za radnike Kozari putevi",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Stan u stambenoj zgradi"
+              },
+              {
+                "caption": null,
+                "value": "Stambena površina: 70 m2"
+              },
+              {
+                "caption": "Lokacija",
+                "value": "Peščenica - Žitnjak, Kozari put"
+              }
+            ],
+            "createdAt": "2024-06-08T01:29:09.000Z",
+            "createdAtFormatted": "08.06.2024.",
+            "image": "https://www.njuskalo.hr/image-200x150/nekretnine/smjestaj-radnike-kozari-putevi-slika-222652809.jpg",
+            "priceFormatted": "220 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "nekretnine",
+            "titleSlug": "smjestaj-radnike-kozari-putevi",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Peščenica - Žitnjak, Kozari put",
+            "condition": "",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 9152666,
+            "title": "Stan: Zagreb (Vrhovec), 225 m2 novogradnja",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Stan u stambenoj zgradi, 1. kat"
+              },
+              {
+                "caption": null,
+                "value": "Stambena površina: 225 m2"
+              },
+              {
+                "caption": "Lokacija",
+                "value": "Črnomerec, Vrhovec"
+              }
+            ],
+            "createdAt": "2024-07-05T10:58:08.000Z",
+            "createdAtFormatted": "05.07.2024.",
+            "image": "https://www.njuskalo.hr/image-200x150/nekretnine/stan-zagreb-vrhovec-225-m2-novogradnja-slika-26662743.jpg",
+            "priceFormatted": "2.400 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "nekretnine",
+            "titleSlug": "stan-zagreb-vrhovec-225-m2-novogradnja",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": true,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Črnomerec, Vrhovec",
+            "condition": "",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 45138092,
+            "title": "Stan: Zagreb (Sigečica), 50.00 m2",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Stan u stambenoj zgradi, 5. kat"
+              },
+              {
+                "caption": null,
+                "value": "Stambena površina: 50 m2"
+              },
+              {
+                "caption": "Lokacija",
+                "value": "Trnje, Sigečica"
+              }
+            ],
+            "createdAt": "2024-10-08T17:27:56.000Z",
+            "createdAtFormatted": "08.10.2024.",
+            "image": "https://www.njuskalo.hr/image-200x150/nekretnine/stan-zagreb-sigecica-50.00-m2-slika-231227423.jpg",
+            "priceFormatted": "850 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "nekretnine",
+            "titleSlug": "stan-zagreb-sigecica-50.00-m2",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Trnje, Sigečica",
+            "condition": "",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 40054963,
+            "title": "Centar-Kvaternikov trg-NOVOGRADNJA-luksuzan 3s stan s velikom terasom",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Stan u stambenoj zgradi, 2. kat"
+              },
+              {
+                "caption": null,
+                "value": "Stambena površina: 94 m2"
+              },
+              {
+                "caption": "Lokacija",
+                "value": "Donji Grad, Donji grad"
+              }
+            ],
+            "createdAt": "2024-10-13T14:55:25.000Z",
+            "createdAtFormatted": "13.10.2024.",
+            "image": "https://www.njuskalo.hr/image-200x150/nekretnine/centar-kvaternikov-trg-novogradnja-luksuzan-3s-stan-velikom-terasom-slika-278380028.jpg",
+            "priceFormatted": "2.200 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "nekretnine",
+            "titleSlug": "centar-kvaternikov-trg-novogradnja-luksuzan-3s-stan-velikom-terasom",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": false,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Donji Grad, Donji grad",
+            "condition": "",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 44527048,
+            "title": "Centar-Britanski trg-NOVOGRADNJA-ekskluzivan, nov 2s stan s garažom",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Stan u stambenoj zgradi, 1. kat"
+              },
+              {
+                "caption": null,
+                "value": "Stambena površina: 43 m2"
+              },
+              {
+                "caption": "Lokacija",
+                "value": "Donji Grad, Donji grad"
+              }
+            ],
+            "createdAt": "2024-10-21T18:36:33.000Z",
+            "createdAtFormatted": "21.10.2024.",
+            "image": "https://www.njuskalo.hr/image-200x150/nekretnine/britanski-trg-novogradnja-ekskluzivan-nov-2s-stan-garazom-slika-278380073.jpg",
+            "priceFormatted": "1.000 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "nekretnine",
+            "titleSlug": "britanski-trg-novogradnja-ekskluzivan-nov-2s-stan-garazom",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": false,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Donji Grad, Donji grad",
+            "condition": "",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 45412910,
+            "title": "LANIŠTE, prekrasan 2 soban stan sa balkonom!",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Stan u stambenoj zgradi, 3. kat"
+              },
+              {
+                "caption": null,
+                "value": "Stambena površina: 44.05 m2"
+              },
+              {
+                "caption": "Lokacija",
+                "value": "Novi Zagreb - Zapad, Lanište"
+              }
+            ],
+            "createdAt": "2024-11-07T23:29:40.000Z",
+            "createdAtFormatted": "08.11.2024.",
+            "image": "https://www.njuskalo.hr/image-200x150/nekretnine/laniste-prekrasan-2-soban-stan-balkonom-slika-233705037.jpg",
+            "priceFormatted": "800 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "nekretnine",
+            "titleSlug": "laniste-prekrasan-2-soban-stan-balkonom",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Novi Zagreb - Zapad, Lanište",
+            "condition": "",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 45527303,
+            "title": "STAN, NAJAM, ZAGREB, DUBRAVA, 105m2, 2-sobni",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Stan u stambenoj zgradi"
+              },
+              {
+                "caption": null,
+                "value": "Stambena površina: 105 m2"
+              },
+              {
+                "caption": "Lokacija",
+                "value": "Gornja Dubrava, Dubec"
+              }
+            ],
+            "createdAt": "2024-11-20T00:57:33.000Z",
+            "createdAtFormatted": "20.11.2024.",
+            "image": "https://www.njuskalo.hr/image-200x150/nekretnine/stan-najam-zagreb-dubrava-105m2-2-sobni-slika-264642463.jpg",
+            "priceFormatted": "1.500 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "nekretnine",
+            "titleSlug": "stan-najam-zagreb-dubrava-105m2-2-sobni",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": true,
+            "hasMap": true,
+            "hasGroundPlan": true,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Gornja Dubrava, Dubec",
+            "condition": "",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 45564635,
+            "title": "Stan: Zagreb (Trešnjevka), 45.00 m2, Novogradnja",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Stan u stambenoj zgradi, 5. kat"
+              },
+              {
+                "caption": null,
+                "value": "Stambena površina: 45 m2"
+              },
+              {
+                "caption": "Lokacija",
+                "value": "Trešnjevka - Sjever, Trešnjevka"
+              }
+            ],
+            "createdAt": "2024-11-23T11:49:10.000Z",
+            "createdAtFormatted": "23.11.2024.",
+            "image": "https://www.njuskalo.hr/image-200x150/nekretnine/stan-zagreb-tresnjevka-45.00-m2-novogradnja-slika-235392593.jpg",
+            "priceFormatted": "800 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "nekretnine",
+            "titleSlug": "stan-zagreb-tresnjevka-45.00-m2-novogradnja",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Trešnjevka - Sjever, Trešnjevka",
+            "condition": "",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 46153943,
+            "title": "STAN, NAJAM, ZAGREB, TREŠNJEVKA, 75 m2",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Stan u stambenoj zgradi, 1. kat"
+              },
+              {
+                "caption": null,
+                "value": "Stambena površina: 75 m2"
+              },
+              {
+                "caption": "Lokacija",
+                "value": "Trešnjevka - Sjever, Trešnjevka"
+              }
+            ],
+            "createdAt": "2025-02-01T04:57:34.000Z",
+            "createdAtFormatted": "01.02.2025.",
+            "image": "https://www.njuskalo.hr/image-200x150/nekretnine/stan-najam-zagreb-tresnjevka-75-m2-slika-277145644.jpg",
+            "priceFormatted": "1.200 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "nekretnine",
+            "titleSlug": "stan-najam-zagreb-tresnjevka-75-m2",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": true,
+            "hasMap": true,
+            "hasGroundPlan": true,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Trešnjevka - Sjever, Trešnjevka",
+            "condition": "",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 46208401,
+            "title": "Najam prostora Zagreb (Soblinec), 60.000 m2",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Stan u stambenoj zgradi"
+              },
+              {
+                "caption": null,
+                "value": "Stambena površina: 10000 m2"
+              },
+              {
+                "caption": "Lokacija",
+                "value": "Sesvete, Soblinec"
+              }
+            ],
+            "createdAt": "2025-02-05T09:30:28.000Z",
+            "createdAtFormatted": "05.02.2025.",
+            "image": "https://www.njuskalo.hr/image-200x150/nekretnine/najam-prostora-zagreb-soblinec-10000.00-m2-slika-240928835.jpg",
+            "priceFormatted": "1 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "nekretnine",
+            "titleSlug": "najam-prostora-zagreb-soblinec-10000.00-m2",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": true,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Sesvete, Soblinec",
+            "condition": "",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 46208497,
+            "title": "Najam prostora Zagreb (Soblinec), 60.000 m2",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Stan u stambenoj zgradi"
+              },
+              {
+                "caption": null,
+                "value": "Stambena površina: 1000 m2"
+              },
+              {
+                "caption": "Lokacija",
+                "value": "Sesvete, Soblinec"
+              }
+            ],
+            "createdAt": "2025-02-05T09:43:53.000Z",
+            "createdAtFormatted": "05.02.2025.",
+            "image": "https://www.njuskalo.hr/image-200x150/nekretnine/najam-prostora-zagreb-soblinec-1000.00-m2-slika-240929418.jpg",
+            "priceFormatted": "1 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "nekretnine",
+            "titleSlug": "najam-prostora-zagreb-soblinec-1000.00-m2",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": true,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Sesvete, Soblinec",
+            "condition": "",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 42025590,
+            "title": "Ribnjak, 144m2, stan s terasom, orjentiran na dvorište",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Stan u stambenoj zgradi, 2. kat"
+              },
+              {
+                "caption": null,
+                "value": "Stambena površina: 144 m2"
+              },
+              {
+                "caption": "Lokacija",
+                "value": "Gornji Grad - Medveščak, Ribnjak"
+              }
+            ],
+            "createdAt": "2025-02-05T09:49:04.000Z",
+            "createdAtFormatted": "05.02.2025.",
+            "image": "https://www.njuskalo.hr/image-200x150/nekretnine/zagreb-ribnjak-najam-cetverosoban-stan-terasa-slika-271676313.jpg",
+            "priceFormatted": "1.700 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "nekretnine",
+            "titleSlug": "zagreb-ribnjak-najam-cetverosoban-stan-terasa",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": true,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Gornji Grad - Medveščak, Ribnjak",
+            "condition": "",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 41986075,
+            "title": "Stan Najam/Zakup Donji Grad 180 m2",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Stan u stambenoj zgradi, 1. kat"
+              },
+              {
+                "caption": null,
+                "value": "Stambena površina: 180 m2"
+              },
+              {
+                "caption": "Lokacija",
+                "value": "Donji Grad, Donji grad"
+              }
+            ],
+            "createdAt": "2025-02-05T09:52:03.000Z",
+            "createdAtFormatted": "05.02.2025.",
+            "image": "https://www.njuskalo.hr/image-200x150/nekretnine/zagreb-strogi-centar-lijep-stan-ured-pjesackoj-zoni-178-m2-najam-slika-271676327.jpg",
+            "priceFormatted": "2.300 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "nekretnine",
+            "titleSlug": "zagreb-strogi-centar-lijep-stan-ured-pjesackoj-zoni-178-m2-najam",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": true,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Donji Grad, Donji grad",
+            "condition": "",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 44049918,
+            "title": "Smještaj za radnike u Gajnicama",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Stan u stambenoj zgradi"
+              },
+              {
+                "caption": null,
+                "value": "Stambena površina: 65 m2"
+              },
+              {
+                "caption": "Lokacija",
+                "value": "Podsused - Vrapče, Gajnice"
+              }
+            ],
+            "createdAt": "2025-02-19T08:06:29.000Z",
+            "createdAtFormatted": "19.02.2025.",
+            "image": "https://www.njuskalo.hr/image-200x150/nekretnine/smjestaj-radnike-gajnicama-slika-222652817.jpg",
+            "priceFormatted": "180 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "nekretnine",
+            "titleSlug": "smjestaj-radnike-gajnicama",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Podsused - Vrapče, Gajnice",
+            "condition": "",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 46324766,
+            "title": "Smještaj za strane radnike u Španskom",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Stan u stambenoj zgradi, 2. kat"
+              },
+              {
+                "caption": null,
+                "value": "Stambena površina: 100 m2"
+              },
+              {
+                "caption": "Lokacija",
+                "value": "Stenjevec, Špansko"
+              }
+            ],
+            "createdAt": "2025-02-19T23:42:11.000Z",
+            "createdAtFormatted": "20.02.2025.",
+            "image": "https://www.njuskalo.hr/image-200x150/nekretnine/smjestaj-strane-radnike-spanskom-slika-241958742.jpg",
+            "priceFormatted": "250 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "nekretnine",
+            "titleSlug": "smjestaj-strane-radnike-spanskom",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Stenjevec, Špansko",
+            "condition": "",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 46566851,
+            "title": "Mlinovi - dvosobni  stan za najam",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Stan u kući, visoko prizemlje"
+              },
+              {
+                "caption": null,
+                "value": "Stambena površina: 65 m2"
+              },
+              {
+                "caption": "Lokacija",
+                "value": "Podsljeme, Mlinovi"
+              }
+            ],
+            "createdAt": "2025-03-19T23:36:52.000Z",
+            "createdAtFormatted": "20.03.2025.",
+            "image": "https://www.njuskalo.hr/image-200x150/nekretnine/mlinovi-dvosobni-stan-najam-slika-244450665.jpg",
+            "priceFormatted": "600 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "nekretnine",
+            "titleSlug": "mlinovi-dvosobni-stan-najam",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Podsljeme, Mlinovi",
+            "condition": "",
+            "itemSize": null,
+            "isSaved": false
+          }
+        ],
+        "latestListings": [
+          {
+            "id": 50695121,
+            "categorySlug": "numizmatika-novcanice",
+            "titleSlug": "north-korea-sjeverna-koreja-1988-10-chon-unc",
+            "title": "NORTH KOREA / SJEVERNA KOREJA (1988) 10 Chon UNC"
+          },
+          {
+            "id": 50695123,
+            "categorySlug": "nekretnine",
+            "titleSlug": "obiteljska-kuca-111m2-bolfan-ludbreg",
+            "title": "OBITELJSKA KUĆA(111m2) - BOLFAN, LUDBREG"
+          },
+          {
+            "id": 50695120,
+            "categorySlug": "slicice-albumi",
+            "titleSlug": "stare-svete-slicice-oko-1880-godine-10-komada",
+            "title": "Stare svete slicice, oko 1880 godine...10 komada"
+          },
+          {
+            "id": 50695119,
+            "categorySlug": "karoserija-limarija",
+            "titleSlug": "vrata-citroen-xsara-picasso-1999-2000-2001-2002-2003-2004-2005-2006",
+            "title": "VRATA CITROEN XSARA PICASSO 1999 2000 2001 2002 2003 2004 2005 2006"
+          },
+          {
+            "id": 50695118,
+            "categorySlug": "peradarstvo",
+            "titleSlug": "jureki-katice",
+            "title": "Jureki i katice"
+          },
+          {
+            "id": 50695115,
+            "categorySlug": "elektricni-romobili",
+            "titleSlug": "kukirin-g2-master-baterija-52v",
+            "title": "Kukirin G2 Master baterija 52V"
+          }
+        ],
+        "superVauListings": [
+          {
+            "id": 50644138,
+            "categorySlug": "nekretnine",
+            "titleSlug": "prvi-najam-premium-urbani-stan-90-m-maksimirskoj-cesti",
+            "title": "MAKSIMIRSKA STAN ili URED 90 m²  ZONA TRAMVAJA NAMJEŠTEN -BEZ AGENCIJE",
+            "shortDescription": "Dugoročni najam trosobnog stana –…",
+            "image": "https://www.njuskalo.hr/image-360x360c/nekretnine/prvi-najam-premium-urbani-stan-90-m-maksimirskoj-cesti-slika-278312466.jpg",
+            "zoneId": 276,
+            "url": "/nekretnine/prvi-najam-premium-urbani-stan-90-m-maksimirskoj-cesti-oglas-50644138",
+            "hidePrice": false
+          },
+          {
+            "id": 50508342,
+            "categorySlug": "nekretnine",
+            "titleSlug": "stan-zagreb-savica-40.00-m2",
+            "title": "Dvosobni stan na Savici, bez provizije",
+            "shortDescription": "Iznajmljuje se prekrasan dvosoban stan…",
+            "image": "https://www.njuskalo.hr/image-360x360c/nekretnine/stan-zagreb-savica-40.00-m2-slika-276959281.jpg",
+            "zoneId": 276,
+            "url": "/nekretnine/stan-zagreb-savica-40.00-m2-oglas-50508342",
+            "hidePrice": false
+          },
+          {
+            "id": 50625919,
+            "categorySlug": "nekretnine",
+            "titleSlug": "stan-zagreb-selska-cesta-34-43.50-m2",
+            "title": "Stan: Zagreb (Selska cesta 34), 43.50 m2",
+            "shortDescription": "Iznajmljujem potpuno opremljen stan na…",
+            "image": "https://www.njuskalo.hr/image-360x360c/nekretnine/stan-zagreb-selska-cesta-34-43.50-m2-slika-278071659.jpg",
+            "zoneId": 276,
+            "url": "/nekretnine/stan-zagreb-selska-cesta-34-43.50-m2-oglas-50625919",
+            "hidePrice": false
+          }
+        ],
+        "popularTags": [],
+        "featuredStores": [
+          {
+            "id": "2806376",
+            "image": "https://www.njuskalo.hr/logo-140x140/roelrealestate-logo2-2806376.jpg?quality=100",
+            "url": "/agencija/roelrealestate",
+            "subListings": [
+              {
+                "id": 50055985,
+                "title": "Najam, Dvosobni stan, Zagreb, Lovinčićeva 55 m2 + GPM",
+                "url": "/nekretnine/najam-dvosobni-stan-zagreb-lovinciceva-55-m2-gpm-oglas-50055985",
+                "hasVideo": false,
+                "hasMap": true,
+                "hasGroundPlan": false
+              },
+              {
+                "id": 50072027,
+                "title": "Zagreb, Donje Svetice trosoban stan NKP 77 m2",
+                "url": "/nekretnine/zagreb-donje-svetice-trosoban-stan-nkp-77-m2-oglas-50072027",
+                "hasVideo": false,
+                "hasMap": true,
+                "hasGroundPlan": false
+              },
+              {
+                "id": 50653143,
+                "title": "Zagreb, Vrapče, jednosoban stan 30 m2 u kući, najam",
+                "url": "/nekretnine/zagreb-vrapce-jednosoban-stan-30-m2-kuci-najam-oglas-50653143",
+                "hasVideo": false,
+                "hasMap": true,
+                "hasGroundPlan": false
+              }
+            ]
+          },
+          {
+            "id": "2625296",
+            "image": "https://www.njuskalo.hr/logo-140x140/San-nekretnine2-logo2-2625296.jpg?quality=100",
+            "url": "/agencija/san-nekretnine2",
+            "subListings": [
+              {
+                "id": 50071807,
+                "title": "NAJAM-STAN-ZAGREB-KNEŽIJA 45m2 + garažno parkirno mjesto",
+                "url": "/nekretnine/najam-stan-zagreb-knezija-45m2-garazno-parkirno-mjesto-oglas-50071807",
+                "hasVideo": false,
+                "hasMap": true,
+                "hasGroundPlan": false
+              },
+              {
+                "id": 50400271,
+                "title": "Najam-Stan-Zagreb-Retkovec, 43 m2",
+                "url": "/nekretnine/najam-stan-zagreb-retkovec-43-m2-oglas-50400271",
+                "hasVideo": false,
+                "hasMap": true,
+                "hasGroundPlan": false
+              },
+              {
+                "id": 50682846,
+                "title": "Najam-Stan-Zagreb-Centar, 65 m2",
+                "url": "/nekretnine/najam-stan-zagreb-centar-65-m2-oglas-50682846",
+                "hasVideo": false,
+                "hasMap": true,
+                "hasGroundPlan": false
+              }
+            ]
+          },
+          {
+            "id": "2975747",
+            "image": "https://www.njuskalo.hr/logo-140x140/Regentdoo-logo2-2975747.jpg?quality=100",
+            "url": "/agencija/regentdoo",
+            "subListings": [
+              {
+                "id": 50689497,
+                "title": "Zagreb, Malešsnica -  Stan 43,40 m2, 2S, 2. kat, renoviran, prvi najam",
+                "url": "/nekretnine/zagreb-malessnica-stan-43.40-m2-2s-2-kat-renoviran-prvi-najam-oglas-50689497",
+                "hasVideo": false,
+                "hasMap": true,
+                "hasGroundPlan": false
+              },
+              {
+                "id": 49865190,
+                "title": "Zagreb, Donji Grad - Dvosoban moderan stan za najam u novogradnji",
+                "url": "/nekretnine/zagreb-donji-grad-dvosoban-moderan-stan-najam-novogradnji-oglas-49865190",
+                "hasVideo": false,
+                "hasMap": true,
+                "hasGroundPlan": false
+              },
+              {
+                "id": 49105095,
+                "title": "Zagreb, Remete – Prostran četverosoban stan za najam",
+                "url": "/nekretnine/zagreb-remete-prostran-cetverosoban-stan-najam-oglas-49105095",
+                "hasVideo": false,
+                "hasMap": true,
+                "hasGroundPlan": false
+              }
+            ]
+          }
+        ],
+        "categories": [],
+        "isCompareAvailable": false,
+        "comparedListings": [],
+        "listingsCount": 5902,
+        "totalPageCount": 237,
+        "fields": {
+          "sort": "old",
+          "geo": {
+            "lat": null,
+            "lng": null,
+            "address": null,
+            "radius": null,
+            "locationIds": [
+              1153,
+              1170
+            ]
+          },
+          "flatBuildingType": null,
+          "flatFloorCount": null,
+          "videoCallOption": false,
+          "numberOfRooms": {
+            "min": null,
+            "max": null
+          },
+          "balconyInfo": null,
+          "price": {
+            "min": null,
+            "max": null
+          },
+          "includeOtherCategories": false,
+          "heatingSource": null,
+          "airConditioning": false,
+          "livingArea": {
+            "min": null,
+            "max": null
+          },
+          "subjectEnergyCertificate": {
+            "min": null,
+            "max": null
+          },
+          "numberOfParkingSpots": {
+            "min": null,
+            "max": null
+          },
+          "petsAllowed": false,
+          "adsWithImages": false,
+          "parkingSpotType": [],
+          "availableFromDate": false,
+          "yearlyAvailability": null,
+          "buildingInfo": [],
+          "furnishLevelAndCondition": [],
+          "buildingFloorPosition": {
+            "min": null,
+            "max": null
+          },
+          "buildingFloorCount": {
+            "min": null,
+            "max": null
+          },
+          "otherAreas": [],
+          "functionalities": [],
+          "yearOfConstruction": {
+            "min": null,
+            "max": null
+          },
+          "yearOfRenovation": {
+            "min": null,
+            "max": null
+          },
+          "virtualTour": false,
+          "page": 1
+        },
+        "fieldsMapper": {
+          "toWebQuery": {
+            "sort": {
+              "to": "sort",
+              "mapper": "default"
+            },
+            "geo": {
+              "to": [
+                "geo[lat]",
+                "geo[lng]",
+                "geo[radius]",
+                "geo[locationIds]",
+                "geo[address]"
+              ],
+              "mapper": [
+                "geoLocationSelector",
+                {
+                  "valueMap": {
+                    "geo[lat]": "lat",
+                    "geo[lng]": "lng",
+                    "geo[radius]": "radius",
+                    "geo[locationIds]": "locationIds",
+                    "geo[address]": "address"
+                  }
+                }
+              ]
+            },
+            "flatBuildingType": {
+              "to": "flatBuildingType",
+              "mapper": "default"
+            },
+            "flatFloorCount": {
+              "to": "flatFloorCount",
+              "mapper": "default"
+            },
+            "videoCallOption": {
+              "to": "videoCallOption",
+              "mapper": "valueOne"
+            },
+            "numberOfRooms": {
+              "to": [
+                "numberOfRooms[min]",
+                "numberOfRooms[max]"
+              ],
+              "mapper": [
+                "range",
+                {
+                  "valueMap": {
+                    "numberOfRooms[min]": "min",
+                    "numberOfRooms[max]": "max"
+                  }
+                }
+              ]
+            },
+            "balconyInfo": {
+              "to": "balconyInfo",
+              "mapper": "default"
+            },
+            "price": {
+              "to": [
+                "price[min]",
+                "price[max]"
+              ],
+              "mapper": [
+                "range",
+                {
+                  "valueMap": {
+                    "price[min]": "min",
+                    "price[max]": "max"
+                  }
+                }
+              ]
+            },
+            "includeOtherCategories": {
+              "to": "includeOtherCategories",
+              "mapper": "valueOne"
+            },
+            "heatingSource": {
+              "to": "heatingSource",
+              "mapper": "default"
+            },
+            "airConditioning": {
+              "to": "airConditioning",
+              "mapper": "valueOne"
+            },
+            "livingArea": {
+              "to": [
+                "livingArea[min]",
+                "livingArea[max]"
+              ],
+              "mapper": [
+                "range",
+                {
+                  "valueMap": {
+                    "livingArea[min]": "min",
+                    "livingArea[max]": "max"
+                  }
+                }
+              ]
+            },
+            "subjectEnergyCertificate": {
+              "to": [
+                "subjectEnergyCertificate[min]",
+                "subjectEnergyCertificate[max]"
+              ],
+              "mapper": [
+                "range",
+                {
+                  "valueMap": {
+                    "subjectEnergyCertificate[min]": "min",
+                    "subjectEnergyCertificate[max]": "max"
+                  }
+                }
+              ]
+            },
+            "numberOfParkingSpots": {
+              "to": [
+                "numberOfParkingSpots[min]",
+                "numberOfParkingSpots[max]"
+              ],
+              "mapper": [
+                "range",
+                {
+                  "valueMap": {
+                    "numberOfParkingSpots[min]": "min",
+                    "numberOfParkingSpots[max]": "max"
+                  }
+                }
+              ]
+            },
+            "petsAllowed": {
+              "to": "petsAllowed",
+              "mapper": "valueOne"
+            },
+            "adsWithImages": {
+              "to": "adsWithImages",
+              "mapper": "valueOne"
+            },
+            "parkingSpotType": {
+              "to": [
+                "parkingSpotType[parking-garage]",
+                "parkingSpotType[garage-spot]",
+                "parkingSpotType[parking-outdoor-covered]",
+                "parkingSpotType[parking-garage-outdoor-notcovered]",
+                "parkingSpotType[parking-public-free]",
+                "parkingSpotType[parking-public-not-free]"
+              ],
+              "mapper": [
+                "multipleCheckboxValueOne",
+                {
+                  "valueMap": {
+                    "parkingSpotType[parking-garage]": "parking-garage",
+                    "parkingSpotType[garage-spot]": "garage-spot",
+                    "parkingSpotType[parking-outdoor-covered]": "parking-outdoor-covered",
+                    "parkingSpotType[parking-garage-outdoor-notcovered]": "parking-garage-outdoor-notcovered",
+                    "parkingSpotType[parking-public-free]": "parking-public-free",
+                    "parkingSpotType[parking-public-not-free]": "parking-public-not-free"
+                  }
+                }
+              ]
+            },
+            "availableFromDate": {
+              "to": "availableFromDate",
+              "mapper": "valueOne"
+            },
+            "yearlyAvailability": {
+              "to": "yearlyAvailability",
+              "mapper": "default"
+            },
+            "buildingInfo": {
+              "to": [
+                "buildingInfo[new-building]",
+                "buildingInfo[lift]",
+                "buildingInfo[invalid-can]",
+                "buildingInfo[city-gas]"
+              ],
+              "mapper": [
+                "multipleCheckboxValueOne",
+                {
+                  "valueMap": {
+                    "buildingInfo[new-building]": "new-building",
+                    "buildingInfo[lift]": "lift",
+                    "buildingInfo[invalid-can]": "invalid-can",
+                    "buildingInfo[city-gas]": "city-gas"
+                  }
+                }
+              ]
+            },
+            "furnishLevelAndCondition": {
+              "to": [
+                "furnishLevelAndCondition[furnished]",
+                "furnishLevelAndCondition[partially-furnished]",
+                "furnishLevelAndCondition[unfurnished]",
+                "furnishLevelAndCondition[unfinished-for-renovation]"
+              ],
+              "mapper": [
+                "multipleCheckboxValueOne",
+                {
+                  "valueMap": {
+                    "furnishLevelAndCondition[furnished]": "furnished",
+                    "furnishLevelAndCondition[partially-furnished]": "partially-furnished",
+                    "furnishLevelAndCondition[unfurnished]": "unfurnished",
+                    "furnishLevelAndCondition[unfinished-for-renovation]": "unfinished-for-renovation"
+                  }
+                }
+              ]
+            },
+            "buildingFloorPosition": {
+              "to": [
+                "buildingFloorPosition[min]",
+                "buildingFloorPosition[max]"
+              ],
+              "mapper": [
+                "range",
+                {
+                  "valueMap": {
+                    "buildingFloorPosition[min]": "min",
+                    "buildingFloorPosition[max]": "max"
+                  }
+                }
+              ]
+            },
+            "buildingFloorCount": {
+              "to": [
+                "buildingFloorCount[min]",
+                "buildingFloorCount[max]"
+              ],
+              "mapper": [
+                "range",
+                {
+                  "valueMap": {
+                    "buildingFloorCount[min]": "min",
+                    "buildingFloorCount[max]": "max"
+                  }
+                }
+              ]
+            },
+            "otherAreas": {
+              "to": [
+                "otherAreas[garden]",
+                "otherAreas[basement]",
+                "otherAreas[supa]"
+              ],
+              "mapper": [
+                "multipleCheckboxValueOne",
+                {
+                  "valueMap": {
+                    "otherAreas[garden]": "garden",
+                    "otherAreas[basement]": "basement",
+                    "otherAreas[supa]": "supa"
+                  }
+                }
+              ]
+            },
+            "functionalities": {
+              "to": [
+                "functionalities[antitheft-doors]",
+                "functionalities[dishwasher]"
+              ],
+              "mapper": [
+                "multipleCheckboxValueOne",
+                {
+                  "valueMap": {
+                    "functionalities[antitheft-doors]": "antitheft-doors",
+                    "functionalities[dishwasher]": "dishwasher"
+                  }
+                }
+              ]
+            },
+            "yearOfConstruction": {
+              "to": [
+                "yearOfConstruction[min]",
+                "yearOfConstruction[max]"
+              ],
+              "mapper": [
+                "range",
+                {
+                  "valueMap": {
+                    "yearOfConstruction[min]": "min",
+                    "yearOfConstruction[max]": "max"
+                  }
+                }
+              ]
+            },
+            "yearOfRenovation": {
+              "to": [
+                "yearOfRenovation[min]",
+                "yearOfRenovation[max]"
+              ],
+              "mapper": [
+                "range",
+                {
+                  "valueMap": {
+                    "yearOfRenovation[min]": "min",
+                    "yearOfRenovation[max]": "max"
+                  }
+                }
+              ]
+            },
+            "virtualTour": {
+              "to": "virtualTour",
+              "mapper": "valueOne"
+            },
+            "page": {
+              "to": "page",
+              "mapper": "default"
+            }
+          }
+        },
+        "urlParametersOrder": [
+          "categoryIds",
+          "categoryId",
+          "locationId",
+          "locationIds",
+          "geo[lat]",
+          "geo[lng]",
+          "geo[radius]",
+          "geo[locationIds]",
+          "geo[address]",
+          "geo",
+          "price[min]",
+          "price[max]",
+          "price",
+          "includeOtherCategories",
+          "livingArea[min]",
+          "livingArea[max]",
+          "livingArea",
+          "petsAllowed",
+          "adsWithImages",
+          "flatBuildingType",
+          "flatFloorCount",
+          "numberOfRooms[min]",
+          "numberOfRooms[max]",
+          "numberOfRooms",
+          "balconyInfo",
+          "heatingSource",
+          "airConditioning",
+          "subjectEnergyCertificate[min]",
+          "subjectEnergyCertificate[max]",
+          "subjectEnergyCertificate",
+          "numberOfParkingSpots[min]",
+          "numberOfParkingSpots[max]",
+          "numberOfParkingSpots",
+          "parkingSpotType[parking-garage]",
+          "parkingSpotType[garage-spot]",
+          "parkingSpotType[parking-outdoor-covered]",
+          "parkingSpotType[parking-garage-outdoor-notcovered]",
+          "parkingSpotType[parking-public-free]",
+          "parkingSpotType[parking-public-not-free]",
+          "parkingSpotType",
+          "availableFromDate",
+          "yearlyAvailability",
+          "buildingInfo[new-building]",
+          "buildingInfo[lift]",
+          "buildingInfo[invalid-can]",
+          "buildingInfo[city-gas]",
+          "buildingInfo",
+          "furnishLevelAndCondition[furnished]",
+          "furnishLevelAndCondition[partially-furnished]",
+          "furnishLevelAndCondition[unfurnished]",
+          "furnishLevelAndCondition[unfinished-for-renovation]",
+          "furnishLevelAndCondition",
+          "buildingFloorPosition[min]",
+          "buildingFloorPosition[max]",
+          "buildingFloorPosition",
+          "buildingFloorCount[min]",
+          "buildingFloorCount[max]",
+          "buildingFloorCount",
+          "otherAreas[garden]",
+          "otherAreas[basement]",
+          "otherAreas[supa]",
+          "otherAreas",
+          "functionalities[antitheft-doors]",
+          "functionalities[dishwasher]",
+          "functionalities",
+          "yearOfConstruction[min]",
+          "yearOfConstruction[max]",
+          "yearOfConstruction",
+          "yearOfRenovation[min]",
+          "yearOfRenovation[max]",
+          "yearOfRenovation",
+          "videoCallOption",
+          "virtualTour",
+          "sort",
+          "page"
+        ],
+        "categoryFilterAttribute": null,
+        "filtersLayout": {
+          "blocks": [
+            {
+              "key": "block0",
+              "rows": [
+                {
+                  "key": "row0",
+                  "columnCount": 2,
+                  "hasMultipleColumns": true,
+                  "columns": [
+                    {
+                      "key": "column0",
+                      "gridSlotName": "column-1",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "geo",
+                          "type": "GeoLocationSelector",
+                          "props": {
+                            "id": "browseListingsForm-geo",
+                            "label": "Županija",
+                            "name": "geo",
+                            "currentSort": "proxy@currentSort",
+                            "onResetSort": "proxy@resetSort",
+                            "onApplyFilters": "proxy@sortByDistance",
+                            "autocompleteProps": {
+                              "id": "browseListingsForm-geo-autoComplete",
+                              "label": "",
+                              "name": "geo[autoComplete]"
+                            },
+                            "addressProps": {
+                              "id": "browseListingsForm-geo-address",
+                              "label": "",
+                              "name": "geo[address]"
+                            },
+                            "autolocateProps": {
+                              "id": "browseListingsForm-geo-autoLocate",
+                              "label": "",
+                              "name": "geo[autoLocate]"
+                            },
+                            "latProps": {
+                              "id": "browseListingsForm-geo-lat",
+                              "name": "geo[lat]"
+                            },
+                            "lngProps": {
+                              "id": "browseListingsForm-geo-lng",
+                              "name": "geo[lng]"
+                            },
+                            "radiusProps": {
+                              "id": "browseListingsForm-geo-radius",
+                              "name": "geo[radius]",
+                              "radiusValues": [
+                                1,
+                                2,
+                                5,
+                                10,
+                                20,
+                                50,
+                                100,
+                                200,
+                                99999
+                              ]
+                            },
+                            "locationIdsProps": {
+                              "id": "browseListingsForm-geo-locationIds",
+                              "label": [
+                                "Županija",
+                                "Grad/Općina",
+                                "Naselje"
+                              ],
+                              "name": "geo[locationIds]",
+                              "maxLevel": 2,
+                              "levelModelValue": [
+                                [
+                                  1153,
+                                  1170
+                                ]
+                              ],
+                              "placeholder": [
+                                "---",
+                                "---",
+                                "---"
+                              ],
+                              "maxValuesCount": {
+                                "amount": 50,
+                                "message": "Nije moguće odabrati više od 50 lokacija"
+                              },
+                              "fetchLevel": "proxy@fetchLocationsHierarchy",
+                              "renderChoice": "proxy@renderMultipleSelectOption",
+                              "choices": "proxy@locationsChoices"
+                            },
+                            "isAutocompleteActive": false,
+                            "isAddressActive": false,
+                            "isAutolocateActive": false,
+                            "isRangeActive": false,
+                            "isHierarchyActive": true
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "column1",
+                      "gridSlotName": "column-2",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "flatBuildingType",
+                          "type": "Select",
+                          "props": {
+                            "id": "browseListingsForm-flatBuildingType",
+                            "label": "Tip stana",
+                            "name": "flatBuildingType",
+                            "placeholder": {
+                              "label": "---",
+                              "value": null
+                            },
+                            "choices": [
+                              {
+                                "id": "flat_in_house",
+                                "label": "U kući",
+                                "value": "flat-in-house"
+                              },
+                              {
+                                "id": "flat_in_residential_building",
+                                "label": "U stambenoj zgradi",
+                                "value": "flat-in-residential-building"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "column2",
+                      "gridSlotName": "column-3",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "flatFloorCount",
+                          "type": "Select",
+                          "props": {
+                            "id": "browseListingsForm-flatFloorCount",
+                            "label": "Broj etaža",
+                            "name": "flatFloorCount",
+                            "placeholder": {
+                              "label": "---",
+                              "value": null
+                            },
+                            "choices": [
+                              {
+                                "id": "single_floor",
+                                "label": "Jednoetažni",
+                                "value": "single-floor"
+                              },
+                              {
+                                "id": "two_floor",
+                                "label": "Dvoetažni",
+                                "value": "two-floor"
+                              },
+                              {
+                                "id": "multi_floor",
+                                "label": "Višeetažni",
+                                "value": "multi-floor"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "distribution": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "key": "row1",
+                  "columnCount": 2,
+                  "hasMultipleColumns": true,
+                  "columns": [
+                    {
+                      "key": "column0",
+                      "gridSlotName": "column-1",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "videoCallOption",
+                          "type": "Checkbox",
+                          "props": {
+                            "id": "browseListingsForm-videoCallOption",
+                            "label": "Razgledavanje putem video poziva",
+                            "name": "videoCallOption"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "column1",
+                      "gridSlotName": "column-2",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "numberOfRooms",
+                          "type": "DiscreteSelectRange",
+                          "props": {
+                            "id": "browseListingsForm-numberOfRooms",
+                            "label": "Broj soba",
+                            "name": "numberOfRooms",
+                            "minItemProps": {
+                              "id": "browseListingsForm-numberOfRooms-min",
+                              "label": "",
+                              "name": "numberOfRooms[min]",
+                              "placeholder": {
+                                "label": "od",
+                                "value": null
+                              }
+                            },
+                            "maxItemProps": {
+                              "id": "browseListingsForm-numberOfRooms-max",
+                              "label": "",
+                              "name": "numberOfRooms[max]",
+                              "placeholder": {
+                                "label": "do",
+                                "value": null
+                              }
+                            },
+                            "choices": [
+                              {
+                                "id": "studio_apartment",
+                                "label": "Garsonijera",
+                                "value": "studio-apartment"
+                              },
+                              {
+                                "id": "one_room",
+                                "label": "1-sobni",
+                                "value": "one-room"
+                              },
+                              {
+                                "id": "two_rooms",
+                                "label": "2-sobni",
+                                "value": "two-rooms"
+                              },
+                              {
+                                "id": "three_rooms",
+                                "label": "3-sobni",
+                                "value": "three-rooms"
+                              },
+                              {
+                                "id": "four_rooms",
+                                "label": "4-sobni",
+                                "value": "four-rooms"
+                              },
+                              {
+                                "id": "five_rooms",
+                                "label": "5+",
+                                "value": "five-rooms"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "column2",
+                      "gridSlotName": "column-3",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "balconyInfo",
+                          "type": "Select",
+                          "props": {
+                            "id": "browseListingsForm-balconyInfo",
+                            "label": "Balkon/Lođa/Terasa",
+                            "name": "balconyInfo",
+                            "placeholder": {
+                              "label": "---",
+                              "value": null
+                            },
+                            "choices": [
+                              {
+                                "id": "allthree",
+                                "label": "Balkon ili lođa ili terasa",
+                                "value": "allthree"
+                              },
+                              {
+                                "id": "balcony",
+                                "label": "Balkon",
+                                "value": "balcony"
+                              },
+                              {
+                                "id": "loggie",
+                                "label": "Lođa (Loggia)",
+                                "value": "loggie"
+                              },
+                              {
+                                "id": "terace",
+                                "label": "Terasa",
+                                "value": "terace"
+                              },
+                              {
+                                "id": "nothing",
+                                "label": "Ništa navedeno",
+                                "value": "nothing"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "distribution": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "key": "row2",
+                  "columnCount": 2,
+                  "hasMultipleColumns": true,
+                  "columns": [
+                    {
+                      "key": "column0",
+                      "gridSlotName": "column-1",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "price",
+                          "type": "PriceRange",
+                          "props": {
+                            "id": "browseListingsForm-price",
+                            "label": "Cijena najma (u EUR)",
+                            "name": "price",
+                            "minItemProps": {
+                              "id": "browseListingsForm-price-min",
+                              "label": "",
+                              "name": "price[min]",
+                              "placeholder": "od"
+                            },
+                            "maxItemProps": {
+                              "id": "browseListingsForm-price-max",
+                              "label": "",
+                              "name": "price[max]",
+                              "placeholder": "do"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "column1",
+                      "gridSlotName": "column-2",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "includeOtherCategories",
+                          "type": "IncludeMultipleCategories",
+                          "props": {
+                            "id": "browseListingsForm-includeOtherCategories",
+                            "label": "Prikaži i luksuzne stanove",
+                            "name": "includeOtherCategories"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "column2",
+                      "gridSlotName": "column-3",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "heatingSource",
+                          "type": "Select",
+                          "props": {
+                            "id": "browseListingsForm-heatingSource",
+                            "label": "Sustav grijanja",
+                            "name": "heatingSource",
+                            "placeholder": {
+                              "label": "---",
+                              "value": null
+                            },
+                            "choices": [
+                              {
+                                "id": "no_heating",
+                                "label": "Nema sustav grijanja",
+                                "value": "no-heating"
+                              },
+                              {
+                                "id": "city_heating",
+                                "label": "Gradska toplana",
+                                "value": "city-heating"
+                              },
+                              {
+                                "id": "gas_floor_heating",
+                                "label": "Etažno plinsko centralno",
+                                "value": "gas-floor-heating"
+                              },
+                              {
+                                "id": "electricity_floor_heating",
+                                "label": "Etažno centralno na struju",
+                                "value": "electricity-floor-heating"
+                              },
+                              {
+                                "id": "common_boiler_room",
+                                "label": "Zajednička kotlovnica",
+                                "value": "common-boiler-room"
+                              },
+                              {
+                                "id": "fuel_oil_heating",
+                                "label": "Peć na lož ulje",
+                                "value": "fuel-oil-heating"
+                              },
+                              {
+                                "id": "gas_heating",
+                                "label": "Peć na plin",
+                                "value": "gas-heating"
+                              },
+                              {
+                                "id": "wood_heating",
+                                "label": "Peć na drva",
+                                "value": "wood-heating"
+                              },
+                              {
+                                "id": "briquettes_pellets_heating",
+                                "label": "Peć na brikete/pelete",
+                                "value": "briquettes-pellets-heating"
+                              },
+                              {
+                                "id": "solid_fuel_heating",
+                                "label": "Peć na kruta goriva",
+                                "value": "solid-fuel-heating"
+                              },
+                              {
+                                "id": "electric_heaters_and_radiators",
+                                "label": "Grijalice i radijatori na struju",
+                                "value": "electric-heaters-and-radiators"
+                              },
+                              {
+                                "id": "heating_air_conditioning_and_ventilation_system",
+                                "label": "Sustav grijanja, klimatizacije i ventilacije",
+                                "value": "heating-air-conditioning-and-ventilation-system"
+                              },
+                              {
+                                "id": "air_source_heat_pump",
+                                "label": "Dizalica topline",
+                                "value": "air-source-heat-pump"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "column3",
+                      "gridSlotName": "column-4",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "airConditioning",
+                          "type": "Checkbox",
+                          "props": {
+                            "id": "browseListingsForm-airConditioning",
+                            "label": "Samo stanovi s klima uređajem",
+                            "name": "airConditioning"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "distribution": [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "key": "row3",
+                  "columnCount": 2,
+                  "hasMultipleColumns": true,
+                  "columns": [
+                    {
+                      "key": "column0",
+                      "gridSlotName": "column-1",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "livingArea",
+                          "type": "FloatRange",
+                          "props": {
+                            "id": "browseListingsForm-livingArea",
+                            "label": "Stam. površina (u m²)",
+                            "name": "livingArea",
+                            "minItemProps": {
+                              "id": "browseListingsForm-livingArea-min",
+                              "label": "",
+                              "name": "livingArea[min]",
+                              "placeholder": "od",
+                              "isCommaValid": true
+                            },
+                            "maxItemProps": {
+                              "id": "browseListingsForm-livingArea-max",
+                              "label": "",
+                              "name": "livingArea[max]",
+                              "placeholder": "do",
+                              "isCommaValid": true
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "column1",
+                      "gridSlotName": "column-2",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "subjectEnergyCertificate",
+                          "type": "DiscreteSelectRange",
+                          "props": {
+                            "id": "browseListingsForm-subjectEnergyCertificate",
+                            "label": "Energetski razred",
+                            "name": "subjectEnergyCertificate",
+                            "minItemProps": {
+                              "id": "browseListingsForm-subjectEnergyCertificate-min",
+                              "label": "",
+                              "name": "subjectEnergyCertificate[min]",
+                              "placeholder": {
+                                "label": "od",
+                                "value": null
+                              }
+                            },
+                            "maxItemProps": {
+                              "id": "browseListingsForm-subjectEnergyCertificate-max",
+                              "label": "",
+                              "name": "subjectEnergyCertificate[max]",
+                              "placeholder": {
+                                "label": "do",
+                                "value": null
+                              }
+                            },
+                            "choices": [
+                              {
+                                "id": "a_plus",
+                                "label": "A+",
+                                "value": "a-plus"
+                              },
+                              {
+                                "id": "a",
+                                "label": "A",
+                                "value": "a"
+                              },
+                              {
+                                "id": "b",
+                                "label": "B",
+                                "value": "b"
+                              },
+                              {
+                                "id": "c",
+                                "label": "C",
+                                "value": "c"
+                              },
+                              {
+                                "id": "d",
+                                "label": "D",
+                                "value": "d"
+                              },
+                              {
+                                "id": "e",
+                                "label": "E",
+                                "value": "e"
+                              },
+                              {
+                                "id": "f",
+                                "label": "F",
+                                "value": "f"
+                              },
+                              {
+                                "id": "g",
+                                "label": "G",
+                                "value": "g"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "column2",
+                      "gridSlotName": "column-3",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "numberOfParkingSpots",
+                          "type": "DiscreteSelectRange",
+                          "props": {
+                            "id": "browseListingsForm-numberOfParkingSpots",
+                            "label": "Broj vlastitih parkirnih mjesta",
+                            "name": "numberOfParkingSpots",
+                            "minItemProps": {
+                              "id": "browseListingsForm-numberOfParkingSpots-min",
+                              "label": "",
+                              "name": "numberOfParkingSpots[min]",
+                              "placeholder": {
+                                "label": "od",
+                                "value": null
+                              }
+                            },
+                            "maxItemProps": {
+                              "id": "browseListingsForm-numberOfParkingSpots-max",
+                              "label": "",
+                              "name": "numberOfParkingSpots[max]",
+                              "placeholder": {
+                                "label": "do",
+                                "value": null
+                              }
+                            },
+                            "choices": [
+                              {
+                                "id": "none",
+                                "label": "Nema vlastito parkirno mjesto",
+                                "value": "none"
+                              },
+                              {
+                                "id": "1",
+                                "label": "1",
+                                "value": "1"
+                              },
+                              {
+                                "id": "2",
+                                "label": "2",
+                                "value": "2"
+                              },
+                              {
+                                "id": "3",
+                                "label": "3",
+                                "value": "3"
+                              },
+                              {
+                                "id": "4",
+                                "label": "4",
+                                "value": "4"
+                              },
+                              {
+                                "id": "5",
+                                "label": "5",
+                                "value": "5"
+                              },
+                              {
+                                "id": "6",
+                                "label": "6",
+                                "value": "6"
+                              },
+                              {
+                                "id": "7",
+                                "label": "7+",
+                                "value": "7"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "distribution": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "key": "row4",
+                  "columnCount": 2,
+                  "hasMultipleColumns": true,
+                  "columns": [
+                    {
+                      "key": "column0",
+                      "gridSlotName": "column-1",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "petsAllowed",
+                          "type": "Checkbox",
+                          "props": {
+                            "id": "browseListingsForm-petsAllowed",
+                            "label": "Kućni ljubimci dozvoljeni",
+                            "name": "petsAllowed"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "column1",
+                      "gridSlotName": "column-2",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "adsWithImages",
+                          "type": "Checkbox",
+                          "props": {
+                            "id": "browseListingsForm-adsWithImages",
+                            "label": "Samo oglasi sa slikom",
+                            "name": "adsWithImages"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "column2",
+                      "gridSlotName": "column-3",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "parkingSpotType",
+                          "type": "MultipleCheckboxValueOne",
+                          "props": {
+                            "id": "browseListingsForm-parkingSpotType",
+                            "label": "Vrsta parkinga",
+                            "name": "parkingSpotType",
+                            "choices": [
+                              {
+                                "id": "parking_garage",
+                                "label": "Garaža",
+                                "name": "parkingSpotType[parking-garage]",
+                                "value": "parking-garage",
+                                "checked": false
+                              },
+                              {
+                                "id": "garage_spot",
+                                "label": "Garažno parkirno mjesto",
+                                "name": "parkingSpotType[garage-spot]",
+                                "value": "garage-spot",
+                                "checked": false
+                              },
+                              {
+                                "id": "parking_outdoor_covered",
+                                "label": "Vanjsko natkriveno mjesto",
+                                "name": "parkingSpotType[parking-outdoor-covered]",
+                                "value": "parking-outdoor-covered",
+                                "checked": false
+                              },
+                              {
+                                "id": "parking_garage_outdoor_notcovered",
+                                "label": "Vanjsko ne-natkriveno mjesto",
+                                "name": "parkingSpotType[parking-garage-outdoor-notcovered]",
+                                "value": "parking-garage-outdoor-notcovered",
+                                "checked": false
+                              },
+                              {
+                                "id": "parking_public_free",
+                                "label": "Besplatni javni parking",
+                                "name": "parkingSpotType[parking-public-free]",
+                                "value": "parking-public-free",
+                                "checked": false
+                              },
+                              {
+                                "id": "parking_public_not_free",
+                                "label": "Naplatni javni parking",
+                                "name": "parkingSpotType[parking-public-not-free]",
+                                "value": "parking-public-not-free",
+                                "checked": false
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "distribution": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "key": "row5",
+                  "columnCount": 2,
+                  "hasMultipleColumns": true,
+                  "columns": [
+                    {
+                      "key": "column0",
+                      "gridSlotName": "column-1",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "availableFromDate",
+                          "type": "PriorDateCheckbox",
+                          "props": {
+                            "id": "browseListingsForm-availableFromDate",
+                            "label": "Odmah dostupno",
+                            "name": "availableFromDate"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "column1",
+                      "gridSlotName": "column-2",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "yearlyAvailability",
+                          "type": "Select",
+                          "props": {
+                            "id": "browseListingsForm-yearlyAvailability",
+                            "label": "Dostupnost kroz godinu",
+                            "name": "yearlyAvailability",
+                            "placeholder": {
+                              "label": "---",
+                              "value": null
+                            },
+                            "choices": [
+                              {
+                                "id": "all_year",
+                                "label": "Dostupno cijele godine",
+                                "value": "all-year"
+                              },
+                              {
+                                "id": "out_off_tourist_season",
+                                "label": "Dostupno samo van turističke sezone",
+                                "value": "out-off-tourist-season"
+                              },
+                              {
+                                "id": "during_tourist_season",
+                                "label": "Dostupno samo unutar turističke sezone",
+                                "value": "during-tourist-season"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "row6",
+                  "columnCount": 2,
+                  "hasMultipleColumns": true,
+                  "columns": [
+                    {
+                      "key": "column0",
+                      "gridSlotName": "column-1",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "buildingInfo",
+                          "type": "MultipleCheckboxValueOne",
+                          "props": {
+                            "id": "browseListingsForm-buildingInfo",
+                            "label": "Podaci o objektu",
+                            "name": "buildingInfo",
+                            "choices": [
+                              {
+                                "id": "new_building",
+                                "label": "Novogradnja",
+                                "name": "buildingInfo[new-building]",
+                                "value": "new-building",
+                                "checked": false
+                              },
+                              {
+                                "id": "lift",
+                                "label": "Lift",
+                                "name": "buildingInfo[lift]",
+                                "value": "lift",
+                                "checked": false
+                              },
+                              {
+                                "id": "invalid_can",
+                                "label": "Pristup za osobe s invaliditetom",
+                                "name": "buildingInfo[invalid-can]",
+                                "value": "invalid-can",
+                                "checked": false
+                              },
+                              {
+                                "id": "city_gas",
+                                "label": "Gradski plin",
+                                "name": "buildingInfo[city-gas]",
+                                "value": "city-gas",
+                                "checked": false
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "column1",
+                      "gridSlotName": "column-2",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "furnishLevelAndCondition",
+                          "type": "MultipleCheckboxValueOne",
+                          "props": {
+                            "id": "browseListingsForm-furnishLevelAndCondition",
+                            "label": "Namještenost i stanje",
+                            "name": "furnishLevelAndCondition",
+                            "choices": [
+                              {
+                                "id": "furnished",
+                                "label": "Potpuno namješten",
+                                "name": "furnishLevelAndCondition[furnished]",
+                                "value": "furnished",
+                                "checked": false
+                              },
+                              {
+                                "id": "partially_furnished",
+                                "label": "Djelomično namješten",
+                                "name": "furnishLevelAndCondition[partially-furnished]",
+                                "value": "partially-furnished",
+                                "checked": false
+                              },
+                              {
+                                "id": "unfurnished",
+                                "label": "Nenamješten",
+                                "name": "furnishLevelAndCondition[unfurnished]",
+                                "value": "unfurnished",
+                                "checked": false
+                              },
+                              {
+                                "id": "unfinished_for_renovation",
+                                "label": "Roh-bau/Za renoviranje",
+                                "name": "furnishLevelAndCondition[unfinished-for-renovation]",
+                                "value": "unfinished-for-renovation",
+                                "checked": false
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "row7",
+                  "columnCount": 2,
+                  "hasMultipleColumns": true,
+                  "columns": [
+                    {
+                      "key": "column0",
+                      "gridSlotName": "column-1",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "buildingFloorPosition",
+                          "type": "DiscreteSelectRange",
+                          "props": {
+                            "id": "browseListingsForm-buildingFloorPosition",
+                            "label": "Kat",
+                            "name": "buildingFloorPosition",
+                            "minItemProps": {
+                              "id": "browseListingsForm-buildingFloorPosition-min",
+                              "label": "",
+                              "name": "buildingFloorPosition[min]",
+                              "placeholder": {
+                                "label": "od",
+                                "value": null
+                              }
+                            },
+                            "maxItemProps": {
+                              "id": "browseListingsForm-buildingFloorPosition-max",
+                              "label": "",
+                              "name": "buildingFloorPosition[max]",
+                              "placeholder": {
+                                "label": "do",
+                                "value": null
+                              }
+                            },
+                            "choices": [
+                              {
+                                "id": "basement",
+                                "label": "Suteren",
+                                "value": "basement"
+                              },
+                              {
+                                "id": "ground_floor",
+                                "label": "Prizemlje",
+                                "value": "ground-floor"
+                              },
+                              {
+                                "id": "high_ground",
+                                "label": "Visoko prizemlje",
+                                "value": "high-ground"
+                              },
+                              {
+                                "id": "1",
+                                "label": "1.",
+                                "value": "1"
+                              },
+                              {
+                                "id": "2",
+                                "label": "2.",
+                                "value": "2"
+                              },
+                              {
+                                "id": "3",
+                                "label": "3.",
+                                "value": "3"
+                              },
+                              {
+                                "id": "4",
+                                "label": "4.",
+                                "value": "4"
+                              },
+                              {
+                                "id": "5",
+                                "label": "5.",
+                                "value": "5"
+                              },
+                              {
+                                "id": "6",
+                                "label": "6.",
+                                "value": "6"
+                              },
+                              {
+                                "id": "7",
+                                "label": "7.",
+                                "value": "7"
+                              },
+                              {
+                                "id": "8",
+                                "label": "8.",
+                                "value": "8"
+                              },
+                              {
+                                "id": "9",
+                                "label": "9.",
+                                "value": "9"
+                              },
+                              {
+                                "id": "10",
+                                "label": "10.",
+                                "value": "10"
+                              },
+                              {
+                                "id": "11",
+                                "label": "11.",
+                                "value": "11"
+                              },
+                              {
+                                "id": "12",
+                                "label": "12.",
+                                "value": "12"
+                              },
+                              {
+                                "id": "13",
+                                "label": "13.",
+                                "value": "13"
+                              },
+                              {
+                                "id": "14",
+                                "label": "14.",
+                                "value": "14"
+                              },
+                              {
+                                "id": "15",
+                                "label": "15.",
+                                "value": "15"
+                              },
+                              {
+                                "id": "16",
+                                "label": "16.",
+                                "value": "16"
+                              },
+                              {
+                                "id": "17",
+                                "label": "17.",
+                                "value": "17"
+                              },
+                              {
+                                "id": "18",
+                                "label": "18.",
+                                "value": "18"
+                              },
+                              {
+                                "id": "19",
+                                "label": "19.",
+                                "value": "19"
+                              },
+                              {
+                                "id": "20",
+                                "label": "20.",
+                                "value": "20"
+                              },
+                              {
+                                "id": "21",
+                                "label": "21.",
+                                "value": "21"
+                              },
+                              {
+                                "id": "22",
+                                "label": "22.",
+                                "value": "22"
+                              },
+                              {
+                                "id": "23",
+                                "label": "23.",
+                                "value": "23"
+                              },
+                              {
+                                "id": "24",
+                                "label": "24.",
+                                "value": "24"
+                              },
+                              {
+                                "id": "25",
+                                "label": "25+",
+                                "value": "25"
+                              },
+                              {
+                                "id": "attic",
+                                "label": "Potkrovlje",
+                                "value": "attic"
+                              },
+                              {
+                                "id": "high_attic",
+                                "label": "Visoko potkrovlje",
+                                "value": "high-attic"
+                              },
+                              {
+                                "id": "penthouse",
+                                "label": "Penthouse",
+                                "value": "penthouse"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "column1",
+                      "gridSlotName": "column-2",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "buildingFloorCount",
+                          "type": "DiscreteSelectRange",
+                          "props": {
+                            "id": "browseListingsForm-buildingFloorCount",
+                            "label": "Ukupni broj katova u zgradi",
+                            "name": "buildingFloorCount",
+                            "minItemProps": {
+                              "id": "browseListingsForm-buildingFloorCount-min",
+                              "label": "",
+                              "name": "buildingFloorCount[min]",
+                              "placeholder": {
+                                "label": "od",
+                                "value": null
+                              }
+                            },
+                            "maxItemProps": {
+                              "id": "browseListingsForm-buildingFloorCount-max",
+                              "label": "",
+                              "name": "buildingFloorCount[max]",
+                              "placeholder": {
+                                "label": "do",
+                                "value": null
+                              }
+                            },
+                            "choices": [
+                              {
+                                "id": "ground_floor",
+                                "label": "Prizemlje",
+                                "value": "ground-floor"
+                              },
+                              {
+                                "id": "high_ground",
+                                "label": "Visoko prizemlje",
+                                "value": "high-ground"
+                              },
+                              {
+                                "id": "1",
+                                "label": "1",
+                                "value": "1"
+                              },
+                              {
+                                "id": "2",
+                                "label": "2",
+                                "value": "2"
+                              },
+                              {
+                                "id": "3",
+                                "label": "3",
+                                "value": "3"
+                              },
+                              {
+                                "id": "4",
+                                "label": "4",
+                                "value": "4"
+                              },
+                              {
+                                "id": "5",
+                                "label": "5",
+                                "value": "5"
+                              },
+                              {
+                                "id": "6",
+                                "label": "6",
+                                "value": "6"
+                              },
+                              {
+                                "id": "7",
+                                "label": "7",
+                                "value": "7"
+                              },
+                              {
+                                "id": "8",
+                                "label": "8",
+                                "value": "8"
+                              },
+                              {
+                                "id": "9",
+                                "label": "9",
+                                "value": "9"
+                              },
+                              {
+                                "id": "10",
+                                "label": "10",
+                                "value": "10"
+                              },
+                              {
+                                "id": "11",
+                                "label": "11",
+                                "value": "11"
+                              },
+                              {
+                                "id": "12",
+                                "label": "12",
+                                "value": "12"
+                              },
+                              {
+                                "id": "13",
+                                "label": "13",
+                                "value": "13"
+                              },
+                              {
+                                "id": "14",
+                                "label": "14",
+                                "value": "14"
+                              },
+                              {
+                                "id": "15",
+                                "label": "15",
+                                "value": "15"
+                              },
+                              {
+                                "id": "16",
+                                "label": "16",
+                                "value": "16"
+                              },
+                              {
+                                "id": "17",
+                                "label": "17",
+                                "value": "17"
+                              },
+                              {
+                                "id": "18",
+                                "label": "18",
+                                "value": "18"
+                              },
+                              {
+                                "id": "19",
+                                "label": "19",
+                                "value": "19"
+                              },
+                              {
+                                "id": "20",
+                                "label": "20",
+                                "value": "20"
+                              },
+                              {
+                                "id": "21",
+                                "label": "21",
+                                "value": "21"
+                              },
+                              {
+                                "id": "22",
+                                "label": "22",
+                                "value": "22"
+                              },
+                              {
+                                "id": "23",
+                                "label": "23",
+                                "value": "23"
+                              },
+                              {
+                                "id": "24",
+                                "label": "24",
+                                "value": "24"
+                              },
+                              {
+                                "id": "25",
+                                "label": "25+",
+                                "value": "25"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "row8",
+                  "columnCount": 2,
+                  "hasMultipleColumns": true,
+                  "columns": [
+                    {
+                      "key": "column0",
+                      "gridSlotName": "column-1",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "otherAreas",
+                          "type": "MultipleCheckboxValueOne",
+                          "props": {
+                            "id": "browseListingsForm-otherAreas",
+                            "label": "Ostali objekti i površine",
+                            "name": "otherAreas",
+                            "choices": [
+                              {
+                                "id": "garden",
+                                "label": "Dvorište/vrt",
+                                "name": "otherAreas[garden]",
+                                "value": "garden",
+                                "checked": false
+                              },
+                              {
+                                "id": "basement",
+                                "label": "Podrum",
+                                "name": "otherAreas[basement]",
+                                "value": "basement",
+                                "checked": false
+                              },
+                              {
+                                "id": "supa",
+                                "label": "Spremište/šupa",
+                                "name": "otherAreas[supa]",
+                                "value": "supa",
+                                "checked": false
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "column1",
+                      "gridSlotName": "column-2",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "functionalities",
+                          "type": "MultipleCheckboxValueOne",
+                          "props": {
+                            "id": "browseListingsForm-functionalities",
+                            "label": "Funkcionalnosti i karakteristike",
+                            "name": "functionalities",
+                            "choices": [
+                              {
+                                "id": "antitheft_doors",
+                                "label": "Protuprovalna vrata",
+                                "name": "functionalities[antitheft-doors]",
+                                "value": "antitheft-doors",
+                                "checked": false
+                              },
+                              {
+                                "id": "dishwasher",
+                                "label": "Perilica posuđa",
+                                "name": "functionalities[dishwasher]",
+                                "value": "dishwasher",
+                                "checked": false
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "row9",
+                  "columnCount": 2,
+                  "hasMultipleColumns": true,
+                  "columns": [
+                    {
+                      "key": "column0",
+                      "gridSlotName": "column-1",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "yearOfConstruction",
+                          "type": "YearRange",
+                          "props": {
+                            "id": "browseListingsForm-yearOfConstruction",
+                            "label": "Godina izgradnje",
+                            "name": "yearOfConstruction",
+                            "minItemProps": {
+                              "id": "browseListingsForm-yearOfConstruction-min",
+                              "label": "",
+                              "name": "yearOfConstruction[min]",
+                              "placeholder": "od"
+                            },
+                            "maxItemProps": {
+                              "id": "browseListingsForm-yearOfConstruction-max",
+                              "label": "",
+                              "name": "yearOfConstruction[max]",
+                              "placeholder": "do"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "column1",
+                      "gridSlotName": "column-2",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "yearOfRenovation",
+                          "type": "YearRange",
+                          "props": {
+                            "id": "browseListingsForm-yearOfRenovation",
+                            "label": "Godina zadnje renovacije",
+                            "name": "yearOfRenovation",
+                            "minItemProps": {
+                              "id": "browseListingsForm-yearOfRenovation-min",
+                              "label": "",
+                              "name": "yearOfRenovation[min]",
+                              "placeholder": "od"
+                            },
+                            "maxItemProps": {
+                              "id": "browseListingsForm-yearOfRenovation-max",
+                              "label": "",
+                              "name": "yearOfRenovation[max]",
+                              "placeholder": "do"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "row10",
+                  "columnCount": 1,
+                  "hasMultipleColumns": true,
+                  "columns": [
+                    {
+                      "key": "column0",
+                      "gridSlotName": "column-1",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "virtualTour",
+                          "type": "Checkbox",
+                          "props": {
+                            "id": "browseListingsForm-virtualTour",
+                            "label": "Samo oglasi s virtualnom šetnjom",
+                            "name": "virtualTour"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "metaElements": [
+            {
+              "id": "page",
+              "type": "Hidden",
+              "props": {
+                "id": "browseListingsForm-page",
+                "name": "page",
+                "disabled": true
+              }
+            }
+          ]
+        },
+        "sortLayout": {
+          "blocks": [
+            {
+              "key": "block0",
+              "rows": [
+                {
+                  "key": "row0",
+                  "columnCount": 1,
+                  "hasMultipleColumns": true,
+                  "columns": [
+                    {
+                      "key": "column0",
+                      "gridSlotName": "column-1",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "sort",
+                          "type": "Select",
+                          "props": {
+                            "id": "browseListingsForm-sort",
+                            "label": "Sortiraj",
+                            "name": "sort",
+                            "choices": [
+                              {
+                                "id": "old",
+                                "label": "Najstariji",
+                                "value": "old"
+                              },
+                              {
+                                "id": "new",
+                                "label": "Najnoviji",
+                                "value": "new"
+                              },
+                              {
+                                "id": "expensive",
+                                "label": "S višom cijenom",
+                                "value": "expensive"
+                              },
+                              {
+                                "id": "cheap",
+                                "label": "S nižom cijenom",
+                                "value": "cheap"
+                              }
+                            ],
+                            "onClick": "proxy@sortOnClick"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "noResultsContent": "<div class=\"brdr_top ad_item\" style=\"texl-align:center; font-size:12px;\">Trenutno nema oglasa koji zadovoljavaju postavljene kriterije pretrage.</div>",
+        "categoryId": 10920,
+        "resultsType": "regularListings",
+        "displayType": "list",
+        "rootSlug": "iznajmljivanje-stanova",
+        "leafSlug": "",
+        "slugAffectingFields": [
+          "locationIds"
+        ],
+        "withFiltersConfigurationFetcher": false,
+        "bannerZones": [
+          "dfpListTop",
+          "dfpListTopMobile",
+          "dfpListBottom",
+          "dfpListBottomMobile",
+          "dfpMiddle1",
+          "dfpAdlistMiddle1Mobile",
+          "dfpListMiddle",
+          "dfpListMiddleMobile",
+          "dfpMidas",
+          "dfpMidasMobile",
+          "dfpListMiddle35",
+          "dfpListMiddle35Mobile",
+          "dfpHalfpage",
+          "dfpHalfpage2",
+          "dfpRectangle",
+          "dfpFloating",
+          "dfpFloatingMobile",
+          "dfpSkyscraper",
+          "dfpAdlistBelowMobile",
+          "dfpInterstitialMobile"
+        ]
+      },
+      "stateTokens": {
+        "paginationOffset": null,
+        "levelModelValues": {
+          "locationIds": [
+            [
+              1153,
+              1170
+            ]
+          ],
+          "vehicleIds": []
+        },
+        "nonFilterFields": [
+          "sort",
+          "page",
+          "categoryId"
+        ]
+      },
+      "hierarchyChoiceRouteMap": {
+        "categories": {},
+        "locations": {},
+        "vehicles": {}
+      }
+    }
+  }
+}

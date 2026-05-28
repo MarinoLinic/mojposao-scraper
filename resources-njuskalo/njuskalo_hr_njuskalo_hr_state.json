@@ -1,0 +1,1302 @@
+{
+  "__INITIAL_STATE__": {
+    "main": {
+      "loading": false,
+      "error": null,
+      "spaActive": false,
+      "appWebViewActive": false,
+      "appWebViewType": "web",
+      "featureFlags": {
+        "isABTestForHomepageEnabled": false,
+        "isAdMetricsFeatureEnabled": false,
+        "isRecommenderForAutoMotoFeatureEnabled": true,
+        "isRecommenderForHomepageFeatureEnabled": true,
+        "isRecommenderForMarketplaceFeatureEnabled": true,
+        "isRecommenderForRealEstateFeatureEnabled": true,
+        "isAdaptiveSearchFiltersFeatureEnabled": true,
+        "isAdsenseFeatureEnabled": true,
+        "isAnalyticsFeatureEnabled": false,
+        "isPlatformStatisticsFeatureEnabled": false,
+        "isCategoryRecommenderFeatureEnabled": true,
+        "isCategorySuggestFeatureEnabled": true,
+        "isCustomerSuccessToolFeatureEnabled": true,
+        "defractalEnabled": true,
+        "isDemandManagerFeatureEnabled": true,
+        "isBannerLazyLoadFeatureEnabled": true,
+        "isEscrowActive": true,
+        "isDidomiFeatureEnabled": true,
+        "dotmetricsEnabled": true,
+        "isFallbackCookiePolicyFeatureEnabled": false,
+        "displayBanners": true,
+        "isXitiEnabled": true,
+        "googleTagManagerEnabled": true,
+        "hotJarEnabled": true,
+        "liveChatEnabled": true,
+        "microsoftClarityEnabled": true,
+        "midasEnabled": true,
+        "isNewAdManipulationEnabled": false,
+        "isNjupopCataloguesFeatureEnabled": true,
+        "isPrivacyPolicyNotificationEnabled": false,
+        "isOfferistaWidgetEnabled": false,
+        "isPushupSchedulingFeatureEnabled": false,
+        "isQuickSearchWidgetAutoMotoEnabled": false,
+        "isQuickSearchWidgetRealestateEnabled": false,
+        "isReadRecentUserQueryFeatureEnabled": true,
+        "isRecaptchaFeatureEnabled": true,
+        "isRecommenderFeatureEnabled": true,
+        "isSearchByImageEnabled": true,
+        "isSearchByImageWebPromoEnabled": true,
+        "isPopularCarModelsFeatureEnabled": true,
+        "shieldSquareEnabled": true,
+        "shouldShowAdDisplayCountInMyAdsList": true,
+        "showNearbyListingsBoxEnabled": true,
+        "isShowAdsOnGeoMapEnabled": true,
+        "isShowNotificationEnabled": false,
+        "isTagWidgetFeatureEnabled": true,
+        "isTrendingCategoriesRecommenderFeatureEnabled": true,
+        "areNewDsaCategoriesEnabled": true,
+        "vavenEnabled": false,
+        "isMobileManifestAndroidActive": true,
+        "isMobileManifestIOSActive": true,
+        "isQaAttributesFeatureEnabled": false,
+        "isCookieSwitchToSearchEnabled": false,
+        "isCookieSwitchToSimilarListingsEnabled": false,
+        "isCookieSwitchToNearbyListingsEnabled": false,
+        "isCookieSwitchAllRoutesEnabled": false
+      },
+      "unsupportedBrowserNotice": null,
+      "isAdblockDetected": false,
+      "user": null,
+      "siteNotice": "",
+      "trackers": {
+        "dotmetrics": {
+          "id": 922
+        },
+        "xiti": {
+          "xtn2": "Home",
+          "xtpage": "homepage",
+          "x1": "other",
+          "x2": "transaction",
+          "x3": "Home",
+          "x4": "",
+          "pageContentType": "homepage_a",
+          "recommenderFingerprint": null
+        },
+        "googleTagManager": {
+          "dataLayer": []
+        },
+        "defractal": {
+          "defractalPage": {
+            "type": "homepage",
+            "channel": "homepage"
+          }
+        }
+      },
+      "banners": {
+        "slots": [
+          {
+            "id": "dfp_billboard_njuskalo",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    970,
+                    250
+                  ],
+                  [
+                    300,
+                    250
+                  ],
+                  "fluid",
+                  [
+                    728,
+                    90
+                  ],
+                  [
+                    1250,
+                    250
+                  ]
+                ],
+                "dfp-zone-container-dfp_billboard_njuskalo"
+              ]
+            ],
+            "contexts": [
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "id": "dfp_floating_njuskalo",
+            "content": [
+              "defineOutOfPageSlot",
+              [
+                "dfp-zone-container-dfp_floating_njuskalo"
+              ]
+            ],
+            "contexts": [
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "id": "dfp_floating_njuskalo_mobile",
+            "content": [
+              "defineOutOfPageSlot",
+              [
+                "dfp-zone-container-dfp_floating_njuskalo_mobile"
+              ]
+            ],
+            "contexts": [
+              1
+            ]
+          },
+          {
+            "id": "dfp_rectangle_1_njuskalo_mobile",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    336,
+                    280
+                  ],
+                  "fluid",
+                  [
+                    300,
+                    250
+                  ]
+                ],
+                "dfp-zone-container-dfp_rectangle_1_njuskalo_mobile"
+              ]
+            ],
+            "contexts": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "dfp_interstitial_njuskalo_mobile",
+            "content": [
+              "defineOutOfPageSlot",
+              [
+                "INTERSTITIAL"
+              ]
+            ],
+            "contexts": [
+              1
+            ]
+          },
+          {
+            "id": "desk_rectangle_naslovnica",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    300,
+                    250
+                  ],
+                  [
+                    336,
+                    280
+                  ],
+                  "fluid"
+                ],
+                "dfp-zone-container-desk_rectangle_naslovnica"
+              ]
+            ],
+            "contexts": [
+              5,
+              6,
+              7,
+              8
+            ]
+          }
+        ]
+      },
+      "applicationVersion": "32df26981387f6fa4a9e00f31c7d8bc4a90b5801",
+      "serverTime": 1779971553937,
+      "mainNavigationCategories": [
+        {
+          "id": 2,
+          "title": "Auto Moto Nautika",
+          "url": "/auto-moto",
+          "iconId": "auto-moto",
+          "hasEscrow": false
+        },
+        {
+          "id": 1,
+          "title": "Nekretnine",
+          "url": "/nekretnine",
+          "iconId": "real-estate",
+          "hasEscrow": false
+        },
+        {
+          "id": "njupop",
+          "title": "Katalozi",
+          "url": "https://katalozi.njuskalo.hr",
+          "iconId": "discounts",
+          "hasEscrow": false
+        },
+        {
+          "id": "marketplace",
+          "title": "Marketplace",
+          "url": "/marketplace",
+          "iconId": "miscellaneous",
+          "hasEscrow": true,
+          "subCategories": [
+            {
+              "id": 12378,
+              "title": "Od glave do pete",
+              "url": "/od-glave-do-pete"
+            },
+            {
+              "id": 9737,
+              "title": "Sport i oprema",
+              "url": "/sportska-oprema"
+            },
+            {
+              "id": 9726,
+              "title": "Sve za dom",
+              "url": "/sve-za-dom"
+            },
+            {
+              "id": 9807,
+              "title": "Dječji svijet",
+              "url": "/djecji-svijet"
+            },
+            {
+              "id": 9761,
+              "title": "Strojevi i alati",
+              "url": "/strojevi-alati"
+            },
+            {
+              "id": 12111,
+              "title": "Usluge",
+              "url": "/usluge"
+            },
+            {
+              "id": 9654,
+              "title": "Audio Video Foto",
+              "url": "/audio-video-foto"
+            },
+            {
+              "id": 9643,
+              "title": "Mobiteli",
+              "url": "/mobiteli"
+            },
+            {
+              "id": 9696,
+              "title": "Glazbala",
+              "url": "/glazbala"
+            },
+            {
+              "id": 9749,
+              "title": "Literatura",
+              "url": "/knjige"
+            },
+            {
+              "id": 3,
+              "title": "Informatika",
+              "url": "/informatika"
+            },
+            {
+              "id": 9788,
+              "title": "Kućni ljubimci",
+              "url": "/kucni-ljubimci"
+            },
+            {
+              "id": 9798,
+              "title": "Pronađeno blago",
+              "url": "/blago"
+            },
+            {
+              "id": 9823,
+              "title": "Ostalo",
+              "url": "/ostalo"
+            },
+            {
+              "id": 9830,
+              "title": "Poklanjam",
+              "url": "/poklanjam"
+            },
+            {
+              "id": 12599,
+              "title": "Hrana i piće",
+              "url": "/hrana-pice"
+            },
+            {
+              "id": 16163,
+              "title": "Turistički smještaj",
+              "url": "/turisticki-smjestaj"
+            },
+            {
+              "id": 12551,
+              "title": "Poslovi",
+              "url": "/posao"
+            }
+          ]
+        }
+      ],
+      "showEnvironmentMarker": false
+    },
+    "homePage": {
+      "pageData": {
+        "meta": {
+          "title": "Njuskalo.hr oglasnik",
+          "description": "Oglasnik sa više od 500.000 posjeta dnevno i više od 10.000 novih oglasa svaki dan, Njuškalo - glavna njuška među oglasnicima.",
+          "keywords": "oglasnik, mali oglasi, njuškalo, njuskalo, oglasnici, oglasi",
+          "openGraphTitle": ""
+        },
+        "categoryMeta": {
+          "id": 0,
+          "title": "",
+          "description": ""
+        },
+        "categories": [
+          {
+            "id": 2,
+            "url": "/auto-moto",
+            "title": "Auto Moto Nautika",
+            "entitiesCount": 1209378,
+            "entitiesCountFormatted": "1.209.378",
+            "iconId": "auto-moto",
+            "subCategories": null,
+            "hasEscrow": false
+          },
+          {
+            "id": 1,
+            "url": "/nekretnine",
+            "title": "Nekretnine",
+            "entitiesCount": 183722,
+            "entitiesCountFormatted": "183.722",
+            "iconId": "real-estate",
+            "subCategories": null,
+            "hasEscrow": false
+          },
+          {
+            "id": "marketplace",
+            "url": "/marketplace",
+            "title": "Marketplace",
+            "entitiesCount": 0,
+            "entitiesCountFormatted": "0",
+            "iconId": "miscellaneous",
+            "subCategories": null,
+            "hasEscrow": false
+          },
+          {
+            "id": "njupop",
+            "url": "https://katalozi.njuskalo.hr",
+            "title": "Katalozi",
+            "entitiesCount": 12819,
+            "entitiesCountFormatted": "12.819",
+            "iconId": "discounts",
+            "subCategories": null,
+            "hasEscrow": false
+          }
+        ],
+        "marketplaceCategories": null,
+        "superVauListings": [
+          {
+            "id": 50228804,
+            "categorySlug": "auti",
+            "titleSlug": "mercedes-benz-gla-200-cdi-automatik",
+            "title": "Mercedes-Benz GLA 200 CDI automatik - nove ljetne + nove zimske gume",
+            "shortDescription": "Mercedes-Benz GLA 200 CDI, automatik –…",
+            "image": "https://www.njuskalo.hr/image-360x360c/auti/mercedes-benz-gla-200-cdi-automatik-slika-274516203.jpg",
+            "zoneId": 1,
+            "url": "/auti/mercedes-benz-gla-200-cdi-automatik-oglas-50228804",
+            "isPriceOnRequest": false,
+            "priceFormatted": "12.800,00 €",
+            "hidePrice": false
+          },
+          {
+            "id": 50056976,
+            "categorySlug": "chopperi",
+            "titleSlug": "kawasaki-vn-800-800-cm3",
+            "title": "Kawasaki Vn 800 800 cm3",
+            "shortDescription": "Prodajem navedeni motocikl u odličnom…",
+            "image": "https://www.njuskalo.hr/image-360x360c/chopperi/kawasaki-vn-800-800-cm3-slika-273277170.jpg",
+            "zoneId": 1,
+            "url": "/chopperi/kawasaki-vn-800-800-cm3-oglas-50056976",
+            "isPriceOnRequest": false,
+            "priceFormatted": "3.950,00 €",
+            "hidePrice": false
+          },
+          {
+            "id": 50436494,
+            "categorySlug": "auti",
+            "titleSlug": "honda-civic-1.4-sport-odlicna-reg-08-26",
+            "title": "Honda Civic 1,4 Sport Odlična . Reg 08/26",
+            "shortDescription": "Prodajem Hondu Civic…",
+            "image": "https://www.njuskalo.hr/image-360x360c/auti/honda-civic-1.4-sport-odlicna-reg-08-26-slika-276825130.jpg",
+            "zoneId": 1,
+            "url": "/auti/honda-civic-1.4-sport-odlicna-reg-08-26-oglas-50436494",
+            "isPriceOnRequest": false,
+            "priceFormatted": "2.950,00 €",
+            "hidePrice": false
+          },
+          {
+            "id": 50528983,
+            "categorySlug": "harmonike",
+            "titleSlug": "roland-fr-3x-harmonika-full-oprema-fr3x-fr",
+            "title": "Roland FR-3X harmonika NOVO full oprema fr3x fr",
+            "shortDescription": "Prodajem Roland FR-3X V-Accordion…",
+            "image": "https://www.njuskalo.hr/image-360x360c/harmonike/roland-fr-3x-harmonika-full-oprema-fr3x-fr-slika-277136257.jpg",
+            "zoneId": 1,
+            "url": "/harmonike/roland-fr-3x-harmonika-full-oprema-fr3x-fr-oglas-50528983",
+            "isPriceOnRequest": false,
+            "priceFormatted": "1.990,00 €",
+            "hidePrice": false
+          },
+          {
+            "id": 50604316,
+            "categorySlug": "nekretnine",
+            "titleSlug": "stan-spickovina-trosobni-50-m2-2-parkirna-mjesta-lift-akcija",
+            "title": "Stan: Špičkovina, trosobni, 50 m2, 2 parkirna mjesta, lift, !!AKCIJA!!",
+            "shortDescription": "Prodaje se stan u ekskluzivnom…",
+            "image": "https://www.njuskalo.hr/image-360x360c/nekretnine/stan-spickovina-trosobni-50-m2-2-parkirna-mjesta-lift-akcija-slika-277911384.jpg",
+            "zoneId": 1,
+            "url": "/nekretnine/stan-spickovina-trosobni-50-m2-2-parkirna-mjesta-lift-akcija-oglas-50604316",
+            "isPriceOnRequest": false,
+            "priceFormatted": "139.000,00 €",
+            "hidePrice": false
+          }
+        ],
+        "headlineSlides": [
+          {
+            "id": "245",
+            "url": "https://blog.njuskalo.hr/novosti/skini-njuskalo-app-i-predaj-oglas?utm_source=njuskalo&utm_medium=banner&utm_campaign=druga_prilika&utm_content=hp_carousel",
+            "image": "https://www.njuskalo.hr/slika-original-278154577.jpg",
+            "imageSmall": "https://www.njuskalo.hr/slika-original-278154578.jpg",
+            "imageDescription": "Skini Njuskalo app i predaj oglas.",
+            "openInNewTab": false
+          },
+          {
+            "id": "262",
+            "url": "https://blog.njuskalo.hr/auto-moto/rabljeni-automobili-u-2025-skuplji-13-posto-volkswagen-i-dalje-prvi-izbor-kupaca?utm_source=njuskalo&utm_medium=banner&utm_campaign=amn_analiza_trzista&utm_content=hp_carousel",
+            "image": "https://www.njuskalo.hr/slika-original-278154579.jpg",
+            "imageSmall": "https://www.njuskalo.hr/slika-original-278154580.jpg",
+            "imageDescription": "Procitaj blog i saznaj kako se mijenjalo trziste automobila.",
+            "openInNewTab": false
+          },
+          {
+            "id": "263",
+            "url": "https://www.njuskalo.hr/nekretnine?utm_source=njuskalo&utm_medium=banner&utm_campaign=nek_spring2026&utm_content=hp_carousel",
+            "image": "https://www.njuskalo.hr/slika-original-278153402.jpg",
+            "imageSmall": "https://www.njuskalo.hr/slika-original-278153403.jpg",
+            "imageDescription": "Ja sam dom za zivot kakav zelis - istrazi ponudu nekretnina",
+            "openInNewTab": false
+          },
+          {
+            "id": "269",
+            "url": "https://www.njuskalo.hr/elektricni-rostilji?utm_source=njuskalo&utm_medium=banner&utm_campaign=hp_carousel&utm_content=rostilj",
+            "image": "https://www.njuskalo.hr/slika-original-278153535.jpg",
+            "imageSmall": "https://www.njuskalo.hr/slika-original-278153536.jpg",
+            "imageDescription": "Ja grillam, a ti chillaj! - Istrazi ponudu elektricnih rostilja.",
+            "openInNewTab": false
+          },
+          {
+            "id": "270",
+            "url": "https://blog.njuskalo.hr/novosti/nemoj-klikati-linkove-i-odlaziti-s-njuskala?utm_source=njuskalo&utm_medium=banner&utm_campaign=cybersecuritymonth25&utm_content=carousel",
+            "image": "https://www.njuskalo.hr/slika-original-278153573.jpg",
+            "imageSmall": "https://www.njuskalo.hr/slika-original-278153574.jpg",
+            "imageDescription": "Procitaj blog i saznaj kako ostati siguran dok njuskas!",
+            "openInNewTab": false
+          }
+        ],
+        "trends": [],
+        "popularContent": [
+          {
+            "id": "445c2ebbfa8278234ee6d487f03a203f",
+            "title": "Dječji bicikli",
+            "url": "/djecji-bicikli"
+          },
+          {
+            "id": "551d4ddad787e360cd13c6f0d40a17fa",
+            "title": "Muške tenisice",
+            "url": "/muske-tenisice"
+          },
+          {
+            "id": "3a267e0dd56e4f6830eb54951e731fe6",
+            "title": "Igračke vozila i plovila",
+            "url": "/igracke-vozila-plovila"
+          },
+          {
+            "id": "0ad647e44529545e027af02a3e4a8d9d",
+            "title": "Najam prostora za proslave",
+            "url": "/najam-prostora"
+          },
+          {
+            "id": "195b15e017f7fcfefbee3c248f05c4ce",
+            "title": "Ptice i papige",
+            "url": "/ptice-papige"
+          },
+          {
+            "id": "6b0d8b1560d31341e3b727d65ee7359f",
+            "title": "Umjetničke slike",
+            "url": "/slike"
+          }
+        ],
+        "offeristaWidget": null,
+        "popularBrands": {
+          "title": "Popularne Marketplace marke",
+          "brands": [
+            {
+              "id": "1",
+              "title": "Nike Air Force",
+              "url": "https://www.njuskalo.hr/od-glave-do-pete/air-force/"
+            },
+            {
+              "id": "2",
+              "title": "Huawei",
+              "url": "https://www.njuskalo.hr/od-glave-do-pete/huawei-gt5/"
+            },
+            {
+              "id": "3",
+              "title": "Xbox",
+              "url": "https://www.njuskalo.hr/informatika/xbox-360/?page=5"
+            },
+            {
+              "id": "4",
+              "title": "Harley Benton",
+              "url": "https://www.njuskalo.hr/glazbala/harley-benton/"
+            },
+            {
+              "id": "5",
+              "title": "Samsung",
+              "url": "https://www.njuskalo.hr/mobiteli/samsung-galaxy-s25-fe/#google_vignette"
+            },
+            {
+              "id": "6",
+              "title": "Xiaomi",
+              "url": "https://www.njuskalo.hr/sportska-oprema/romobil-xiaomi-4/"
+            },
+            {
+              "id": "7",
+              "title": "Parkside",
+              "url": "https://www.njuskalo.hr/strojevi-alati/parkside-pila/"
+            },
+            {
+              "id": "8",
+              "title": "Massimo Dutti",
+              "url": "https://www.njuskalo.hr/od-glave-do-pete/massimo-dutti/"
+            },
+            {
+              "id": "9",
+              "title": "Hisense",
+              "url": "https://www.njuskalo.hr/sve-za-dom/hisense-mikrovalna/"
+            },
+            {
+              "id": "10",
+              "title": "Lenovo",
+              "url": "https://www.njuskalo.hr/informatika/lenovo-thinkpad-yoga/"
+            },
+            {
+              "id": "11",
+              "title": "Fendt",
+              "url": "https://www.njuskalo.hr/strojevi-alati/fendt-vario/"
+            },
+            {
+              "id": "59",
+              "title": "Linde",
+              "url": "https://www.njuskalo.hr/strojevi-alati/linde-h16/"
+            },
+            {
+              "id": "60",
+              "title": "Gravel",
+              "url": "https://www.njuskalo.hr/sportska-oprema/gravel-bicikl/"
+            },
+            {
+              "id": "61",
+              "title": "Michael Kors",
+              "url": "https://www.njuskalo.hr/od-glave-do-pete/michael-kors-torbe/"
+            }
+          ]
+        },
+        "catalogs": [
+          {
+            "id": "44c04ff360bb6572d520960edd022c2d54083fbb",
+            "title": "Eurospin katalog Pametna kupnja 27.05. - 02.06.2026.",
+            "url": "https://katalozi.njuskalo.hr/katalog/eurospin-katalog-pametna-kupnja-2705-02062026-22220",
+            "image": "https://images-katalozi.njuskalo.hr/data/image/160x160/51331/catalogue-eurospin-katalog-pametna-kupnja-2705-02062026-page-0-256650323.jpg"
+          },
+          {
+            "id": "ad378b48a0f1ff69c7f3120d38ec88cf1c05f36f",
+            "title": "SPAR - INTERSPAR katalog Akcija 27.05. - 02.06.2026.",
+            "url": "https://katalozi.njuskalo.hr/katalog/spar-interspar-katalog-akcija-2705-02062026-22219",
+            "image": "https://images-katalozi.njuskalo.hr/data/image/160x160/51331/catalogue-spar-interspar-katalog-akcija-2705-02062026-page-0-256650281.jpg"
+          },
+          {
+            "id": "8105c1c4d821f255c351fec15281ff1aaa62f498",
+            "title": "Plodine katalog Akcija 27.05. - 02.06.2026.",
+            "url": "https://katalozi.njuskalo.hr/katalog/plodine-katalog-akcija-2705-02062026-22221",
+            "image": "https://images-katalozi.njuskalo.hr/data/image/160x160/51331/catalogue-plodine-katalog-akcija-2705-02062026-page-0-256650339.jpg"
+          },
+          {
+            "id": "e9b620a538d56aef6796e2d07757ee1e6c0c4478",
+            "title": "Lidl katalog Super ponuda od ponedjeljka 25.05. - 31.05.2026.",
+            "url": "https://katalozi.njuskalo.hr/katalog/lidl-katalog-super-ponuda-od-ponedjeljka-2505-31052026-22213",
+            "image": "https://images-katalozi.njuskalo.hr/data/image/160x160/51330/catalogue-lidl-katalog-super-ponuda-od-ponedjeljka-2505-31052026-page-0-256649579.jpg"
+          },
+          {
+            "id": "3e281546f0af38b01cbed1bb42a805d712461613",
+            "title": "Diskont Stanić katalog Akcija 28.05. - 10.06.2026.",
+            "url": "https://katalozi.njuskalo.hr/katalog/diskont-stanic-katalog-akcija-2805-10062026-22225",
+            "image": "https://images-katalozi.njuskalo.hr/data/image/160x160/51331/catalogue-diskont-stanic-katalog-akcija-2805-10062026-page-0-256650520.jpg"
+          },
+          {
+            "id": "a8afdf178870bff87a93097f966bf24212bfa24d",
+            "title": "Vacom katalog Super ponuda 19.05.-19.07.2026.",
+            "url": "https://katalozi.njuskalo.hr/katalog/vacom-katalog-super-ponuda-1905-19072026-22212",
+            "image": "https://images-katalozi.njuskalo.hr/data/image/160x160/51330/catalogue-vacom-katalog-akcija-1905-19072026-page-0-256649519.jpg"
+          },
+          {
+            "id": "6d3eb74b6d22d730cb0b1212e9f3262f0d45a123",
+            "title": "KiK katalog Akcija 22.05.-31.05.2026.",
+            "url": "https://katalozi.njuskalo.hr/katalog/kik-katalog-akcija-2205-31052026-22206",
+            "image": "https://images-katalozi.njuskalo.hr/data/image/160x160/51330/catalogue-kik-katalog-akcija-2205-31052026-page-0-256649199.jpg"
+          },
+          {
+            "id": "4545e228c4394498c5a23e9a9d7b7fd75af5a083",
+            "title": "Studenac katalog Akcija 27.05.-02.06.2026.",
+            "url": "https://katalozi.njuskalo.hr/katalog/studenac-katalog-akcija-2705-02062026-22232",
+            "image": "https://images-katalozi.njuskalo.hr/data/image/160x160/51331/catalogue-studenac-katalog-akcija-2705-02062026-page-0-256650790.jpg"
+          },
+          {
+            "id": "eef0b1ed33b0a00aa46d1d367e0e6951717f3aee",
+            "title": "NTL katalog Akcija 27.05. - 02.06.2026. Zapad",
+            "url": "https://katalozi.njuskalo.hr/katalog/ntl-katalog-akcija-2705-02062026-zapad-22217",
+            "image": "https://images-katalozi.njuskalo.hr/data/image/160x160/51331/catalogue-ntl-katalog-akcija-2705-02062026-zapad-page-0-256650059.jpg"
+          },
+          {
+            "id": "9b5f5d1e81ad91f4bc692f110284256eaa520ae0",
+            "title": "Boso katalog Akcija 21.05. - 03.06.2026.",
+            "url": "https://katalozi.njuskalo.hr/katalog/boso-katalog-akcija-2105-03062026-22230",
+            "image": "https://images-katalozi.njuskalo.hr/data/image/160x160/51331/catalogue-boso-katalog-akcija-2105-03062026-page-0-256650632.jpg"
+          },
+          {
+            "id": "ed9539311c51628804d04f91a6b71bdc1dc7290c",
+            "title": "Izolirka katalog Lakše je graditi s nama 02.05.-31.05.2026.",
+            "url": "https://katalozi.njuskalo.hr/katalog/izolirka-katalog-lakse-je-graditi-s-nama-0205-31052026-22119",
+            "image": "https://images-katalozi.njuskalo.hr/data/image/160x160/51329/catalogue-izolirka-katalog-lakse-je-graditi-s-nama-0205-31052026-page-0-256642896.jpg"
+          },
+          {
+            "id": "67bfa25dc79cfe99919fa7349c0654541f2ba79a",
+            "title": "Lesnina katalog Akcija 16.05.-31.05.2026.",
+            "url": "https://katalozi.njuskalo.hr/katalog/lesnina-katalog-akcija-1605-31052026-22188",
+            "image": "https://images-katalozi.njuskalo.hr/data/image/160x160/51330/catalogue-lesnina-katalog-akcija-1605-31052026-page-0-256647850.jpg"
+          },
+          {
+            "id": "7eac2c02cc48d1406cf5a97a417f189f72d43cfd",
+            "title": "dm katalog Akcija 16.05.-31.05.2026.",
+            "url": "https://katalozi.njuskalo.hr/katalog/dm-katalog-akcija-1605-31052026-22174",
+            "image": "https://images-katalozi.njuskalo.hr/data/image/160x160/51330/catalogue-dm-katalog-akcija-1605-31052026-page-0-256646740.jpg"
+          },
+          {
+            "id": "0513ffb3e6195368aaaa177a26c7d59bc6155851",
+            "title": "Smit commerce katalog Akcija 15.05. - 14.06.2026.",
+            "url": "https://katalozi.njuskalo.hr/katalog/smit-commerce-katalog-akcija-1505-14062026-22189",
+            "image": "https://images-katalozi.njuskalo.hr/data/image/160x160/51330/catalogue-smit-commerce-katalog-akcija-1505-14052026-page-0-256647975.jpg"
+          },
+          {
+            "id": "11d61ee31106dcff17685eeca1c7f962355d1c92",
+            "title": "Pet Centar katalog Akcija 04.05.-31.05.2026.",
+            "url": "https://katalozi.njuskalo.hr/katalog/pet-centar-katalog-akcija-0405-31052026-22145",
+            "image": "https://images-katalozi.njuskalo.hr/data/image/160x160/51329/catalogue-pet-centar-katalog-akcija-0405-31052026-page-0-256644625.jpg"
+          },
+          {
+            "id": "d38651bcda9bcb09130db366be60ea37c39c85f2",
+            "title": "ZOOCITY katalog Svibanj 30.04.-29.05.2026.",
+            "url": "https://katalozi.njuskalo.hr/katalog/zoocity-katalog-svibanj-3004-29052026-22126",
+            "image": "https://images-katalozi.njuskalo.hr/data/image/160x160/51329/catalogue-zoocity-katalog-akcija-3004-29052026-page-0-256643746.jpg"
+          },
+          {
+            "id": "878a488e933010b4f446a5757ecd57eb00daa90f",
+            "title": "Lesnina katalog Vaš osjećaj doma 28.04.-29.05.2026.",
+            "url": "https://katalozi.njuskalo.hr/katalog/lesnina-katalog-vas-osjecaj-doma-2804-29052026-22108",
+            "image": "https://images-katalozi.njuskalo.hr/data/image/160x160/51329/catalogue-lesnina-katalog-vas-osjecaj-doma-2804-29052026-page-0-256641599.jpg"
+          }
+        ],
+        "savedListings": null,
+        "recentUserQueries": [
+          {
+            "id": "01KSQ94FF526QEYA6EC35X3E5G",
+            "type": "categories",
+            "title": "Prodaja stanova",
+            "url": "/prodaja-stanova?geo%5BlocationIds%5D=1247%2C1248%2C1249%2C1250%2C1252%2C1253%2C1254%2C1255%2C1256%2C1257%2C1258%2C1259%2C1260%2C1261%2C1262%2C1263%2C1264%2C1251&price%5Bmax%5D=360000&livingArea%5Bmax%5D=100&adsWithImages=1&numberOfRooms%5Bmin%5D=four-rooms&numberOfRooms%5Bmax%5D=five-rooms&buildingInfo%5Blift%5D=1",
+            "parameters": [
+              "Brezovica",
+              "Črnomerec",
+              "Donja Dubrava",
+              "Donji Grad",
+              "Gornji Grad - Medveščak",
+              "Maksimir",
+              "Novi Zagreb - Istok",
+              "Novi Zagreb - Zapad",
+              "Peščenica - Žitnjak",
+              "Podsljeme",
+              "Podsused - Vrapče",
+              "Sesvete",
+              "Stenjevec",
+              "Trešnjevka - Jug",
+              "Trešnjevka - Sjever",
+              "Trnje",
+              "Zagreb - Okolica",
+              "Gornja Dubrava",
+              "Do 360000 €",
+              "Do 100 m²",
+              "Samo oglasi sa slikom",
+              "Broj soba 4-sobni do 5+",
+              "Lift",
+              "Najnoviji"
+            ],
+            "listings": [
+              {
+                "id": 50659088,
+                "title": "Zagreb, Črnomerec, Keglić, 4 soban stan NKP 70 m2",
+                "categorySlug": "nekretnine",
+                "titleSlug": "zagreb-crnomerec-keglic-4-soban-stan-nkp-70-m2",
+                "priceFormatted": "315.000,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/nekretnine/zagreb-crnomerec-keglic-4-soban-stan-nkp-70-m2-slika-278369492.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              },
+              {
+                "id": 48378445,
+                "title": "Dreamville Brezovica NOVOGRADNJA četverosoban stan 86 m²",
+                "categorySlug": "nekretnine",
+                "titleSlug": "brezovica-novogradnja-cetverosoban-stan-86m2",
+                "priceFormatted": "249.000,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/nekretnine/brezovica-novogradnja-cetverosoban-stan-86m2-slika-272086284.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              },
+              {
+                "id": 49551064,
+                "title": "Sesvetski Kraljevec, Trosoban stan u visokom prizemlju, terasa, vrt, P",
+                "categorySlug": "nekretnine",
+                "titleSlug": "sesvetski-kraljevec-dvosoban-stan-suterenu-trosoban-stan-visoko",
+                "priceFormatted": "250.000,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/nekretnine/sesvetski-kraljevec-dvosoban-stan-suterenu-trosoban-stan-visoko-slika-269283667.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              },
+              {
+                "id": 49200785,
+                "title": "Stan S5 Sesvete (Sesvetski Kobiljak), 89,63 m2, novogradnja",
+                "categorySlug": "nekretnine",
+                "titleSlug": "stan-s5-sesvetski-kobiljak-89.63-m2-novogradnja",
+                "priceFormatted": "268.000,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/nekretnine/stan-s5-sesvetski-kobiljak-89.63-m2-novogradnja-slika-271889712.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              },
+              {
+                "id": 49200758,
+                "title": "Stan S4 Sesvete (Sesvetski Kobiljak), 88,00 m2, novogradnja",
+                "categorySlug": "nekretnine",
+                "titleSlug": "stan-s4-sesvetski-kobiljak-88.00-m2-novogradnja",
+                "priceFormatted": "262.940,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/nekretnine/stan-s4-sesvetski-kobiljak-88.00-m2-novogradnja-slika-271889916.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              },
+              {
+                "id": 50579886,
+                "title": "Brezovica, novogradnja, 4S stan NKP 86 m2 na prodaju, S1",
+                "categorySlug": "nekretnine",
+                "titleSlug": "brezovica-novogradnja-4s-stan-nkp-86-m2-prodaju-s1",
+                "priceFormatted": "249.000,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/nekretnine/brezovica-novogradnja-4s-stan-nkp-86-m2-prodaju-s1-slika-278518319.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              },
+              {
+                "id": 46458731,
+                "title": "BEZ PROVIZIJE***SESVETE-JELKOVEC / PREKRASAN 4-SOBNI LUKSUZAN STAN !!",
+                "categorySlug": "nekretnine",
+                "titleSlug": "sesvete-jelkovec-prekrasan-4-sobni-luksuzan-stan",
+                "priceFormatted": "320.000,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/nekretnine/sesvete-jelkovec-prekrasan-4-sobni-luksuzan-stan-slika-254975026.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              },
+              {
+                "id": 50477600,
+                "title": "BEZ PROVIZIJE***SESVETE/ NOVOGRADNJA / 4-SOBNI STAN S GARAŽOM / 76 m2",
+                "categorySlug": "nekretnine",
+                "titleSlug": "bez-provizije-sesvete-novogradnja-4-sobni-stan-garazom-76-m2",
+                "priceFormatted": "269.000,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/nekretnine/bez-provizije-sesvete-novogradnja-4-sobni-stan-garazom-76-m2-slika-276690114.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              },
+              {
+                "id": 49212379,
+                "title": "BEZ PROVIZIJE/Prostran 4sobni stan s velikom terasom – 1. kat!",
+                "categorySlug": "nekretnine",
+                "titleSlug": "prostran-cetverosobni-stan-velikom-terasom-1-kat-novogradnja-ses",
+                "priceFormatted": "301.280,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/nekretnine/prostran-cetverosobni-stan-velikom-terasom-1-kat-novogradnja-ses-slika-266616113.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              },
+              {
+                "id": 48877760,
+                "title": "Investicijski stan Trešnjevka",
+                "categorySlug": "nekretnine",
+                "titleSlug": "investicijski-stan-tresnjevka",
+                "priceFormatted": "350.000,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/nekretnine/investicijski-stan-tresnjevka-slika-277365636.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              }
+            ]
+          }
+        ],
+        "recommendedListings": [
+          {
+            "id": 47440614,
+            "title": "Vikendica za odmor, Podgorje Bistričko",
+            "categorySlug": "nekretnine",
+            "titleSlug": "vikendica-odmor-podgorje-bistricko",
+            "priceFormatted": "35.000,00 €",
+            "image": "https://www.njuskalo.hr/image-360x360c/nekretnine/vikendica-odmor-podgorje-bistricko-slika-253397130.jpg",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "isSaved": false
+          },
+          {
+            "id": 50427468,
+            "title": "JADRANSKA UL. prizemnica, 70 m², okućnica 251 m²",
+            "categorySlug": "nekretnine",
+            "titleSlug": "jadranska-ul-prizemnica-70-m-okucnica-251-m",
+            "priceFormatted": "87.000,00 €",
+            "image": "https://www.njuskalo.hr/image-360x360c/nekretnine/jadranska-ul-prizemnica-70-m-okucnica-251-m-slika-276382754.jpg",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "isSaved": false
+          },
+          {
+            "id": 47490384,
+            "title": "Prodajem vikendicu i voćnjak pored Donje Motičine, 10 km od Našice",
+            "categorySlug": "nekretnine",
+            "titleSlug": "prodjem-vikendicu-vocnjak-pored-donje-moticine-10-km-nasice",
+            "priceFormatted": "15.000,00 €",
+            "image": "https://www.njuskalo.hr/image-360x360c/nekretnine/prodjem-vikendicu-vocnjak-pored-donje-moticine-10-km-nasice-slika-253822964.jpg",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "isSaved": false
+          },
+          {
+            "id": 50572033,
+            "title": "Hladnjak BEKO",
+            "categorySlug": "hladnjaci",
+            "titleSlug": "poklanjam-hladnjak-beko",
+            "priceFormatted": "50,00 €",
+            "image": "https://www.njuskalo.hr/image-360x360c/hladnjaci/poklanjam-hladnjak-beko-slika-277640421.jpg",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "isSaved": false
+          },
+          {
+            "id": 50512632,
+            "title": "PRODAJA KUĆE – VOLODER, MIR I PRIRODA S POGLEDOM NA LONJSKO POLJE",
+            "categorySlug": "nekretnine",
+            "titleSlug": "prodaja-kuce-voloder-mir-priroda-pogledom-lonjsko-polje",
+            "priceFormatted": "40.000,00 €",
+            "image": "https://www.njuskalo.hr/image-360x360c/nekretnine/prodaja-kuce-voloder-mir-priroda-pogledom-lonjsko-polje-slika-276991166.jpg",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "isSaved": false
+          },
+          {
+            "id": 50670436,
+            "title": "PROSTRANA OBITELJSKA KUĆA SA VELIKOM OKUĆNICOM",
+            "categorySlug": "nekretnine",
+            "titleSlug": "prostrana-obiteljska-kuca-velikom-okucnicom",
+            "priceFormatted": "125.000,00 €",
+            "image": "https://www.njuskalo.hr/image-360x360c/nekretnine/prostrana-obiteljska-kuca-velikom-okucnicom-slika-278457224.jpg",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "isSaved": false
+          },
+          {
+            "id": 48798506,
+            "title": "Lada Niva 1.6",
+            "categorySlug": "auti",
+            "titleSlug": "lada-niva-1.7-4x4",
+            "priceFormatted": "700,00 €",
+            "image": "https://www.njuskalo.hr/image-360x360c/auti/lada-niva-1.7-4x4-slika-276512780.jpg",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "isSaved": false
+          },
+          {
+            "id": 50437886,
+            "title": "Porsche Panamera Diesel",
+            "categorySlug": "auti",
+            "titleSlug": "porsche-panamera-diesel",
+            "priceFormatted": "22.500,00 €",
+            "image": "https://www.njuskalo.hr/image-360x360c/auti/porsche-panamera-diesel-slika-276468251.jpg",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "isSaved": false
+          }
+        ],
+        "recommendedCategories": [
+          {
+            "id": "44a8c727210a6264356f559679efd72a",
+            "title": "BMW serija 5",
+            "url": "/rabljeni-auti/bmw-serija-5",
+            "categories": [
+              "Rabljeni automobili"
+            ],
+            "listings": [
+              {
+                "id": 49550805,
+                "title": "jamstvo do 2 god, BMW 520d nova linija G30 HR servisna,15600+PDV",
+                "categorySlug": "auti",
+                "titleSlug": "bmw-serija-5-520d-automatik",
+                "priceFormatted": "19.490,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/auti/bmw-serija-5-520d-automatik-slika-269281257.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              },
+              {
+                "id": 50039944,
+                "title": "BMW serija 5 520d M SPORT ALCANTARA HUD NAVI",
+                "categorySlug": "auti",
+                "titleSlug": "bmw-serija-5-520d-m-sport-alcantara-hud-navi",
+                "priceFormatted": "25.000,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/auti/bmw-serija-5-520d-m-sport-alcantara-hud-navi-slika-273145617.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              },
+              {
+                "id": 50483680,
+                "title": "BMW serija 5 530e automatik",
+                "categorySlug": "auti",
+                "titleSlug": "bmw-serija-5-530e-automatik",
+                "priceFormatted": "25.999,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/auti/bmw-serija-5-530e-automatik-slika-276741452.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              },
+              {
+                "id": 49113645,
+                "title": "BMW serija 5 E39 530i individual",
+                "categorySlug": "auti",
+                "titleSlug": "bmw-serija-5-530i-automatik",
+                "priceFormatted": "9.999,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/auti/bmw-serija-5-530i-automatik-slika-269970926.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              },
+              {
+                "id": 50425667,
+                "title": "BMW serija 5 518i E34",
+                "categorySlug": "auti",
+                "titleSlug": "bmw-serija-5-518i-e34",
+                "priceFormatted": "6.100,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/auti/bmw-serija-5-518i-e34-slika-278173650.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              },
+              {
+                "id": 49938982,
+                "title": "BMW serija 5 525d automatik",
+                "categorySlug": "auti",
+                "titleSlug": "bmw-serija-5-525d-automatik",
+                "priceFormatted": "3.000,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/auti/bmw-serija-5-525d-automatik-slika-272542179.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              },
+              {
+                "id": 50116402,
+                "title": "BMW 525d E39 AUTOMATIK – M OPREMA – REGISTRIRAN – 3800€",
+                "categorySlug": "auti",
+                "titleSlug": "bmw-525d-e39-automatik-m-oprema-registriran-4300",
+                "priceFormatted": "3.800,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/auti/bmw-525d-e39-automatik-m-oprema-registriran-4300-slika-273695700.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              },
+              {
+                "id": 50423577,
+                "title": "BMW F10**AUTOMATIK**LCI**B47**",
+                "categorySlug": "auti",
+                "titleSlug": "bmw-serija-5-520d-automatik",
+                "priceFormatted": "12.900,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/auti/bmw-serija-5-520d-automatik-slika-276358950.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              },
+              {
+                "id": 47704867,
+                "title": "BMW serija 5 530e automatik  19.000 + PDV",
+                "categorySlug": "auti",
+                "titleSlug": "bmw-serija-5-530e-automatik",
+                "priceFormatted": "19.000,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/auti/bmw-serija-5-530e-automatik-slika-255701615.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              },
+              {
+                "id": 48022717,
+                "title": "BMW serija 5 520d M PRO KAO NOV",
+                "categorySlug": "auti",
+                "titleSlug": "bmw-serija-5-520d-m-pro-kao-nov",
+                "priceFormatted": "58.900,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/auti/bmw-serija-5-520d-m-pro-kao-nov-slika-258283888.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              }
+            ]
+          },
+          {
+            "id": "52c2c184204f3fd65a13ff801ce1f7b9",
+            "title": "Sportski motori",
+            "url": "/sportski-motori",
+            "categories": [
+              "Motocikli / Motori"
+            ],
+            "listings": [
+              {
+                "id": 50309482,
+                "title": "Suzuki Gsx-r 600 cm3",
+                "categorySlug": "sportski-motori",
+                "titleSlug": "suzuki-gsx-r-600-cm3",
+                "priceFormatted": "3.000,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/sportski-motori/suzuki-gsx-r-600-cm3-slika-275444349.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              },
+              {
+                "id": 43336280,
+                "title": "Ducati PANIGALE V4 SPECIALE 2019. SAMO 1371km BROJ: 1219/1500 komada",
+                "categorySlug": "sportski-motori",
+                "titleSlug": "ducati-panigale-v4-speciale-2019-samo-1371km-broj-1219-1500-komada",
+                "priceFormatted": "42.000,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/sportski-motori/ducati-panigale-v4-speciale-2019-samo-1371km-broj-1219-1500-komada-slika-217668196.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              },
+              {
+                "id": 50357632,
+                "title": "Suzuki GSXR 750 K9 2009god REG 1 GOD.  - ZAMJENA",
+                "categorySlug": "sportski-motori",
+                "titleSlug": "suzuki-gsxr-750-k9-2009god-zamjena",
+                "priceFormatted": "6.800,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/sportski-motori/suzuki-gsxr-750-k9-2009god-zamjena-slika-275809986.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              },
+              {
+                "id": 47719375,
+                "title": "Yamaha YZF R6 600cm3, HR motor",
+                "categorySlug": "sportski-motori",
+                "titleSlug": "yamaha-yzf-r6-hr-auto",
+                "priceFormatted": "4.600,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/sportski-motori/yamaha-yzf-r6-hr-auto-slika-255825129.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              },
+              {
+                "id": 50372511,
+                "title": "BMW S1000RR ///M-sport  Akrapović --2025.g.--6.200km--",
+                "categorySlug": "sportski-motori",
+                "titleSlug": "bmw-s1000rr-m-sport-akrapovic-2025-g-6.200km",
+                "priceFormatted": "23.900,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/sportski-motori/bmw-s1000rr-m-sport-akrapovic-2025-g-6.200km-slika-275895704.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              },
+              {
+                "id": 50054890,
+                "title": "CFmoto 675 SR R",
+                "categorySlug": "sportski-motori",
+                "titleSlug": "cfmoto-675-sr-r-dostupno-odmah",
+                "priceFormatted": "7.580,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/sportski-motori/cfmoto-675-sr-r-dostupno-odmah-slika-273257593.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              },
+              {
+                "id": 50460392,
+                "title": "Kawasaki ZX6-R 599 cm3",
+                "categorySlug": "sportski-motori",
+                "titleSlug": "kawasaki-zx6-r-599-cm3",
+                "priceFormatted": "5.500,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/sportski-motori/kawasaki-zx6-r-599-cm3-slika-276558116.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              },
+              {
+                "id": 48912801,
+                "title": "Honda CBR1000RR SP1 2018",
+                "categorySlug": "sportski-motori",
+                "titleSlug": "honda-cbr1000rr-sp1-999-cm3",
+                "priceFormatted": "12.900,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/sportski-motori/honda-cbr1000rr-sp1-999-cm3-slika-264166452.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              },
+              {
+                "id": 47296393,
+                "title": "Honda CBR1000RR SP1, TOP STANJE",
+                "categorySlug": "sportski-motori",
+                "titleSlug": "honda-honda-cbr1000rr-sp-sc77-25th-anniver-ed-top-stanje",
+                "priceFormatted": "11.999,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/sportski-motori/honda-honda-cbr1000rr-sp-sc77-25th-anniver-ed-top-stanje-slika-251897252.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              },
+              {
+                "id": 50487594,
+                "title": "Kawasaki ZX-10R",
+                "categorySlug": "sportski-motori",
+                "titleSlug": "kawasaki-zx-10r",
+                "priceFormatted": "8.800,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/sportski-motori/kawasaki-zx-10r-slika-276819148.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              }
+            ]
+          },
+          {
+            "id": "2c4f464f08c9eb4b51d41b57e1cbf5fc",
+            "title": "BMW X1",
+            "url": "/rabljeni-auti/bmw-x1",
+            "categories": [
+              "Rabljeni automobili"
+            ],
+            "listings": [
+              {
+                "id": 50650019,
+                "title": "BMW X1 2.0d 150KS *xLine* AUTOMATIK,KAMERA,LED,NAVI,AMBIENT,JAMSTVO",
+                "categorySlug": "auti",
+                "titleSlug": "bmw-x1-sdrive18d-virtual-automatik-navi-ambient-jamstvo",
+                "priceFormatted": "22.999,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/auti/bmw-x1-sdrive18d-virtual-automatik-navi-ambient-jamstvo-slika-278296592.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              },
+              {
+                "id": 50312726,
+                "title": "BMW X1 xline 18d",
+                "categorySlug": "auti",
+                "titleSlug": "bmw-x1-18d",
+                "priceFormatted": "10.000,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/auti/bmw-x1-18d-slika-276166840.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              },
+              {
+                "id": 50026194,
+                "title": "BMW X1 18d xline xdrive LED-NAVI- 138.000tkm REG. 03/27",
+                "categorySlug": "auti",
+                "titleSlug": "bmw-x1-xdrive-xline",
+                "priceFormatted": "17.400,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/auti/bmw-x1-xdrive-xline-slika-276882864.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              },
+              {
+                "id": 50434763,
+                "title": "BMW X1 X-DRIVE20D 2024 M-SPORT SERVISNA JAMSTVO",
+                "categorySlug": "auti",
+                "titleSlug": "bmw-x1-x-drive20d-2024-m-sport-servisna-jamstvo",
+                "priceFormatted": "43.800,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/auti/bmw-x1-x-drive20d-2024-m-sport-servisna-jamstvo-slika-276440930.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              },
+              {
+                "id": 49914765,
+                "title": "BMW X1 sDrive20i M-sport",
+                "categorySlug": "auti",
+                "titleSlug": "bmw-x1-sdrive20i-m-sport",
+                "priceFormatted": "42.990,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/auti/bmw-x1-sdrive20i-m-sport-slika-274186846.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              },
+              {
+                "id": 50238226,
+                "title": "BMW X1 M paket sDrive18d automatik",
+                "categorySlug": "auti",
+                "titleSlug": "bmw-x1-m-paket-sdrive18d-automatik",
+                "priceFormatted": "49.900,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/auti/bmw-x1-m-paket-sdrive18d-automatik-slika-274712030.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              },
+              {
+                "id": 50584179,
+                "title": "BMW X1 18d AUTOMATIK, LED, ALU 17&quot;, NAVI, KAMERA, TEMPOMAT, GARANCIJA.",
+                "categorySlug": "auti",
+                "titleSlug": "bmw-x1-18d-automatik-led-alu-17-navi-kamera-tempomat-garancija",
+                "priceFormatted": "33.300,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/auti/bmw-x1-18d-automatik-led-alu-17-navi-kamera-tempomat-garancija-slika-277891536.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              },
+              {
+                "id": 50129426,
+                "title": "BMW X1 sDrive18i, Tempomat, Led, Navigacija, PDC, 18&quot;alu",
+                "categorySlug": "auti",
+                "titleSlug": "bmw-x1-sdrive18i-tempomat-led-navigacija-pdc-18-alu",
+                "priceFormatted": "18.900,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/auti/bmw-x1-sdrive18i-tempomat-led-navigacija-pdc-18-alu-slika-273810769.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              },
+              {
+                "id": 50246295,
+                "title": "BMW X1 sDrive18d Automatik xLine 2.0 Servisna knjiga Jamstvo 12 mj",
+                "categorySlug": "auti",
+                "titleSlug": "bmw-x1-sdrive18d-automatik-xline-servisna-povijest-jamstvo-12-mj",
+                "priceFormatted": "24.400,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/auti/bmw-x1-sdrive18d-automatik-xline-servisna-povijest-jamstvo-12-mj-slika-274811100.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              },
+              {
+                "id": 49842294,
+                "title": "BMW X1 sDrive18d LCI--NAVI--HARMAN KARDON--KAMERA--JAMSTVO 12mj.",
+                "categorySlug": "auti",
+                "titleSlug": "bmw-x1-sdrive18d-lci-navi-harman-kardon-kamera-jamstvo-12mj",
+                "priceFormatted": "22.850,00 €",
+                "image": "https://www.njuskalo.hr/image-360x360c/auti/bmw-x1-sdrive18d-lci-navi-harman-kardon-kamera-jamstvo-12mj-slika-271833107.jpg",
+                "isPriceOnRequest": false,
+                "hidePrice": false
+              }
+            ]
+          }
+        ],
+        "bannerZones": [
+          "dfpFloating",
+          "dfpInterstitialMobile",
+          "dfpFloatingMobile",
+          "dfpBillboard",
+          "dfpRectangleHomepage",
+          "dfpRectangle1Mobile"
+        ]
+      },
+      "bannerTargeting": {
+        "site": "www.njuskalo.hr",
+        "url": "https://www.njuskalo.hr",
+        "cont_type": "naslovnica",
+        "mainsection": "naslovna"
+      }
+    }
+  }
+}

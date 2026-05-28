@@ -1,0 +1,4790 @@
+{
+  "__INITIAL_STATE__": {
+    "main": {
+      "loading": false,
+      "error": null,
+      "spaActive": false,
+      "appWebViewActive": false,
+      "appWebViewType": "web",
+      "featureFlags": {
+        "isABTestForHomepageEnabled": false,
+        "isAdMetricsFeatureEnabled": false,
+        "isRecommenderForAutoMotoFeatureEnabled": true,
+        "isRecommenderForHomepageFeatureEnabled": true,
+        "isRecommenderForMarketplaceFeatureEnabled": true,
+        "isRecommenderForRealEstateFeatureEnabled": true,
+        "isAdaptiveSearchFiltersFeatureEnabled": true,
+        "isAdsenseFeatureEnabled": true,
+        "isAnalyticsFeatureEnabled": false,
+        "isPlatformStatisticsFeatureEnabled": false,
+        "isCategoryRecommenderFeatureEnabled": true,
+        "isCategorySuggestFeatureEnabled": true,
+        "isCustomerSuccessToolFeatureEnabled": true,
+        "defractalEnabled": true,
+        "isDemandManagerFeatureEnabled": true,
+        "isBannerLazyLoadFeatureEnabled": true,
+        "isEscrowActive": true,
+        "isDidomiFeatureEnabled": true,
+        "dotmetricsEnabled": true,
+        "isFallbackCookiePolicyFeatureEnabled": false,
+        "displayBanners": true,
+        "isXitiEnabled": true,
+        "googleTagManagerEnabled": true,
+        "hotJarEnabled": true,
+        "liveChatEnabled": true,
+        "microsoftClarityEnabled": true,
+        "midasEnabled": true,
+        "isNewAdManipulationEnabled": false,
+        "isNjupopCataloguesFeatureEnabled": true,
+        "isPrivacyPolicyNotificationEnabled": false,
+        "isOfferistaWidgetEnabled": false,
+        "isPushupSchedulingFeatureEnabled": false,
+        "isQuickSearchWidgetAutoMotoEnabled": false,
+        "isQuickSearchWidgetRealestateEnabled": false,
+        "isReadRecentUserQueryFeatureEnabled": true,
+        "isRecaptchaFeatureEnabled": true,
+        "isRecommenderFeatureEnabled": true,
+        "isSearchByImageEnabled": true,
+        "isSearchByImageWebPromoEnabled": true,
+        "isPopularCarModelsFeatureEnabled": true,
+        "shieldSquareEnabled": true,
+        "shouldShowAdDisplayCountInMyAdsList": true,
+        "showNearbyListingsBoxEnabled": true,
+        "isShowAdsOnGeoMapEnabled": true,
+        "isShowNotificationEnabled": false,
+        "isTagWidgetFeatureEnabled": true,
+        "isTrendingCategoriesRecommenderFeatureEnabled": true,
+        "areNewDsaCategoriesEnabled": true,
+        "vavenEnabled": false,
+        "isMobileManifestAndroidActive": true,
+        "isMobileManifestIOSActive": true,
+        "isQaAttributesFeatureEnabled": false,
+        "isCookieSwitchToSearchEnabled": false,
+        "isCookieSwitchToSimilarListingsEnabled": false,
+        "isCookieSwitchToNearbyListingsEnabled": false,
+        "isCookieSwitchAllRoutesEnabled": false
+      },
+      "unsupportedBrowserNotice": null,
+      "isAdblockDetected": false,
+      "user": null,
+      "siteNotice": "",
+      "trackers": {
+        "dotmetrics": {
+          "id": 923
+        },
+        "xiti": {
+          "xtn2": "Automoto",
+          "xtpage": "auti::ads_with_images%level_1_category_id%condition_id%locationIds%multipleCategory",
+          "x1": "other",
+          "x2": "transaction",
+          "x3": "Automoto",
+          "x4": "auti",
+          "recommenderFingerprint": null
+        },
+        "googleTagManager": {
+          "dataLayer": [
+            {
+              "NjuskaloVirtualPageview": "/auto-moto/auti/"
+            },
+            {
+              "page_type": "listing",
+              "ad_category_1": "Auto Moto",
+              "ad_category_2": "Osobni automobili"
+            }
+          ]
+        },
+        "adsense": {
+          "channelId": "7777651215",
+          "hintsKeywords": "osobno vozilo",
+          "locationName": ""
+        },
+        "defractal": {
+          "defractalPage": {
+            "type": "BROWSE",
+            "tags": [
+              "unknown"
+            ],
+            "fullChannel": "",
+            "channel": "auto-moto",
+            "classA": "auti",
+            "classB": "",
+            "classC": "",
+            "classD": ""
+          }
+        },
+        "midas": {
+          "categoryId": 13688,
+          "subCategoryId": 13688,
+          "campaignId": "353d3357-95c2-484a-aca8-e517e7f22372",
+          "rootCategoryId": 2
+        },
+        "etarget": {
+          "id": "auto-moto"
+        }
+      },
+      "banners": {
+        "slots": [
+          {
+            "id": "dfp_halfpage_njuskalo",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    300,
+                    50
+                  ],
+                  [
+                    300,
+                    600
+                  ],
+                  [
+                    160,
+                    600
+                  ],
+                  [
+                    300,
+                    250
+                  ],
+                  "fluid"
+                ],
+                "dfp-zone-container-dfp_halfpage_njuskalo"
+              ]
+            ],
+            "contexts": [
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "id": "dfp_rectangle_njuskalo",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    300,
+                    250
+                  ],
+                  "fluid"
+                ],
+                "dfp-zone-container-dfp_rectangle_njuskalo"
+              ]
+            ],
+            "contexts": [
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "id": "dfp_list_top_njuskalo",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    336,
+                    280
+                  ],
+                  "fluid",
+                  [
+                    1,
+                    1
+                  ],
+                  [
+                    300,
+                    250
+                  ]
+                ],
+                "dfp-zone-container-dfp_list_top_njuskalo"
+              ]
+            ],
+            "contexts": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "id": "dfp_list_bottom_njuskalo",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    468,
+                    60
+                  ],
+                  "fluid",
+                  [
+                    300,
+                    250
+                  ],
+                  [
+                    320,
+                    50
+                  ],
+                  [
+                    336,
+                    280
+                  ],
+                  [
+                    320,
+                    100
+                  ],
+                  [
+                    688,
+                    350
+                  ],
+                  [
+                    300,
+                    100
+                  ]
+                ],
+                "dfp-zone-container-dfp_list_bottom_njuskalo"
+              ]
+            ],
+            "contexts": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "id": "dfp_list_middle_njuskalo",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    468,
+                    60
+                  ],
+                  "fluid",
+                  [
+                    336,
+                    280
+                  ],
+                  [
+                    300,
+                    250
+                  ]
+                ],
+                "dfp-zone-container-dfp_list_middle_njuskalo"
+              ]
+            ],
+            "contexts": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "id": "dfp_floating_njuskalo",
+            "content": [
+              "defineOutOfPageSlot",
+              [
+                "dfp-zone-container-dfp_floating_njuskalo"
+              ]
+            ],
+            "contexts": [
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "id": "dfp_middle1_njuskalo",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    300,
+                    250
+                  ],
+                  [
+                    468,
+                    60
+                  ],
+                  [
+                    336,
+                    280
+                  ],
+                  "fluid"
+                ],
+                "dfp-zone-container-dfp_middle1_njuskalo"
+              ]
+            ],
+            "contexts": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "id": "dfp_floating_njuskalo_mobile",
+            "content": [
+              "defineOutOfPageSlot",
+              [
+                "dfp-zone-container-dfp_floating_njuskalo_mobile"
+              ]
+            ],
+            "contexts": [
+              1
+            ]
+          },
+          {
+            "id": "dfp_adlist_middle1_njuskalo_mobile",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    300,
+                    250
+                  ],
+                  [
+                    300,
+                    600
+                  ],
+                  [
+                    320,
+                    50
+                  ],
+                  "fluid",
+                  [
+                    320,
+                    480
+                  ],
+                  [
+                    320,
+                    100
+                  ],
+                  [
+                    320,
+                    618
+                  ],
+                  [
+                    336,
+                    280
+                  ],
+                  [
+                    320,
+                    250
+                  ],
+                  [
+                    320,
+                    640
+                  ]
+                ],
+                "dfp-zone-container-dfp_adlist_middle1_njuskalo_mobile"
+              ]
+            ],
+            "contexts": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "dfp_adlist_below_njuskalo_mobile",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    300,
+                    250
+                  ],
+                  [
+                    320,
+                    50
+                  ],
+                  "fluid",
+                  [
+                    320,
+                    100
+                  ]
+                ],
+                "dfp-zone-container-dfp_adlist_below_njuskalo_mobile"
+              ]
+            ],
+            "contexts": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "dfp_list_bottom_njuskalo_mobile",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    320,
+                    100
+                  ],
+                  [
+                    320,
+                    50
+                  ],
+                  [
+                    336,
+                    280
+                  ],
+                  [
+                    320,
+                    480
+                  ],
+                  [
+                    300,
+                    250
+                  ],
+                  [
+                    360,
+                    360
+                  ],
+                  "fluid"
+                ],
+                "dfp-zone-container-dfp_list_bottom_njuskalo_mobile"
+              ]
+            ],
+            "contexts": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "dfp_list_middle_njuskalo_mobile",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    320,
+                    100
+                  ],
+                  [
+                    336,
+                    280
+                  ],
+                  "fluid",
+                  [
+                    320,
+                    50
+                  ],
+                  [
+                    300,
+                    250
+                  ]
+                ],
+                "dfp-zone-container-dfp_list_middle_njuskalo_mobile"
+              ]
+            ],
+            "contexts": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "dfp_list_top_njuskalo_mobile",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    300,
+                    250
+                  ],
+                  "fluid",
+                  [
+                    336,
+                    280
+                  ],
+                  [
+                    320,
+                    250
+                  ],
+                  [
+                    320,
+                    50
+                  ],
+                  [
+                    1,
+                    1
+                  ],
+                  [
+                    320,
+                    100
+                  ]
+                ],
+                "dfp-zone-container-dfp_list_top_njuskalo_mobile"
+              ]
+            ],
+            "contexts": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "dfp_skyscraper_njuskalo",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    120,
+                    600
+                  ],
+                  "fluid",
+                  [
+                    230,
+                    618
+                  ],
+                  [
+                    160,
+                    600
+                  ]
+                ],
+                "dfp-zone-container-dfp_skyscraper_njuskalo"
+              ]
+            ],
+            "contexts": [
+              7,
+              8
+            ]
+          },
+          {
+            "id": "dfp_list_middle_3_5_njuskalo_mobile",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    336,
+                    280
+                  ],
+                  [
+                    320,
+                    100
+                  ],
+                  [
+                    300,
+                    250
+                  ],
+                  [
+                    320,
+                    480
+                  ],
+                  "fluid",
+                  [
+                    320,
+                    50
+                  ]
+                ],
+                "dfp-zone-container-dfp_list_middle_3_5_njuskalo_mobile"
+              ]
+            ],
+            "contexts": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "dfp_interstitial_njuskalo_mobile",
+            "content": [
+              "defineOutOfPageSlot",
+              [
+                "INTERSTITIAL"
+              ]
+            ],
+            "contexts": [
+              1
+            ]
+          },
+          {
+            "id": "nju_midas_ad_unit",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    336,
+                    280
+                  ],
+                  "fluid",
+                  [
+                    300,
+                    250
+                  ],
+                  [
+                    468,
+                    60
+                  ]
+                ],
+                "dfp-zone-container-nju_midas_ad_unit"
+              ]
+            ],
+            "contexts": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "id": "nju_midas_ad_unit_mobile",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    300,
+                    250
+                  ],
+                  [
+                    320,
+                    480
+                  ],
+                  [
+                    320,
+                    50
+                  ],
+                  [
+                    336,
+                    280
+                  ],
+                  [
+                    320,
+                    100
+                  ],
+                  "fluid"
+                ],
+                "dfp-zone-container-nju_midas_ad_unit_mobile"
+              ]
+            ],
+            "contexts": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "dfp_halfpage_2_njuskalo",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  "fluid",
+                  [
+                    300,
+                    250
+                  ],
+                  [
+                    160,
+                    600
+                  ],
+                  [
+                    300,
+                    300
+                  ],
+                  [
+                    300,
+                    600
+                  ]
+                ],
+                "dfp-zone-container-dfp_halfpage_2_njuskalo"
+              ]
+            ],
+            "contexts": [
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "id": "dfp_list_middle_3_5_njuskalo_desktop",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    468,
+                    60
+                  ],
+                  "fluid",
+                  [
+                    300,
+                    250
+                  ],
+                  [
+                    336,
+                    280
+                  ]
+                ],
+                "dfp-zone-container-dfp_list_middle_3_5_njuskalo_desktop"
+              ]
+            ],
+            "contexts": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          }
+        ]
+      },
+      "applicationVersion": "32df26981387f6fa4a9e00f31c7d8bc4a90b5801",
+      "serverTime": 1779971569482,
+      "mainNavigationCategories": [
+        {
+          "id": 2,
+          "title": "Auto Moto Nautika",
+          "url": "/auto-moto",
+          "iconId": "auto-moto",
+          "hasEscrow": false
+        },
+        {
+          "id": 1,
+          "title": "Nekretnine",
+          "url": "/nekretnine",
+          "iconId": "real-estate",
+          "hasEscrow": false
+        },
+        {
+          "id": "njupop",
+          "title": "Katalozi",
+          "url": "https://katalozi.njuskalo.hr",
+          "iconId": "discounts",
+          "hasEscrow": false
+        },
+        {
+          "id": "marketplace",
+          "title": "Marketplace",
+          "url": "/marketplace",
+          "iconId": "miscellaneous",
+          "hasEscrow": true,
+          "subCategories": [
+            {
+              "id": 12378,
+              "title": "Od glave do pete",
+              "url": "/od-glave-do-pete"
+            },
+            {
+              "id": 9737,
+              "title": "Sport i oprema",
+              "url": "/sportska-oprema"
+            },
+            {
+              "id": 9726,
+              "title": "Sve za dom",
+              "url": "/sve-za-dom"
+            },
+            {
+              "id": 9807,
+              "title": "Dječji svijet",
+              "url": "/djecji-svijet"
+            },
+            {
+              "id": 9761,
+              "title": "Strojevi i alati",
+              "url": "/strojevi-alati"
+            },
+            {
+              "id": 12111,
+              "title": "Usluge",
+              "url": "/usluge"
+            },
+            {
+              "id": 9654,
+              "title": "Audio Video Foto",
+              "url": "/audio-video-foto"
+            },
+            {
+              "id": 9643,
+              "title": "Mobiteli",
+              "url": "/mobiteli"
+            },
+            {
+              "id": 9696,
+              "title": "Glazbala",
+              "url": "/glazbala"
+            },
+            {
+              "id": 9749,
+              "title": "Literatura",
+              "url": "/knjige"
+            },
+            {
+              "id": 3,
+              "title": "Informatika",
+              "url": "/informatika"
+            },
+            {
+              "id": 9788,
+              "title": "Kućni ljubimci",
+              "url": "/kucni-ljubimci"
+            },
+            {
+              "id": 9798,
+              "title": "Pronađeno blago",
+              "url": "/blago"
+            },
+            {
+              "id": 9823,
+              "title": "Ostalo",
+              "url": "/ostalo"
+            },
+            {
+              "id": 9830,
+              "title": "Poklanjam",
+              "url": "/poklanjam"
+            },
+            {
+              "id": 12599,
+              "title": "Hrana i piće",
+              "url": "/hrana-pice"
+            },
+            {
+              "id": 16163,
+              "title": "Turistički smještaj",
+              "url": "/turisticki-smjestaj"
+            },
+            {
+              "id": 12551,
+              "title": "Poslovi",
+              "url": "/posao"
+            }
+          ]
+        }
+      ],
+      "showEnvironmentMarker": false
+    },
+    "browseListingsStore": {
+      "pageData": {
+        "meta": {
+          "title": "Automobili | Novi i rabljeni auti - Njuškalo",
+          "description": "Njuškalo auti. Prodaja automobila u malim oglasima sa slikama i cijenom oglasa. Velik izbor novih i rabljenih osobnih vozila na oglasniku Njuskalo.hr. Pogledajte ponudu polovnih i novih automobila u Hrvatskoj i regiji.",
+          "keywords": "automobili, vozila, auti, rabljeni automobili, osobno vozilo, kupnja auta",
+          "openGraphTitle": "Auti - osobni automobili",
+          "openGraphType": "category",
+          "openGraphImage": "ikone_fb_90x90_automoto_osobna"
+        },
+        "listHeader": {
+          "title": "Auti - osobni automobili",
+          "description": "Njuškalo auti. Prodaja automobila u malim oglasima sa slikama i cijenom oglasa. Velik izbor novih i rabljenih osobnih vozila na oglasniku Njuskalo.hr. Pogledajte ponudu polovnih i novih automobila u Hrvatskoj i regiji."
+        },
+        "breadcrumbs": [
+          {
+            "caption": "Oglasnik",
+            "route": "/",
+            "active": false
+          },
+          {
+            "caption": "Auto Moto",
+            "route": "/auto-moto",
+            "active": false
+          },
+          {
+            "caption": "Osobni automobili",
+            "route": "/auti",
+            "active": true
+          }
+        ],
+        "canonicalUrl": "https://www.njuskalo.hr/auti",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Oglasnik",
+                  "item": "http://www.njuskalo.hr/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Auto Moto",
+                  "item": "http://www.njuskalo.hr/auto-moto"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Osobni automobili",
+                  "item": "http://www.njuskalo.hr/auti"
+                }
+              ]
+            }
+          ]
+        },
+        "isFiltered": true,
+        "isFilteredWithAuxFields": false,
+        "isLeaf": false,
+        "hasMapView": false,
+        "submitFreeListingCallToAction": null,
+        "promotedListings": [
+          {
+            "id": 50674160,
+            "title": "AUDI A3 1.6TDI //161tkm//prvi vlasnik//dvozonska klima//odličan//",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Rabljeno vozilo, 161000 km"
+              },
+              {
+                "caption": null,
+                "value": "Godište automobila: 2011."
+              },
+              {
+                "caption": "Lokacija vozila",
+                "value": "Stenjevec, Stenjevec"
+              },
+              {
+                "caption": null,
+                "value": "Financiranje već od 73,94 € mjesečno",
+                "highlight": true
+              }
+            ],
+            "createdAt": "2026-05-28T05:34:10.000Z",
+            "createdAtFormatted": "28.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/auti/audi-a3-1.6tdi-161tkm-prvi-vlasnik-dvozonska-klima-odlican-slika-278486866.jpg",
+            "priceFormatted": "6.599 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "auti",
+            "titleSlug": "audi-a3-1.6tdi-161tkm-prvi-vlasnik-dvozonska-klima-odlican",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": true,
+            "isPromoted": true,
+            "location": "Stenjevec, Stenjevec",
+            "isCompared": false
+          },
+          {
+            "id": 50328771,
+            "title": "Audi A4 2,0 TDI automatik",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Rabljeno vozilo, 240000 km"
+              },
+              {
+                "caption": null,
+                "value": "Godište automobila: 2011."
+              },
+              {
+                "caption": "Lokacija vozila",
+                "value": "Sesvete, Sesvete"
+              },
+              {
+                "caption": null,
+                "value": "Financiranje već od 89,63 € mjesečno",
+                "highlight": true
+              }
+            ],
+            "createdAt": "2026-05-18T14:30:59.000Z",
+            "createdAtFormatted": "18.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/auti/audi-a4-2.0-tdi-automatik-slika-275595607.jpg",
+            "priceFormatted": "8.000 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "auti",
+            "titleSlug": "audi-a4-2.0-tdi-automatik",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": true,
+            "isPromoted": true,
+            "location": "Sesvete, Sesvete",
+            "isCompared": false
+          },
+          {
+            "id": 50060474,
+            "title": "KIA Stonic 1,0 T-GDi LX City ISG,Stražnja kamera, Tempomat,Multifunkci",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Rabljeno vozilo, 16415 km"
+              },
+              {
+                "caption": null,
+                "value": "Godište automobila: 2023."
+              },
+              {
+                "caption": null,
+                "value": "Financiranje već od 188,31 € mjesečno",
+                "highlight": true
+              }
+            ],
+            "createdAt": "2026-05-27T13:27:44.000Z",
+            "createdAtFormatted": "27.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/auti/kia-stonic-1.0-t-gdi-vozilo-dolasku-jamstvo-slika-278484928.jpg",
+            "priceFormatted": "16.990 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "auti",
+            "titleSlug": "kia-stonic-1.0-t-gdi-vozilo-dolasku-jamstvo",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": true,
+            "isPromoted": true,
+            "isCompared": false
+          },
+          {
+            "id": 49976968,
+            "title": "Jeep Compass 1.3 Automatik LIMITED - Panorama - 19’ alu 2 seta guma",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Rabljeno vozilo, 56000 km"
+              },
+              {
+                "caption": null,
+                "value": "Godište automobila: 2022."
+              },
+              {
+                "caption": "Lokacija vozila",
+                "value": "Trnje, Cvjetno naselje"
+              },
+              {
+                "caption": null,
+                "value": "Financiranje već od 235,94 € mjesečno",
+                "highlight": true
+              }
+            ],
+            "createdAt": "2026-05-25T21:11:48.000Z",
+            "createdAtFormatted": "25.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/auti/jeep-compass-1.3-automatik-slika-272895654.jpg",
+            "priceFormatted": "21.300 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "auti",
+            "titleSlug": "jeep-compass-1.3-automatik",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": true,
+            "isPromoted": true,
+            "location": "Trnje, Cvjetno naselje",
+            "isCompared": false
+          },
+          {
+            "id": 50558532,
+            "title": "Audi Q3 Sportback 35TDI* 3XS-Line*Virtual*Alu19*Matrix*Garancija",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Rabljeno vozilo, 119000 km"
+              },
+              {
+                "caption": null,
+                "value": "Godište automobila: 2022."
+              },
+              {
+                "caption": "Lokacija vozila",
+                "value": "Peščenica - Žitnjak, Vukomerec"
+              },
+              {
+                "caption": null,
+                "value": "Financiranje već od 405,23 € mjesečno",
+                "highlight": true
+              }
+            ],
+            "createdAt": "2026-05-28T06:46:24.000Z",
+            "createdAtFormatted": "28.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/auti/audi-q3-35-tdi-3-x-line-tronic-koza-kamera-led-alu-19-garancija-slika-277576169.jpg",
+            "priceFormatted": "36.999 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "auti",
+            "titleSlug": "audi-q3-35-tdi-3-x-line-tronic-koza-kamera-led-alu-19-garancija",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": true,
+            "isPromoted": true,
+            "location": "Peščenica - Žitnjak, Vukomerec",
+            "isCompared": false
+          },
+          {
+            "id": 50566851,
+            "title": "VW Tiguan 1,5 eTSI automatik R-Line Plus /1. Vlasnik/Reg 1g./",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Rabljeno vozilo, 27000 km"
+              },
+              {
+                "caption": null,
+                "value": "Godište automobila: 2024."
+              },
+              {
+                "caption": "Lokacija vozila",
+                "value": "Gornja Dubrava, Granešina"
+              },
+              {
+                "caption": null,
+                "value": "Financiranje već od 469,85 € mjesečno",
+                "highlight": true
+              }
+            ],
+            "createdAt": "2026-05-28T09:35:18.000Z",
+            "createdAtFormatted": "28.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/auti/vw-tiguan-1.5-etsi-automatik-r-line-plus-1-vlasnik-reg-1g-slika-277603130.jpg",
+            "priceFormatted": "42.900 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "auti",
+            "titleSlug": "vw-tiguan-1.5-etsi-automatik-r-line-plus-1-vlasnik-reg-1g",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": true,
+            "isPromoted": true,
+            "location": "Gornja Dubrava, Granešina",
+            "isCompared": false
+          }
+        ],
+        "userPromotedListings": [],
+        "regularListings": [
+          {
+            "id": 49506308,
+            "title": "Zamj,MercedesBenz GLS 350 CDI*PDV*4MATIC**AMG*7 SJEDALA*NIJE UVOZ",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Rabljeno vozilo, 245000 km"
+              },
+              {
+                "caption": null,
+                "value": "Godište automobila: 2017."
+              },
+              {
+                "caption": "Lokacija vozila",
+                "value": "Trešnjevka - Jug, Jarun"
+              }
+            ],
+            "createdAt": "2026-05-27T20:16:53.000Z",
+            "createdAtFormatted": "27.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/auti/mercedes-benz-gle-350-d-automatik-slika-275294107.jpg",
+            "priceFormatted": "1 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "auti",
+            "titleSlug": "mercedes-benz-gle-350-d-automatik",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": true,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": true,
+            "isPromoted": false,
+            "location": "Trešnjevka - Jug, Jarun",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false,
+            "isCompared": false
+          },
+          {
+            "id": 49472206,
+            "title": "ZAMj,Audi A7 50 TDI*3X*S LINE QUATTRO*286 KS*REG 01.g 83 TKM MATRIX",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Rabljeno vozilo, 84555 km"
+              },
+              {
+                "caption": null,
+                "value": "Godište automobila: 2019."
+              },
+              {
+                "caption": "Lokacija vozila",
+                "value": "Trešnjevka - Jug, Vrbani"
+              }
+            ],
+            "createdAt": "2026-05-27T20:16:53.000Z",
+            "createdAtFormatted": "27.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/auti/audi-a7-50-tdi-automatik-slika-268671478.jpg",
+            "priceFormatted": "1 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "auti",
+            "titleSlug": "audi-a7-50-tdi-automatik",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": true,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": true,
+            "isPromoted": false,
+            "location": "Trešnjevka - Jug, Vrbani",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false,
+            "isCompared": false
+          },
+          {
+            "id": 48967035,
+            "title": "Zamj,MercedesBenz GLS 350 CDI*PDV*4MAT*FUL*AMG*7 SJEDALA* NIJE UVOZ !",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Rabljeno vozilo, 245000 km"
+              },
+              {
+                "caption": null,
+                "value": "Godište automobila: 2016."
+              },
+              {
+                "caption": "Lokacija vozila",
+                "value": "Trešnjevka - Jug, Vrbani"
+              }
+            ],
+            "createdAt": "2026-05-27T20:16:53.000Z",
+            "createdAtFormatted": "27.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/auti/mercedes-benz-gls-350-dizel-automatic-automatik-slika-275806837.jpg",
+            "priceFormatted": "1 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "auti",
+            "titleSlug": "mercedes-benz-gls-350-dizel-automatic-automatik",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": true,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": true,
+            "isPromoted": false,
+            "location": "Trešnjevka - Jug, Vrbani",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false,
+            "isCompared": false
+          },
+          {
+            "id": 50663577,
+            "title": "Audi A4 Avant 35 TDI automatik / REG 1 GOD !!",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Rabljeno vozilo, 259500 km"
+              },
+              {
+                "caption": null,
+                "value": "Godište automobila: 2020."
+              },
+              {
+                "caption": "Lokacija vozila",
+                "value": "Trešnjevka - Sjever, Rudeš"
+              }
+            ],
+            "createdAt": "2026-05-26T08:51:40.000Z",
+            "createdAtFormatted": "26.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/auti/audi-a4-avant-35-tdi-automatik-reg-1-god-slika-278406580.jpg",
+            "priceFormatted": "1 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "auti",
+            "titleSlug": "audi-a4-avant-35-tdi-automatik-reg-1-god",
+            "isNewCar": false,
+            "hasCarWarranty": true,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": true,
+            "isPromoted": false,
+            "location": "Trešnjevka - Sjever, Rudeš",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false,
+            "isCompared": false
+          },
+          {
+            "id": 49498904,
+            "title": "Mercedes-Benz GLS 350 CDI*Pdv* 4MATIC ** AMG *7 SJEDALA* NIJE UVOZ !",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Rabljeno vozilo, 244000 km"
+              },
+              {
+                "caption": null,
+                "value": "Godište automobila: 2017."
+              },
+              {
+                "caption": "Lokacija vozila",
+                "value": "Trešnjevka - Jug, Vrbani"
+              }
+            ],
+            "createdAt": "2026-05-21T13:53:19.000Z",
+            "createdAtFormatted": "21.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/auti/mercedes-benz-gls-amg-350-dizel-automatik-slika-274431218.jpg",
+            "priceFormatted": "1 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "auti",
+            "titleSlug": "mercedes-benz-gls-amg-350-dizel-automatik",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": true,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": true,
+            "isPromoted": true,
+            "location": "Trešnjevka - Jug, Vrbani",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false,
+            "isCompared": false
+          },
+          {
+            "id": 45013966,
+            "title": "Chevrolet Orlando 2,0 VCDi LT ,DIJELOVI LIM.I MEHANIKE",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Rabljeno vozilo, 160000 km"
+              },
+              {
+                "caption": null,
+                "value": "Godište automobila: 2014."
+              },
+              {
+                "caption": "Lokacija vozila",
+                "value": "Peščenica - Žitnjak, Kozari put"
+              }
+            ],
+            "createdAt": "2026-05-08T06:54:48.000Z",
+            "createdAtFormatted": "08.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/auti/chevrolet-orlando-2.0-vcdi-lt-slika-229986252.jpg",
+            "priceFormatted": "1 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "auti",
+            "titleSlug": "chevrolet-orlando-2.0-vcdi-lt",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": true,
+            "isPromoted": false,
+            "location": "Peščenica - Žitnjak, Kozari put",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false,
+            "isCompared": false
+          },
+          {
+            "id": 50176204,
+            "title": "Volvo V60 B4D LEASING BEZ UČEŠĆA I BEZ JAMACA",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Rabljeno vozilo, 74081 km"
+              },
+              {
+                "caption": null,
+                "value": "Godište automobila: 2023."
+              },
+              {
+                "caption": "Lokacija vozila",
+                "value": "Sesvete, Sesvete"
+              }
+            ],
+            "createdAt": "2026-03-24T16:02:50.000Z",
+            "createdAtFormatted": "24.03.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/auti/volvo-v60-b4d-leasing-bez-ucesca-bez-jamaca-slika-274133618.jpg",
+            "priceFormatted": "1 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "auti",
+            "titleSlug": "volvo-v60-b4d-leasing-bez-ucesca-bez-jamaca",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": true,
+            "isPromoted": false,
+            "location": "Sesvete, Sesvete",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false,
+            "isCompared": false
+          },
+          {
+            "id": 43904408,
+            "title": "U PDVu - BMW serija 4 Gran Coupe 435d M Sport",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Rabljeno vozilo, 175000 km"
+              },
+              {
+                "caption": null,
+                "value": "Godište automobila: 2015."
+              },
+              {
+                "caption": "Lokacija vozila",
+                "value": "Gornji Grad - Medveščak, Pantovčak"
+              }
+            ],
+            "createdAt": "2026-05-03T17:54:43.000Z",
+            "createdAtFormatted": "03.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/auti/bmw-serija-4-gran-coupe-435d-m-sport-slika-222011628.jpg",
+            "priceFormatted": "5 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "auti",
+            "titleSlug": "bmw-serija-4-gran-coupe-435d-m-sport",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": true,
+            "isPromoted": false,
+            "location": "Gornji Grad - Medveščak, Pantovčak",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false,
+            "isCompared": false
+          },
+          {
+            "id": 44152742,
+            "title": "Peugeot 407 Sport 2,9 V6 205 ks automatic 2006 godina “”””DIJELOVI””””",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Rabljeno vozilo, 198000 km"
+              },
+              {
+                "caption": null,
+                "value": "Godište automobila: 2006."
+              },
+              {
+                "caption": "Lokacija vozila",
+                "value": "Gornja Dubrava, Miroševec"
+              }
+            ],
+            "createdAt": "2026-01-10T05:25:07.000Z",
+            "createdAtFormatted": "10.01.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/auti/peugeot-407-sport-2.9-v6-205-ks-automatic-2006-godina-dijelovi-slika-223416389.jpg",
+            "priceFormatted": "10 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "auti",
+            "titleSlug": "peugeot-407-sport-2.9-v6-205-ks-automatic-2006-godina-dijelovi",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": true,
+            "isPromoted": false,
+            "location": "Gornja Dubrava, Miroševec",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false,
+            "isCompared": false
+          },
+          {
+            "id": 32859613,
+            "title": "Mitsubishi Colt 1,3 FUN u katamboliran u dijelovima prodajem",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Rabljeno vozilo, 170000 km"
+              },
+              {
+                "caption": null,
+                "value": "Godište automobila: 2006."
+              },
+              {
+                "caption": "Lokacija vozila",
+                "value": "Novi Zagreb - Zapad, Hrvatski Leskovac"
+              }
+            ],
+            "createdAt": "2023-04-24T14:57:39.000Z",
+            "createdAtFormatted": "24.04.2023.",
+            "image": "https://www.njuskalo.hr/image-200x150/auti/mitsubishi-colt-1.3-fun-katamboliran-dijelovima-prodajem-slika-139982260.jpg",
+            "priceFormatted": "13,27 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "auti",
+            "titleSlug": "mitsubishi-colt-1.3-fun-katamboliran-dijelovima-prodajem",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": true,
+            "isPromoted": false,
+            "location": "Novi Zagreb - Zapad, Hrvatski Leskovac",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false,
+            "isCompared": false
+          },
+          {
+            "id": 50592948,
+            "title": "Najam BOLT/UBER TAXI Peugeot 308 Karavan 1,5D Full Kasko - Nema pologa",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Rabljeno vozilo, 126000 km"
+              },
+              {
+                "caption": null,
+                "value": "Godište automobila: 2019."
+              },
+              {
+                "caption": "Lokacija vozila",
+                "value": "Novi Zagreb - Zapad, Ježdovec"
+              }
+            ],
+            "createdAt": "2026-05-13T11:52:28.000Z",
+            "createdAtFormatted": "13.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/auti/najam-bolt-uber-taxi-peugeot-308-karavan-1.5d-full-kasko-nema-pologa-slika-277838936.jpg",
+            "priceFormatted": "160 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "auti",
+            "titleSlug": "najam-bolt-uber-taxi-peugeot-308-karavan-1.5d-full-kasko-nema-pologa",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": true,
+            "isPromoted": false,
+            "location": "Novi Zagreb - Zapad, Ježdovec",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false,
+            "isCompared": false
+          },
+          {
+            "id": 50592879,
+            "title": "Najam BOLT/UBER TAXI Opel Astra Karavan 1,5D Full Kasko - Nema pologa",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Rabljeno vozilo, 138000 km"
+              },
+              {
+                "caption": null,
+                "value": "Godište automobila: 2020."
+              },
+              {
+                "caption": "Lokacija vozila",
+                "value": "Novi Zagreb - Zapad, Ježdovec"
+              }
+            ],
+            "createdAt": "2026-05-13T11:42:40.000Z",
+            "createdAtFormatted": "13.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/auti/opel-astra-karavan-1.5-d-slika-277838430.jpg",
+            "priceFormatted": "160 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "auti",
+            "titleSlug": "opel-astra-karavan-1.5-d",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": true,
+            "isPromoted": false,
+            "location": "Novi Zagreb - Zapad, Ježdovec",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false,
+            "isCompared": false
+          },
+          {
+            "id": 40195119,
+            "title": "Toyota iQ 1,4 D-4D , ZA DIJELOVE",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Rabljeno vozilo, 130000 km"
+              },
+              {
+                "caption": null,
+                "value": "Godište automobila: 2009."
+              },
+              {
+                "caption": "Lokacija vozila",
+                "value": "Stenjevec, Špansko"
+              }
+            ],
+            "createdAt": "2026-05-25T13:30:58.000Z",
+            "createdAtFormatted": "25.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/auti/toyota-iq-1.4-d-4d-slika-191771933.jpg",
+            "priceFormatted": "200 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "auti",
+            "titleSlug": "toyota-iq-1.4-d-4d",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": true,
+            "isPromoted": false,
+            "location": "Stenjevec, Špansko",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false,
+            "isCompared": false
+          },
+          {
+            "id": 50352792,
+            "title": "Alfa Romeo Giulietta 2,0 TCT , diesel , automatik , DIJELOVI",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Rabljeno vozilo, 240000 km"
+              },
+              {
+                "caption": null,
+                "value": "Godište automobila: 2015."
+              },
+              {
+                "caption": "Lokacija vozila",
+                "value": "Stenjevec, Donje Vrapče"
+              }
+            ],
+            "createdAt": "2026-05-07T13:20:34.000Z",
+            "createdAtFormatted": "07.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/auti/alfa-romeo-giulietta-2.0-tct-diesel-automatik-dijelovi-slika-275772443.jpg",
+            "priceFormatted": "200 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "auti",
+            "titleSlug": "alfa-romeo-giulietta-2.0-tct-diesel-automatik-dijelovi",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": true,
+            "isPromoted": false,
+            "location": "Stenjevec, Donje Vrapče",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false,
+            "isCompared": false
+          },
+          {
+            "id": 42944365,
+            "title": "Peugeot 301 1,6 HDi 68 kw 2014 godina karamboliran dijelovi",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Rabljeno vozilo, 137000 km"
+              },
+              {
+                "caption": null,
+                "value": "Godište automobila: 2014."
+              },
+              {
+                "caption": "Lokacija vozila",
+                "value": "Gornja Dubrava, Miroševec"
+              }
+            ],
+            "createdAt": "2026-01-10T05:25:11.000Z",
+            "createdAtFormatted": "10.01.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/auti/peugeot-301-1.6-hdi-68-kw-2014-godina-karamboliran-dijelovi-slika-214117206.jpg",
+            "priceFormatted": "200 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "auti",
+            "titleSlug": "peugeot-301-1.6-hdi-68-kw-2014-godina-karamboliran-dijelovi",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": true,
+            "isPromoted": false,
+            "location": "Gornja Dubrava, Miroševec",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false,
+            "isCompared": false
+          },
+          {
+            "id": 50438225,
+            "title": "Citroën Xsara 1.4i 2002. - HITNO 299 EUR",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Rabljeno vozilo, 210000 km"
+              },
+              {
+                "caption": null,
+                "value": "Godište automobila: 2002."
+              },
+              {
+                "caption": "Lokacija vozila",
+                "value": "Črnomerec, Kustošija"
+              }
+            ],
+            "createdAt": "2026-05-11T18:12:19.000Z",
+            "createdAtFormatted": "11.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/auti/citro-n-xsara-1.4i-2002-400-eur-slika-276471023.jpg",
+            "priceFormatted": "299 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "auti",
+            "titleSlug": "citro-n-xsara-1.4i-2002-400-eur",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": true,
+            "isPromoted": false,
+            "location": "Črnomerec, Kustošija",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false,
+            "isCompared": false
+          },
+          {
+            "id": 50376489,
+            "title": "Citroën C3 1,4 HDi * 40g uvozimo osobna i teretna vozila *",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Rabljeno vozilo, 237304 km"
+              },
+              {
+                "caption": null,
+                "value": "Godište automobila: 2008."
+              },
+              {
+                "caption": "Lokacija vozila",
+                "value": "Sesvete, Soblinec"
+              }
+            ],
+            "createdAt": "2026-04-17T07:21:43.000Z",
+            "createdAtFormatted": "17.04.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/auti/citro-n-c3-1.4-hdi-40g-uvozimo-osobna-teretna-vozila-slika-275933159.jpg",
+            "priceFormatted": "299 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "auti",
+            "titleSlug": "citro-n-c3-1.4-hdi-40g-uvozimo-osobna-teretna-vozila",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": true,
+            "isPromoted": false,
+            "location": "Sesvete, Soblinec",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false,
+            "isCompared": false
+          },
+          {
+            "id": 50302595,
+            "title": "Škoda Fabia 1,4 * VIŠE KOMADA * RASPRODAJA *",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Rabljeno vozilo, 167000 km"
+              },
+              {
+                "caption": null,
+                "value": "Godište automobila: 2003."
+              },
+              {
+                "caption": "Lokacija vozila",
+                "value": "Sesvete, Soblinec"
+              }
+            ],
+            "createdAt": "2026-04-09T12:45:20.000Z",
+            "createdAtFormatted": "09.04.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/auti/skoda-fabia-1.4-vise-komada-rasprodaja-slika-275372647.jpg",
+            "priceFormatted": "299 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "auti",
+            "titleSlug": "skoda-fabia-1.4-vise-komada-rasprodaja",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": true,
+            "isPromoted": false,
+            "location": "Sesvete, Soblinec",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false,
+            "isCompared": false
+          },
+          {
+            "id": 50508596,
+            "title": "Volvo S40 1,6 D",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Rabljeno vozilo, 250000 km"
+              },
+              {
+                "caption": null,
+                "value": "Godište automobila: 2008."
+              },
+              {
+                "caption": "Lokacija vozila",
+                "value": "Donja Dubrava, Donja Dubrava"
+              }
+            ],
+            "createdAt": "2026-05-04T09:16:37.000Z",
+            "createdAtFormatted": "04.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/auti/volvo-s40-1.6-d-slika-276961193.jpg",
+            "priceFormatted": "300 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "auti",
+            "titleSlug": "volvo-s40-1.6-d",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": true,
+            "isPromoted": false,
+            "location": "Donja Dubrava, Donja Dubrava",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false,
+            "isCompared": false
+          },
+          {
+            "id": 47142762,
+            "title": "Opel Combo 1,2 L1H1 N1 5 sjedala već od 395,06€/mjesečno",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Rabljeno vozilo, 4000 km"
+              },
+              {
+                "caption": null,
+                "value": "Godište automobila: 2025."
+              },
+              {
+                "caption": "Lokacija vozila",
+                "value": "Peščenica - Žitnjak, Peščenica"
+              }
+            ],
+            "createdAt": "2026-05-15T06:34:39.000Z",
+            "createdAtFormatted": "15.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/auti/opel-combo-1.2turbo-l1h1-n1-5-sjedala-vec-395.06-mjesecno-slika-250574401.jpg",
+            "priceFormatted": "395,06 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "auti",
+            "titleSlug": "opel-combo-1.2turbo-l1h1-n1-5-sjedala-vec-395.06-mjesecno",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": true,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": true,
+            "isPromoted": false,
+            "location": "Peščenica - Žitnjak, Peščenica",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false,
+            "isCompared": false
+          },
+          {
+            "id": 50273660,
+            "title": "Renault Clio 2 - 1,5 dCi, 2002.g. 48KW, 5 vrata, klima",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Rabljeno vozilo, 209000 km"
+              },
+              {
+                "caption": null,
+                "value": "Godište automobila: 2002."
+              },
+              {
+                "caption": "Lokacija vozila",
+                "value": "Novi Zagreb - Istok, Središće"
+              }
+            ],
+            "createdAt": "2026-05-23T12:32:00.000Z",
+            "createdAtFormatted": "23.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/auti/renault-clio-2-1.5-dci-2002-g-48kw-5-vrata-klima-slika-275094474.jpg",
+            "priceFormatted": "400 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "auti",
+            "titleSlug": "renault-clio-2-1.5-dci-2002-g-48kw-5-vrata-klima",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": true,
+            "isPromoted": false,
+            "location": "Novi Zagreb - Istok, Središće",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false,
+            "isCompared": false
+          },
+          {
+            "id": 47744905,
+            "title": "Opel Corsa 1,2 16V",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Rabljeno vozilo, 420000 km"
+              },
+              {
+                "caption": null,
+                "value": "Godište automobila: 2005."
+              },
+              {
+                "caption": "Lokacija vozila",
+                "value": "Brezovica, Horvati"
+              }
+            ],
+            "createdAt": "2026-05-10T20:34:58.000Z",
+            "createdAtFormatted": "10.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/auti/opel-corsa-1.2-16v-slika-256037980.jpg",
+            "priceFormatted": "400 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "auti",
+            "titleSlug": "opel-corsa-1.2-16v",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": true,
+            "isPromoted": false,
+            "location": "Brezovica, Horvati",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false,
+            "isCompared": false
+          },
+          {
+            "id": 36372203,
+            "title": "Daewoo Matiz SE",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Rabljeno vozilo, 133000 km"
+              },
+              {
+                "caption": null,
+                "value": "Godište automobila: 2001."
+              },
+              {
+                "caption": "Lokacija vozila",
+                "value": "Podsused - Vrapče, Vrapče"
+              }
+            ],
+            "createdAt": "2026-04-15T12:00:56.000Z",
+            "createdAtFormatted": "15.04.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/auti/daewoo-matiz-se-dijelove-slika-165644690.jpg",
+            "priceFormatted": "400 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "auti",
+            "titleSlug": "daewoo-matiz-se-dijelove",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": true,
+            "isPromoted": false,
+            "location": "Podsused - Vrapče, Vrapče",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false,
+            "isCompared": false
+          },
+          {
+            "id": 50682008,
+            "title": "Škoda Fabia 1,4",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Rabljeno vozilo, 200000 km"
+              },
+              {
+                "caption": null,
+                "value": "Godište automobila: 2000."
+              },
+              {
+                "caption": "Lokacija vozila",
+                "value": "Trešnjevka - Sjever, Rudeš"
+              }
+            ],
+            "createdAt": "2026-05-28T05:53:50.000Z",
+            "createdAtFormatted": "28.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/auti/skoda-fabia-1.4-slika-278572634.jpg",
+            "priceFormatted": "450 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "auti",
+            "titleSlug": "skoda-fabia-1.4",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": true,
+            "isPromoted": false,
+            "location": "Trešnjevka - Sjever, Rudeš",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false,
+            "isCompared": false
+          },
+          {
+            "id": 50572808,
+            "title": "Opel Corsa 1.3 disel",
+            "abstracts": [
+              {
+                "caption": null,
+                "value": "Rabljeno vozilo, 285000 km"
+              },
+              {
+                "caption": null,
+                "value": "Godište automobila: 2008."
+              },
+              {
+                "caption": "Lokacija vozila",
+                "value": "Peščenica - Žitnjak, Žitnjak"
+              }
+            ],
+            "createdAt": "2026-05-25T05:00:50.000Z",
+            "createdAtFormatted": "25.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/auti/opel-corsa-1.3-disel-slika-277645571.jpg",
+            "priceFormatted": "490 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "auti",
+            "titleSlug": "opel-corsa-1.3-disel",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": true,
+            "isPromoted": false,
+            "location": "Peščenica - Žitnjak, Žitnjak",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false,
+            "isCompared": false
+          }
+        ],
+        "latestListings": [
+          {
+            "id": 50695121,
+            "categorySlug": "numizmatika-novcanice",
+            "titleSlug": "north-korea-sjeverna-koreja-1988-10-chon-unc",
+            "title": "NORTH KOREA / SJEVERNA KOREJA (1988) 10 Chon UNC"
+          },
+          {
+            "id": 50695123,
+            "categorySlug": "nekretnine",
+            "titleSlug": "obiteljska-kuca-111m2-bolfan-ludbreg",
+            "title": "OBITELJSKA KUĆA(111m2) - BOLFAN, LUDBREG"
+          },
+          {
+            "id": 50695120,
+            "categorySlug": "slicice-albumi",
+            "titleSlug": "stare-svete-slicice-oko-1880-godine-10-komada",
+            "title": "Stare svete slicice, oko 1880 godine...10 komada"
+          },
+          {
+            "id": 50695119,
+            "categorySlug": "karoserija-limarija",
+            "titleSlug": "vrata-citroen-xsara-picasso-1999-2000-2001-2002-2003-2004-2005-2006",
+            "title": "VRATA CITROEN XSARA PICASSO 1999 2000 2001 2002 2003 2004 2005 2006"
+          },
+          {
+            "id": 50695118,
+            "categorySlug": "peradarstvo",
+            "titleSlug": "jureki-katice",
+            "title": "Jureki i katice"
+          },
+          {
+            "id": 50695117,
+            "categorySlug": "poklanjam",
+            "titleSlug": "poklanjam-kauc",
+            "title": "Poklanjam Kauc"
+          }
+        ],
+        "superVauListings": [],
+        "popularTags": [],
+        "featuredStores": [
+          {
+            "id": "323406",
+            "image": "https://www.njuskalo.hr/logo-140x140/psczagreb-logo2-323406.jpg?quality=100",
+            "url": "/trgovina/psczagreb",
+            "subListings": [
+              {
+                "id": 50354242,
+                "title": "Opel Astra Karavan ST GS Aut 1.5D 96kW već od 495€/mj",
+                "url": "/novi-auti/opel-astra-karavan-st-gs-aut-1.5d-96kw-vec-495-mj-oglas-50354242",
+                "hasVideo": false,
+                "hasMap": true,
+                "hasGroundPlan": false
+              },
+              {
+                "id": 50660254,
+                "title": "Opel GRANDLAND Design&amp;tech Aut 1.2 S/S, 96kW - 7 godina garancije!",
+                "url": "/auti/opel-grandland-design-tech-aut-1.2-96kw-7-godina-garancije-oglas-50660254",
+                "hasVideo": false,
+                "hasMap": true,
+                "hasGroundPlan": false
+              },
+              {
+                "id": 50261836,
+                "title": "Toyota Yaris Cross PAKET ASSIST 1.5 hibrid (HEV) 116 hp Auto.",
+                "url": "/novi-auti/toyota-yaris-cross-paket-assist-1.5-hibrid-hev-116-hp-auto-oglas-50261836",
+                "hasVideo": false,
+                "hasMap": true,
+                "hasGroundPlan": false
+              }
+            ]
+          },
+          {
+            "id": "667",
+            "image": "https://www.njuskalo.hr/logo-140x140/asautomobili-logo2-667.jpg?quality=100",
+            "url": "/trgovina/asautomobili",
+            "subListings": [
+              {
+                "id": 50110356,
+                "title": "SUZUKI SX4 S CROSS 1.0, 14.990,00 € - Akcija",
+                "url": "/auti/suzuki-sx4-cross-1.0-15.500.00-oglas-50110356",
+                "hasVideo": false,
+                "hasMap": true,
+                "hasGroundPlan": false
+              },
+              {
+                "id": 50110303,
+                "title": "FOCUS 1.5 TDCI - Jamstvo 15 mjeseci!, 11.290,00 € - Akcija",
+                "url": "/auti/focus-1.5-tdci-jamstvo-15-mjeseci-13.290.00-oglas-50110303",
+                "hasVideo": false,
+                "hasMap": true,
+                "hasGroundPlan": false
+              },
+              {
+                "id": 47766621,
+                "title": "VOLKSWAGEN TIGUAN 2.0 TDI DSG Plus - TVORNIČKO JAMSTVO!!!, 35.900,00 €",
+                "url": "/auti/volkswagen-tiguan-2.0-tdi-dsg-plus-tvornicko-jamstvo-37.500.00-oglas-47766621",
+                "hasVideo": false,
+                "hasMap": true,
+                "hasGroundPlan": false
+              }
+            ]
+          },
+          {
+            "id": "204",
+            "image": "https://www.njuskalo.hr/logo-140x140/asbenussi-logo2-204.jpg?quality=100",
+            "url": "/trgovina/asbenussi",
+            "subListings": [
+              {
+                "id": 50635131,
+                "title": "Mazda 3 HB G120 AT PLUS SA SO LU ST - 3 godine jamstva",
+                "url": "/auti/mazda-3-hb-g120-at-plus-so-lu-st-3-godine-jamstva-oglas-50635131",
+                "hasVideo": false,
+                "hasMap": true,
+                "hasGroundPlan": false
+              },
+              {
+                "id": 50311208,
+                "title": "Renault Captur TECHNO TCE 115",
+                "url": "/novi-auti/renault-captur-techno-tce-115-oglas-50311208",
+                "hasVideo": false,
+                "hasMap": true,
+                "hasGroundPlan": false
+              },
+              {
+                "id": 50101874,
+                "title": "Subaru XV 1,6 CVT 4WD - 3 godine jamstva",
+                "url": "/auti/subaru-xv-1.6-cvt-3-godine-jamstva-oglas-50101874",
+                "hasVideo": false,
+                "hasMap": true,
+                "hasGroundPlan": false
+              }
+            ]
+          }
+        ],
+        "categories": [],
+        "isCompareAvailable": true,
+        "comparedListings": [],
+        "listingsCount": 14689,
+        "totalPageCount": 588,
+        "fields": {
+          "sort": "cheap",
+          "categoryId": 13688,
+          "vehicleIds": [],
+          "geo": {
+            "lat": null,
+            "lng": null,
+            "address": null,
+            "radius": 20,
+            "locationIds": [
+              1153
+            ]
+          },
+          "yearManufactured": {
+            "min": null,
+            "max": null
+          },
+          "price": {
+            "min": null,
+            "max": null
+          },
+          "onlyFullPrice": false,
+          "hasG1Warranty": false,
+          "warranty": false,
+          "mileage": {
+            "min": null,
+            "max": null
+          },
+          "fuelTypeId": null,
+          "motorPower": {
+            "min": null,
+            "max": null
+          },
+          "transmissionTypeId": [],
+          "bodyTypeId": null,
+          "condition": [
+            "used"
+          ],
+          "adsWithImages": true,
+          "accountPurpose": null,
+          "motorSize": {
+            "min": null,
+            "max": null
+          },
+          "driveTypeId": null,
+          "fuelHasLpg": null,
+          "fuelConsumption": {
+            "min": null,
+            "max": null
+          },
+          "gearNumberId": null,
+          "airConditionTypeId": null,
+          "doorCountId": null,
+          "seatCountId": null,
+          "registrationExpiryTs": null,
+          "ownerCountId": null,
+          "additionalEquipment": [],
+          "comfortFeatures": [],
+          "colorId": null,
+          "videoCallOption": false,
+          "paymentOptions": null,
+          "page": 1
+        },
+        "fieldsMapper": {
+          "toWebQuery": {
+            "sort": {
+              "to": "sort",
+              "mapper": "default"
+            },
+            "categoryId": {
+              "to": "categoryId",
+              "mapper": [
+                "forceValue",
+                {
+                  "value": null
+                }
+              ]
+            },
+            "vehicleIds": {
+              "to": "vehicleIds",
+              "mapper": "multipleSelect"
+            },
+            "geo": {
+              "to": [
+                "geo[lat]",
+                "geo[lng]",
+                "geo[radius]",
+                "geo[locationIds]",
+                "geo[autoComplete]"
+              ],
+              "mapper": [
+                "geoLocationSelector",
+                {
+                  "valueMap": {
+                    "geo[lat]": "lat",
+                    "geo[lng]": "lng",
+                    "geo[radius]": "radius",
+                    "geo[locationIds]": "locationIds",
+                    "geo[autoComplete]": "address"
+                  }
+                }
+              ]
+            },
+            "yearManufactured": {
+              "to": [
+                "yearManufactured[min]",
+                "yearManufactured[max]"
+              ],
+              "mapper": [
+                "range",
+                {
+                  "valueMap": {
+                    "yearManufactured[min]": "min",
+                    "yearManufactured[max]": "max"
+                  }
+                }
+              ]
+            },
+            "price": {
+              "to": [
+                "price[min]",
+                "price[max]"
+              ],
+              "mapper": [
+                "range",
+                {
+                  "valueMap": {
+                    "price[min]": "min",
+                    "price[max]": "max"
+                  }
+                }
+              ]
+            },
+            "onlyFullPrice": {
+              "to": "onlyFullPrice",
+              "mapper": "valueOne"
+            },
+            "hasG1Warranty": {
+              "to": "hasG1Warranty",
+              "mapper": "valueOne"
+            },
+            "warranty": {
+              "to": "warranty",
+              "mapper": "valueOne"
+            },
+            "mileage": {
+              "to": [
+                "mileage[min]",
+                "mileage[max]"
+              ],
+              "mapper": [
+                "range",
+                {
+                  "valueMap": {
+                    "mileage[min]": "min",
+                    "mileage[max]": "max"
+                  }
+                }
+              ]
+            },
+            "fuelTypeId": {
+              "to": "fuelTypeId",
+              "mapper": "default"
+            },
+            "motorPower": {
+              "to": [
+                "motorPower[min]",
+                "motorPower[max]"
+              ],
+              "mapper": [
+                "range",
+                {
+                  "valueMap": {
+                    "motorPower[min]": "min",
+                    "motorPower[max]": "max"
+                  }
+                }
+              ]
+            },
+            "transmissionTypeId": {
+              "to": [
+                "transmissionTypeId[610]",
+                "transmissionTypeId[611]",
+                "transmissionTypeId[612]",
+                "transmissionTypeId[613]"
+              ],
+              "mapper": [
+                "multipleCheckbox",
+                {
+                  "valueMap": {
+                    "transmissionTypeId[610]": "610",
+                    "transmissionTypeId[611]": "611",
+                    "transmissionTypeId[612]": "612",
+                    "transmissionTypeId[613]": "613"
+                  }
+                }
+              ]
+            },
+            "bodyTypeId": {
+              "to": "bodyTypeId",
+              "mapper": "default"
+            },
+            "condition": {
+              "to": [
+                "condition[new]",
+                "condition[test]",
+                "condition[used]"
+              ],
+              "mapper": [
+                "multipleCheckboxValueOne",
+                {
+                  "valueMap": {
+                    "condition[new]": "new",
+                    "condition[test]": "test",
+                    "condition[used]": "used"
+                  }
+                }
+              ]
+            },
+            "adsWithImages": {
+              "to": "adsWithImages",
+              "mapper": "valueOne"
+            },
+            "accountPurpose": {
+              "to": "accountPurpose",
+              "mapper": "default"
+            },
+            "motorSize": {
+              "to": [
+                "motorSize[min]",
+                "motorSize[max]"
+              ],
+              "mapper": [
+                "range",
+                {
+                  "valueMap": {
+                    "motorSize[min]": "min",
+                    "motorSize[max]": "max"
+                  }
+                }
+              ]
+            },
+            "driveTypeId": {
+              "to": "driveTypeId",
+              "mapper": "default"
+            },
+            "fuelHasLpg": {
+              "to": "fuelHasLpg",
+              "mapper": "default"
+            },
+            "fuelConsumption": {
+              "to": [
+                "fuelConsumption[min]",
+                "fuelConsumption[max]"
+              ],
+              "mapper": [
+                "range",
+                {
+                  "valueMap": {
+                    "fuelConsumption[min]": "min",
+                    "fuelConsumption[max]": "max"
+                  }
+                }
+              ]
+            },
+            "gearNumberId": {
+              "to": "gearNumberId",
+              "mapper": "default"
+            },
+            "airConditionTypeId": {
+              "to": "airConditionTypeId",
+              "mapper": "default"
+            },
+            "doorCountId": {
+              "to": "doorCountId",
+              "mapper": "default"
+            },
+            "seatCountId": {
+              "to": "seatCountId",
+              "mapper": "default"
+            },
+            "registrationExpiryTs": {
+              "to": "registrationExpiryTs",
+              "mapper": "default"
+            },
+            "ownerCountId": {
+              "to": "ownerCountId",
+              "mapper": "default"
+            },
+            "additionalEquipment": {
+              "to": [
+                "additionalEquipment[47]",
+                "additionalEquipment[48]",
+                "additionalEquipment[2659]",
+                "additionalEquipment[344]",
+                "additionalEquipment[347]"
+              ],
+              "mapper": [
+                "multipleCheckbox",
+                {
+                  "valueMap": {
+                    "additionalEquipment[47]": "47",
+                    "additionalEquipment[48]": "48",
+                    "additionalEquipment[2659]": "2659",
+                    "additionalEquipment[344]": "344",
+                    "additionalEquipment[347]": "347"
+                  }
+                }
+              ]
+            },
+            "comfortFeatures": {
+              "to": [
+                "comfortFeatures[76]",
+                "comfortFeatures[2668]",
+                "comfortFeatures[77]",
+                "comfortFeatures[79]",
+                "comfortFeatures[2669]",
+                "comfortFeatures[338063]",
+                "comfortFeatures[338064]"
+              ],
+              "mapper": [
+                "multipleCheckbox",
+                {
+                  "valueMap": {
+                    "comfortFeatures[76]": "76",
+                    "comfortFeatures[2668]": "2668",
+                    "comfortFeatures[77]": "77",
+                    "comfortFeatures[79]": "79",
+                    "comfortFeatures[2669]": "2669",
+                    "comfortFeatures[338063]": "338063",
+                    "comfortFeatures[338064]": "338064"
+                  }
+                }
+              ]
+            },
+            "colorId": {
+              "to": "colorId",
+              "mapper": "default"
+            },
+            "videoCallOption": {
+              "to": "videoCallOption",
+              "mapper": "valueOne"
+            },
+            "paymentOptions": {
+              "to": "paymentOptions",
+              "mapper": "default"
+            },
+            "page": {
+              "to": "page",
+              "mapper": "default"
+            }
+          }
+        },
+        "urlParametersOrder": [
+          "categoryId",
+          "modelId",
+          "vehicleIds",
+          "onlyFullPrice",
+          "price[min]",
+          "price[max]",
+          "price",
+          "locationId",
+          "locationIds",
+          "geo[lat]",
+          "geo[lng]",
+          "geo[radius]",
+          "geo[locationIds]",
+          "geo[autoComplete]",
+          "geo",
+          "additionalEquipment[47]",
+          "additionalEquipment[48]",
+          "additionalEquipment[2659]",
+          "additionalEquipment[344]",
+          "additionalEquipment[347]",
+          "additionalEquipment",
+          "comfortFeatures[76]",
+          "comfortFeatures[2668]",
+          "comfortFeatures[77]",
+          "comfortFeatures[79]",
+          "comfortFeatures[2669]",
+          "comfortFeatures[338063]",
+          "comfortFeatures[338064]",
+          "comfortFeatures",
+          "yearManufactured[min]",
+          "yearManufactured[max]",
+          "yearManufactured",
+          "bodyTypeId",
+          "adsWithImages",
+          "fuelTypeId",
+          "fuelHasLpg",
+          "motorSize[min]",
+          "motorSize[max]",
+          "motorSize",
+          "motorPower[min]",
+          "motorPower[max]",
+          "motorPower",
+          "driveTypeId",
+          "mileage[min]",
+          "mileage[max]",
+          "mileage",
+          "airConditionTypeId",
+          "transmissionTypeId[610]",
+          "transmissionTypeId[611]",
+          "transmissionTypeId[612]",
+          "transmissionTypeId[613]",
+          "transmissionTypeId",
+          "fuelConsumption[min]",
+          "fuelConsumption[max]",
+          "fuelConsumption",
+          "doorCountId",
+          "seatCountId",
+          "gearNumberId",
+          "registrationExpiryTs",
+          "ownerCountId",
+          "condition[new]",
+          "condition[test]",
+          "condition[used]",
+          "condition",
+          "colorId",
+          "hasG1Warranty",
+          "warranty",
+          "paymentOptions",
+          "videoCallOption",
+          "accountPurpose",
+          "sort",
+          "page"
+        ],
+        "categoryFilterAttribute": null,
+        "filtersLayout": {
+          "blocks": [
+            {
+              "key": "block0",
+              "rows": [
+                {
+                  "key": "row0",
+                  "columnCount": 1,
+                  "hasMultipleColumns": true,
+                  "columns": [
+                    {
+                      "key": "column0",
+                      "gridSlotName": "column-1",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "categoryId",
+                          "type": "HierarchySelector",
+                          "props": {
+                            "id": "browseListingsForm-categoryId",
+                            "label": "Kategorija",
+                            "name": "categoryId",
+                            "maxLevel": 2,
+                            "hideAboveLevel": 2,
+                            "hideBelowLevel": 2,
+                            "levelModelValue": [
+                              2,
+                              13688
+                            ],
+                            "placeholder": [
+                              "---",
+                              "---",
+                              "Svi osobni automobili"
+                            ],
+                            "fetchLevel": "proxy@fetchCategoryHierarchy"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "row1",
+                  "columnCount": 2,
+                  "hasMultipleColumns": true,
+                  "columns": [
+                    {
+                      "key": "column0",
+                      "gridSlotName": "column-1",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "vehicleIds",
+                          "type": "MultipleOptionHierarchySelector",
+                          "props": {
+                            "id": "browseListingsForm-vehicleIds",
+                            "label": [
+                              "Marka",
+                              "Model"
+                            ],
+                            "name": "vehicleIds",
+                            "maxLevel": 1,
+                            "levelModelValue": [],
+                            "placeholder": [
+                              "Odaberi",
+                              "---"
+                            ],
+                            "maxValuesCount": {
+                              "amount": 50,
+                              "message": "Nije moguće odabrati više od 50 marki/modela"
+                            },
+                            "fetchLevel": "proxy@fetchVehiclesHierarchy"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "column1",
+                      "gridSlotName": "column-2",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "geo",
+                          "type": "GeoLocationSelector",
+                          "props": {
+                            "id": "browseListingsForm-geo",
+                            "label": "Lokacija vozila",
+                            "name": "geo",
+                            "currentSort": "proxy@currentSort",
+                            "onResetSort": "proxy@resetSort",
+                            "onApplyFilters": "proxy@sortByDistance",
+                            "autocompleteProps": {
+                              "id": "browseListingsForm-geo-autoComplete",
+                              "label": "",
+                              "name": "geo[autoComplete]"
+                            },
+                            "addressProps": {
+                              "id": "browseListingsForm-geo-address",
+                              "label": "",
+                              "name": "geo[address]"
+                            },
+                            "autolocateProps": {
+                              "id": "browseListingsForm-geo-autoLocate",
+                              "label": "",
+                              "name": "geo[autoLocate]"
+                            },
+                            "latProps": {
+                              "id": "browseListingsForm-geo-lat",
+                              "name": "geo[lat]"
+                            },
+                            "lngProps": {
+                              "id": "browseListingsForm-geo-lng",
+                              "name": "geo[lng]"
+                            },
+                            "radiusProps": {
+                              "id": "browseListingsForm-geo-radius",
+                              "name": "geo[radius]",
+                              "radiusValues": [
+                                1,
+                                2,
+                                5,
+                                10,
+                                20,
+                                50,
+                                100,
+                                200,
+                                99999
+                              ]
+                            },
+                            "locationIdsProps": {
+                              "id": "browseListingsForm-geo-locationIds",
+                              "label": [
+                                "Lokacija vozila"
+                              ],
+                              "name": "geo[locationIds]",
+                              "maxLevel": 0,
+                              "levelModelValue": [
+                                [
+                                  1153
+                                ]
+                              ],
+                              "maxValuesCount": {
+                                "amount": 50,
+                                "message": "Nije moguće odabrati više od 50 lokacija"
+                              },
+                              "fetchLevel": "proxy@fetchLocationsHierarchy",
+                              "renderChoice": "proxy@renderMultipleSelectOption",
+                              "choices": "proxy@locationsChoices"
+                            },
+                            "isAutocompleteActive": true,
+                            "isAddressActive": true,
+                            "isAutolocateActive": true,
+                            "isRangeActive": true,
+                            "isHierarchyActive": true
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "row2",
+                  "columnCount": 2,
+                  "hasMultipleColumns": true,
+                  "columns": [
+                    {
+                      "key": "column0",
+                      "gridSlotName": "column-1",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "yearManufactured",
+                          "type": "SelectRange",
+                          "props": {
+                            "id": "browseListingsForm-yearManufactured",
+                            "label": "Godina proizvodnje",
+                            "name": "yearManufactured",
+                            "minItemProps": {
+                              "id": "browseListingsForm-yearManufactured-min",
+                              "label": "",
+                              "name": "yearManufactured[min]",
+                              "placeholder": {
+                                "label": "od",
+                                "value": null
+                              }
+                            },
+                            "maxItemProps": {
+                              "id": "browseListingsForm-yearManufactured-max",
+                              "label": "",
+                              "name": "yearManufactured[max]",
+                              "placeholder": {
+                                "label": "do",
+                                "value": null
+                              }
+                            },
+                            "choices": [
+                              {
+                                "id": "2026",
+                                "label": "2026",
+                                "value": "2026"
+                              },
+                              {
+                                "id": "2025",
+                                "label": "2025",
+                                "value": "2025"
+                              },
+                              {
+                                "id": "2024",
+                                "label": "2024",
+                                "value": "2024"
+                              },
+                              {
+                                "id": "2023",
+                                "label": "2023",
+                                "value": "2023"
+                              },
+                              {
+                                "id": "2022",
+                                "label": "2022",
+                                "value": "2022"
+                              },
+                              {
+                                "id": "2021",
+                                "label": "2021",
+                                "value": "2021"
+                              },
+                              {
+                                "id": "2020",
+                                "label": "2020",
+                                "value": "2020"
+                              },
+                              {
+                                "id": "2019",
+                                "label": "2019",
+                                "value": "2019"
+                              },
+                              {
+                                "id": "2018",
+                                "label": "2018",
+                                "value": "2018"
+                              },
+                              {
+                                "id": "2017",
+                                "label": "2017",
+                                "value": "2017"
+                              },
+                              {
+                                "id": "2016",
+                                "label": "2016",
+                                "value": "2016"
+                              },
+                              {
+                                "id": "2015",
+                                "label": "2015",
+                                "value": "2015"
+                              },
+                              {
+                                "id": "2014",
+                                "label": "2014",
+                                "value": "2014"
+                              },
+                              {
+                                "id": "2013",
+                                "label": "2013",
+                                "value": "2013"
+                              },
+                              {
+                                "id": "2012",
+                                "label": "2012",
+                                "value": "2012"
+                              },
+                              {
+                                "id": "2011",
+                                "label": "2011",
+                                "value": "2011"
+                              },
+                              {
+                                "id": "2010",
+                                "label": "2010",
+                                "value": "2010"
+                              },
+                              {
+                                "id": "2009",
+                                "label": "2009",
+                                "value": "2009"
+                              },
+                              {
+                                "id": "2008",
+                                "label": "2008",
+                                "value": "2008"
+                              },
+                              {
+                                "id": "2007",
+                                "label": "2007",
+                                "value": "2007"
+                              },
+                              {
+                                "id": "2006",
+                                "label": "2006",
+                                "value": "2006"
+                              },
+                              {
+                                "id": "2005",
+                                "label": "2005",
+                                "value": "2005"
+                              },
+                              {
+                                "id": "2004",
+                                "label": "2004",
+                                "value": "2004"
+                              },
+                              {
+                                "id": "2003",
+                                "label": "2003",
+                                "value": "2003"
+                              },
+                              {
+                                "id": "2002",
+                                "label": "2002",
+                                "value": "2002"
+                              },
+                              {
+                                "id": "2001",
+                                "label": "2001",
+                                "value": "2001"
+                              },
+                              {
+                                "id": "2000",
+                                "label": "2000",
+                                "value": "2000"
+                              },
+                              {
+                                "id": "1999",
+                                "label": "1999",
+                                "value": "1999"
+                              },
+                              {
+                                "id": "1998",
+                                "label": "1998",
+                                "value": "1998"
+                              },
+                              {
+                                "id": "1997",
+                                "label": "1997",
+                                "value": "1997"
+                              },
+                              {
+                                "id": "1996",
+                                "label": "1996",
+                                "value": "1996"
+                              },
+                              {
+                                "id": "1995",
+                                "label": "1995",
+                                "value": "1995"
+                              },
+                              {
+                                "id": "1994",
+                                "label": "1994",
+                                "value": "1994"
+                              },
+                              {
+                                "id": "1993",
+                                "label": "1993",
+                                "value": "1993"
+                              },
+                              {
+                                "id": "1992",
+                                "label": "1992",
+                                "value": "1992"
+                              },
+                              {
+                                "id": "1991",
+                                "label": "1991",
+                                "value": "1991"
+                              },
+                              {
+                                "id": "1990",
+                                "label": "1990",
+                                "value": "1990"
+                              },
+                              {
+                                "id": "1989",
+                                "label": "1989",
+                                "value": "1989"
+                              },
+                              {
+                                "id": "1988",
+                                "label": "1988",
+                                "value": "1988"
+                              },
+                              {
+                                "id": "1987",
+                                "label": "1987",
+                                "value": "1987"
+                              },
+                              {
+                                "id": "1986",
+                                "label": "1986",
+                                "value": "1986"
+                              },
+                              {
+                                "id": "1985",
+                                "label": "1985",
+                                "value": "1985"
+                              },
+                              {
+                                "id": "1984",
+                                "label": "1984",
+                                "value": "1984"
+                              },
+                              {
+                                "id": "1983",
+                                "label": "1983",
+                                "value": "1983"
+                              },
+                              {
+                                "id": "1982",
+                                "label": "1982",
+                                "value": "1982"
+                              },
+                              {
+                                "id": "1981",
+                                "label": "1981",
+                                "value": "1981"
+                              },
+                              {
+                                "id": "1980",
+                                "label": "1980",
+                                "value": "1980"
+                              },
+                              {
+                                "id": "1979",
+                                "label": "1979",
+                                "value": "1979"
+                              },
+                              {
+                                "id": "1978",
+                                "label": "1978",
+                                "value": "1978"
+                              },
+                              {
+                                "id": "1977",
+                                "label": "1977",
+                                "value": "1977"
+                              },
+                              {
+                                "id": "1976",
+                                "label": "1976",
+                                "value": "1976"
+                              },
+                              {
+                                "id": "1975",
+                                "label": "1975",
+                                "value": "1975"
+                              },
+                              {
+                                "id": "1974",
+                                "label": "1974",
+                                "value": "1974"
+                              },
+                              {
+                                "id": "1973",
+                                "label": "1973",
+                                "value": "1973"
+                              },
+                              {
+                                "id": "1972",
+                                "label": "1972",
+                                "value": "1972"
+                              },
+                              {
+                                "id": "1971",
+                                "label": "1971",
+                                "value": "1971"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "column1",
+                      "gridSlotName": "column-2",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "price",
+                          "type": "PriceRange",
+                          "props": {
+                            "id": "browseListingsForm-price",
+                            "label": "Cijena (u EUR)",
+                            "name": "price",
+                            "minItemProps": {
+                              "id": "browseListingsForm-price-min",
+                              "label": "",
+                              "name": "price[min]",
+                              "placeholder": "od"
+                            },
+                            "maxItemProps": {
+                              "id": "browseListingsForm-price-max",
+                              "label": "",
+                              "name": "price[max]",
+                              "placeholder": "do"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "row3",
+                  "columnCount": 2,
+                  "hasMultipleColumns": true,
+                  "columns": [
+                    {
+                      "key": "column0",
+                      "gridSlotName": "column-1",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "onlyFullPrice",
+                          "type": "Checkbox",
+                          "props": {
+                            "id": "browseListingsForm-onlyFullPrice",
+                            "label": "Samo vozila s krajnjom cijenom u RH",
+                            "name": "onlyFullPrice"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "column1",
+                      "gridSlotName": "column-2",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "hasG1Warranty",
+                          "type": "Checkbox",
+                          "props": {
+                            "id": "browseListingsForm-hasG1Warranty",
+                            "label": "Automobili s jamstvom - G1 klub",
+                            "name": "hasG1Warranty"
+                          }
+                        },
+                        {
+                          "key": "cell1",
+                          "id": "warranty",
+                          "type": "Checkbox",
+                          "props": {
+                            "id": "browseListingsForm-warranty",
+                            "label": "Vozila s jamstvom",
+                            "name": "warranty"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "row4",
+                  "columnCount": 2,
+                  "hasMultipleColumns": true,
+                  "columns": [
+                    {
+                      "key": "column0",
+                      "gridSlotName": "column-1",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "mileage",
+                          "type": "IntegerRange",
+                          "props": {
+                            "id": "browseListingsForm-mileage",
+                            "label": "Prijeđeni kilometri",
+                            "name": "mileage",
+                            "minItemProps": {
+                              "id": "browseListingsForm-mileage-min",
+                              "label": "",
+                              "name": "mileage[min]",
+                              "placeholder": "od"
+                            },
+                            "maxItemProps": {
+                              "id": "browseListingsForm-mileage-max",
+                              "label": "",
+                              "name": "mileage[max]",
+                              "placeholder": "do"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "row5",
+                  "columnCount": 2,
+                  "hasMultipleColumns": true,
+                  "columns": [
+                    {
+                      "key": "column0",
+                      "gridSlotName": "column-1",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "fuelTypeId",
+                          "type": "Select",
+                          "props": {
+                            "id": "browseListingsForm-fuelTypeId",
+                            "label": "Motor",
+                            "name": "fuelTypeId",
+                            "placeholder": {
+                              "label": "---",
+                              "value": null
+                            },
+                            "choices": [
+                              {
+                                "id": "600",
+                                "label": "Benzin",
+                                "value": "600"
+                              },
+                              {
+                                "id": "602",
+                                "label": "Diesel",
+                                "value": "602"
+                              },
+                              {
+                                "id": "604",
+                                "label": "Hibrid",
+                                "value": "604"
+                              },
+                              {
+                                "id": "231236",
+                                "label": "Plug-in hibrid",
+                                "value": "231236"
+                              },
+                              {
+                                "id": "1226",
+                                "label": "Električni",
+                                "value": "1226"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "column1",
+                      "gridSlotName": "column-2",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "motorPower",
+                          "type": "IntegerRange",
+                          "props": {
+                            "id": "browseListingsForm-motorPower",
+                            "label": "Snaga motora (u kW)",
+                            "name": "motorPower",
+                            "minItemProps": {
+                              "id": "browseListingsForm-motorPower-min",
+                              "label": "",
+                              "name": "motorPower[min]",
+                              "placeholder": "od"
+                            },
+                            "maxItemProps": {
+                              "id": "browseListingsForm-motorPower-max",
+                              "label": "",
+                              "name": "motorPower[max]",
+                              "placeholder": "do"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "row6",
+                  "columnCount": 2,
+                  "hasMultipleColumns": true,
+                  "columns": [
+                    {
+                      "key": "column0",
+                      "gridSlotName": "column-1",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "transmissionTypeId",
+                          "type": "MultipleCheckbox",
+                          "props": {
+                            "id": "browseListingsForm-transmissionTypeId",
+                            "label": "Mjenjač",
+                            "name": "transmissionTypeId",
+                            "choices": [
+                              {
+                                "id": "610",
+                                "label": "Mehanički mjenjač",
+                                "name": "transmissionTypeId[610]",
+                                "value": "610",
+                                "checked": false
+                              },
+                              {
+                                "id": "611",
+                                "label": "Automatski",
+                                "name": "transmissionTypeId[611]",
+                                "value": "611",
+                                "checked": false
+                              },
+                              {
+                                "id": "612",
+                                "label": "Automatski sekvencijski",
+                                "name": "transmissionTypeId[612]",
+                                "value": "612",
+                                "checked": false
+                              },
+                              {
+                                "id": "613",
+                                "label": "Sekvencijski mjenjač",
+                                "name": "transmissionTypeId[613]",
+                                "value": "613",
+                                "checked": false
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "column1",
+                      "gridSlotName": "column-2",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "bodyTypeId",
+                          "type": "Select",
+                          "props": {
+                            "id": "browseListingsForm-bodyTypeId",
+                            "label": "Oblik karoserije",
+                            "name": "bodyTypeId",
+                            "placeholder": {
+                              "label": "---",
+                              "value": null
+                            },
+                            "choices": [
+                              {
+                                "id": "21",
+                                "label": "limuzina",
+                                "value": "21"
+                              },
+                              {
+                                "id": "22",
+                                "label": "karavan",
+                                "value": "22"
+                              },
+                              {
+                                "id": "23",
+                                "label": "monovolumen",
+                                "value": "23"
+                              },
+                              {
+                                "id": "24",
+                                "label": "coupe",
+                                "value": "24"
+                              },
+                              {
+                                "id": "25",
+                                "label": "kabriolet",
+                                "value": "25"
+                              },
+                              {
+                                "id": "380",
+                                "label": "terensko vozilo / SUV / pick up",
+                                "value": "380"
+                              },
+                              {
+                                "id": "630",
+                                "label": "kombibus",
+                                "value": "630"
+                              },
+                              {
+                                "id": "631",
+                                "label": "hatchback",
+                                "value": "631"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "row7",
+                  "columnCount": 2,
+                  "hasMultipleColumns": true,
+                  "columns": [
+                    {
+                      "key": "column0",
+                      "gridSlotName": "column-1",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "condition",
+                          "type": "MultipleCheckboxValueOne",
+                          "props": {
+                            "id": "browseListingsForm-condition",
+                            "label": "Stanje",
+                            "name": "condition",
+                            "choices": [
+                              {
+                                "id": "new",
+                                "label": "novo",
+                                "name": "condition[new]",
+                                "value": "new",
+                                "checked": false
+                              },
+                              {
+                                "id": "test",
+                                "label": "testno",
+                                "name": "condition[test]",
+                                "value": "test",
+                                "checked": false
+                              },
+                              {
+                                "id": "used",
+                                "label": "rabljeno",
+                                "name": "condition[used]",
+                                "value": "used",
+                                "checked": false
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "row8",
+                  "columnCount": 2,
+                  "hasMultipleColumns": true,
+                  "columns": [
+                    {
+                      "key": "column0",
+                      "gridSlotName": "column-1",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "adsWithImages",
+                          "type": "Checkbox",
+                          "props": {
+                            "id": "browseListingsForm-adsWithImages",
+                            "label": "Samo oglasi sa slikom",
+                            "name": "adsWithImages"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "row9",
+                  "columnCount": 1,
+                  "hasMultipleColumns": true,
+                  "columns": [
+                    {
+                      "key": "column0",
+                      "gridSlotName": "column-1",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "accountPurpose",
+                          "type": "Select",
+                          "props": {
+                            "id": "browseListingsForm-accountPurpose",
+                            "label": "Prodavač",
+                            "name": "accountPurpose",
+                            "placeholder": {
+                              "label": "---",
+                              "value": null
+                            },
+                            "choices": [
+                              {
+                                "id": "business",
+                                "label": "Poslovne osobe",
+                                "value": "business"
+                              },
+                              {
+                                "id": "private",
+                                "label": "Privatne osobe",
+                                "value": "private"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "block1",
+              "rows": [
+                {
+                  "key": "row0",
+                  "columnCount": 2,
+                  "hasMultipleColumns": true,
+                  "columns": [
+                    {
+                      "key": "column0",
+                      "gridSlotName": "column-1",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "motorSize",
+                          "type": "IntegerRange",
+                          "props": {
+                            "id": "browseListingsForm-motorSize",
+                            "label": "Radni obujam (u ccm)",
+                            "name": "motorSize",
+                            "minItemProps": {
+                              "id": "browseListingsForm-motorSize-min",
+                              "label": "",
+                              "name": "motorSize[min]",
+                              "placeholder": "od"
+                            },
+                            "maxItemProps": {
+                              "id": "browseListingsForm-motorSize-max",
+                              "label": "",
+                              "name": "motorSize[max]",
+                              "placeholder": "do"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "column1",
+                      "gridSlotName": "column-2",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "driveTypeId",
+                          "type": "Select",
+                          "props": {
+                            "id": "browseListingsForm-driveTypeId",
+                            "label": "Vrsta pogona",
+                            "name": "driveTypeId",
+                            "placeholder": {
+                              "label": "---",
+                              "value": null
+                            },
+                            "choices": [
+                              {
+                                "id": "35",
+                                "label": "prednji",
+                                "value": "35"
+                              },
+                              {
+                                "id": "36",
+                                "label": "stražnji",
+                                "value": "36"
+                              },
+                              {
+                                "id": "37",
+                                "label": "4 x 4",
+                                "value": "37"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "row1",
+                  "columnCount": 2,
+                  "hasMultipleColumns": true,
+                  "columns": [
+                    {
+                      "key": "column0",
+                      "gridSlotName": "column-1",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "fuelHasLpg",
+                          "type": "Select",
+                          "props": {
+                            "id": "browseListingsForm-fuelHasLpg",
+                            "label": "Plin",
+                            "name": "fuelHasLpg",
+                            "placeholder": {
+                              "label": "---",
+                              "value": null
+                            },
+                            "choices": [
+                              {
+                                "id": "Ne",
+                                "label": "Ne",
+                                "value": "0"
+                              },
+                              {
+                                "id": "Da",
+                                "label": "Da",
+                                "value": "1"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "column1",
+                      "gridSlotName": "column-2",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "fuelConsumption",
+                          "type": "FloatRange",
+                          "props": {
+                            "id": "browseListingsForm-fuelConsumption",
+                            "label": "Potrošnja (l/100 km)",
+                            "name": "fuelConsumption",
+                            "minItemProps": {
+                              "id": "browseListingsForm-fuelConsumption-min",
+                              "label": "",
+                              "name": "fuelConsumption[min]",
+                              "placeholder": "od",
+                              "isCommaValid": true
+                            },
+                            "maxItemProps": {
+                              "id": "browseListingsForm-fuelConsumption-max",
+                              "label": "",
+                              "name": "fuelConsumption[max]",
+                              "placeholder": "do",
+                              "isCommaValid": true
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "row2",
+                  "columnCount": 2,
+                  "hasMultipleColumns": true,
+                  "columns": [
+                    {
+                      "key": "column0",
+                      "gridSlotName": "column-1",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "gearNumberId",
+                          "type": "Select",
+                          "props": {
+                            "id": "browseListingsForm-gearNumberId",
+                            "label": "Broj brzina",
+                            "name": "gearNumberId",
+                            "placeholder": {
+                              "label": "---",
+                              "value": null
+                            },
+                            "choices": [
+                              {
+                                "id": "620",
+                                "label": "4 stupnja",
+                                "value": "620"
+                              },
+                              {
+                                "id": "621",
+                                "label": "5 stupnjeva",
+                                "value": "621"
+                              },
+                              {
+                                "id": "622",
+                                "label": "6 stupnjeva",
+                                "value": "622"
+                              },
+                              {
+                                "id": "7608",
+                                "label": "7 stupnjeva",
+                                "value": "7608"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "column1",
+                      "gridSlotName": "column-2",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "airConditionTypeId",
+                          "type": "Select",
+                          "props": {
+                            "id": "browseListingsForm-airConditionTypeId",
+                            "label": "Klima uređaj",
+                            "name": "airConditionTypeId",
+                            "placeholder": {
+                              "label": "---",
+                              "value": null
+                            },
+                            "choices": [
+                              {
+                                "id": "111",
+                                "label": "obavezno ima",
+                                "value": "111"
+                              },
+                              {
+                                "id": "85",
+                                "label": "ručna",
+                                "value": "85"
+                              },
+                              {
+                                "id": "86",
+                                "label": "automatska",
+                                "value": "86"
+                              },
+                              {
+                                "id": "87",
+                                "label": "dvojna",
+                                "value": "87"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "row3",
+                  "columnCount": 2,
+                  "hasMultipleColumns": true,
+                  "columns": [
+                    {
+                      "key": "column0",
+                      "gridSlotName": "column-1",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "doorCountId",
+                          "type": "Select",
+                          "props": {
+                            "id": "browseListingsForm-doorCountId",
+                            "label": "Broj vrata",
+                            "name": "doorCountId",
+                            "placeholder": {
+                              "label": "---",
+                              "value": null
+                            },
+                            "choices": [
+                              {
+                                "id": "26",
+                                "label": "2",
+                                "value": "26"
+                              },
+                              {
+                                "id": "27",
+                                "label": "3",
+                                "value": "27"
+                              },
+                              {
+                                "id": "28",
+                                "label": "4",
+                                "value": "28"
+                              },
+                              {
+                                "id": "29",
+                                "label": "5",
+                                "value": "29"
+                              },
+                              {
+                                "id": "1165",
+                                "label": "6",
+                                "value": "1165"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "column1",
+                      "gridSlotName": "column-2",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "seatCountId",
+                          "type": "Select",
+                          "props": {
+                            "id": "browseListingsForm-seatCountId",
+                            "label": "Broj sjedala",
+                            "name": "seatCountId",
+                            "placeholder": {
+                              "label": "---",
+                              "value": null
+                            },
+                            "choices": [
+                              {
+                                "id": "2619",
+                                "label": "1",
+                                "value": "2619"
+                              },
+                              {
+                                "id": "2620",
+                                "label": "2",
+                                "value": "2620"
+                              },
+                              {
+                                "id": "2621",
+                                "label": "3",
+                                "value": "2621"
+                              },
+                              {
+                                "id": "2622",
+                                "label": "4",
+                                "value": "2622"
+                              },
+                              {
+                                "id": "2623",
+                                "label": "5",
+                                "value": "2623"
+                              },
+                              {
+                                "id": "2624",
+                                "label": "6",
+                                "value": "2624"
+                              },
+                              {
+                                "id": "2625",
+                                "label": "7",
+                                "value": "2625"
+                              },
+                              {
+                                "id": "2626",
+                                "label": "8",
+                                "value": "2626"
+                              },
+                              {
+                                "id": "2627",
+                                "label": "9 i više",
+                                "value": "2627"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "row4",
+                  "columnCount": 2,
+                  "hasMultipleColumns": true,
+                  "columns": [
+                    {
+                      "key": "column0",
+                      "gridSlotName": "column-1",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "registrationExpiryTs",
+                          "type": "Select",
+                          "props": {
+                            "id": "browseListingsForm-registrationExpiryTs",
+                            "label": "Registriran najmanje do",
+                            "name": "registrationExpiryTs",
+                            "placeholder": {
+                              "label": "---",
+                              "value": null
+                            },
+                            "choices": [
+                              {
+                                "id": "1777586400",
+                                "label": "05/2026",
+                                "value": "1777586400"
+                              },
+                              {
+                                "id": "1780264800",
+                                "label": "06/2026",
+                                "value": "1780264800"
+                              },
+                              {
+                                "id": "1782856800",
+                                "label": "07/2026",
+                                "value": "1782856800"
+                              },
+                              {
+                                "id": "1785535200",
+                                "label": "08/2026",
+                                "value": "1785535200"
+                              },
+                              {
+                                "id": "1788213600",
+                                "label": "09/2026",
+                                "value": "1788213600"
+                              },
+                              {
+                                "id": "1790805600",
+                                "label": "10/2026",
+                                "value": "1790805600"
+                              },
+                              {
+                                "id": "1793487600",
+                                "label": "11/2026",
+                                "value": "1793487600"
+                              },
+                              {
+                                "id": "1796079600",
+                                "label": "12/2026",
+                                "value": "1796079600"
+                              },
+                              {
+                                "id": "1798758000",
+                                "label": "01/2027",
+                                "value": "1798758000"
+                              },
+                              {
+                                "id": "1801436400",
+                                "label": "02/2027",
+                                "value": "1801436400"
+                              },
+                              {
+                                "id": "1803855600",
+                                "label": "03/2027",
+                                "value": "1803855600"
+                              },
+                              {
+                                "id": "1806530400",
+                                "label": "04/2027",
+                                "value": "1806530400"
+                              },
+                              {
+                                "id": "1809122400",
+                                "label": "05/2027",
+                                "value": "1809122400"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "column1",
+                      "gridSlotName": "column-2",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "ownerCountId",
+                          "type": "Select",
+                          "props": {
+                            "id": "browseListingsForm-ownerCountId",
+                            "label": "Vlasnik",
+                            "name": "ownerCountId",
+                            "placeholder": {
+                              "label": "---",
+                              "value": null
+                            },
+                            "choices": [
+                              {
+                                "id": "110",
+                                "label": "prvi",
+                                "value": "110"
+                              },
+                              {
+                                "id": "111",
+                                "label": "drugi",
+                                "value": "111"
+                              },
+                              {
+                                "id": "112",
+                                "label": "treći i više",
+                                "value": "112"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "row5",
+                  "columnCount": 2,
+                  "hasMultipleColumns": true,
+                  "columns": [
+                    {
+                      "key": "column0",
+                      "gridSlotName": "column-1",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "additionalEquipment",
+                          "type": "MultipleCheckbox",
+                          "props": {
+                            "id": "browseListingsForm-additionalEquipment",
+                            "label": "Dodatna oprema",
+                            "name": "additionalEquipment",
+                            "choices": [
+                              {
+                                "id": "47",
+                                "label": "Ksenonska svjetla",
+                                "name": "additionalEquipment[47]",
+                                "value": "47",
+                                "checked": false
+                              },
+                              {
+                                "id": "48",
+                                "label": "Bi-ksenonska svjetla",
+                                "name": "additionalEquipment[48]",
+                                "value": "48",
+                                "checked": false
+                              },
+                              {
+                                "id": "2659",
+                                "label": "LED svjetla",
+                                "name": "additionalEquipment[2659]",
+                                "value": "2659",
+                                "checked": false
+                              },
+                              {
+                                "id": "344",
+                                "label": "Kuka za vuču",
+                                "name": "additionalEquipment[344]",
+                                "value": "344",
+                                "checked": false
+                              },
+                              {
+                                "id": "347",
+                                "label": "Krovni prozor",
+                                "name": "additionalEquipment[347]",
+                                "value": "347",
+                                "checked": false
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "column1",
+                      "gridSlotName": "column-2",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "comfortFeatures",
+                          "type": "MultipleCheckbox",
+                          "props": {
+                            "id": "browseListingsForm-comfortFeatures",
+                            "label": "Udobnost",
+                            "name": "comfortFeatures",
+                            "choices": [
+                              {
+                                "id": "76",
+                                "label": "Parkirni senzori",
+                                "name": "comfortFeatures[76]",
+                                "value": "76",
+                                "checked": false
+                              },
+                              {
+                                "id": "2668",
+                                "label": "Stražnja parkirna kamera",
+                                "name": "comfortFeatures[2668]",
+                                "value": "2668",
+                                "checked": false
+                              },
+                              {
+                                "id": "77",
+                                "label": "Tempomat",
+                                "name": "comfortFeatures[77]",
+                                "value": "77",
+                                "checked": false
+                              },
+                              {
+                                "id": "79",
+                                "label": "Kožna sjedala",
+                                "name": "comfortFeatures[79]",
+                                "value": "79",
+                                "checked": false
+                              },
+                              {
+                                "id": "2669",
+                                "label": "Grijanje sjedala",
+                                "name": "comfortFeatures[2669]",
+                                "value": "2669",
+                                "checked": false
+                              },
+                              {
+                                "id": "338063",
+                                "label": "Android Auto",
+                                "name": "comfortFeatures[338063]",
+                                "value": "338063",
+                                "checked": false
+                              },
+                              {
+                                "id": "338064",
+                                "label": "Apple CarPlay",
+                                "name": "comfortFeatures[338064]",
+                                "value": "338064",
+                                "checked": false
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "row6",
+                  "columnCount": 2,
+                  "hasMultipleColumns": true,
+                  "columns": [
+                    {
+                      "key": "column0",
+                      "gridSlotName": "column-1",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "colorId",
+                          "type": "Select",
+                          "props": {
+                            "id": "browseListingsForm-colorId",
+                            "label": "Boja",
+                            "name": "colorId",
+                            "placeholder": {
+                              "label": "---",
+                              "value": null
+                            },
+                            "choices": [
+                              {
+                                "id": "326",
+                                "label": "bež",
+                                "value": "326"
+                              },
+                              {
+                                "id": "33",
+                                "label": "bijela",
+                                "value": "33"
+                              },
+                              {
+                                "id": "34",
+                                "label": "crna",
+                                "value": "34"
+                              },
+                              {
+                                "id": "31",
+                                "label": "crvena",
+                                "value": "31"
+                              },
+                              {
+                                "id": "327",
+                                "label": "bordo crvena",
+                                "value": "327"
+                              },
+                              {
+                                "id": "339",
+                                "label": "ljubičasta",
+                                "value": "339"
+                              },
+                              {
+                                "id": "334",
+                                "label": "narančasta",
+                                "value": "334"
+                              },
+                              {
+                                "id": "328",
+                                "label": "plava",
+                                "value": "328"
+                              },
+                              {
+                                "id": "329",
+                                "label": "svijetlo plava",
+                                "value": "329"
+                              },
+                              {
+                                "id": "330",
+                                "label": "tamno plava",
+                                "value": "330"
+                              },
+                              {
+                                "id": "331",
+                                "label": "siva",
+                                "value": "331"
+                              },
+                              {
+                                "id": "332",
+                                "label": "svijetlo siva",
+                                "value": "332"
+                              },
+                              {
+                                "id": "333",
+                                "label": "tamno siva",
+                                "value": "333"
+                              },
+                              {
+                                "id": "30",
+                                "label": "smeđa",
+                                "value": "30"
+                              },
+                              {
+                                "id": "336",
+                                "label": "srebrna",
+                                "value": "336"
+                              },
+                              {
+                                "id": "32",
+                                "label": "zelena",
+                                "value": "32"
+                              },
+                              {
+                                "id": "337",
+                                "label": "svijetlo zelena",
+                                "value": "337"
+                              },
+                              {
+                                "id": "338",
+                                "label": "tamno zelena",
+                                "value": "338"
+                              },
+                              {
+                                "id": "340",
+                                "label": "zlatna",
+                                "value": "340"
+                              },
+                              {
+                                "id": "335",
+                                "label": "žuta",
+                                "value": "335"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "row7",
+                  "columnCount": 2,
+                  "hasMultipleColumns": true,
+                  "columns": [
+                    {
+                      "key": "column0",
+                      "gridSlotName": "column-1",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "videoCallOption",
+                          "type": "Checkbox",
+                          "props": {
+                            "id": "browseListingsForm-videoCallOption",
+                            "label": "Razgledavanje putem video poziva",
+                            "name": "videoCallOption"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "row8",
+                  "columnCount": 2,
+                  "hasMultipleColumns": true,
+                  "columns": [
+                    {
+                      "key": "column0",
+                      "gridSlotName": "column-1",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "paymentOptions",
+                          "type": "Select",
+                          "props": {
+                            "id": "browseListingsForm-paymentOptions",
+                            "label": "Način plaćanja",
+                            "name": "paymentOptions",
+                            "placeholder": {
+                              "label": "---",
+                              "value": null
+                            },
+                            "choices": [
+                              {
+                                "id": "12",
+                                "label": "gotovina",
+                                "value": "12"
+                              },
+                              {
+                                "id": "14",
+                                "label": "kredit",
+                                "value": "14"
+                              },
+                              {
+                                "id": "15",
+                                "label": "leasing",
+                                "value": "15"
+                              },
+                              {
+                                "id": "92",
+                                "label": "preuzimanje leasinga",
+                                "value": "92"
+                              },
+                              {
+                                "id": "341",
+                                "label": "obročno bankovnim karticama",
+                                "value": "341"
+                              },
+                              {
+                                "id": "342",
+                                "label": "zamjena",
+                                "value": "342"
+                              },
+                              {
+                                "id": "343",
+                                "label": "staro za novo",
+                                "value": "343"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "metaElements": [
+            {
+              "id": "page",
+              "type": "Hidden",
+              "props": {
+                "id": "browseListingsForm-page",
+                "name": "page",
+                "disabled": true
+              }
+            }
+          ]
+        },
+        "sortLayout": {
+          "blocks": [
+            {
+              "key": "block0",
+              "rows": [
+                {
+                  "key": "row0",
+                  "columnCount": 1,
+                  "hasMultipleColumns": true,
+                  "columns": [
+                    {
+                      "key": "column0",
+                      "gridSlotName": "column-1",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "sort",
+                          "type": "Select",
+                          "props": {
+                            "id": "browseListingsForm-sort",
+                            "label": "Sortiraj",
+                            "name": "sort",
+                            "choices": [
+                              {
+                                "id": "distance",
+                                "label": "Po udaljenosti",
+                                "value": "distance"
+                              },
+                              {
+                                "id": "old",
+                                "label": "Najstariji",
+                                "value": "old"
+                              },
+                              {
+                                "id": "new",
+                                "label": "Najnoviji",
+                                "value": "new"
+                              },
+                              {
+                                "id": "expensive",
+                                "label": "S višom cijenom",
+                                "value": "expensive"
+                              },
+                              {
+                                "id": "cheap",
+                                "label": "S nižom cijenom",
+                                "value": "cheap"
+                              }
+                            ],
+                            "onClick": "proxy@sortOnClick"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "noResultsContent": "<div class=\"brdr_top ad_item\" style=\"texl-align:center; font-size:12px;\">Trenutno nema oglasa koji zadovoljavaju postavljene kriterije pretrage.</div>",
+        "categoryId": 13688,
+        "resultsType": "regularListings",
+        "displayType": "list",
+        "rootSlug": "auti",
+        "leafSlug": "",
+        "slugAffectingFields": [
+          "categoryId",
+          "vehicleIds"
+        ],
+        "withFiltersConfigurationFetcher": true,
+        "bannerZones": [
+          "dfpListTop",
+          "dfpListTopMobile",
+          "dfpListBottom",
+          "dfpListBottomMobile",
+          "dfpMiddle1",
+          "dfpAdlistMiddle1Mobile",
+          "dfpListMiddle",
+          "dfpListMiddleMobile",
+          "dfpMidas",
+          "dfpMidasMobile",
+          "dfpListMiddle35",
+          "dfpListMiddle35Mobile",
+          "dfpHalfpage",
+          "dfpHalfpage2",
+          "dfpRectangle",
+          "dfpFloating",
+          "dfpFloatingMobile",
+          "dfpSkyscraper",
+          "dfpAdlistBelowMobile",
+          "dfpInterstitialMobile"
+        ]
+      },
+      "stateTokens": {
+        "paginationOffset": null,
+        "levelModelValues": {
+          "locationIds": [
+            [
+              1153
+            ]
+          ],
+          "vehicleIds": []
+        },
+        "nonFilterFields": [
+          "sort",
+          "page",
+          "categoryId",
+          "modelId",
+          "vehicleIds"
+        ]
+      },
+      "hierarchyChoiceRouteMap": {
+        "categories": {},
+        "locations": {},
+        "vehicles": {}
+      }
+    }
+  }
+}

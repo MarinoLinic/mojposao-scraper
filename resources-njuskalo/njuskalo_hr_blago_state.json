@@ -1,0 +1,2919 @@
+{
+  "__INITIAL_STATE__": {
+    "main": {
+      "loading": false,
+      "error": null,
+      "spaActive": false,
+      "appWebViewActive": false,
+      "appWebViewType": "web",
+      "featureFlags": {
+        "isABTestForHomepageEnabled": false,
+        "isAdMetricsFeatureEnabled": false,
+        "isRecommenderForAutoMotoFeatureEnabled": true,
+        "isRecommenderForHomepageFeatureEnabled": true,
+        "isRecommenderForMarketplaceFeatureEnabled": true,
+        "isRecommenderForRealEstateFeatureEnabled": true,
+        "isAdaptiveSearchFiltersFeatureEnabled": true,
+        "isAdsenseFeatureEnabled": true,
+        "isAnalyticsFeatureEnabled": false,
+        "isPlatformStatisticsFeatureEnabled": false,
+        "isCategoryRecommenderFeatureEnabled": true,
+        "isCategorySuggestFeatureEnabled": true,
+        "isCustomerSuccessToolFeatureEnabled": true,
+        "defractalEnabled": true,
+        "isDemandManagerFeatureEnabled": true,
+        "isBannerLazyLoadFeatureEnabled": true,
+        "isEscrowActive": true,
+        "isDidomiFeatureEnabled": true,
+        "dotmetricsEnabled": true,
+        "isFallbackCookiePolicyFeatureEnabled": false,
+        "displayBanners": true,
+        "isXitiEnabled": true,
+        "googleTagManagerEnabled": true,
+        "hotJarEnabled": true,
+        "liveChatEnabled": true,
+        "microsoftClarityEnabled": true,
+        "midasEnabled": true,
+        "isNewAdManipulationEnabled": false,
+        "isNjupopCataloguesFeatureEnabled": true,
+        "isPrivacyPolicyNotificationEnabled": false,
+        "isOfferistaWidgetEnabled": false,
+        "isPushupSchedulingFeatureEnabled": false,
+        "isQuickSearchWidgetAutoMotoEnabled": false,
+        "isQuickSearchWidgetRealestateEnabled": false,
+        "isReadRecentUserQueryFeatureEnabled": true,
+        "isRecaptchaFeatureEnabled": true,
+        "isRecommenderFeatureEnabled": true,
+        "isSearchByImageEnabled": true,
+        "isSearchByImageWebPromoEnabled": true,
+        "isPopularCarModelsFeatureEnabled": true,
+        "shieldSquareEnabled": true,
+        "shouldShowAdDisplayCountInMyAdsList": true,
+        "showNearbyListingsBoxEnabled": true,
+        "isShowAdsOnGeoMapEnabled": true,
+        "isShowNotificationEnabled": false,
+        "isTagWidgetFeatureEnabled": true,
+        "isTrendingCategoriesRecommenderFeatureEnabled": true,
+        "areNewDsaCategoriesEnabled": true,
+        "vavenEnabled": false,
+        "isMobileManifestAndroidActive": true,
+        "isMobileManifestIOSActive": true,
+        "isQaAttributesFeatureEnabled": false,
+        "isCookieSwitchToSearchEnabled": false,
+        "isCookieSwitchToSimilarListingsEnabled": false,
+        "isCookieSwitchToNearbyListingsEnabled": false,
+        "isCookieSwitchAllRoutesEnabled": false
+      },
+      "unsupportedBrowserNotice": null,
+      "isAdblockDetected": false,
+      "user": null,
+      "siteNotice": "",
+      "trackers": {
+        "dotmetrics": {
+          "id": 938
+        },
+        "xiti": {
+          "xtn2": "Found_treasure",
+          "xtpage": "blago_home",
+          "x1": "other",
+          "x2": "transaction",
+          "x3": "Found_treasure",
+          "x4": "",
+          "recommenderFingerprint": null
+        },
+        "googleTagManager": {
+          "dataLayer": [
+            {
+              "NjuskaloVirtualPageview": "/blago/"
+            },
+            {
+              "page_type": "listing",
+              "ad_category_1": "Marketplace",
+              "ad_category_2": "Pronađeno blago"
+            }
+          ]
+        },
+        "adsense": {
+          "channelId": "1064880413",
+          "hintsKeywords": "umjetnine umjetnost",
+          "locationName": ""
+        },
+        "defractal": {
+          "defractalPage": {
+            "type": "BROWSE",
+            "tags": [
+              "unknown"
+            ],
+            "fullChannel": "marketplace",
+            "channel": "blago",
+            "classA": "",
+            "classB": "",
+            "classC": "",
+            "classD": ""
+          }
+        },
+        "midas": {
+          "categoryId": 9798,
+          "subCategoryId": 9798,
+          "campaignId": null,
+          "rootCategoryId": 9798
+        },
+        "etarget": {
+          "id": "blago"
+        }
+      },
+      "banners": {
+        "slots": [
+          {
+            "id": "dfp_halfpage_njuskalo",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    300,
+                    50
+                  ],
+                  [
+                    300,
+                    600
+                  ],
+                  [
+                    160,
+                    600
+                  ],
+                  [
+                    300,
+                    250
+                  ],
+                  "fluid"
+                ],
+                "dfp-zone-container-dfp_halfpage_njuskalo"
+              ]
+            ],
+            "contexts": [
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "id": "dfp_rectangle_njuskalo",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    300,
+                    250
+                  ],
+                  "fluid"
+                ],
+                "dfp-zone-container-dfp_rectangle_njuskalo"
+              ]
+            ],
+            "contexts": [
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "id": "dfp_list_top_njuskalo",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    336,
+                    280
+                  ],
+                  "fluid",
+                  [
+                    1,
+                    1
+                  ],
+                  [
+                    300,
+                    250
+                  ]
+                ],
+                "dfp-zone-container-dfp_list_top_njuskalo"
+              ]
+            ],
+            "contexts": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "id": "dfp_list_bottom_njuskalo",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    468,
+                    60
+                  ],
+                  "fluid",
+                  [
+                    300,
+                    250
+                  ],
+                  [
+                    320,
+                    50
+                  ],
+                  [
+                    336,
+                    280
+                  ],
+                  [
+                    320,
+                    100
+                  ],
+                  [
+                    688,
+                    350
+                  ],
+                  [
+                    300,
+                    100
+                  ]
+                ],
+                "dfp-zone-container-dfp_list_bottom_njuskalo"
+              ]
+            ],
+            "contexts": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "id": "dfp_list_middle_njuskalo",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    468,
+                    60
+                  ],
+                  "fluid",
+                  [
+                    336,
+                    280
+                  ],
+                  [
+                    300,
+                    250
+                  ]
+                ],
+                "dfp-zone-container-dfp_list_middle_njuskalo"
+              ]
+            ],
+            "contexts": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "id": "dfp_floating_njuskalo",
+            "content": [
+              "defineOutOfPageSlot",
+              [
+                "dfp-zone-container-dfp_floating_njuskalo"
+              ]
+            ],
+            "contexts": [
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "id": "dfp_middle1_njuskalo",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    300,
+                    250
+                  ],
+                  [
+                    468,
+                    60
+                  ],
+                  [
+                    336,
+                    280
+                  ],
+                  "fluid"
+                ],
+                "dfp-zone-container-dfp_middle1_njuskalo"
+              ]
+            ],
+            "contexts": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "id": "dfp_floating_njuskalo_mobile",
+            "content": [
+              "defineOutOfPageSlot",
+              [
+                "dfp-zone-container-dfp_floating_njuskalo_mobile"
+              ]
+            ],
+            "contexts": [
+              1
+            ]
+          },
+          {
+            "id": "dfp_adlist_middle1_njuskalo_mobile",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    300,
+                    250
+                  ],
+                  [
+                    300,
+                    600
+                  ],
+                  [
+                    320,
+                    50
+                  ],
+                  "fluid",
+                  [
+                    320,
+                    480
+                  ],
+                  [
+                    320,
+                    100
+                  ],
+                  [
+                    320,
+                    618
+                  ],
+                  [
+                    336,
+                    280
+                  ],
+                  [
+                    320,
+                    250
+                  ],
+                  [
+                    320,
+                    640
+                  ]
+                ],
+                "dfp-zone-container-dfp_adlist_middle1_njuskalo_mobile"
+              ]
+            ],
+            "contexts": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "dfp_adlist_below_njuskalo_mobile",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    300,
+                    250
+                  ],
+                  [
+                    320,
+                    50
+                  ],
+                  "fluid",
+                  [
+                    320,
+                    100
+                  ]
+                ],
+                "dfp-zone-container-dfp_adlist_below_njuskalo_mobile"
+              ]
+            ],
+            "contexts": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "dfp_list_bottom_njuskalo_mobile",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    320,
+                    100
+                  ],
+                  [
+                    320,
+                    50
+                  ],
+                  [
+                    336,
+                    280
+                  ],
+                  [
+                    320,
+                    480
+                  ],
+                  [
+                    300,
+                    250
+                  ],
+                  [
+                    360,
+                    360
+                  ],
+                  "fluid"
+                ],
+                "dfp-zone-container-dfp_list_bottom_njuskalo_mobile"
+              ]
+            ],
+            "contexts": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "dfp_list_middle_njuskalo_mobile",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    320,
+                    100
+                  ],
+                  [
+                    336,
+                    280
+                  ],
+                  "fluid",
+                  [
+                    320,
+                    50
+                  ],
+                  [
+                    300,
+                    250
+                  ]
+                ],
+                "dfp-zone-container-dfp_list_middle_njuskalo_mobile"
+              ]
+            ],
+            "contexts": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "dfp_list_top_njuskalo_mobile",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    300,
+                    250
+                  ],
+                  "fluid",
+                  [
+                    336,
+                    280
+                  ],
+                  [
+                    320,
+                    250
+                  ],
+                  [
+                    320,
+                    50
+                  ],
+                  [
+                    1,
+                    1
+                  ],
+                  [
+                    320,
+                    100
+                  ]
+                ],
+                "dfp-zone-container-dfp_list_top_njuskalo_mobile"
+              ]
+            ],
+            "contexts": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "dfp_skyscraper_njuskalo",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    120,
+                    600
+                  ],
+                  "fluid",
+                  [
+                    230,
+                    618
+                  ],
+                  [
+                    160,
+                    600
+                  ]
+                ],
+                "dfp-zone-container-dfp_skyscraper_njuskalo"
+              ]
+            ],
+            "contexts": [
+              7,
+              8
+            ]
+          },
+          {
+            "id": "dfp_list_middle_3_5_njuskalo_mobile",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    336,
+                    280
+                  ],
+                  [
+                    320,
+                    100
+                  ],
+                  [
+                    300,
+                    250
+                  ],
+                  [
+                    320,
+                    480
+                  ],
+                  "fluid",
+                  [
+                    320,
+                    50
+                  ]
+                ],
+                "dfp-zone-container-dfp_list_middle_3_5_njuskalo_mobile"
+              ]
+            ],
+            "contexts": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "dfp_interstitial_njuskalo_mobile",
+            "content": [
+              "defineOutOfPageSlot",
+              [
+                "INTERSTITIAL"
+              ]
+            ],
+            "contexts": [
+              1
+            ]
+          },
+          {
+            "id": "nju_midas_ad_unit",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    336,
+                    280
+                  ],
+                  "fluid",
+                  [
+                    300,
+                    250
+                  ],
+                  [
+                    468,
+                    60
+                  ]
+                ],
+                "dfp-zone-container-nju_midas_ad_unit"
+              ]
+            ],
+            "contexts": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "id": "nju_midas_ad_unit_mobile",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    300,
+                    250
+                  ],
+                  [
+                    320,
+                    480
+                  ],
+                  [
+                    320,
+                    50
+                  ],
+                  [
+                    336,
+                    280
+                  ],
+                  [
+                    320,
+                    100
+                  ],
+                  "fluid"
+                ],
+                "dfp-zone-container-nju_midas_ad_unit_mobile"
+              ]
+            ],
+            "contexts": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "dfp_halfpage_2_njuskalo",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  "fluid",
+                  [
+                    300,
+                    250
+                  ],
+                  [
+                    160,
+                    600
+                  ],
+                  [
+                    300,
+                    300
+                  ],
+                  [
+                    300,
+                    600
+                  ]
+                ],
+                "dfp-zone-container-dfp_halfpage_2_njuskalo"
+              ]
+            ],
+            "contexts": [
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "id": "dfp_list_middle_3_5_njuskalo_desktop",
+            "content": [
+              "defineSlot",
+              [
+                [
+                  [
+                    468,
+                    60
+                  ],
+                  "fluid",
+                  [
+                    300,
+                    250
+                  ],
+                  [
+                    336,
+                    280
+                  ]
+                ],
+                "dfp-zone-container-dfp_list_middle_3_5_njuskalo_desktop"
+              ]
+            ],
+            "contexts": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          }
+        ]
+      },
+      "applicationVersion": "32df26981387f6fa4a9e00f31c7d8bc4a90b5801",
+      "serverTime": 1779971616050,
+      "mainNavigationCategories": [
+        {
+          "id": 2,
+          "title": "Auto Moto Nautika",
+          "url": "/auto-moto",
+          "iconId": "auto-moto",
+          "hasEscrow": false
+        },
+        {
+          "id": 1,
+          "title": "Nekretnine",
+          "url": "/nekretnine",
+          "iconId": "real-estate",
+          "hasEscrow": false
+        },
+        {
+          "id": "njupop",
+          "title": "Katalozi",
+          "url": "https://katalozi.njuskalo.hr",
+          "iconId": "discounts",
+          "hasEscrow": false
+        },
+        {
+          "id": "marketplace",
+          "title": "Marketplace",
+          "url": "/marketplace",
+          "iconId": "miscellaneous",
+          "hasEscrow": true,
+          "subCategories": [
+            {
+              "id": 12378,
+              "title": "Od glave do pete",
+              "url": "/od-glave-do-pete"
+            },
+            {
+              "id": 9737,
+              "title": "Sport i oprema",
+              "url": "/sportska-oprema"
+            },
+            {
+              "id": 9726,
+              "title": "Sve za dom",
+              "url": "/sve-za-dom"
+            },
+            {
+              "id": 9807,
+              "title": "Dječji svijet",
+              "url": "/djecji-svijet"
+            },
+            {
+              "id": 9761,
+              "title": "Strojevi i alati",
+              "url": "/strojevi-alati"
+            },
+            {
+              "id": 12111,
+              "title": "Usluge",
+              "url": "/usluge"
+            },
+            {
+              "id": 9654,
+              "title": "Audio Video Foto",
+              "url": "/audio-video-foto"
+            },
+            {
+              "id": 9643,
+              "title": "Mobiteli",
+              "url": "/mobiteli"
+            },
+            {
+              "id": 9696,
+              "title": "Glazbala",
+              "url": "/glazbala"
+            },
+            {
+              "id": 9749,
+              "title": "Literatura",
+              "url": "/knjige"
+            },
+            {
+              "id": 3,
+              "title": "Informatika",
+              "url": "/informatika"
+            },
+            {
+              "id": 9788,
+              "title": "Kućni ljubimci",
+              "url": "/kucni-ljubimci"
+            },
+            {
+              "id": 9798,
+              "title": "Pronađeno blago",
+              "url": "/blago"
+            },
+            {
+              "id": 9823,
+              "title": "Ostalo",
+              "url": "/ostalo"
+            },
+            {
+              "id": 9830,
+              "title": "Poklanjam",
+              "url": "/poklanjam"
+            },
+            {
+              "id": 12599,
+              "title": "Hrana i piće",
+              "url": "/hrana-pice"
+            },
+            {
+              "id": 16163,
+              "title": "Turistički smještaj",
+              "url": "/turisticki-smjestaj"
+            },
+            {
+              "id": 12551,
+              "title": "Poslovi",
+              "url": "/posao"
+            }
+          ]
+        }
+      ],
+      "showEnvironmentMarker": false
+    },
+    "browseListingsStore": {
+      "pageData": {
+        "meta": {
+          "title": "Pronađeno blago - kolekcionarstvo, umjetnine, starine - Njuskalo.hr",
+          "description": "Antikviteti, starine, umjetnine i kolekcionarstvo u malim oglasima na oglasniku Njuskalo.hr",
+          "keywords": "umjetnine, starine, antikviteti",
+          "openGraphTitle": "Pronađeno blago",
+          "openGraphType": "category",
+          "openGraphImage": "ikone_fb_90x90_blago"
+        },
+        "listHeader": {
+          "title": "Pronađeno blago",
+          "description": "Antikviteti, starine, umjetnine i kolekcionarstvo u malim oglasima. <div class=\"coupons__container\"> <a href=\"https://www.njuskalo.hr/blago?isOnlinePaymentEnabled=1&utm_source=njuskalo&utm_medium=banner&utm_campaign=pp_awareness&utm_content=novi_banner_blago\"> <img src=\"https://www.njuskalo.hr/slika-original-253161649.jpg\" /> </a></div> <style> .coupons__container { display: block; max-width: 100%; margin-bottom: 20px; } </style>"
+        },
+        "breadcrumbs": [
+          {
+            "caption": "Oglasnik",
+            "route": "/",
+            "active": false
+          },
+          {
+            "caption": "Marketplace",
+            "route": "/marketplace",
+            "active": false
+          },
+          {
+            "caption": "Pronađeno blago",
+            "route": "/blago",
+            "active": true
+          }
+        ],
+        "canonicalUrl": "https://www.njuskalo.hr/blago",
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Oglasnik",
+                  "item": "http://www.njuskalo.hr/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Marketplace",
+                  "item": "http://www.njuskalo.hr/marketplace"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Pronađeno blago",
+                  "item": "http://www.njuskalo.hr/blago"
+                }
+              ]
+            }
+          ]
+        },
+        "isFiltered": false,
+        "isFilteredWithAuxFields": false,
+        "isLeaf": false,
+        "hasMapView": false,
+        "submitFreeListingCallToAction": {
+          "position": [
+            3
+          ],
+          "page": 1,
+          "url": "/predaja-oglasa?current_category_id=9798"
+        },
+        "promotedListings": [
+          {
+            "id": 50678193,
+            "title": "World cup 2026 Panini- mijenjanje sličica Update 27.05.",
+            "abstracts": [
+              {
+                "caption": "Lokacija",
+                "value": "Maksimir, Srebrnjak"
+              }
+            ],
+            "createdAt": "2026-05-26T07:23:54.000Z",
+            "createdAtFormatted": "26.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/slicice-albumi/world-cup-2026-panini-mijenjanje-slicica-slika-278600815.jpg",
+            "priceFormatted": "1 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "slicice-albumi",
+            "titleSlug": "world-cup-2026-panini-mijenjanje-slicica",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": true,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": true,
+            "location": "Maksimir, Srebrnjak"
+          },
+          {
+            "id": 50612740,
+            "title": "PANINI FIFA WORLD CUP 2026 box 50 paketića",
+            "abstracts": [
+              {
+                "caption": "Lokacija",
+                "value": "Peščenica - Žitnjak, Žitnjak"
+              }
+            ],
+            "createdAt": "2026-05-25T06:58:08.000Z",
+            "createdAtFormatted": "25.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/slicice-albumi/panini-world-cup-2026-moguca-zamjena-slika-278469964.jpg",
+            "priceFormatted": "100 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "slicice-albumi",
+            "titleSlug": "panini-world-cup-2026-moguca-zamjena",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": true,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": true,
+            "location": "Peščenica - Žitnjak, Žitnjak"
+          },
+          {
+            "id": 50091977,
+            "title": "Singer šivaća mašina",
+            "abstracts": [
+              {
+                "caption": "Lokacija",
+                "value": "Rijeka, Zamet"
+              }
+            ],
+            "createdAt": "2026-05-17T18:20:45.000Z",
+            "createdAtFormatted": "17.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/antikviteti/singer-sivaca-masina-slika-273505445.jpg",
+            "priceFormatted": "130 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "antikviteti",
+            "titleSlug": "singer-sivaca-masina",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": true,
+            "location": "Rijeka, Zamet"
+          },
+          {
+            "id": 39339854,
+            "title": "KOMPLET KUNA OD 1 LIPE DO 5 KUNA-MOGUĆA ZAMJENA",
+            "abstracts": [
+              {
+                "caption": "Lokacija",
+                "value": "Dugo Selo, Dugo Selo - Jug"
+              }
+            ],
+            "createdAt": "2026-05-15T16:15:20.000Z",
+            "createdAtFormatted": "15.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/numizmatika-kovanice/album-hrvatskih-kovanica-1-lipe-5-kuna-slika-185820292.jpg",
+            "priceFormatted": "300 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "numizmatika-kovanice",
+            "titleSlug": "album-hrvatskih-kovanica-1-lipe-5-kuna",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": true,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": true,
+            "location": "Dugo Selo, Dugo Selo - Jug"
+          },
+          {
+            "id": 48666217,
+            "title": "Plakat  DE CHIRICO 78x98 cm",
+            "abstracts": [
+              {
+                "caption": "Lokacija",
+                "value": "Gornji Grad - Medveščak, Šalata"
+              }
+            ],
+            "createdAt": "2026-05-15T10:29:19.000Z",
+            "createdAtFormatted": "15.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/posteri-plakati/plakat-de-chirico-78x98-cm-slika-0.jpg",
+            "priceFormatted": "150 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "posteri-plakati",
+            "titleSlug": "plakat-de-chirico-78x98-cm",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": true,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": true,
+            "location": "Gornji Grad - Medveščak, Šalata"
+          },
+          {
+            "id": 31229040,
+            "title": "Srebrnjak Bečka filharmonija",
+            "abstracts": [
+              {
+                "caption": "Lokacija",
+                "value": "Velika Gorica - Okolica, Velika Mlaka"
+              }
+            ],
+            "createdAt": "2026-01-01T17:21:22.000Z",
+            "createdAtFormatted": "01.01.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/numizmatika-kovanice/srebrnjak-becka-filharmonija-slika-271870664.jpg",
+            "priceFormatted": "110 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "numizmatika-kovanice",
+            "titleSlug": "srebrnjak-becka-filharmonija",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": false,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": true,
+            "location": "Velika Gorica - Okolica, Velika Mlaka"
+          }
+        ],
+        "userPromotedListings": [],
+        "regularListings": [
+          {
+            "id": 43549381,
+            "title": "Metalni mlinac",
+            "abstracts": [
+              {
+                "caption": "Lokacija",
+                "value": "Varaždin, Centar"
+              }
+            ],
+            "createdAt": "2026-05-28T12:33:13.000Z",
+            "createdAtFormatted": "28.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/antikviteti/metalni-mlinac-slika-219032540.jpg",
+            "priceFormatted": "40 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "antikviteti",
+            "titleSlug": "metalni-mlinac",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Varaždin, Centar",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 17956975,
+            "title": "Rogovi jelena stari preko 100 godina",
+            "abstracts": [
+              {
+                "caption": "Lokacija",
+                "value": "Trogir, Trogir"
+              }
+            ],
+            "createdAt": "2026-05-28T12:33:00.000Z",
+            "createdAtFormatted": "28.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/stare-stvari/rogove-jelena-slika-61622991.jpg",
+            "priceFormatted": "100 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "stare-stvari",
+            "titleSlug": "rogove-jelena",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Trogir, Trogir",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 50695125,
+            "title": "NORTH KOREA / SJEVERNA KOREJA (1995) 50 Chon UNC",
+            "abstracts": [
+              {
+                "caption": "Lokacija",
+                "value": "Trešnjevka - Sjever, Trešnjevka"
+              }
+            ],
+            "createdAt": "2026-05-28T12:32:55.000Z",
+            "createdAtFormatted": "28.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/numizmatika-novcanice/north-korea-sjeverna-koreja-1995-50-chon-unc-slika-278678324.jpg",
+            "priceFormatted": "2 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "numizmatika-novcanice",
+            "titleSlug": "north-korea-sjeverna-koreja-1995-50-chon-unc",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": true,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Trešnjevka - Sjever, Trešnjevka",
+            "condition": "novo",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 19440290,
+            "title": "&quot;BIK&quot;",
+            "abstracts": [
+              {
+                "caption": "Lokacija",
+                "value": "Osijek, Gornji grad / Centar"
+              }
+            ],
+            "createdAt": "2026-05-28T12:32:55.000Z",
+            "createdAtFormatted": "28.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/skulpture/bik-slika-68621770.jpg",
+            "priceFormatted": "4.000 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "skulpture",
+            "titleSlug": "bik",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Osijek, Gornji grad / Centar",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 50185772,
+            "title": "Plakati Lukrecija, Otelo i Lohengrin (HNK Zagreb)",
+            "abstracts": [
+              {
+                "caption": "Lokacija",
+                "value": "Gornji Grad - Medveščak, Gornji grad"
+              }
+            ],
+            "createdAt": "2026-05-28T12:32:49.000Z",
+            "createdAtFormatted": "28.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/suveniri/plakati-lukrecija-otelo-lohengrin-hnk-zagreb-slika-274214971.jpg",
+            "priceFormatted": "10 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "suveniri",
+            "titleSlug": "plakati-lukrecija-otelo-lohengrin-hnk-zagreb",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": true,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Gornji Grad - Medveščak, Gornji grad",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 30557895,
+            "title": "PISAĆI STOL",
+            "abstracts": [
+              {
+                "caption": "Lokacija",
+                "value": "Osijek, Gornji grad / Centar"
+              }
+            ],
+            "createdAt": "2026-05-28T12:32:35.000Z",
+            "createdAtFormatted": "28.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/antikviteti/pisaci-stol-slika-126184866.jpg",
+            "priceFormatted": "2.500 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "antikviteti",
+            "titleSlug": "pisaci-stol",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Osijek, Gornji grad / Centar",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 25606887,
+            "title": "Stari stolni sat - Kienzle",
+            "abstracts": [
+              {
+                "caption": "Lokacija",
+                "value": "Varaždin, Centar"
+              }
+            ],
+            "createdAt": "2026-05-28T12:32:24.000Z",
+            "createdAtFormatted": "28.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/antikviteti/stari-stolni-sat-kienzle-slika-99453968.jpg",
+            "priceFormatted": "50 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "antikviteti",
+            "titleSlug": "stari-stolni-sat-kienzle",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Varaždin, Centar",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 19039240,
+            "title": "OLDTIMER MERCEDES",
+            "abstracts": [
+              {
+                "caption": "Lokacija",
+                "value": "Osijek, Gornji grad / Centar"
+              }
+            ],
+            "createdAt": "2026-05-28T12:32:13.000Z",
+            "createdAtFormatted": "28.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/slike/oldtimer-mercedes-slika-66713266.jpg",
+            "priceFormatted": "1.700 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "slike",
+            "titleSlug": "oldtimer-mercedes",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Osijek, Gornji grad / Centar",
+            "condition": "novo",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 36982315,
+            "title": "Hrvatski dinari",
+            "abstracts": [
+              {
+                "caption": "Lokacija",
+                "value": "Osijek, Bosutsko naselje"
+              }
+            ],
+            "createdAt": "2026-05-28T12:32:10.000Z",
+            "createdAtFormatted": "28.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/numizmatika-novcanice/hrvatski-dinari-slika-181462244.jpg",
+            "priceFormatted": "2 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "numizmatika-novcanice",
+            "titleSlug": "hrvatski-dinari",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": true,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Osijek, Bosutsko naselje",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 50695121,
+            "title": "NORTH KOREA / SJEVERNA KOREJA (1988) 10 Chon UNC",
+            "abstracts": [
+              {
+                "caption": "Lokacija",
+                "value": "Trešnjevka - Sjever, Trešnjevka"
+              }
+            ],
+            "createdAt": "2026-05-28T12:32:09.000Z",
+            "createdAtFormatted": "28.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/numizmatika-novcanice/north-korea-sjeverna-koreja-1988-10-chon-unc-slika-278678270.jpg",
+            "priceFormatted": "2 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "numizmatika-novcanice",
+            "titleSlug": "north-korea-sjeverna-koreja-1988-10-chon-unc",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": true,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Trešnjevka - Sjever, Trešnjevka",
+            "condition": "novo",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 50695120,
+            "title": "Stare svete slicice, oko 1880 godine...10 komada",
+            "abstracts": [
+              {
+                "caption": "Lokacija",
+                "value": "Mađarska"
+              }
+            ],
+            "createdAt": "2026-05-28T12:31:54.000Z",
+            "createdAtFormatted": "28.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/slicice-albumi/stare-svete-slicice-oko-1880-godine-10-komada-slika-278678245.jpg",
+            "priceFormatted": "80 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "slicice-albumi",
+            "titleSlug": "stare-svete-slicice-oko-1880-godine-10-komada",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Mađarska",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 31508255,
+            "title": "Garnitura u stilu Louis XV",
+            "abstracts": [
+              {
+                "caption": "Lokacija",
+                "value": "Osijek, Gornji grad / Centar"
+              }
+            ],
+            "createdAt": "2026-05-28T12:31:25.000Z",
+            "createdAtFormatted": "28.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/antikviteti/garnitura-stilu-louis-xv-slika-131476929.jpg",
+            "priceFormatted": "2.500 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "antikviteti",
+            "titleSlug": "garnitura-stilu-louis-xv",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Osijek, Gornji grad / Centar",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 17712247,
+            "title": "Srebrna tabakera",
+            "abstracts": [
+              {
+                "caption": "Lokacija",
+                "value": "Varaždin, Centar"
+              }
+            ],
+            "createdAt": "2026-05-28T12:31:10.000Z",
+            "createdAtFormatted": "28.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/antikviteti/srebrna-tabakera-slika-60568851.jpg",
+            "priceFormatted": "320 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "antikviteti",
+            "titleSlug": "srebrna-tabakera",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Varaždin, Centar",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 36191824,
+            "title": "KOMPLET TRPEZARIJA &#39;ART DECO&#39;",
+            "abstracts": [
+              {
+                "caption": "Lokacija",
+                "value": "Osijek, Gornji grad / Centar"
+              }
+            ],
+            "createdAt": "2026-05-28T12:30:54.000Z",
+            "createdAtFormatted": "28.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/antikviteti/trpezarija-art-deco-slika-164429519.jpg",
+            "priceFormatted": "2.300 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "antikviteti",
+            "titleSlug": "trpezarija-art-deco",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Osijek, Gornji grad / Centar",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 48992605,
+            "title": "Metalni mužar iz prvog svj.rata",
+            "abstracts": [
+              {
+                "caption": "Lokacija",
+                "value": "Varaždin, Centar"
+              }
+            ],
+            "createdAt": "2026-05-28T12:30:53.000Z",
+            "createdAtFormatted": "28.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/antikviteti/metalni-muzar-prvog-svj-rata-slika-265123596.jpg",
+            "priceFormatted": "40 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "antikviteti",
+            "titleSlug": "metalni-muzar-prvog-svj-rata",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Varaždin, Centar",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 47857881,
+            "title": "Petrolejska lampa iz 19.og stoljeća",
+            "abstracts": [
+              {
+                "caption": "Lokacija",
+                "value": "Varaždin, Centar"
+              }
+            ],
+            "createdAt": "2026-05-28T12:30:40.000Z",
+            "createdAtFormatted": "28.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/antikviteti/petrolejska-lampa-19-og-stoljeca-slika-256863818.jpg",
+            "priceFormatted": "60 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "antikviteti",
+            "titleSlug": "petrolejska-lampa-19-og-stoljeca",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Varaždin, Centar",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 50695105,
+            "title": "NORTH KOREA / SJEVERNA KOREJA (1988) 5 Chon UNC",
+            "abstracts": [
+              {
+                "caption": "Lokacija",
+                "value": "Trešnjevka - Sjever, Trešnjevka"
+              }
+            ],
+            "createdAt": "2026-05-28T12:30:05.000Z",
+            "createdAtFormatted": "28.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/numizmatika-novcanice/north-korea-sjeverna-koreja-1988-5-chon-unc-slika-278678138.jpg",
+            "priceFormatted": "2 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "numizmatika-novcanice",
+            "titleSlug": "north-korea-sjeverna-koreja-1988-5-chon-unc",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": true,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Trešnjevka - Sjever, Trešnjevka",
+            "condition": "novo",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 48968467,
+            "title": "Antikni foto aparat Agfa",
+            "abstracts": [
+              {
+                "caption": "Lokacija",
+                "value": "Varaždin, Centar"
+              }
+            ],
+            "createdAt": "2026-05-28T12:29:48.000Z",
+            "createdAtFormatted": "28.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/antikviteti/antikni-foto-aparat-agfa-slika-264859029.jpg",
+            "priceFormatted": "45 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "antikviteti",
+            "titleSlug": "antikni-foto-aparat-agfa",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Varaždin, Centar",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 35479472,
+            "title": "Par stolnih lampica",
+            "abstracts": [
+              {
+                "caption": "Lokacija",
+                "value": "Varaždin, Centar"
+              }
+            ],
+            "createdAt": "2026-05-28T12:29:23.000Z",
+            "createdAtFormatted": "28.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/antikviteti/par-stolnih-lampica-slika-159587773.jpg",
+            "priceFormatted": "40 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "antikviteti",
+            "titleSlug": "par-stolnih-lampica",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Varaždin, Centar",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 50695098,
+            "title": "Svete slicice , devocionalije,1870. 1 komad",
+            "abstracts": [
+              {
+                "caption": "Lokacija",
+                "value": "Mađarska"
+              }
+            ],
+            "createdAt": "2026-05-28T12:28:40.000Z",
+            "createdAtFormatted": "28.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/slicice-albumi/svete-slicice-devocionalije-1870-1-komad-slika-278678107.jpg",
+            "priceFormatted": "15 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "slicice-albumi",
+            "titleSlug": "svete-slicice-devocionalije-1870-1-komad",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Mađarska",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 33225859,
+            "title": "Panini Fifa World Cup Brazil 2014 sličice na biranje",
+            "abstracts": [
+              {
+                "caption": "Lokacija",
+                "value": "Osijek, Retfala"
+              }
+            ],
+            "createdAt": "2026-05-28T12:26:38.000Z",
+            "createdAtFormatted": "28.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/slicice-albumi/panini-fifa-world-cup-brasil-2014-slicice-biranje-slika-142336810.jpg",
+            "priceFormatted": "0,60 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "slicice-albumi",
+            "titleSlug": "panini-fifa-world-cup-brasil-2014-slicice-biranje",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Osijek, Retfala",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 47440939,
+            "title": "Detroit Pistons cijeli set ekipe Panini",
+            "abstracts": [
+              {
+                "caption": "Lokacija",
+                "value": "Osijek, Retfala"
+              }
+            ],
+            "createdAt": "2026-05-28T12:26:35.000Z",
+            "createdAtFormatted": "28.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/slicice-albumi/detroit-pistons-cijeli-set-ekipe-panini-slika-253399079.jpg",
+            "priceFormatted": "9,90 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "slicice-albumi",
+            "titleSlug": "detroit-pistons-cijeli-set-ekipe-panini",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": true,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Osijek, Retfala",
+            "condition": "novo",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 42216248,
+            "title": "Karte za igru automobili",
+            "abstracts": [
+              {
+                "caption": "Lokacija",
+                "value": "Osijek, Retfala"
+              }
+            ],
+            "createdAt": "2026-05-28T12:26:35.000Z",
+            "createdAtFormatted": "28.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/slicice-albumi/karte-igru-automobili-slika-208881948.jpg",
+            "priceFormatted": "9,50 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "slicice-albumi",
+            "titleSlug": "karte-igru-automobili",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": true,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Osijek, Retfala",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 36699418,
+            "title": "Yu-Gi-Oh Konami kartice lot 1",
+            "abstracts": [
+              {
+                "caption": "Lokacija",
+                "value": "Osijek, Retfala"
+              }
+            ],
+            "createdAt": "2026-05-28T12:26:35.000Z",
+            "createdAtFormatted": "28.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/slicice-albumi/yu-gi-oh-konami-kartice-lot-1-slika-167744107.jpg",
+            "priceFormatted": "6,50 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "slicice-albumi",
+            "titleSlug": "yu-gi-oh-konami-kartice-lot-1",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": true,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Osijek, Retfala",
+            "condition": "novo",
+            "itemSize": null,
+            "isSaved": false
+          },
+          {
+            "id": 35207108,
+            "title": "Razne nenogometne sličice na upit",
+            "abstracts": [
+              {
+                "caption": "Lokacija",
+                "value": "Osijek, Retfala"
+              }
+            ],
+            "createdAt": "2026-05-28T12:26:35.000Z",
+            "createdAtFormatted": "28.05.2026.",
+            "image": "https://www.njuskalo.hr/image-200x150/razno/nema-slika-0.jpg",
+            "priceFormatted": "0,40 €",
+            "isPriceOnRequest": false,
+            "hidePrice": false,
+            "categorySlug": "slicice-albumi",
+            "titleSlug": "razne-nenogometne-slicice-upit",
+            "isNewCar": false,
+            "hasCarWarranty": false,
+            "hasG1Warranty": false,
+            "hasVirtualTour": false,
+            "isOnlinePaymentEnabled": false,
+            "hasVideo": false,
+            "hasMap": true,
+            "hasGroundPlan": false,
+            "hasHKSCertificate": false,
+            "isLuxuryRealEstate": false,
+            "isOwnerResidentialSeller": true,
+            "isSaveAvailable": true,
+            "isCompareAvailable": false,
+            "isPromoted": false,
+            "location": "Osijek, Retfala",
+            "condition": "rabljeno",
+            "itemSize": null,
+            "isSaved": false
+          }
+        ],
+        "latestListings": [
+          {
+            "id": 50695125,
+            "categorySlug": "numizmatika-novcanice",
+            "titleSlug": "north-korea-sjeverna-koreja-1995-50-chon-unc",
+            "title": "NORTH KOREA / SJEVERNA KOREJA (1995) 50 Chon UNC"
+          },
+          {
+            "id": 50695121,
+            "categorySlug": "numizmatika-novcanice",
+            "titleSlug": "north-korea-sjeverna-koreja-1988-10-chon-unc",
+            "title": "NORTH KOREA / SJEVERNA KOREJA (1988) 10 Chon UNC"
+          },
+          {
+            "id": 50695123,
+            "categorySlug": "nekretnine",
+            "titleSlug": "obiteljska-kuca-111m2-bolfan-ludbreg",
+            "title": "OBITELJSKA KUĆA(111m2) - BOLFAN, LUDBREG"
+          },
+          {
+            "id": 50695120,
+            "categorySlug": "slicice-albumi",
+            "titleSlug": "stare-svete-slicice-oko-1880-godine-10-komada",
+            "title": "Stare svete slicice, oko 1880 godine...10 komada"
+          },
+          {
+            "id": 50695119,
+            "categorySlug": "karoserija-limarija",
+            "titleSlug": "vrata-citroen-xsara-picasso-1999-2000-2001-2002-2003-2004-2005-2006",
+            "title": "VRATA CITROEN XSARA PICASSO 1999 2000 2001 2002 2003 2004 2005 2006"
+          },
+          {
+            "id": 50695118,
+            "categorySlug": "peradarstvo",
+            "titleSlug": "jureki-katice",
+            "title": "Jureki i katice"
+          }
+        ],
+        "superVauListings": [
+          {
+            "id": 47864399,
+            "categorySlug": "slike",
+            "titleSlug": "triptih-vjekoslava-stipice-nostalgija-ulje-platnu",
+            "title": "Triptih Vjekoslava Stipice - NOSTALGIJA - ulje na platnu",
+            "shortDescription": "Prodajem set od tri umjetničke slike…",
+            "image": "https://www.njuskalo.hr/image-360x360c/slike/triptih-vjekoslava-stipice-nostalgija-ulje-platnu-slika-256920077.jpg",
+            "zoneId": 36,
+            "url": "/slike/triptih-vjekoslava-stipice-nostalgija-ulje-platnu-oglas-47864399",
+            "hidePrice": false
+          }
+        ],
+        "popularTags": [
+          {
+            "id": "1397",
+            "title": "lovački psi",
+            "url": "/blago/lovacki-psi/"
+          },
+          {
+            "id": "1111",
+            "title": "mlinac za kavu",
+            "url": "/blago/mlinac-za-kavu/"
+          },
+          {
+            "id": "393",
+            "title": "narodna nošnja",
+            "url": "/blago/narodna-nosnja/"
+          },
+          {
+            "id": "1051",
+            "title": "coca cola",
+            "url": "/blago/coca-cola/"
+          },
+          {
+            "id": "351",
+            "title": "stari radio",
+            "url": "/blago/stari-radio/"
+          },
+          {
+            "id": "1060",
+            "title": "policijska znacka",
+            "url": "/blago/policijska-znacka/"
+          },
+          {
+            "id": "11412",
+            "title": "dinamo rijeka",
+            "url": "/blago/dinamo-rijeka/"
+          },
+          {
+            "id": "1935",
+            "title": "hnk rijeka",
+            "url": "/ostalo/hnk-rijeka/"
+          },
+          {
+            "id": "16553",
+            "title": "cro army",
+            "url": "/blago/cro-army/"
+          },
+          {
+            "id": "2291",
+            "title": "drvena kutija",
+            "url": "/blago/drvena-kutija/"
+          },
+          {
+            "id": "5298",
+            "title": "Dinamo - Hajduk",
+            "url": "/knjige/dinamo-hajduk/"
+          },
+          {
+            "id": "1994",
+            "title": "ogledalo veliko",
+            "url": "/sve-za-dom/ogledalo-veliko/"
+          },
+          {
+            "id": "1847",
+            "title": "stari sat",
+            "url": "/blago/stari-sat/"
+          },
+          {
+            "id": "2052",
+            "title": "drveni sanduk",
+            "url": "/blago/drveni-sanduk/"
+          },
+          {
+            "id": "2160",
+            "title": "stara komoda",
+            "url": "/sve-za-dom/stara-komoda/"
+          },
+          {
+            "id": "1630",
+            "title": "art deco",
+            "url": "/blago/art-deco/"
+          },
+          {
+            "id": "2371",
+            "title": "drvena škrinja",
+            "url": "/blago/drvena-skrinja/"
+          },
+          {
+            "id": "2757",
+            "title": "emajlirana tabla",
+            "url": "/blago/emajlirana-tabla/"
+          },
+          {
+            "id": "4340",
+            "title": "bakreno posuđe",
+            "url": "/blago/bakreno-posude/"
+          },
+          {
+            "id": "2159",
+            "title": "space age",
+            "url": "/blago/space-age/"
+          },
+          {
+            "id": "2366",
+            "title": "crvenog križa",
+            "url": "/blago/crvenog-kriza/"
+          },
+          {
+            "id": "3174",
+            "title": "tiffany lampe",
+            "url": "/blago/tiffany-lampe/"
+          },
+          {
+            "id": "13506",
+            "title": "divlje patke",
+            "url": "/ostalo/divlje-patke/"
+          },
+          {
+            "id": "11742",
+            "title": "Hajduk - Dinamo ulaznice",
+            "url": "/ostalo/hajduk-dinamo-ulaznice/"
+          },
+          {
+            "id": "2349",
+            "title": "stare stvari",
+            "url": "/blago/stare-stvari/"
+          }
+        ],
+        "featuredStores": [
+          {
+            "id": "2027500",
+            "image": "https://www.njuskalo.hr/logo-140x140/zalagaonica_eu-logo2-2027500.jpg?quality=100",
+            "url": "/shop/zalagaonicaeu1",
+            "subListings": [
+              {
+                "id": 29636093,
+                "title": "Starinska blanja**ZALAGAONICA.EU/ZALAGAONICA SPLIT**",
+                "url": "/stare-stvari/starinska-blanja-oglas-29636093",
+                "hasVideo": false,
+                "hasMap": true,
+                "hasGroundPlan": false
+              },
+              {
+                "id": 35721366,
+                "title": "Stara kalafatska blanja**ZALAGAONICA.EU/ZALAGAONICA SPLIT**",
+                "url": "/stare-stvari/stara-kalafatska-blanja-oglas-35721366",
+                "hasVideo": false,
+                "hasMap": true,
+                "hasGroundPlan": false
+              },
+              {
+                "id": 39974160,
+                "title": "Club Hollywood Split vintage privjesaj za ključeve",
+                "url": "/suveniri/club-hollywood-split-vintage-privjesaj-kljuceve-oglas-39974160",
+                "hasVideo": false,
+                "hasMap": true,
+                "hasGroundPlan": false
+              }
+            ]
+          }
+        ],
+        "categories": [
+          [
+            {
+              "id": 9800,
+              "title": "Antikviteti",
+              "url": "/antikviteti",
+              "listingsCountFormatted": "12.949",
+              "subCategories": null
+            },
+            {
+              "id": 9750,
+              "title": "Antikvarne knjige",
+              "url": "/antikvarne-knjige",
+              "listingsCountFormatted": "19.210",
+              "subCategories": null
+            },
+            {
+              "id": 9802,
+              "title": "Starine",
+              "url": "/stare-stvari",
+              "listingsCountFormatted": "26.928",
+              "subCategories": null
+            },
+            {
+              "id": 9804,
+              "title": "Replike",
+              "url": "/replike",
+              "listingsCountFormatted": "897",
+              "subCategories": null
+            },
+            {
+              "id": 9805,
+              "title": "Militarija",
+              "url": "/militarija",
+              "listingsCountFormatted": "12.356",
+              "subCategories": null
+            },
+            {
+              "id": 9801,
+              "title": "Umjetničke slike",
+              "url": "/slike",
+              "listingsCountFormatted": "19.540",
+              "subCategories": null
+            },
+            {
+              "id": 13106,
+              "title": "Skulpture",
+              "url": "/skulpture",
+              "listingsCountFormatted": "2.165",
+              "subCategories": null
+            },
+            {
+              "id": 13123,
+              "title": "Suveniri",
+              "url": "/suveniri",
+              "listingsCountFormatted": "5.773",
+              "subCategories": null
+            },
+            {
+              "id": 12799,
+              "title": "Razglednice i fotografije",
+              "url": "/razglednice-fotografije",
+              "listingsCountFormatted": "13.696",
+              "subCategories": null
+            },
+            {
+              "id": 13107,
+              "title": "Posteri i plakati",
+              "url": "/posteri-plakati",
+              "listingsCountFormatted": "3.257",
+              "subCategories": null
+            },
+            {
+              "id": 13185,
+              "title": "Sličice i albumi",
+              "url": "/slicice-albumi",
+              "listingsCountFormatted": "6.474",
+              "subCategories": null
+            },
+            {
+              "id": 13485,
+              "title": "Telefonske kartice",
+              "url": "/telefonske-kartice",
+              "listingsCountFormatted": "1.963",
+              "subCategories": null
+            },
+            {
+              "id": 12800,
+              "title": "Gobleni i tapiserije",
+              "url": "/gobleni",
+              "listingsCountFormatted": "1.339",
+              "subCategories": null
+            },
+            {
+              "id": 9799,
+              "title": "Filatelija",
+              "url": "/filatelija",
+              "listingsCountFormatted": "10.743",
+              "subCategories": null
+            },
+            {
+              "id": 12802,
+              "title": "Značke",
+              "url": "/znacke",
+              "listingsCountFormatted": "5.022",
+              "subCategories": null
+            },
+            {
+              "id": 9803,
+              "title": "Numizmatika",
+              "url": "/numizmatika",
+              "listingsCountFormatted": "45.323",
+              "subCategories": [
+                {
+                  "id": 12901,
+                  "title": "Kovanice",
+                  "url": "/numizmatika-kovanice",
+                  "listingsCountFormatted": "31.213",
+                  "subCategories": null
+                },
+                {
+                  "id": 12902,
+                  "title": "Novčanice",
+                  "url": "/numizmatika-novcanice",
+                  "listingsCountFormatted": "13.162",
+                  "subCategories": null
+                },
+                {
+                  "id": 12903,
+                  "title": "Ostalo za numizmatiku",
+                  "url": "/numizmatika-ostalo",
+                  "listingsCountFormatted": "948",
+                  "subCategories": null
+                }
+              ]
+            },
+            {
+              "id": 13056,
+              "title": "Materijal i oprema za umjetnost",
+              "url": "/umjetnost-materijal",
+              "listingsCountFormatted": "295",
+              "subCategories": [
+                {
+                  "id": 13057,
+                  "title": "Decoupage",
+                  "url": "/decoupage-materijal",
+                  "listingsCountFormatted": "25",
+                  "subCategories": null
+                },
+                {
+                  "id": 13058,
+                  "title": "Slikarstvo",
+                  "url": "/slikarski-pribor",
+                  "listingsCountFormatted": "84",
+                  "subCategories": null
+                },
+                {
+                  "id": 13059,
+                  "title": "Ostali umjetnički materijal i oprema",
+                  "url": "/umjetnost-oprema",
+                  "listingsCountFormatted": "186",
+                  "subCategories": null
+                }
+              ]
+            }
+          ]
+        ],
+        "isCompareAvailable": false,
+        "comparedListings": [],
+        "listingsCount": 187971,
+        "totalPageCount": 7519,
+        "fields": {
+          "sort": "new",
+          "categoryId": 9798,
+          "geo": {
+            "lat": null,
+            "lng": null,
+            "address": null,
+            "radius": 20,
+            "locationIds": []
+          },
+          "price": {
+            "min": null,
+            "max": null
+          },
+          "isOnlinePaymentEnabled": false,
+          "condition": [],
+          "webshopLink": false,
+          "adsWithImages": false,
+          "page": 1
+        },
+        "fieldsMapper": {
+          "toWebQuery": {
+            "sort": {
+              "to": "sort",
+              "mapper": "default"
+            },
+            "categoryId": {
+              "to": "categoryId",
+              "mapper": [
+                "forceValue",
+                {
+                  "value": null
+                }
+              ]
+            },
+            "geo": {
+              "to": [
+                "geo[lat]",
+                "geo[lng]",
+                "geo[radius]",
+                "geo[locationIds]",
+                "geo[autoComplete]"
+              ],
+              "mapper": [
+                "geoLocationSelector",
+                {
+                  "valueMap": {
+                    "geo[lat]": "lat",
+                    "geo[lng]": "lng",
+                    "geo[radius]": "radius",
+                    "geo[locationIds]": "locationIds",
+                    "geo[autoComplete]": "address"
+                  }
+                }
+              ]
+            },
+            "price": {
+              "to": [
+                "price[min]",
+                "price[max]"
+              ],
+              "mapper": [
+                "range",
+                {
+                  "valueMap": {
+                    "price[min]": "min",
+                    "price[max]": "max"
+                  }
+                }
+              ]
+            },
+            "isOnlinePaymentEnabled": {
+              "to": "isOnlinePaymentEnabled",
+              "mapper": "valueOne"
+            },
+            "condition": {
+              "to": [
+                "condition[new]",
+                "condition[used]",
+                "condition[defective]"
+              ],
+              "mapper": [
+                "multipleCheckboxValueOne",
+                {
+                  "valueMap": {
+                    "condition[new]": "new",
+                    "condition[used]": "used",
+                    "condition[defective]": "defective"
+                  }
+                }
+              ]
+            },
+            "webshopLink": {
+              "to": "webshopLink",
+              "mapper": "valueOne"
+            },
+            "adsWithImages": {
+              "to": "adsWithImages",
+              "mapper": "valueOne"
+            },
+            "page": {
+              "to": "page",
+              "mapper": "default"
+            }
+          }
+        },
+        "urlParametersOrder": [
+          "locationId",
+          "locationIds",
+          "geo[lat]",
+          "geo[lng]",
+          "geo[radius]",
+          "geo[locationIds]",
+          "geo[autoComplete]",
+          "geo",
+          "price[min]",
+          "price[max]",
+          "price",
+          "condition[new]",
+          "condition[used]",
+          "condition[defective]",
+          "condition",
+          "adsWithImages",
+          "webshopLink",
+          "isOnlinePaymentEnabled",
+          "sort",
+          "page"
+        ],
+        "categoryFilterAttribute": null,
+        "filtersLayout": {
+          "blocks": [
+            {
+              "key": "block0",
+              "rows": [
+                {
+                  "key": "row0",
+                  "columnCount": 1,
+                  "hasMultipleColumns": true,
+                  "columns": [
+                    {
+                      "key": "column0",
+                      "gridSlotName": "column-1",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "geo",
+                          "type": "GeoLocationSelector",
+                          "props": {
+                            "id": "browseListingsForm-geo",
+                            "label": "Lokacija",
+                            "name": "geo",
+                            "currentSort": "proxy@currentSort",
+                            "onResetSort": "proxy@resetSort",
+                            "onApplyFilters": "proxy@sortByDistance",
+                            "autocompleteProps": {
+                              "id": "browseListingsForm-geo-autoComplete",
+                              "label": "",
+                              "name": "geo[autoComplete]"
+                            },
+                            "addressProps": {
+                              "id": "browseListingsForm-geo-address",
+                              "label": "",
+                              "name": "geo[address]"
+                            },
+                            "autolocateProps": {
+                              "id": "browseListingsForm-geo-autoLocate",
+                              "label": "",
+                              "name": "geo[autoLocate]"
+                            },
+                            "latProps": {
+                              "id": "browseListingsForm-geo-lat",
+                              "name": "geo[lat]"
+                            },
+                            "lngProps": {
+                              "id": "browseListingsForm-geo-lng",
+                              "name": "geo[lng]"
+                            },
+                            "radiusProps": {
+                              "id": "browseListingsForm-geo-radius",
+                              "name": "geo[radius]",
+                              "radiusValues": [
+                                1,
+                                2,
+                                5,
+                                10,
+                                20,
+                                50,
+                                100,
+                                200,
+                                99999
+                              ]
+                            },
+                            "locationIdsProps": {
+                              "id": "browseListingsForm-geo-locationIds",
+                              "label": [
+                                "Lokacija"
+                              ],
+                              "name": "geo[locationIds]",
+                              "maxLevel": 0,
+                              "levelModelValue": [],
+                              "placeholder": [
+                                "Odaberi",
+                                "Odaberi"
+                              ],
+                              "maxValuesCount": {
+                                "amount": 50,
+                                "message": "Nije moguće odabrati više od 50 lokacija"
+                              },
+                              "fetchLevel": "proxy@fetchLocationsHierarchy",
+                              "renderChoice": "proxy@renderMultipleSelectOption",
+                              "choices": "proxy@locationsChoices"
+                            },
+                            "isAutocompleteActive": true,
+                            "isAddressActive": true,
+                            "isAutolocateActive": true,
+                            "isRangeActive": true,
+                            "isHierarchyActive": true
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "row1",
+                  "columnCount": 3,
+                  "hasMultipleColumns": true,
+                  "columns": [
+                    {
+                      "key": "column0",
+                      "gridSlotName": "column-1",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "price",
+                          "type": "PriceRange",
+                          "props": {
+                            "id": "browseListingsForm-price",
+                            "label": "Cijena (u €)",
+                            "name": "price",
+                            "minItemProps": {
+                              "id": "browseListingsForm-price-min",
+                              "label": "",
+                              "name": "price[min]",
+                              "placeholder": "od"
+                            },
+                            "maxItemProps": {
+                              "id": "browseListingsForm-price-max",
+                              "label": "",
+                              "name": "price[max]",
+                              "placeholder": "do"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "column1",
+                      "gridSlotName": "column-2",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "isOnlinePaymentEnabled",
+                          "type": "Checkbox",
+                          "props": {
+                            "id": "browseListingsForm-isOnlinePaymentEnabled",
+                            "label": "Samo PayProtect oglasi",
+                            "name": "isOnlinePaymentEnabled"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "column2",
+                      "gridSlotName": "column-3",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "condition",
+                          "type": "MultipleCheckboxValueOne",
+                          "props": {
+                            "id": "browseListingsForm-condition",
+                            "label": "Stanje",
+                            "name": "condition",
+                            "choices": [
+                              {
+                                "id": "new",
+                                "label": "novo",
+                                "name": "condition[new]",
+                                "value": "new",
+                                "checked": false
+                              },
+                              {
+                                "id": "used",
+                                "label": "rabljeno",
+                                "name": "condition[used]",
+                                "value": "used",
+                                "checked": false
+                              },
+                              {
+                                "id": "defective",
+                                "label": "oštećeno / neispravno",
+                                "name": "condition[defective]",
+                                "value": "defective",
+                                "checked": false
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "row2",
+                  "columnCount": 2,
+                  "hasMultipleColumns": true,
+                  "columns": [
+                    {
+                      "key": "column0",
+                      "gridSlotName": "column-1",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "webshopLink",
+                          "type": "Checkbox",
+                          "props": {
+                            "id": "browseListingsForm-webshopLink",
+                            "label": "Samo oglasi webshopova",
+                            "name": "webshopLink"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "key": "column1",
+                      "gridSlotName": "column-2",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "adsWithImages",
+                          "type": "Checkbox",
+                          "props": {
+                            "id": "browseListingsForm-adsWithImages",
+                            "label": "Samo oglasi sa slikom",
+                            "name": "adsWithImages"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "metaElements": [
+            {
+              "id": "page",
+              "type": "Hidden",
+              "props": {
+                "id": "browseListingsForm-page",
+                "name": "page",
+                "disabled": true
+              }
+            }
+          ]
+        },
+        "sortLayout": {
+          "blocks": [
+            {
+              "key": "block0",
+              "rows": [
+                {
+                  "key": "row0",
+                  "columnCount": 1,
+                  "hasMultipleColumns": true,
+                  "columns": [
+                    {
+                      "key": "column0",
+                      "gridSlotName": "column-1",
+                      "cells": [
+                        {
+                          "key": "cell0",
+                          "id": "sort",
+                          "type": "Select",
+                          "props": {
+                            "id": "browseListingsForm-sort",
+                            "label": "Sortiraj",
+                            "name": "sort",
+                            "choices": [
+                              {
+                                "id": "distance",
+                                "label": "Po udaljenosti",
+                                "value": "distance"
+                              },
+                              {
+                                "id": "old",
+                                "label": "Najstariji",
+                                "value": "old"
+                              },
+                              {
+                                "id": "new",
+                                "label": "Najnoviji",
+                                "value": "new"
+                              },
+                              {
+                                "id": "expensive",
+                                "label": "S višom cijenom",
+                                "value": "expensive"
+                              },
+                              {
+                                "id": "cheap",
+                                "label": "S nižom cijenom",
+                                "value": "cheap"
+                              }
+                            ],
+                            "onClick": "proxy@sortOnClick"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "noResultsContent": "<div class=\"brdr_top ad_item\" style=\"texl-align:center; font-size:12px;\">Trenutno nema oglasa koji zadovoljavaju postavljene kriterije pretrage.</div>",
+        "categoryId": 9798,
+        "resultsType": "regularListings",
+        "displayType": "list",
+        "rootSlug": "blago",
+        "leafSlug": "",
+        "slugAffectingFields": [
+          "categoryId"
+        ],
+        "withFiltersConfigurationFetcher": false,
+        "bannerZones": [
+          "dfpListTop",
+          "dfpListTopMobile",
+          "dfpListBottom",
+          "dfpListBottomMobile",
+          "dfpMiddle1",
+          "dfpAdlistMiddle1Mobile",
+          "dfpListMiddle",
+          "dfpListMiddleMobile",
+          "dfpMidas",
+          "dfpMidasMobile",
+          "dfpListMiddle35",
+          "dfpListMiddle35Mobile",
+          "dfpHalfpage",
+          "dfpHalfpage2",
+          "dfpRectangle",
+          "dfpFloating",
+          "dfpFloatingMobile",
+          "dfpSkyscraper",
+          "dfpAdlistBelowMobile",
+          "dfpInterstitialMobile"
+        ]
+      },
+      "stateTokens": {
+        "paginationOffset": null,
+        "levelModelValues": {
+          "locationIds": [],
+          "vehicleIds": []
+        },
+        "nonFilterFields": [
+          "sort",
+          "page",
+          "categoryId"
+        ]
+      },
+      "hierarchyChoiceRouteMap": {
+        "categories": {},
+        "locations": {},
+        "vehicles": {}
+      }
+    }
+  }
+}

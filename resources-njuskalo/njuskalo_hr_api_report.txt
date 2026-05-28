@@ -1,0 +1,474 @@
+NETWORK ANALYSIS REPORT
+Site: njuskalo_hr   |   19 captured calls
+
+══════════════════════════════════════════════════════════════════════
+  EMBEDDED PAGE STATE (server-rendered data in HTML)
+══════════════════════════════════════════════════════════════════════
+
+── APARTMENTS FOR SALE / ZAGREB ──────────────────────────────────────
+  • URL: https://www.njuskalo.hr/prodaja-stanova?geo[locationIds]=1247,1248,1249,1250,1252,1253,1254,1255,1256,1257,1258,1259,1260,1261,1262,1263,1264,1251&price[max]=360000&livingArea[max]=100&adsWithImages=1&numberOfRooms[min]=four-rooms&numberOfRooms[max]=five-rooms&buildingInfo[lift]=1&sort=new
+  • State objects found: __INITIAL_STATE__
+  • Pagination: 174 total listings across 7 pages
+  • Listing fields available: ['id', 'title', 'abstracts', 'createdAt', 'createdAtFormatted', 'image', 'priceFormatted', 'isPriceOnRequest', 'hidePrice', 'categorySlug', 'titleSlug', 'isNewCar', 'hasCarWarranty', 'hasG1Warranty', 'hasVirtualTour', 'isOnlinePaymentEnabled', 'hasVideo', 'hasMap', 'hasGroundPlan', 'hasHKSCertificate', 'isLuxuryRealEstate', 'isOwnerResidentialSeller', 'isSaveAvailable', 'isCompareAvailable', 'isPromoted', 'location', 'condition', 'itemSize', 'isSaved']
+  • Sample listing:
+      id                             50659088
+      title                          'Zagreb, Črnomerec, Keglić, 4 soban stan NKP 70 m2'
+      abstracts                      [{'caption': None, 'value': 'Stan u stambenoj zgradi, 12. ka
+      createdAt                      '2026-05-28T11:48:28.000Z'
+      createdAtFormatted             '28.05.2026.'
+      image                          'https://www.njuskalo.hr/image-200x150/nekretnine/zagreb-crn
+      priceFormatted                 '315.000 €'
+      isPriceOnRequest               False
+      hidePrice                      False
+      categorySlug                   'nekretnine'
+      titleSlug                      'zagreb-crnomerec-keglic-4-soban-stan-nkp-70-m2'
+      isNewCar                       False
+      hasCarWarranty                 False
+      hasG1Warranty                  False
+      hasVirtualTour                 False
+      isOnlinePaymentEnabled         False
+      hasVideo                       False
+      hasMap                         True
+      hasGroundPlan                  False
+      hasHKSCertificate              False
+      isLuxuryRealEstate             False
+      isOwnerResidentialSeller       False
+      isSaveAvailable                True
+      isCompareAvailable             False
+      isPromoted                     True
+      location                       'Črnomerec, Črnomerec'
+      condition                      ''
+      itemSize                       None
+      isSaved                        False
+  • Filter fields (current values from this page load):
+      sort                           'new'
+      geo                            {'lat': None, 'lng': None, 'address': None, 'radius': None, 
+      videoCallOption                False
+      price                          {'min': None, 'max': '360000'}
+      includeOtherCategories         False
+      livingArea                     {'min': None, 'max': '100'}
+      adsWithImages                  True
+      flatBuildingType               None
+      flatFloorCount                 None
+      numberOfRooms                  {'min': 'four-rooms', 'max': 'five-rooms'}
+      balconyInfo                    None
+      buildingInfo                   ['lift']
+      furnishLevelAndCondition       []
+      heatingSource                  None
+      subjectEnergyCertificate       {'min': None, 'max': None}
+      buildingFloorPosition          {'min': None, 'max': None}
+      buildingFloorCount             {'min': None, 'max': None}
+      otherAreas                     []
+      functionalities                []
+      yearOfConstruction             {'min': None, 'max': None}
+      yearOfRenovation               {'min': None, 'max': None}
+      numberOfParkingSpots           {'min': None, 'max': None}
+      parkingSpotType                []
+      switchOption                   None
+      virtualTour                    False
+      page                           1
+  • All valid URL parameters (76 total):
+      categoryIds  |  categoryId  |  locationId  |  locationIds
+      geo[lat]  |  geo[lng]  |  geo[radius]  |  geo[locationIds]
+      geo[address]  |  geo  |  price[min]  |  price[max]
+      price  |  includeOtherCategories  |  livingArea[min]  |  livingArea[max]
+      livingArea  |  virtualTour  |  adsWithImages  |  flatBuildingType
+      flatFloorCount  |  numberOfRooms[min]  |  numberOfRooms[max]  |  numberOfRooms
+      balconyInfo  |  buildingInfo[new-building]  |  buildingInfo[lift]  |  buildingInfo[invalid-can]
+      buildingInfo[city-gas]  |  buildingInfo  |  furnishLevelAndCondition[furnished]  |  furnishLevelAndCondition[partially-furnished]
+      furnishLevelAndCondition[unfurnished]  |  furnishLevelAndCondition[unfinished-for-renovation]  |  furnishLevelAndCondition  |  heatingSource
+      subjectEnergyCertificate[min]  |  subjectEnergyCertificate[max]  |  subjectEnergyCertificate  |  buildingFloorPosition[min]
+      buildingFloorPosition[max]  |  buildingFloorPosition  |  buildingFloorCount[min]  |  buildingFloorCount[max]
+      buildingFloorCount  |  otherAreas[garden]  |  otherAreas[basement]  |  otherAreas[supa]
+      otherAreas[barbecue]  |  otherAreas  |  functionalities[bathtub]  |  functionalities[shower-cabin]
+      functionalities[floor-heating]  |  functionalities[fireplace]  |  functionalities  |  yearOfConstruction[min]
+      yearOfConstruction[max]  |  yearOfConstruction  |  yearOfRenovation[min]  |  yearOfRenovation[max]
+      yearOfRenovation  |  numberOfParkingSpots[min]  |  numberOfParkingSpots[max]  |  numberOfParkingSpots
+      parkingSpotType[parking-garage]  |  parkingSpotType[garage-spot]  |  parkingSpotType[parking-outdoor-covered]  |  parkingSpotType[parking-garage-outdoor-notcovered]
+      parkingSpotType[parking-public-free]  |  parkingSpotType[parking-public-not-free]  |  parkingSpotType  |  switchOption
+      videoCallOption  |  product  |  sort  |  page
+
+── NJUSKALO.HR ───────────────────────────────────────────────────────
+  • URL: https://www.njuskalo.hr/
+  • State objects found: __INITIAL_STATE__
+  • Listing fields available: ['id', 'title', 'categorySlug', 'titleSlug', 'priceFormatted', 'image', 'isPriceOnRequest', 'hidePrice']
+  • Sample listing:
+      id                             50659088
+      title                          'Zagreb, Črnomerec, Keglić, 4 soban stan NKP 70 m2'
+      categorySlug                   'nekretnine'
+      titleSlug                      'zagreb-crnomerec-keglic-4-soban-stan-nkp-70-m2'
+      priceFormatted                 '315.000,00 €'
+      image                          'https://www.njuskalo.hr/image-360x360c/nekretnine/zagreb-cr
+      isPriceOnRequest               False
+      hidePrice                      False
+
+── CARS FOR SALE ─────────────────────────────────────────────────────
+  • URL: https://www.njuskalo.hr/auti?geo[locationIds]=1153&adsWithImages=1&condition[used]=1&sort=cheap
+  • State objects found: __INITIAL_STATE__
+  • Pagination: 14689 total listings across 588 pages
+  • Listing fields available: ['id', 'title', 'abstracts', 'createdAt', 'createdAtFormatted', 'image', 'priceFormatted', 'isPriceOnRequest', 'hidePrice', 'categorySlug', 'titleSlug', 'isNewCar', 'hasCarWarranty', 'hasG1Warranty', 'hasVirtualTour', 'isOnlinePaymentEnabled', 'hasVideo', 'hasMap', 'hasGroundPlan', 'hasHKSCertificate', 'isLuxuryRealEstate', 'isOwnerResidentialSeller', 'isSaveAvailable', 'isCompareAvailable', 'isPromoted', 'location', 'condition', 'itemSize', 'isSaved', 'isCompared']
+  • Sample listing:
+      id                             49506308
+      title                          'Zamj,MercedesBenz GLS 350 CDI*PDV*4MATIC**AMG*7 SJEDALA*NIJ
+      abstracts                      [{'caption': None, 'value': 'Rabljeno vozilo, 245000 km'}, {
+      createdAt                      '2026-05-27T20:16:53.000Z'
+      createdAtFormatted             '27.05.2026.'
+      image                          'https://www.njuskalo.hr/image-200x150/auti/mercedes-benz-gl
+      priceFormatted                 '1 €'
+      isPriceOnRequest               False
+      hidePrice                      False
+      categorySlug                   'auti'
+      titleSlug                      'mercedes-benz-gle-350-d-automatik'
+      isNewCar                       False
+      hasCarWarranty                 False
+      hasG1Warranty                  False
+      hasVirtualTour                 False
+      isOnlinePaymentEnabled         False
+      hasVideo                       True
+      hasMap                         True
+      hasGroundPlan                  False
+      hasHKSCertificate              False
+      isLuxuryRealEstate             False
+      isOwnerResidentialSeller       False
+      isSaveAvailable                True
+      isCompareAvailable             True
+      isPromoted                     False
+      location                       'Trešnjevka - Jug, Jarun'
+      condition                      'rabljeno'
+      itemSize                       None
+      isSaved                        False
+      isCompared                     False
+  • Filter fields (current values from this page load):
+      sort                           'cheap'
+      categoryId                     13688
+      vehicleIds                     []
+      geo                            {'lat': None, 'lng': None, 'address': None, 'radius': 20, 'l
+      yearManufactured               {'min': None, 'max': None}
+      price                          {'min': None, 'max': None}
+      onlyFullPrice                  False
+      hasG1Warranty                  False
+      warranty                       False
+      mileage                        {'min': None, 'max': None}
+      fuelTypeId                     None
+      motorPower                     {'min': None, 'max': None}
+      transmissionTypeId             []
+      bodyTypeId                     None
+      condition                      ['used']
+      adsWithImages                  True
+      accountPurpose                 None
+      motorSize                      {'min': None, 'max': None}
+      driveTypeId                    None
+      fuelHasLpg                     None
+      fuelConsumption                {'min': None, 'max': None}
+      gearNumberId                   None
+      airConditionTypeId             None
+      doorCountId                    None
+      seatCountId                    None
+      registrationExpiryTs           None
+      ownerCountId                   None
+      additionalEquipment            []
+      comfortFeatures                []
+      colorId                        None
+      videoCallOption                False
+      paymentOptions                 None
+      page                           1
+  • All valid URL parameters (72 total):
+      categoryId  |  modelId  |  vehicleIds  |  onlyFullPrice
+      price[min]  |  price[max]  |  price  |  locationId
+      locationIds  |  geo[lat]  |  geo[lng]  |  geo[radius]
+      geo[locationIds]  |  geo[autoComplete]  |  geo  |  additionalEquipment[47]
+      additionalEquipment[48]  |  additionalEquipment[2659]  |  additionalEquipment[344]  |  additionalEquipment[347]
+      additionalEquipment  |  comfortFeatures[76]  |  comfortFeatures[2668]  |  comfortFeatures[77]
+      comfortFeatures[79]  |  comfortFeatures[2669]  |  comfortFeatures[338063]  |  comfortFeatures[338064]
+      comfortFeatures  |  yearManufactured[min]  |  yearManufactured[max]  |  yearManufactured
+      bodyTypeId  |  adsWithImages  |  fuelTypeId  |  fuelHasLpg
+      motorSize[min]  |  motorSize[max]  |  motorSize  |  motorPower[min]
+      motorPower[max]  |  motorPower  |  driveTypeId  |  mileage[min]
+      mileage[max]  |  mileage  |  airConditionTypeId  |  transmissionTypeId[610]
+      transmissionTypeId[611]  |  transmissionTypeId[612]  |  transmissionTypeId[613]  |  transmissionTypeId
+      fuelConsumption[min]  |  fuelConsumption[max]  |  fuelConsumption  |  doorCountId
+      seatCountId  |  gearNumberId  |  registrationExpiryTs  |  ownerCountId
+      condition[new]  |  condition[test]  |  condition[used]  |  condition
+      colorId  |  hasG1Warranty  |  warranty  |  paymentOptions
+      videoCallOption  |  accountPurpose  |  sort  |  page
+
+── RENTING APARTMENTS ────────────────────────────────────────────────
+  • URL: https://www.njuskalo.hr/iznajmljivanje-stanova?geo[locationIds]=1153,1170&sort=old
+  • State objects found: __INITIAL_STATE__
+  • Pagination: 5902 total listings across 237 pages
+  • Listing fields available: ['id', 'title', 'abstracts', 'createdAt', 'createdAtFormatted', 'image', 'priceFormatted', 'isPriceOnRequest', 'hidePrice', 'categorySlug', 'titleSlug', 'isNewCar', 'hasCarWarranty', 'hasG1Warranty', 'hasVirtualTour', 'isOnlinePaymentEnabled', 'hasVideo', 'hasMap', 'hasGroundPlan', 'hasHKSCertificate', 'isLuxuryRealEstate', 'isOwnerResidentialSeller', 'isSaveAvailable', 'isCompareAvailable', 'isPromoted', 'location', 'condition', 'itemSize', 'isSaved']
+  • Sample listing:
+      id                             37559725
+      title                          'Šalata-Zelenjak-lijep 3s stan s terasom &amp; parkingom'
+      abstracts                      [{'caption': None, 'value': 'Stan u kući, 1. kat'}, {'captio
+      createdAt                      '2022-05-24T23:30:07.000Z'
+      createdAtFormatted             '25.05.2022.'
+      image                          'https://www.njuskalo.hr/image-200x150/nekretnine/salata-zel
+      priceFormatted                 '1.800 €'
+      isPriceOnRequest               False
+      hidePrice                      False
+      categorySlug                   'nekretnine'
+      titleSlug                      'salata-zelenjak-lijep-3s-stan-terasom-parkingom'
+      isNewCar                       False
+      hasCarWarranty                 False
+      hasG1Warranty                  False
+      hasVirtualTour                 False
+      isOnlinePaymentEnabled         False
+      hasVideo                       False
+      hasMap                         False
+      hasGroundPlan                  False
+      hasHKSCertificate              False
+      isLuxuryRealEstate             False
+      isOwnerResidentialSeller       False
+      isSaveAvailable                True
+      isCompareAvailable             False
+      isPromoted                     False
+      location                       'Gornji Grad - Medveščak, Šalata'
+      condition                      ''
+      itemSize                       None
+      isSaved                        False
+  • Filter fields (current values from this page load):
+      sort                           'old'
+      geo                            {'lat': None, 'lng': None, 'address': None, 'radius': None, 
+      flatBuildingType               None
+      flatFloorCount                 None
+      videoCallOption                False
+      numberOfRooms                  {'min': None, 'max': None}
+      balconyInfo                    None
+      price                          {'min': None, 'max': None}
+      includeOtherCategories         False
+      heatingSource                  None
+      airConditioning                False
+      livingArea                     {'min': None, 'max': None}
+      subjectEnergyCertificate       {'min': None, 'max': None}
+      numberOfParkingSpots           {'min': None, 'max': None}
+      petsAllowed                    False
+      adsWithImages                  False
+      parkingSpotType                []
+      availableFromDate              False
+      yearlyAvailability             None
+      buildingInfo                   []
+      furnishLevelAndCondition       []
+      buildingFloorPosition          {'min': None, 'max': None}
+      buildingFloorCount             {'min': None, 'max': None}
+      otherAreas                     []
+      functionalities                []
+      yearOfConstruction             {'min': None, 'max': None}
+      yearOfRenovation               {'min': None, 'max': None}
+      virtualTour                    False
+      page                           1
+  • All valid URL parameters (75 total):
+      categoryIds  |  categoryId  |  locationId  |  locationIds
+      geo[lat]  |  geo[lng]  |  geo[radius]  |  geo[locationIds]
+      geo[address]  |  geo  |  price[min]  |  price[max]
+      price  |  includeOtherCategories  |  livingArea[min]  |  livingArea[max]
+      livingArea  |  petsAllowed  |  adsWithImages  |  flatBuildingType
+      flatFloorCount  |  numberOfRooms[min]  |  numberOfRooms[max]  |  numberOfRooms
+      balconyInfo  |  heatingSource  |  airConditioning  |  subjectEnergyCertificate[min]
+      subjectEnergyCertificate[max]  |  subjectEnergyCertificate  |  numberOfParkingSpots[min]  |  numberOfParkingSpots[max]
+      numberOfParkingSpots  |  parkingSpotType[parking-garage]  |  parkingSpotType[garage-spot]  |  parkingSpotType[parking-outdoor-covered]
+      parkingSpotType[parking-garage-outdoor-notcovered]  |  parkingSpotType[parking-public-free]  |  parkingSpotType[parking-public-not-free]  |  parkingSpotType
+      availableFromDate  |  yearlyAvailability  |  buildingInfo[new-building]  |  buildingInfo[lift]
+      buildingInfo[invalid-can]  |  buildingInfo[city-gas]  |  buildingInfo  |  furnishLevelAndCondition[furnished]
+      furnishLevelAndCondition[partially-furnished]  |  furnishLevelAndCondition[unfurnished]  |  furnishLevelAndCondition[unfinished-for-renovation]  |  furnishLevelAndCondition
+      buildingFloorPosition[min]  |  buildingFloorPosition[max]  |  buildingFloorPosition  |  buildingFloorCount[min]
+      buildingFloorCount[max]  |  buildingFloorCount  |  otherAreas[garden]  |  otherAreas[basement]
+      otherAreas[supa]  |  otherAreas  |  functionalities[antitheft-doors]  |  functionalities[dishwasher]
+      functionalities  |  yearOfConstruction[min]  |  yearOfConstruction[max]  |  yearOfConstruction
+      yearOfRenovation[min]  |  yearOfRenovation[max]  |  yearOfRenovation  |  videoCallOption
+      virtualTour  |  sort  |  page
+
+── MARKETPLACE ───────────────────────────────────────────────────────
+  • URL: https://www.njuskalo.hr/marketplace
+  • State objects found: __INITIAL_STATE__
+  • Listing fields available: ['id', 'title', 'categorySlug', 'titleSlug', 'priceFormatted', 'image', 'isPriceOnRequest', 'hidePrice', 'isSaved']
+  • Sample listing:
+      id                             44376929
+      title                          'Auto Revuenon 55mm f/1.7 m42 52mm filter poklopci sjenilo'
+      categorySlug                   'objektivi'
+      titleSlug                      'pentacon-auto-multi-coating-50mm-f-1.8-m42-49mm-hoya-filter
+      priceFormatted                 '45,00 €'
+      image                          'https://www.njuskalo.hr/image-360x360c/objektivi/pentacon-a
+      isPriceOnRequest               False
+      hidePrice                      False
+      isSaved                        False
+
+── BLAGO ─────────────────────────────────────────────────────────────
+  • URL: https://www.njuskalo.hr/blago
+  • State objects found: __INITIAL_STATE__
+  • Pagination: 187971 total listings across 7519 pages
+  • Listing fields available: ['id', 'title', 'abstracts', 'createdAt', 'createdAtFormatted', 'image', 'priceFormatted', 'isPriceOnRequest', 'hidePrice', 'categorySlug', 'titleSlug', 'isNewCar', 'hasCarWarranty', 'hasG1Warranty', 'hasVirtualTour', 'isOnlinePaymentEnabled', 'hasVideo', 'hasMap', 'hasGroundPlan', 'hasHKSCertificate', 'isLuxuryRealEstate', 'isOwnerResidentialSeller', 'isSaveAvailable', 'isCompareAvailable', 'isPromoted', 'location', 'condition', 'itemSize', 'isSaved']
+  • Sample listing:
+      id                             43549381
+      title                          'Metalni mlinac'
+      abstracts                      [{'caption': 'Lokacija', 'value': 'Varaždin, Centar'}]
+      createdAt                      '2026-05-28T12:33:13.000Z'
+      createdAtFormatted             '28.05.2026.'
+      image                          'https://www.njuskalo.hr/image-200x150/antikviteti/metalni-m
+      priceFormatted                 '40 €'
+      isPriceOnRequest               False
+      hidePrice                      False
+      categorySlug                   'antikviteti'
+      titleSlug                      'metalni-mlinac'
+      isNewCar                       False
+      hasCarWarranty                 False
+      hasG1Warranty                  False
+      hasVirtualTour                 False
+      isOnlinePaymentEnabled         False
+      hasVideo                       False
+      hasMap                         True
+      hasGroundPlan                  False
+      hasHKSCertificate              False
+      isLuxuryRealEstate             False
+      isOwnerResidentialSeller       True
+      isSaveAvailable                True
+      isCompareAvailable             False
+      isPromoted                     False
+      location                       'Varaždin, Centar'
+      condition                      'rabljeno'
+      itemSize                       None
+      isSaved                        False
+  • Filter fields (current values from this page load):
+      sort                           'new'
+      categoryId                     9798
+      geo                            {'lat': None, 'lng': None, 'address': None, 'radius': 20, 'l
+      price                          {'min': None, 'max': None}
+      isOnlinePaymentEnabled         False
+      condition                      []
+      webshopLink                    False
+      adsWithImages                  False
+      page                           1
+  • All valid URL parameters (20 total):
+      locationId  |  locationIds  |  geo[lat]  |  geo[lng]
+      geo[radius]  |  geo[locationIds]  |  geo[autoComplete]  |  geo
+      price[min]  |  price[max]  |  price  |  condition[new]
+      condition[used]  |  condition[defective]  |  condition  |  adsWithImages
+      webshopLink  |  isOnlinePaymentEnabled  |  sort  |  page
+
+  → TIP: The state JSON files (*_state.json) contain the complete
+         raw data — open them to see every listing, filter option,
+         and configuration value the page loaded.
+  → TIP: For scraping, parse window.__INITIAL_STATE__ (or equiv.)
+         directly from the HTML — no API calls needed.
+
+══════════════════════════════════════════════════════════════════════
+  API CALLS BY CATEGORY
+══════════════════════════════════════════════════════════════════════
+
+── ADS/TARGETING ─────────────────────────────────────────────────────
+  • [200] POST https://www.njuskalo.hr/papi/pages/browse-listings/banner-targeting
+    request body:          {'url': '/prodaja-stanova?geo[locationIds]=1247,1248,1249,1250,1252,1253,1254,1255,1256,1257,1258,1259,1260,1261,1262,12
+    response shape:        {'site': "'www.njuskalo.hr'", 'url': '"https://www.njuskalo.hr/prodaja-stanova?…"', 'mainsection': "'nekretnine'", 'cate
+
+── CATEGORY-TREE ─────────────────────────────────────────────────────
+  • [200] GET https://www.njuskalo.hr/papi/pages/browse-listings/category-hierarchy
+    query params:          {'level': '1', 'parentIds': '2'}
+    response shape:        {'(root array)': 'array[7]', '(first item keys)': ['id', 'label', 'value', 'route', 'parentId']}
+
+── GEO/LOCATION ──────────────────────────────────────────────────────
+  • [200] GET https://www.njuskalo.hr/prodaja-stanova
+    query params:          {'geo[locationIds]': '1247,1248,1249,1250,1252,1253,1254,1255,1256,1257,1258,1259,1260,1261,1262,1263,1264,1251', 'price
+  • [200] GET https://www.njuskalo.hr/papi/pages/browse-listings/locations-hierarchy
+    query params:          {'level': '0'}
+    response shape:        {'(root array)': 'array[24]', '(first item keys)': ['id', 'label', 'value', 'route', 'parentId']}
+  • [200] GET https://www.njuskalo.hr/auti
+    query params:          {'geo[locationIds]': '1153', 'adsWithImages': '1', 'condition[used]': '1', 'sort': 'cheap'}
+  • [200] GET https://www.njuskalo.hr/iznajmljivanje-stanova
+    query params:          {'geo[locationIds]': '1153,1170', 'sort': 'old'}
+  • [200] GET https://www.njuskalo.hr/marketplace
+
+── INTERNAL-API ──────────────────────────────────────────────────────
+  • [200] GET https://www.njuskalo.hr/papi/pages/browse-listings/locations-hierarchy
+    query params:          {'level': '0'}
+    response shape:        {'(root array)': 'array[24]', '(first item keys)': ['id', 'label', 'value', 'route', 'parentId']}
+  • [200] POST https://www.njuskalo.hr/papi/pages/browse-listings/banner-targeting
+    request body:          {'url': '/prodaja-stanova?geo[locationIds]=1247,1248,1249,1250,1252,1253,1254,1255,1256,1257,1258,1259,1260,1261,1262,12
+    response shape:        {'site': "'www.njuskalo.hr'", 'url': '"https://www.njuskalo.hr/prodaja-stanova?…"', 'mainsection': "'nekretnine'", 'cate
+  • [200] GET https://www.njuskalo.hr/papi/pages/browse-listings/category-hierarchy
+    query params:          {'level': '1', 'parentIds': '2'}
+    response shape:        {'(root array)': 'array[7]', '(first item keys)': ['id', 'label', 'value', 'route', 'parentId']}
+  • [200] GET https://www.njuskalo.hr/papi/pages/browse-listings/vehicles-hierarchy
+    query params:          {'level': '0'}
+    response shape:        {'(root array)': 'array[108]', '(first item keys)': ['id', 'label', 'value', 'route', 'parentId']}
+
+── LISTINGS ──────────────────────────────────────────────────────────
+  • [200] GET https://www.njuskalo.hr/prodaja-stanova
+    query params:          {'geo[locationIds]': '1247,1248,1249,1250,1252,1253,1254,1255,1256,1257,1258,1259,1260,1261,1262,1263,1264,1251', 'price
+  • [200] GET https://www.njuskalo.hr/papi/pages/browse-listings/locations-hierarchy
+    query params:          {'level': '0'}
+    response shape:        {'(root array)': 'array[24]', '(first item keys)': ['id', 'label', 'value', 'route', 'parentId']}
+  • [200] POST https://www.njuskalo.hr/papi/pages/browse-listings/banner-targeting
+    request body:          {'url': '/prodaja-stanova?geo[locationIds]=1247,1248,1249,1250,1252,1253,1254,1255,1256,1257,1258,1259,1260,1261,1262,12
+    response shape:        {'site': "'www.njuskalo.hr'", 'url': '"https://www.njuskalo.hr/prodaja-stanova?…"', 'mainsection': "'nekretnine'", 'cate
+  • [200] GET https://www.njuskalo.hr/auti
+    query params:          {'geo[locationIds]': '1153', 'adsWithImages': '1', 'condition[used]': '1', 'sort': 'cheap'}
+  • [200] GET https://www.njuskalo.hr/papi/pages/browse-listings/category-hierarchy
+    query params:          {'level': '1', 'parentIds': '2'}
+    response shape:        {'(root array)': 'array[7]', '(first item keys)': ['id', 'label', 'value', 'route', 'parentId']}
+  • [200] GET https://www.njuskalo.hr/papi/pages/browse-listings/vehicles-hierarchy
+    query params:          {'level': '0'}
+    response shape:        {'(root array)': 'array[108]', '(first item keys)': ['id', 'label', 'value', 'route', 'parentId']}
+  • [200] GET https://www.njuskalo.hr/iznajmljivanje-stanova
+    query params:          {'geo[locationIds]': '1153,1170', 'sort': 'old'}
+
+── PAGINATION ────────────────────────────────────────────────────────
+  • [200] GET https://www.njuskalo.hr/papi/pages/browse-listings/locations-hierarchy
+    query params:          {'level': '0'}
+    response shape:        {'(root array)': 'array[24]', '(first item keys)': ['id', 'label', 'value', 'route', 'parentId']}
+  • [200] POST https://www.njuskalo.hr/papi/pages/browse-listings/banner-targeting
+    request body:          {'url': '/prodaja-stanova?geo[locationIds]=1247,1248,1249,1250,1252,1253,1254,1255,1256,1257,1258,1259,1260,1261,1262,12
+    response shape:        {'site': "'www.njuskalo.hr'", 'url': '"https://www.njuskalo.hr/prodaja-stanova?…"', 'mainsection': "'nekretnine'", 'cate
+  • [200] GET https://www.njuskalo.hr/papi/pages/browse-listings/category-hierarchy
+    query params:          {'level': '1', 'parentIds': '2'}
+    response shape:        {'(root array)': 'array[7]', '(first item keys)': ['id', 'label', 'value', 'route', 'parentId']}
+  • [200] GET https://www.njuskalo.hr/papi/pages/browse-listings/vehicles-hierarchy
+    query params:          {'level': '0'}
+    response shape:        {'(root array)': 'array[108]', '(first item keys)': ['id', 'label', 'value', 'route', 'parentId']}
+
+══════════════════════════════════════════════════════════════════════
+  ALL QUERY PARAMETERS OBSERVED (site calls only)
+══════════════════════════════════════════════════════════════════════
+  adsWithImages                  = 1
+                                   (on: /prodaja-stanova, /auti)
+  buildingInfo[lift]             = 1
+                                   (on: /prodaja-stanova)
+  condition[used]                = 1
+                                   (on: /auti)
+  geo[locationIds]               = 1153 | 1153,1170 | 1247,1248,1249,1250,1252,1253,1254,1255,1256,1257,1258,1259,
+                                   (on: /prodaja-stanova, /iznajmljivanje-stanova, /auti)
+  level                          = 0 | 1 | 2
+                                   (on: /papi/pages/browse-listings/vehicles-hierarchy, /papi/pages/)
+  livingArea[max]                = 100
+                                   (on: /prodaja-stanova)
+  numberOfRooms[max]             = five-rooms
+                                   (on: /prodaja-stanova)
+  numberOfRooms[min]             = four-rooms
+                                   (on: /prodaja-stanova)
+  parentIds                      = 1153 | 1153,1170 | 1247,1248,1249,1250,1251,1252,1253,1254,1255,1256,1257,1258, | 13688 | 2
+                                   (on: /papi/pages/browse-listings/category-hierarchy, /papi/pages/)
+  price[max]                     = 360000
+                                   (on: /prodaja-stanova)
+  sort                           = cheap | new | old
+                                   (on: /prodaja-stanova, /iznajmljivanje-stanova, /auti)
+
+══════════════════════════════════════════════════════════════════════
+  RECOMMENDATIONS
+══════════════════════════════════════════════════════════════════════
+  • Found 15 internal /papi/ API calls — these are the real data endpoints:
+  •   → GET /papi/pages/browse-listings/locations-hierarchy
+  •   → POST /papi/pages/browse-listings/banner-targeting
+  •   → GET /papi/pages/browse-listings/category-hierarchy
+  •   → GET /papi/pages/browse-listings/vehicles-hierarchy
+  • Filter/search params on site API:
+  •   geo[locationIds] = 1153 | 1153,1170 | 1247,1248,1249,1250,1252,1253,1254,1255,1256,1257,1258,1259,
+  •   livingArea[max] = 100
+  •   numberOfRooms[max] = five-rooms
+  •   numberOfRooms[min] = four-rooms
+  •   price[max] = 360000
+  •   sort = cheap | new | old
+
+══════════════════════════════════════════════════════════════════════
+TIP: Run again with more SEARCH_URLS to discover additional
+     parameters. Each filter you click in-browser generates a
+     new API call with different parameter combinations.
+══════════════════════════════════════════════════════════════════════

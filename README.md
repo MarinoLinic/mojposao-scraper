@@ -6,17 +6,20 @@ This is an automated web scraping tool designed to find and report new job listi
 
 The project automates the process of checking for specific job opportunities. Its main functions are:
 
-1.  **Daily Scraping**: Every day at 8 AM CEST, the script visits `mojposao.hr`.
-2.  **Specific Query**: It filters the jobs for **honorarni poslovi** located in **Zagreb**. It only checks the first page right now.
-3.  **Notification**: If any new jobs matching the criteria are found, it sends a notification with the job titles, application deadlines, and direct links to a private Telegram chat.
+1.  **Daily Scraping**: A GitHub Actions workflow runs the scraper every day on a schedule.
+2.  **Multiple searches**: It tracks both Zagreb part-time listings and IT / Telekomunikacije listings for Zagreb.
+3.  **Notification**: If any new jobs are found, it sends a Telegram notification with titles, deadlines, and links.
+4.  **Seen-job tracking**: The workflow can commit and push updated `seen_jobs` JSON files back to the repository.
 
 This eliminates the need to manually check the website every day.
 
 ## How It Works
 
-- **Scraper (`scraper.py`)**: A Python script using `requests` to fetch the webpage and `BeautifulSoup` to parse the HTML and extract the relevant job data.
-- **Automation (`.github/workflows/daily-job-scrape.yml`)**: A GitHub Actions workflow that runs the Python script on a daily schedule (`cron`).
-- **Notifications**: The script uses the Telegram Bot API to send messages. Credentials are kept secure using GitHub Secrets.
+- **Scraper (`scraper.py`)**: A Python script using `requests` and `BeautifulSoup` to fetch and parse the job listings pages for two configured searches.
+- **Automation (`.github/workflows/daily-job-scrape.yml`)**: A GitHub Actions workflow that runs daily at `06:00 UTC` and can also be triggered manually via `workflow_dispatch`.
+- **Push updates**: The workflow may add and push updated `seen_jobs_part_time.json` and `seen_jobs_it.json` files when new job state is recorded.
+- **Notifications**: The scraper sends Telegram messages via the Bot API using repository secrets.
+- **Exploratory tooling (`capture_network.py`)**: A separate optional helper for capturing browser network traffic and discovering hidden APIs during investigation.
 
 ## Setup
 
@@ -53,3 +56,12 @@ To test the script locally without triggering the GitHub workflow:
     ```
 4.  Ensure the `.env` file is listed in your `.gitignore` to prevent committing your secrets.
 5.  Run the script: `python scraper.py`.
+
+### Optional API discovery helper
+
+If you want to investigate hidden endpoints or capture network traffic from the browser, use `capture_network.py`:
+
+1.  Install Playwright: `pip install playwright`
+2.  Install a browser runtime: `playwright install chromium`
+3.  Update the URL list in `capture_network.py` and run: `python capture_network.py`
+4.  Review the generated artifacts such as `network_log.json`, `api_candidates.json`, and `api_report.txt`.
