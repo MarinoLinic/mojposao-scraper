@@ -50,24 +50,17 @@ from playwright.sync_api import sync_playwright, Response
 #  CONFIG — edit this section for each new site
 # ══════════════════════════════════════════════════════════════════════════════
 
-SITE_NAME = "njuskalo"   # used in output filenames
+# Leave as None to auto-derive from the first URL's hostname (e.g. "njuskalo_hr")
+SITE_NAME: str | None = None
 
 SEARCH_URLS = [
     # Add as many URLs as you want to probe.
     # 'label' is just for your reference in the output.
     {
-        "label": "IT jobs Zagreb",
-        "url": "https://www.njuskalo.hr/posao?geo_location=grad-zagreb&category=informatika-telekomunikacije",
-    },
-    {
-        "label": "Part-time jobs",
-        "url": "https://www.njuskalo.hr/posao?type=part-time",
+        "label": "API",
+        "url": "https://www.njuskalo.hr/prodaja-stanova?geo[locationIds]=1247,1248,1249,1250,1252,1253,1254,1255,1256,1257,1258,1259,1260,1261,1262,1263,1264,1251&price[max]=360000&livingArea[max]=100&adsWithImages=1&numberOfRooms[min]=four-rooms&numberOfRooms[max]=five-rooms&buildingInfo[lift]=1",
     },
     # --- Examples for other sites (uncomment / edit as needed) ---
-    # {
-    #     "label": "Apartments Zagreb",
-    #     "url": "https://www.njuskalo.hr/iznajmljivanje-stanova?geo_location=grad-zagreb",
-    # },
     # {
     #     "label": "Cars under 10k",
     #     "url": "https://www.njuskalo.hr/automobili?price_max=10000",
@@ -103,14 +96,21 @@ OUTPUT_DIR = Path(".")   # change to e.g. Path("output") if you prefer
 NOISE_PATTERNS = [
     r"\.(js|css|svg|png|jpg|jpeg|gif|webp|ico|woff2?|ttf|eot|map)(\?|$)",
     r"/(chunk|bundle|vendor|runtime|polyfill|webpack)",
-    r"google(tag|analytics|syndication|fonts|apis)",
+    # Analytics & tracking — never useful for scraping
+    r"google(tag|analytics|syndication|fonts|apis)\.com",
+    r"region\d*\.google-analytics\.com",
     r"facebook\.net|fbcdn",
     r"sentry\.io|bugsnag",
-    r"(gtm|ga|gads|doubleclick|clarity|hotjar|mixpanel|amplitude|segment)\.",
+    r"(doubleclick|clarity|hotjar|mixpanel|amplitude|segment)\.",
+    r"analytics\.tiktok\.com",
+    r"perfdrive\.com",           # bot-detection / fingerprinting
     r"cloudfront\.net/static",
     r"_nuxt/|__nuxt",
     r"/_next/static",
-    r"/assets/[a-f0-9]{8,}\.",  # hashed static assets
+    r"/assets/[a-f0-9]{8,}\.",   # hashed static assets
+    r"/g/collect",               # GA4 event ping
+    r"/measurement/conversion",  # GA4 conversion ping
+    r"gtm\.js|gtag",
 ]
 
 # Patterns that suggest an interesting data / API call
@@ -131,8 +131,10 @@ SIGNAL_PATTERNS = [
     r"token|auth(?!or)",  # auth tokens (but not "author")
 ]
 
-# HTTP methods that always get captured regardless of URL patterns
-ALWAYS_CAPTURE_METHODS = {"POST", "PUT", "PATCH", "DELETE"}
+# HTTP methods that always get captured regardless of URL patterns.
+# POST is intentionally NOT here — too many analytics POSTs are noise.
+# POSTs only get captured if they also match a SIGNAL_PATTERN or return JSON.
+ALWAYS_CAPTURE_METHODS = {"PUT", "PATCH", "DELETE"}
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -147,19 +149,34 @@ def has_signal(url: str) -> bool:
 
 def classify_url(url: str) -> list[str]:
     """Return a list of category tags for the URL."""
+    parsed = urllib.parse.urlparse(url)
+    host = parsed.hostname or ""
+    path = parsed.path.lower()
+    full = url.lower()
+
+    # Don't tag known third-party / analytics domains with meaningful categories
+    TRACKER_HOSTS = (
+        "google-analytics.com", "googletagmanager.com", "doubleclick.net",
+        "tiktok.com", "facebook.net", "perfdrive.com", "sentry.io",
+        "hotjar.com", "clarity.ms", "amplitude.com", "segment.io",
+    )
+    if any(t in host for t in TRACKER_HOSTS):
+        return ["tracker"]
+
     tags = []
-    u = url.lower()
-    if "graphql" in u:               tags.append("graphql")
-    if re.search(r"/v\d+/", u):      tags.append("versioned-rest")
-    if re.search(r"suggest|autocomplete|typeahead", u): tags.append("autocomplete")
-    if re.search(r"geo|location|region|city|district|place|coord|lat|lon", u): tags.append("geo/location")
-    if re.search(r"search|query|q=", u):  tags.append("search")
-    if re.search(r"filter|facet", u):     tags.append("filter")
-    if re.search(r"page|offset|limit|cursor", u): tags.append("pagination")
-    if re.search(r"auth|token|session|login", u): tags.append("auth")
-    if re.search(r"category|categor|tree|taxonomy", u): tags.append("category-tree")
-    if re.search(r"config|settings|init|bootstrap", u): tags.append("site-config")
-    if re.search(r"listing|ad|oglas|job|posao|offer", u): tags.append("listings")
+    if "graphql" in full:                                    tags.append("graphql")
+    if re.search(r"/v\d+/", path):                          tags.append("versioned-rest")
+    if re.search(r"suggest|autocomplete|typeahead", full):   tags.append("autocomplete")
+    if re.search(r"geo|location|region|city|district|place|coord|lat|lon", full): tags.append("geo/location")
+    if re.search(r"search|query", full):                     tags.append("search")
+    if re.search(r"filter|facet", full):                     tags.append("filter")
+    if re.search(r"page|offset|limit|cursor|hierarchy", full): tags.append("pagination")
+    if re.search(r"auth|token|session|login", full):         tags.append("auth")
+    if re.search(r"category|categor|tree|taxonomy", full):   tags.append("category-tree")
+    if re.search(r"config|settings|init|bootstrap", full):   tags.append("site-config")
+    if re.search(r"listing|ad|oglas|job|posao|offer|stan|nekretnin", full): tags.append("listings")
+    if re.search(r"banner|targeting|advert", full):          tags.append("ads/targeting")
+    if re.search(r"papi/", full):                            tags.append("internal-api")
     return tags or ["data"]
 
 def parse_query_params(url: str) -> dict:
@@ -218,7 +235,7 @@ def summarise_json_shape(body) -> dict:
 #  CAPTURE LOGIC
 # ══════════════════════════════════════════════════════════════════════════════
 
-def capture_page(page, search: dict, all_entries: list, candidate_entries: list):
+def capture_page(page, search: dict, all_entries: list, candidate_entries: list, site_name: str = "site"):
     label = search["label"]
     url   = search["url"]
     print(f"\n{'═'*65}")
@@ -334,7 +351,7 @@ def capture_page(page, search: dict, all_entries: list, candidate_entries: list)
     # ── Save full rendered HTML ───────────────────────────────────────────────
     if SAVE_HTML:
         safe_label = re.sub(r"[^\w\-]", "_", label).strip("_").lower()
-        html_path  = OUTPUT_DIR / f"{SITE_NAME}_{safe_label}.html"
+        html_path  = OUTPUT_DIR / f"{site_name}_{safe_label}.html"
         html       = page.content()
         html_path.write_text(html, encoding="utf-8")
         print(f"  HTML saved → {html_path}  ({len(html):,} bytes)")
@@ -346,7 +363,7 @@ def capture_page(page, search: dict, all_entries: list, candidate_entries: list)
 #  REPORT GENERATOR
 # ══════════════════════════════════════════════════════════════════════════════
 
-def build_report(candidate_entries: list) -> str:
+def build_report(candidate_entries: list, site_name: str = "site") -> str:
     lines = []
     W = 70
 
@@ -356,7 +373,7 @@ def build_report(candidate_entries: list) -> str:
     def kv(k, v): lines.append(f"    {k:<22} {v}")
 
     lines.append("NETWORK ANALYSIS REPORT")
-    lines.append(f"Site: {SITE_NAME}   |   {len(candidate_entries)} captured calls")
+    lines.append(f"Site: {site_name}   |   {len(candidate_entries)} captured calls")
 
     # ── Group by tag ──────────────────────────────────────────────────────────
     by_tag: dict[str, list] = defaultdict(list)
@@ -366,6 +383,8 @@ def build_report(candidate_entries: list) -> str:
 
     h1("API CALLS BY CATEGORY")
     for tag, entries in sorted(by_tag.items()):
+        if tag == "tracker":
+            continue  # printed separately below
         h2(tag.upper())
         seen = set()
         for e in entries:
@@ -382,11 +401,24 @@ def build_report(candidate_entries: list) -> str:
             if e["body_shape"]:
                 kv("response shape:", str(e["body_shape"])[:120])
 
+    # Trackers get their own collapsed section so they don't pollute the main view
+    tracker_entries = by_tag.get("tracker", [])
+    if tracker_entries:
+        h2("TRACKERS / ANALYTICS (filtered out of main analysis)")
+        seen = set()
+        for e in tracker_entries:
+            host = urllib.parse.urlparse(e["url"]).hostname or ""
+            if host not in seen:
+                seen.add(host)
+                li(host)
+
     # ── All query parameters ever seen ───────────────────────────────────────
-    h1("ALL QUERY PARAMETERS OBSERVED")
+    h1("ALL QUERY PARAMETERS OBSERVED (site calls only)")
     all_params: dict[str, set] = defaultdict(set)
     param_origins: dict[str, list] = defaultdict(list)
     for e in candidate_entries:
+        if "tracker" in e.get("tags", []):
+            continue
         for k, v in (e["query_params"] or {}).items():
             vs = v if isinstance(v, list) else [v]
             for val in vs:
@@ -438,25 +470,49 @@ def build_report(candidate_entries: list) -> str:
     h1("RECOMMENDATIONS")
     all_urls = [e["url"] for e in candidate_entries]
 
+    # Only look at params from non-tracker calls
+    site_entries   = [e for e in candidate_entries if "tracker" not in e.get("tags", [])]
+    site_params    = defaultdict(set)
+    for e in site_entries:
+        for k, v in (e["query_params"] or {}).items():
+            site_params[k].add(str(v)[:60])
+
+    # /papi/ is Njuškalo's internal API prefix — generalise to any /papi/-style path
+    internal_apis = [e for e in site_entries if "internal-api" in e.get("tags", [])]
+    if internal_apis:
+        li(f"Found {len(internal_apis)} internal /papi/ API calls — these are the real data endpoints:")
+        seen_paths = set()
+        for e in internal_apis:
+            path = urllib.parse.urlparse(e["url"]).path
+            if path not in seen_paths:
+                seen_paths.add(path)
+                li(f"  → {e['method']} {path}")
+
     if any("/api/" in u for u in all_urls):
         li("Found /api/ endpoints — try calling them directly with curl/httpx.")
 
-    versioned = [u for u in all_urls if re.search(r"/v\d+/", u)]
+    versioned = [u for u in all_urls if re.search(r"/v\d+/", u)
+                 and not any(t in u for t in ("tiktok", "google", "facebook"))]
     if versioned:
-        li(f"Versioned REST found ({versioned[0][:60]}) — explore sibling endpoints.")
+        li(f"Versioned REST found ({versioned[0][:80]}) — explore sibling endpoints.")
 
     if graphql:
         li("GraphQL found — send an introspection query: {__schema{types{name}}} to list all available types.")
 
-    pagination_params = {k for k in all_params if re.search(r"page|offset|limit|cursor|per_page", k, re.I)}
+    # Pagination: only params on site's own domain, not ep.* GA event params
+    pagination_params = {k for k in site_params
+                         if re.search(r"^(page|offset|limit|cursor|per_page|pageSize|from)$", k, re.I)}
     if pagination_params:
         li(f"Pagination params: {pagination_params} — increment to fetch more results.")
 
-    filter_params = {k for k in all_params if re.search(r"categor|type|sort|filter|location|geo|region|price|date", k, re.I)}
+    # Filters: site params that look like actual search filters (bracket notation = Njuškalo style)
+    filter_params = {k for k in site_params
+                     if re.search(r"categor|sort|filter|geo\[|price\[|area\[|rooms\[|type\[|floor\[|date", k, re.I)}
     if filter_params:
-        li(f"Filter params detected: {filter_params}")
-        li("Visit the site, use the search filters manually, and this script will "
-           "capture what parameter combinations each filter generates.")
+        li(f"Filter/search params on site API:")
+        for fp in sorted(filter_params):
+            vals = " | ".join(sorted(site_params[fp])[:4])
+            li(f"  {fp} = {vals}")
 
     lines.append("\n" + "═" * W)
     lines.append("TIP: Run again with more SEARCH_URLS to discover additional")
@@ -474,6 +530,14 @@ def build_report(candidate_entries: list) -> str:
 def main():
     all_entries       = []
     candidate_entries = []
+
+    # Auto-derive site name from hostname if not set in config
+    site_name = SITE_NAME
+    if not site_name:
+        hostname  = urllib.parse.urlparse(SEARCH_URLS[0]["url"]).hostname or "site"
+        hostname  = re.sub(r"^www\.", "", hostname)
+        site_name = re.sub(r"[^\w]", "_", hostname)
+    print(f"Site name: {site_name}")
 
     with sync_playwright() as p:
         browser = p.chromium.launch(
@@ -521,15 +585,15 @@ def main():
         time.sleep(2)
 
         for search in SEARCH_URLS:
-            capture_page(page, search, all_entries, candidate_entries)
+            capture_page(page, search, all_entries, candidate_entries, site_name)
             time.sleep(2)
 
         browser.close()
 
     # ── Write outputs ──────────────────────────────────────────────────────────
-    out_all   = OUTPUT_DIR / f"{SITE_NAME}_network_log.json"
-    out_cands = OUTPUT_DIR / f"{SITE_NAME}_api_candidates.json"
-    out_rep   = OUTPUT_DIR / f"{SITE_NAME}_api_report.txt"
+    out_all   = OUTPUT_DIR / f"{site_name}_network_log.json"
+    out_cands = OUTPUT_DIR / f"{site_name}_api_candidates.json"
+    out_rep   = OUTPUT_DIR / f"{site_name}_api_report.txt"
 
     out_all.write_text(
         json.dumps(all_entries, ensure_ascii=False, indent=2), encoding="utf-8"
@@ -538,7 +602,7 @@ def main():
         json.dumps(candidate_entries, ensure_ascii=False, indent=2), encoding="utf-8"
     )
 
-    report = build_report(candidate_entries)
+    report = build_report(candidate_entries, site_name)
     out_rep.write_text(report, encoding="utf-8")
 
     print(f"\n{'═'*65}")
@@ -548,7 +612,7 @@ def main():
     if SAVE_HTML:
         for search in SEARCH_URLS:
             safe_label = re.sub(r"[^\w\-]", "_", search["label"]).strip("_").lower()
-            print(f"  HTML          → {OUTPUT_DIR / f'{SITE_NAME}_{safe_label}.html'}")
+            print(f"  HTML          → {OUTPUT_DIR / f'{site_name}_{safe_label}.html'}")
     print(f"{'═'*65}")
     print(report)
 
