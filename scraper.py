@@ -4,6 +4,7 @@ import random
 import time
 import requests
 from bs4 import BeautifulSoup
+from datetime import datetime
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -11,13 +12,21 @@ load_dotenv()
 SEARCHES = [
     {
         "name": "part_time",
-        "url": "https://mojposao.hr/pretraga-poslova?locations=Zagreb&employmentType=4",
+        "url": "https://mojposao.hr/pretraga-poslova"
+        "?locations=Zagreb"
+        "&employmentType=4",
         "seen_file": "seen_jobs_part_time.json",
         "label": "Part-time (Zagreb)",
     },
     {
         "name": "it",
-        "url": "https://mojposao.hr/pretraga-poslova?locations=Grad+Zagreb+i+Zagreba%C4%8Dka+%C5%BEupanija&locations=Zagreb&positions=IT,+telekomunikacije&sortBy=adtype",
+        "url": (
+            "https://mojposao.hr/pretraga-poslova"
+            "?locations=Grad+Zagreb+i+Zagreba%C4%8Dka+%C5%BEupanija"
+            "&locations=Zagreb"
+            "&positions=IT,+telekomunikacije"
+            "&sortBy=adtype"
+        ),
         "seen_file": "seen_jobs_it.json",
         "label": "IT / Telekomunikacije (Zagreb)",
     },
@@ -27,23 +36,32 @@ TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 
 USER_AGENTS = [
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15",
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0",
-    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
 ]
 
 # How long to wait (seconds) between the homepage warm-up and the actual search page
 WARMUP_DELAY = (3, 7)
 
 # How long to wait between the two separate searches
-SEARCH_DELAY = (10, 20)
+SEARCH_DELAY = (15, 30)
+
+# How long to wait between paginated pages
+PAGE_DELAY = (5, 12)
 
 # Retry settings
 MAX_RETRIES = 3
-RETRY_DELAY = (5, 15)
+RETRY_DELAY = (10, 25)
+
+# Request timeout
+REQUEST_TIMEOUT = 20
+
+# Optional proxy (set PROXY_URL in .env or environment)
+PROXY_URL = os.environ.get("PROXY_URL")
 
 
 def load_seen_jobs(filepath):
@@ -65,6 +83,7 @@ def make_session():
 
     is_firefox = "Firefox" in ua
     is_safari = "Safari" in ua and "Chrome" not in ua
+    is_chrome = "Chrome" in ua or "Edg" in ua
 
     if is_firefox:
         accept = "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
@@ -75,7 +94,7 @@ def make_session():
     else:  # Chrome / Edge
         accept = "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
         sec_ch = {
-            "Sec-CH-UA": '"Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"',
+            "Sec-CH-UA": '"Chromium";v="148", "Google Chrome";v="148", "Not-A.Brand";v="99"',
             "Sec-CH-UA-Mobile": "?0",
             "Sec-CH-UA-Platform": '"Windows"' if "Windows" in ua else '"macOS"',
         }
@@ -88,8 +107,17 @@ def make_session():
         "DNT": "1",
         "Connection": "keep-alive",
         "Upgrade-Insecure-Requests": "1",
+        "Cache-Control": "max-age=0",
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "none",
+        "Sec-Fetch-User": "?1",
         **sec_ch,
     })
+
+    if PROXY_URL:
+        session.proxies = {"http": PROXY_URL, "https": PROXY_URL}
+
     return session
 
 
@@ -102,12 +130,10 @@ def warmup_session(session):
         print("  Warming up session on homepage...")
         session.headers.update({
             "Referer": "https://www.google.com/",
-            "Sec-Fetch-Dest": "document",
-            "Sec-Fetch-Mode": "navigate",
             "Sec-Fetch-Site": "cross-site",
             "Sec-Fetch-User": "?1",
         })
-        session.get("https://mojposao.hr", timeout=15)
+        session.get("https://mojposao.hr", timeout=REQUEST_TIMEOUT)
         delay = random.uniform(*WARMUP_DELAY)
         print(f"  Waiting {delay:.1f}s before fetching search page...")
         time.sleep(delay)
@@ -125,7 +151,7 @@ def fetch_page_content(session, url):
     """Fetches a single page with retries on failure."""
     for attempt in range(1, MAX_RETRIES + 1):
         try:
-            response = session.get(url, timeout=15)
+            response = session.get(url, timeout=REQUEST_TIMEOUT)
             response.raise_for_status()
             return response.text
         except requests.RequestException as e:
@@ -158,13 +184,15 @@ def fetch_all_pages(session, base_url):
 
         pages_html.append(html)
 
-        # Check if a "next page" link exists; if not, we're done
         soup = BeautifulSoup(html, "html.parser")
-        next_link = soup.find("a", {"data-test": "pagination-next"}) or \
-                    soup.find("a", attrs={"aria-label": lambda v: v and "next" in v.lower()}) or \
-                    soup.find("a", class_=lambda c: c and "next" in c)
 
-        # Fallback: compare jobs found so far vs total advertised
+        # Check if a "next page" link exists; if not, we're done
+        next_link = (
+            soup.find("a", {"data-test": "pagination-next"}) or
+            soup.find("a", attrs={"aria-label": lambda v: v and "next" in v.lower()}) or
+            soup.find("a", class_=lambda c: c and "next" in c)
+        )
+
         if page == 1:
             total = parse_total_jobs(html)
             if total:
@@ -175,7 +203,7 @@ def fetch_all_pages(session, base_url):
             break
 
         page += 1
-        delay = random.uniform(3, 8)
+        delay = random.uniform(*PAGE_DELAY)
         print(f"  Waiting {delay:.1f}s before next page...")
         time.sleep(delay)
 
@@ -214,7 +242,6 @@ def parse_job_data(html_content):
 
         for card in element.find_all("div", class_="job-card"):
             title_el = card.find("h3", {"data-test": "job-card-content-title"})
-            # All card variants use an <a> containing the title
             link_el = card.find("a", href=lambda h: h and h.startswith("/posao/"))
             date_el = card.find("time")
 
@@ -259,8 +286,7 @@ def send_telegram_message(jobs_list, label):
             f"\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\- "
         )
 
-    # Split into chunks that fit within Telegram's 4096 char limit
-    MAX_CHARS = 3800  # leave headroom for the header
+    MAX_CHARS = 3800
     header = f"*{escape_md(label)}* \\- {len(jobs_list)} new job{'s' if len(jobs_list) != 1 else ''}\\!\n\n"
 
     chunks = []
@@ -297,7 +323,7 @@ def send_telegram_message(jobs_list, label):
             response.raise_for_status()
             print(f"  [{label}] Sent message {i + 1}/{len(chunks)}.")
             if i < len(chunks) - 1:
-                time.sleep(1)  # small pause between messages
+                time.sleep(1)
         except requests.RequestException as e:
             print(f"  [{label}] Failed to send message {i + 1}: {e}")
             if hasattr(e, "response") and e.response:
@@ -333,7 +359,11 @@ def run_search(search):
     print(f"  {len(new_jobs)} new jobs.")
 
     for job in all_jobs:
-        seen_jobs[job["link"]] = {"title": job["title"], "date": job["date"]}
+        seen_jobs[job["link"]] = {
+            "title": job["title"],
+            "date": job["date"],
+            "seen_at": datetime.now().isoformat(),
+        }
 
     save_seen_jobs(search["seen_file"], seen_jobs)
     print(f"  Saved {len(seen_jobs)} total seen jobs to {search['seen_file']}.")
