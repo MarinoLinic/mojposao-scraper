@@ -1,0 +1,76 @@
+NETWORK ANALYSIS REPORT
+Site: njuskalo_hr   |   5 captured calls
+
+══════════════════════════════════════════════════════════════════════
+  API CALLS BY CATEGORY
+══════════════════════════════════════════════════════════════════════
+
+── AUTH ──────────────────────────────────────────────────────────────
+  • [200] POST https://www.njuskalo.hr/oauth2/token
+    request body:          grant_type=client_credentials&client_id=njuskalo_js_app&client_secret=1412aa6f3a6194adefceb8e547d5e6aa
+    response shape:        {'token_type': "'Bearer'", 'expires_in': '21600', 'access_token': '"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ…"'}
+
+── FILTER ────────────────────────────────────────────────────────────
+  • [200] GET https://www.njuskalo.hr/ccapi/v4/ad-detail-view/recommended-ads
+    query params:          {'filter[adId]': '47225243'}
+    response shape:        {'jsonapi': '{version}', 'meta': '{total}', 'links': '{self, first, last, prev, next}', 'data': 'array[12] of {type, id,
+  • [200] GET https://www.njuskalo.hr/ccapi/v4/similar-classifieds
+    query params:          {'filter[classifiedId]': '47225243', 'page[limit]': '12', 'include': 'image.variation_360x360c,image.variations'}
+    response shape:        {'jsonapi': '{version}', 'meta': '{total, totalCount, requestId}', 'links': '{self}', 'data': 'array[12] of {type, id, a
+
+── GEO/LOCATION ──────────────────────────────────────────────────────
+  • [200] GET https://www.njuskalo.hr/nekretnine/zagreb-novogradnja-blato-4soban-stan-oglas-47225243
+
+── LISTINGS ──────────────────────────────────────────────────────────
+  • [200] GET https://www.njuskalo.hr/nekretnine/zagreb-novogradnja-blato-4soban-stan-oglas-47225243
+  • [200] GET https://www.njuskalo.hr/ccapi/v4/ad-detail-view/recommended-ads
+    query params:          {'filter[adId]': '47225243'}
+    response shape:        {'jsonapi': '{version}', 'meta': '{total}', 'links': '{self, first, last, prev, next}', 'data': 'array[12] of {type, id,
+
+── PAGINATION ────────────────────────────────────────────────────────
+  • [200] GET https://www.njuskalo.hr/scripts/get_credit_page_logo.php
+    query params:          {'image_id': '277838284'}
+  • [200] GET https://www.njuskalo.hr/ccapi/v4/similar-classifieds
+    query params:          {'filter[classifiedId]': '47225243', 'page[limit]': '12', 'include': 'image.variation_360x360c,image.variations'}
+    response shape:        {'jsonapi': '{version}', 'meta': '{total, totalCount, requestId}', 'links': '{self}', 'data': 'array[12] of {type, id, a
+
+── VERSIONED-REST ────────────────────────────────────────────────────
+  • [200] GET https://www.njuskalo.hr/ccapi/v4/ad-detail-view/recommended-ads
+    query params:          {'filter[adId]': '47225243'}
+    response shape:        {'jsonapi': '{version}', 'meta': '{total}', 'links': '{self, first, last, prev, next}', 'data': 'array[12] of {type, id,
+  • [200] GET https://www.njuskalo.hr/ccapi/v4/similar-classifieds
+    query params:          {'filter[classifiedId]': '47225243', 'page[limit]': '12', 'include': 'image.variation_360x360c,image.variations'}
+    response shape:        {'jsonapi': '{version}', 'meta': '{total, totalCount, requestId}', 'links': '{self}', 'data': 'array[12] of {type, id, a
+
+══════════════════════════════════════════════════════════════════════
+  ALL QUERY PARAMETERS OBSERVED (site calls only)
+══════════════════════════════════════════════════════════════════════
+  filter[adId]                   = 47225243
+                                   (on: /ccapi/v4/ad-detail-view/recommended-ads)
+  filter[classifiedId]           = 47225243
+                                   (on: /ccapi/v4/similar-classifieds)
+  image_id                       = 277838284
+                                   (on: /scripts/get_credit_page_logo.php)
+  include                        = image.variation_360x360c,image.variations
+                                   (on: /ccapi/v4/similar-classifieds)
+  page[limit]                    = 12
+                                   (on: /ccapi/v4/similar-classifieds)
+
+══════════════════════════════════════════════════════════════════════
+  AUTH / TOKEN CALLS
+══════════════════════════════════════════════════════════════════════
+  • POST https://www.njuskalo.hr/oauth2/token
+
+══════════════════════════════════════════════════════════════════════
+  RECOMMENDATIONS
+══════════════════════════════════════════════════════════════════════
+  • Versioned REST found (https://www.njuskalo.hr/ccapi/v4/ad-detail-view/recommended-ads?filter%5BadId%5D) — explore sibling endpoints.
+  • Filter/search params on site API:
+  •   filter[adId] = 47225243
+  •   filter[classifiedId] = 47225243
+
+══════════════════════════════════════════════════════════════════════
+TIP: Run again with more SEARCH_URLS to discover additional
+     parameters. Each filter you click in-browser generates a
+     new API call with different parameter combinations.
+══════════════════════════════════════════════════════════════════════

@@ -58,28 +58,32 @@ SEARCH_URLS = [
     # 'label' is just for your reference in the output.
     {
         "label": "Apartments for sale / Zagreb",
-        "url": "https://www.njuskalo.hr/prodaja-stanova?geo[locationIds]=1247,1248,1249,1250,1252,1253,1254,1255,1256,1257,1258,1259,1260,1261,1262,1263,1264,1251&price[max]=360000&livingArea[max]=100&adsWithImages=1&numberOfRooms[min]=four-rooms&numberOfRooms[max]=five-rooms&buildingInfo[lift]=1&sort=new",
+        "url": "https://www.njuskalo.hr/nekretnine/zagreb-novogradnja-blato-4soban-stan-oglas-47225243"
     },
-    {
-        "label": "Njuskalo.hr",
-        "url": "https://www.njuskalo.hr/",
-    },
-    {
-        "label": "Cars for sale",
-        "url": "https://www.njuskalo.hr/auti?geo[locationIds]=1153&adsWithImages=1&condition[used]=1&sort=cheap",
-    },
-    {
-        "label": "Renting apartments",
-        "url": "https://www.njuskalo.hr/iznajmljivanje-stanova?geo[locationIds]=1153,1170&sort=old",
-    },
-    {
-        "label": "Marketplace",
-        "url": "https://www.njuskalo.hr/marketplace",
-    },
-    {
-        "label": "Blago",
-        "url": "https://www.njuskalo.hr/blago",
-    },
+    # {
+    #     "label": "Apartments for sale / Zagreb",
+    #     "url": "https://www.njuskalo.hr/prodaja-stanova?geo[locationIds]=1247,1248,1249,1250,1252,1253,1254,1255,1256,1257,1258,1259,1260,1261,1262,1263,1264,1251&price[max]=360000&livingArea[max]=100&adsWithImages=1&numberOfRooms[min]=four-rooms&numberOfRooms[max]=five-rooms&buildingInfo[lift]=1&sort=new",
+    # },
+    # {
+    #     "label": "Njuskalo.hr",
+    #     "url": "https://www.njuskalo.hr/",
+    # },
+    # {
+    #     "label": "Cars for sale",
+    #     "url": "https://www.njuskalo.hr/auti?geo[locationIds]=1153&adsWithImages=1&condition[used]=1&sort=cheap",
+    # },
+    # {
+    #     "label": "Renting apartments",
+    #     "url": "https://www.njuskalo.hr/iznajmljivanje-stanova?geo[locationIds]=1153,1170&sort=old",
+    # },
+    # {
+    #     "label": "Marketplace",
+    #     "url": "https://www.njuskalo.hr/marketplace",
+    # },
+    # {
+    #     "label": "Blago",
+    #     "url": "https://www.njuskalo.hr/blago",
+    # },
     # --- Examples for other sites (uncomment / edit as needed) ---
     # {
     #     "label": "Cars under 10k",

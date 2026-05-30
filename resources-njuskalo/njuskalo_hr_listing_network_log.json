@@ -1,0 +1,1056 @@
+[
+  {
+    "label": "Apartments for sale / Zagreb",
+    "url": "https://www.njuskalo.hr/scripts/get_credit_page_logo.php?image_id=277838284",
+    "method": "GET",
+    "status": 200,
+    "content_type": "image/png",
+    "query_params": {
+      "image_id": "277838284"
+    },
+    "request_body": null,
+    "tags": [
+      "pagination"
+    ],
+    "repeated": false,
+    "body": null,
+    "body_shape": null
+  },
+  {
+    "label": "Apartments for sale / Zagreb",
+    "url": "https://www.njuskalo.hr/nekretnine/zagreb-novogradnja-blato-4soban-stan-oglas-47225243",
+    "method": "GET",
+    "status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "query_params": {},
+    "request_body": null,
+    "tags": [
+      "geo/location",
+      "listings"
+    ],
+    "repeated": false,
+    "body": null,
+    "body_shape": null
+  },
+  {
+    "label": "Apartments for sale / Zagreb",
+    "url": "https://www.njuskalo.hr/oauth2/token",
+    "method": "POST",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "query_params": {},
+    "request_body": "grant_type=client_credentials&client_id=njuskalo_js_app&client_secret=1412aa6f3a6194adefceb8e547d5e6aa",
+    "tags": [
+      "auth"
+    ],
+    "repeated": false,
+    "body": {
+      "token_type": "Bearer",
+      "expires_in": 21600,
+      "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJuanVza2Fsb19qc19hcHAiLCJqdGkiOiI0NWIwYTIzYjFhMGYzM2UxMWFlNzYzZjgyYTVjMmYyYzU3MDAxOGM1ODI1NWI2OGY2ZWMxZjY5YTIyYzY3YTA3ZjlkYmQxOWI5ZDYwYmViNCIsImlhdCI6MTc4MDE2NjU5MC41OTE2NTMsIm5iZiI6MTc4MDE2NjU5MC41OTE2NTUsImV4cCI6MTc4MDE4ODE5MC41ODg1MzYsInN1YiI6IiIsInNjb3BlcyI6W119.miRqpOEn7UMThuC5H2x5-fM2SY785loXfVZsmZFrsqrCSmycb9G8FBKrGqh1zRrtVVfxSaovvm1XsWVms_zXGZtjJXwyEAFRpW7BuOyPatgTMQ-JpkqGGO8CwEQFlFEeWMhdroabEjikXPhgiPELjhLzNpXffskl_Bx3SrUyEOJ6EW8zVxZcSxXf4P4gyTFoW0VrAb7AksFd8iJbc4NEJHEMKr9Nw00-AT62nXoVLj9OekgblA_oBt3kUBZnIywI1xiDK-5nNxRwy7li2beTd4i7uR4wK_60QsFUvdV1Hyb0iD1R6dwdzHgrltjlaAjHTH7Rps_Sl1BkNzQgf_Qcgw"
+    },
+    "body_shape": {
+      "token_type": "'Bearer'",
+      "expires_in": "21600",
+      "access_token": "\"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ…\""
+    }
+  },
+  {
+    "label": "Apartments for sale / Zagreb",
+    "url": "https://www.njuskalo.hr/ccapi/v4/ad-detail-view/recommended-ads?filter%5BadId%5D=47225243",
+    "method": "GET",
+    "status": 200,
+    "content_type": "application/vnd.api+json",
+    "query_params": {
+      "filter[adId]": "47225243"
+    },
+    "request_body": null,
+    "tags": [
+      "versioned-rest",
+      "filter",
+      "listings"
+    ],
+    "repeated": false,
+    "body": {
+      "jsonapi": {
+        "version": "1.0"
+      },
+      "meta": {
+        "total": 12
+      },
+      "links": {
+        "self": "https://www.njuskalo.hr/ccapi/v4/ad-detail-view/recommended-ads?filter%5BadId%5D=47225243&page%5Blimit%5D=12&page%5Boffset%5D=0",
+        "first": "https://www.njuskalo.hr/ccapi/v4/ad-detail-view/recommended-ads?filter%5BadId%5D=47225243&page%5Blimit%5D=12&page%5Boffset%5D=0",
+        "last": "https://www.njuskalo.hr/ccapi/v4/ad-detail-view/recommended-ads?filter%5BadId%5D=47225243&page%5Blimit%5D=12&page%5Boffset%5D=0",
+        "prev": null,
+        "next": null
+      },
+      "data": [
+        {
+          "type": "recommended-ads",
+          "id": "47305875",
+          "attributes": {
+            "title": "ZAGREB - BLATO - NOVOGRADNJA - STAN SA TRI SPAVAĆE SOBE!",
+            "url": "https://www.njuskalo.hr/nekretnine/zagreb-blato-novogradnja-stan-tri-spavace-sobe-oglas-47305875",
+            "formattedPrice": "272.118,00 €",
+            "price": 272118,
+            "isPriceOnRequest": false,
+            "isAdSaved": false,
+            "hidePrice": false
+          },
+          "relationships": {
+            "adImage": {
+              "data": {
+                "type": "recommended-ads-images",
+                "id": "267868848"
+              }
+            }
+          }
+        },
+        {
+          "type": "recommended-ads",
+          "id": "47305869",
+          "attributes": {
+            "title": "ZAGREB - BLATO - PENTHOUSE SA TERASOM!",
+            "url": "https://www.njuskalo.hr/nekretnine/zagreb-blato-penthouse-terasom-oglas-47305869",
+            "formattedPrice": "284.757,00 €",
+            "price": 284757,
+            "isPriceOnRequest": false,
+            "isAdSaved": false,
+            "hidePrice": false
+          },
+          "relationships": {
+            "adImage": {
+              "data": {
+                "type": "recommended-ads-images",
+                "id": "267868805"
+              }
+            }
+          }
+        },
+        {
+          "type": "recommended-ads",
+          "id": "47973686",
+          "attributes": {
+            "title": "Stan: Zagreb (Blato), 91.45 m2, novogradnja",
+            "url": "https://www.njuskalo.hr/nekretnine/stan-zagreb-blato-91.45-m2-novogradnja-oglas-47973686",
+            "formattedPrice": "319.160,50 €",
+            "price": 319160.5,
+            "isPriceOnRequest": false,
+            "isAdSaved": false,
+            "hidePrice": false
+          },
+          "relationships": {
+            "adImage": {
+              "data": {
+                "type": "recommended-ads-images",
+                "id": "257944268"
+              }
+            }
+          }
+        },
+        {
+          "type": "recommended-ads",
+          "id": "47250149",
+          "attributes": {
+            "title": "NOVI ZAGREB - BLATO - 4SOBNI STAN SA VRTOM!",
+            "url": "https://www.njuskalo.hr/nekretnine/zagreb-blato-trosobni-stan-oglas-47250149",
+            "formattedPrice": "278.421,00 €",
+            "price": 278421,
+            "isPriceOnRequest": false,
+            "isAdSaved": false,
+            "hidePrice": false
+          },
+          "relationships": {
+            "adImage": {
+              "data": {
+                "type": "recommended-ads-images",
+                "id": "267868921"
+              }
+            }
+          }
+        },
+        {
+          "type": "recommended-ads",
+          "id": "48373734",
+          "attributes": {
+            "title": "Stan: Zagreb (Blato), 94.32 m2, novogradnja",
+            "url": "https://www.njuskalo.hr/nekretnine/stan-zagreb-blato-92.79-m2-novogradnja-oglas-48373734",
+            "formattedPrice": "353.700,00 €",
+            "price": 353700,
+            "isPriceOnRequest": false,
+            "isAdSaved": false,
+            "hidePrice": false
+          },
+          "relationships": {
+            "adImage": {
+              "data": {
+                "type": "recommended-ads-images",
+                "id": "260401838"
+              }
+            }
+          }
+        },
+        {
+          "type": "recommended-ads",
+          "id": "46216991",
+          "attributes": {
+            "title": "Stan: Zagreb (Blato), 108.00 m2, novogradnja",
+            "url": "https://www.njuskalo.hr/nekretnine/stan-zagreb-blato-108.00-m2-novogradnja-oglas-46216991",
+            "formattedPrice": "450.000,00 €",
+            "price": 450000,
+            "isPriceOnRequest": false,
+            "isAdSaved": false,
+            "hidePrice": false
+          },
+          "relationships": {
+            "adImage": {
+              "data": {
+                "type": "recommended-ads-images",
+                "id": "241019712"
+              }
+            }
+          }
+        },
+        {
+          "type": "recommended-ads",
+          "id": "47250151",
+          "attributes": {
+            "title": "NOVI ZAGREB - BLATO - OBITELJSKI STANOVI U IZGRADNJI!",
+            "url": "https://www.njuskalo.hr/nekretnine/zagreb-blato-obiteljski-stanovi-izgradnji-oglas-47250151",
+            "formattedPrice": "284.493,00 €",
+            "price": 284493,
+            "isPriceOnRequest": false,
+            "isAdSaved": false,
+            "hidePrice": false
+          },
+          "relationships": {
+            "adImage": {
+              "data": {
+                "type": "recommended-ads-images",
+                "id": "267868891"
+              }
+            }
+          }
+        },
+        {
+          "type": "recommended-ads",
+          "id": "49843265",
+          "attributes": {
+            "title": "NOVOGRADNJA! 4S STAN, 83.34m2, PENTHOUSE, ZAGREB, BLATO",
+            "url": "https://www.njuskalo.hr/nekretnine/novogradnja-4s-stan-80.82m2-penthouse-zagreb-blato-oglas-49843265",
+            "formattedPrice": "308.339,50 €",
+            "price": 308339.5,
+            "isPriceOnRequest": false,
+            "isAdSaved": false,
+            "hidePrice": false
+          },
+          "relationships": {
+            "adImage": {
+              "data": {
+                "type": "recommended-ads-images",
+                "id": "271840046"
+              }
+            }
+          }
+        },
+        {
+          "type": "recommended-ads",
+          "id": "50254697",
+          "attributes": {
+            "title": "Stan: Zagreb (Botinec), 92.36 m2, novogradnja",
+            "url": "https://www.njuskalo.hr/nekretnine/stan-zagreb-botinec-92.36-m2-novogradnja-oglas-50254697",
+            "formattedPrice": "323.260,00 €",
+            "price": 323260,
+            "isPriceOnRequest": false,
+            "isAdSaved": false,
+            "hidePrice": false
+          },
+          "relationships": {
+            "adImage": {
+              "data": {
+                "type": "recommended-ads-images",
+                "id": "274876079"
+              }
+            }
+          }
+        },
+        {
+          "type": "recommended-ads",
+          "id": "50243699",
+          "attributes": {
+            "title": "STAN (68m2): BLATO–GOTOVA NOVOGRADNJA; 3S, 2 TERASE",
+            "url": "https://www.njuskalo.hr/nekretnine/stan-68m2-blato-gotova-novogradnja-3s-2-terase-oglas-50243699",
+            "formattedPrice": "284.773,00 €",
+            "price": 284773,
+            "isPriceOnRequest": false,
+            "isAdSaved": false,
+            "hidePrice": false
+          },
+          "relationships": {
+            "adImage": {
+              "data": {
+                "type": "recommended-ads-images",
+                "id": "274787742"
+              }
+            }
+          }
+        },
+        {
+          "type": "recommended-ads",
+          "id": "49911485",
+          "attributes": {
+            "title": "STAN, PRODAJA, ZAGREB, BLATO, NOVOGRADNJA, 78.55 m2, 4-soban",
+            "url": "https://www.njuskalo.hr/nekretnine/stan-prodaja-zagreb-blato-novogradnja-78.55-m2-4-soban-oglas-49911485",
+            "formattedPrice": "274.139,00 €",
+            "price": 274139,
+            "isPriceOnRequest": false,
+            "isAdSaved": false,
+            "hidePrice": false
+          },
+          "relationships": {
+            "adImage": {
+              "data": {
+                "type": "recommended-ads-images",
+                "id": "272315269"
+              }
+            }
+          }
+        },
+        {
+          "type": "recommended-ads",
+          "id": "49958244",
+          "attributes": {
+            "title": "Stan B19, 4-sobni, novogradnja, Zagreb-Blato",
+            "url": "https://www.njuskalo.hr/nekretnine/stan-b19-4-sobni-novogradnja-zagreb-blato-oglas-49958244",
+            "formattedPrice": "313.310,00 €",
+            "price": 313310,
+            "isPriceOnRequest": false,
+            "isAdSaved": false,
+            "hidePrice": false
+          },
+          "relationships": {
+            "adImage": {
+              "data": {
+                "type": "recommended-ads-images",
+                "id": "272698194"
+              }
+            }
+          }
+        }
+      ],
+      "included": [
+        {
+          "type": "recommended-ads-images",
+          "id": "267868848",
+          "attributes": {
+            "url": "https://www.njuskalo.hr/image-360x360c/nekretnine/zagreb-blato-novogradnja-stan-tri-spavace-sobe-slika-267868848.jpg"
+          }
+        },
+        {
+          "type": "recommended-ads-images",
+          "id": "267868805",
+          "attributes": {
+            "url": "https://www.njuskalo.hr/image-360x360c/nekretnine/zagreb-blato-penthouse-terasom-slika-267868805.jpg"
+          }
+        },
+        {
+          "type": "recommended-ads-images",
+          "id": "257944268",
+          "attributes": {
+            "url": "https://www.njuskalo.hr/image-360x360c/nekretnine/stan-zagreb-blato-91.45-m2-novogradnja-slika-257944268.jpg"
+          }
+        },
+        {
+          "type": "recommended-ads-images",
+          "id": "267868921",
+          "attributes": {
+            "url": "https://www.njuskalo.hr/image-360x360c/nekretnine/zagreb-blato-trosobni-stan-slika-267868921.jpg"
+          }
+        },
+        {
+          "type": "recommended-ads-images",
+          "id": "260401838",
+          "attributes": {
+            "url": "https://www.njuskalo.hr/image-360x360c/nekretnine/stan-zagreb-blato-92.79-m2-novogradnja-slika-260401838.jpg"
+          }
+        },
+        {
+          "type": "recommended-ads-images",
+          "id": "241019712",
+          "attributes": {
+            "url": "https://www.njuskalo.hr/image-360x360c/nekretnine/stan-zagreb-blato-108.00-m2-novogradnja-slika-241019712.jpg"
+          }
+        },
+        {
+          "type": "recommended-ads-images",
+          "id": "267868891",
+          "attributes": {
+            "url": "https://www.njuskalo.hr/image-360x360c/nekretnine/zagreb-blato-obiteljski-stanovi-izgradnji-slika-267868891.jpg"
+          }
+        },
+        {
+          "type": "recommended-ads-images",
+          "id": "271840046",
+          "attributes": {
+            "url": "https://www.njuskalo.hr/image-360x360c/nekretnine/novogradnja-4s-stan-80.82m2-penthouse-zagreb-blato-slika-271840046.jpg"
+          }
+        },
+        {
+          "type": "recommended-ads-images",
+          "id": "274876079",
+          "attributes": {
+            "url": "https://www.njuskalo.hr/image-360x360c/nekretnine/stan-zagreb-botinec-92.36-m2-novogradnja-slika-274876079.jpg"
+          }
+        },
+        {
+          "type": "recommended-ads-images",
+          "id": "274787742",
+          "attributes": {
+            "url": "https://www.njuskalo.hr/image-360x360c/nekretnine/stan-68m2-blato-gotova-novogradnja-3s-2-terase-slika-274787742.jpg"
+          }
+        },
+        {
+          "type": "recommended-ads-images",
+          "id": "272315269",
+          "attributes": {
+            "url": "https://www.njuskalo.hr/image-360x360c/nekretnine/stan-prodaja-zagreb-blato-novogradnja-78.55-m2-4-soban-slika-272315269.jpg"
+          }
+        },
+        {
+          "type": "recommended-ads-images",
+          "id": "272698194",
+          "attributes": {
+            "url": "https://www.njuskalo.hr/image-360x360c/nekretnine/stan-b19-4-sobni-novogradnja-zagreb-blato-slika-272698194.jpg"
+          }
+        }
+      ]
+    },
+    "body_shape": {
+      "jsonapi": "{version}",
+      "meta": "{total}",
+      "links": "{self, first, last, prev, next}",
+      "data": "array[12] of {type, id, attributes, relationships}",
+      "included": "array[12] of {type, id, attributes}"
+    }
+  },
+  {
+    "label": "Apartments for sale / Zagreb",
+    "url": "https://www.njuskalo.hr/ccapi/v4/similar-classifieds?filter%5BclassifiedId%5D=47225243&page%5Blimit%5D=12&include=image.variation_360x360c%2Cimage.variations",
+    "method": "GET",
+    "status": 200,
+    "content_type": "application/vnd.api+json",
+    "query_params": {
+      "filter[classifiedId]": "47225243",
+      "page[limit]": "12",
+      "include": "image.variation_360x360c,image.variations"
+    },
+    "request_body": null,
+    "tags": [
+      "versioned-rest",
+      "filter",
+      "pagination"
+    ],
+    "repeated": false,
+    "body": {
+      "jsonapi": {
+        "version": "1.0"
+      },
+      "meta": {
+        "total": 12,
+        "totalCount": 12,
+        "requestId": "a6851cb2-214b-4691-945a-3afed94e2d87"
+      },
+      "links": {
+        "self": "https://www.njuskalo.hr/ccapi/v4/similar-classifieds?filter%5BclassifiedId%5D=47225243&include=image.variation_360x360c%2Cimage.variations&page%5Blimit%5D=12"
+      },
+      "data": [
+        {
+          "type": "similar-classifieds",
+          "id": "48372323",
+          "attributes": {
+            "label": "Stan: Zagreb (Blato), 81.32 m2, novogradnja",
+            "url": "nekretnine/stan-zagreb-blato-79.98-m2-novogradnja-oglas-48372323",
+            "currencyISO": "EUR",
+            "price": 304950,
+            "hidePrice": false,
+            "isPriceOnRequest": false
+          },
+          "relationships": {
+            "image": {
+              "data": {
+                "type": "image",
+                "id": "260398141"
+              }
+            }
+          }
+        },
+        {
+          "type": "similar-classifieds",
+          "id": "47250151",
+          "attributes": {
+            "label": "NOVI ZAGREB - BLATO - OBITELJSKI STANOVI U IZGRADNJI!",
+            "url": "nekretnine/zagreb-blato-obiteljski-stanovi-izgradnji-oglas-47250151",
+            "currencyISO": "EUR",
+            "price": 284493,
+            "hidePrice": false,
+            "isPriceOnRequest": false
+          },
+          "relationships": {
+            "image": {
+              "data": {
+                "type": "image",
+                "id": "267868891"
+              }
+            }
+          }
+        },
+        {
+          "type": "similar-classifieds",
+          "id": "49958267",
+          "attributes": {
+            "label": "Stan A1, 3-s, novogradnja, Zagreb-Blato",
+            "url": "nekretnine/stan-a1-3-novogradnja-zagreb-blato-oglas-49958267",
+            "currencyISO": "EUR",
+            "price": 284444,
+            "hidePrice": false,
+            "isPriceOnRequest": false
+          },
+          "relationships": {
+            "image": {
+              "data": {
+                "type": "image",
+                "id": "272698622"
+              }
+            }
+          }
+        },
+        {
+          "type": "similar-classifieds",
+          "id": "47250149",
+          "attributes": {
+            "label": "NOVI ZAGREB - BLATO - 4SOBNI STAN SA VRTOM!",
+            "url": "nekretnine/zagreb-blato-trosobni-stan-oglas-47250149",
+            "currencyISO": "EUR",
+            "price": 278421,
+            "hidePrice": false,
+            "isPriceOnRequest": false
+          },
+          "relationships": {
+            "image": {
+              "data": {
+                "type": "image",
+                "id": "267868921"
+              }
+            }
+          }
+        },
+        {
+          "type": "similar-classifieds",
+          "id": "47305870",
+          "attributes": {
+            "label": "NOVI ZAGREB - BLATO - REZERVACIJE U TIJEKU!",
+            "url": "nekretnine/zagreb-blato-rezervacije-tijeku-oglas-47305870",
+            "currencyISO": "EUR",
+            "price": 277596,
+            "hidePrice": false,
+            "isPriceOnRequest": false
+          },
+          "relationships": {
+            "image": {
+              "data": {
+                "type": "image",
+                "id": "267868816"
+              }
+            }
+          }
+        },
+        {
+          "type": "similar-classifieds",
+          "id": "49911478",
+          "attributes": {
+            "label": "STAN, PRODAJA, ZAGREB, BLATO, NOVOGRADNJA, 83.18 m2, 4-soban",
+            "url": "nekretnine/stan-prodaja-zagreb-blato-novogradnja-83.18-m2-4-soban-oglas-49911478",
+            "currencyISO": "EUR",
+            "price": 290298,
+            "hidePrice": false,
+            "isPriceOnRequest": false
+          },
+          "relationships": {
+            "image": {
+              "data": {
+                "type": "image",
+                "id": "272315148"
+              }
+            }
+          }
+        },
+        {
+          "type": "similar-classifieds",
+          "id": "50427998",
+          "attributes": {
+            "label": "Stan, Prodaja, Brezovica, 86m2, 4-sobni",
+            "url": "nekretnine/stan-prodaja-brezovica-86m2-4-sobni-oglas-50427998",
+            "currencyISO": "EUR",
+            "price": 249000,
+            "hidePrice": false,
+            "isPriceOnRequest": false
+          },
+          "relationships": {
+            "image": {
+              "data": {
+                "type": "image",
+                "id": "276389693"
+              }
+            }
+          }
+        },
+        {
+          "type": "similar-classifieds",
+          "id": "47305875",
+          "attributes": {
+            "label": "ZAGREB - BLATO - NOVOGRADNJA - STAN SA TRI SPAVAĆE SOBE!",
+            "url": "nekretnine/zagreb-blato-novogradnja-stan-tri-spavace-sobe-oglas-47305875",
+            "currencyISO": "EUR",
+            "price": 272118,
+            "hidePrice": false,
+            "isPriceOnRequest": false
+          },
+          "relationships": {
+            "image": {
+              "data": {
+                "type": "image",
+                "id": "267868848"
+              }
+            }
+          }
+        },
+        {
+          "type": "similar-classifieds",
+          "id": "48373486",
+          "attributes": {
+            "label": "Stan: Zagreb (Blato), 79.53 m2, novogradnja",
+            "url": "nekretnine/stan-zagreb-blato-81.82-m2-novogradnja-oglas-48373486",
+            "currencyISO": "EUR",
+            "price": 298237.5,
+            "hidePrice": false,
+            "isPriceOnRequest": false
+          },
+          "relationships": {
+            "image": {
+              "data": {
+                "type": "image",
+                "id": "260399865"
+              }
+            }
+          }
+        },
+        {
+          "type": "similar-classifieds",
+          "id": "49958263",
+          "attributes": {
+            "label": "Stan B4, 3-sobni, novogradnja, Zagreb-Blato",
+            "url": "nekretnine/stan-b4-3-sobni-novogradnja-zagreb-blato-oglas-49958263",
+            "currencyISO": "EUR",
+            "price": 276741,
+            "hidePrice": false,
+            "isPriceOnRequest": false
+          },
+          "relationships": {
+            "image": {
+              "data": {
+                "type": "image",
+                "id": "272698510"
+              }
+            }
+          }
+        },
+        {
+          "type": "similar-classifieds",
+          "id": "49911487",
+          "attributes": {
+            "label": "STAN, PRODAJA, ZAGREB, BLATO, NOVOGRADNJA, 78.55 m2, 4-soban",
+            "url": "nekretnine/stan-prodaja-zagreb-blato-novogradnja-78.55-m2-4-soban-oglas-49911487",
+            "currencyISO": "EUR",
+            "price": 274139,
+            "hidePrice": false,
+            "isPriceOnRequest": false
+          },
+          "relationships": {
+            "image": {
+              "data": {
+                "type": "image",
+                "id": "272315220"
+              }
+            }
+          }
+        },
+        {
+          "type": "similar-classifieds",
+          "id": "49911485",
+          "attributes": {
+            "label": "STAN, PRODAJA, ZAGREB, BLATO, NOVOGRADNJA, 78.55 m2, 4-soban",
+            "url": "nekretnine/stan-prodaja-zagreb-blato-novogradnja-78.55-m2-4-soban-oglas-49911485",
+            "currencyISO": "EUR",
+            "price": 274139,
+            "hidePrice": false,
+            "isPriceOnRequest": false
+          },
+          "relationships": {
+            "image": {
+              "data": {
+                "type": "image",
+                "id": "272315269"
+              }
+            }
+          }
+        }
+      ],
+      "included": [
+        {
+          "type": "imageVariation",
+          "id": "260398141-variation-360x360c",
+          "attributes": {
+            "variationName": "360x360c",
+            "url": "https://www.njuskalo.hr/scripts/get_image_variation.php?image_id=260398141&var_suff=360x360c",
+            "width": 360,
+            "height": 360,
+            "sizeType": "thumbnail big"
+          }
+        },
+        {
+          "type": "image",
+          "id": "260398141",
+          "attributes": {
+            "order": null
+          },
+          "relationships": {
+            "variations": {
+              "data": [
+                {
+                  "type": "imageVariation",
+                  "id": "260398141-variation-360x360c"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "imageVariation",
+          "id": "267868891-variation-360x360c",
+          "attributes": {
+            "variationName": "360x360c",
+            "url": "https://www.njuskalo.hr/scripts/get_image_variation.php?image_id=267868891&var_suff=360x360c",
+            "width": 360,
+            "height": 360,
+            "sizeType": "thumbnail big"
+          }
+        },
+        {
+          "type": "image",
+          "id": "267868891",
+          "attributes": {
+            "order": null
+          },
+          "relationships": {
+            "variations": {
+              "data": [
+                {
+                  "type": "imageVariation",
+                  "id": "267868891-variation-360x360c"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "imageVariation",
+          "id": "272698622-variation-360x360c",
+          "attributes": {
+            "variationName": "360x360c",
+            "url": "https://www.njuskalo.hr/scripts/get_image_variation.php?image_id=272698622&var_suff=360x360c",
+            "width": 360,
+            "height": 360,
+            "sizeType": "thumbnail big"
+          }
+        },
+        {
+          "type": "image",
+          "id": "272698622",
+          "attributes": {
+            "order": null
+          },
+          "relationships": {
+            "variations": {
+              "data": [
+                {
+                  "type": "imageVariation",
+                  "id": "272698622-variation-360x360c"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "imageVariation",
+          "id": "267868921-variation-360x360c",
+          "attributes": {
+            "variationName": "360x360c",
+            "url": "https://www.njuskalo.hr/scripts/get_image_variation.php?image_id=267868921&var_suff=360x360c",
+            "width": 360,
+            "height": 360,
+            "sizeType": "thumbnail big"
+          }
+        },
+        {
+          "type": "image",
+          "id": "267868921",
+          "attributes": {
+            "order": null
+          },
+          "relationships": {
+            "variations": {
+              "data": [
+                {
+                  "type": "imageVariation",
+                  "id": "267868921-variation-360x360c"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "imageVariation",
+          "id": "267868816-variation-360x360c",
+          "attributes": {
+            "variationName": "360x360c",
+            "url": "https://www.njuskalo.hr/scripts/get_image_variation.php?image_id=267868816&var_suff=360x360c",
+            "width": 360,
+            "height": 360,
+            "sizeType": "thumbnail big"
+          }
+        },
+        {
+          "type": "image",
+          "id": "267868816",
+          "attributes": {
+            "order": null
+          },
+          "relationships": {
+            "variations": {
+              "data": [
+                {
+                  "type": "imageVariation",
+                  "id": "267868816-variation-360x360c"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "imageVariation",
+          "id": "272315148-variation-360x360c",
+          "attributes": {
+            "variationName": "360x360c",
+            "url": "https://www.njuskalo.hr/scripts/get_image_variation.php?image_id=272315148&var_suff=360x360c",
+            "width": 360,
+            "height": 360,
+            "sizeType": "thumbnail big"
+          }
+        },
+        {
+          "type": "image",
+          "id": "272315148",
+          "attributes": {
+            "order": null
+          },
+          "relationships": {
+            "variations": {
+              "data": [
+                {
+                  "type": "imageVariation",
+                  "id": "272315148-variation-360x360c"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "imageVariation",
+          "id": "276389693-variation-360x360c",
+          "attributes": {
+            "variationName": "360x360c",
+            "url": "https://www.njuskalo.hr/scripts/get_image_variation.php?image_id=276389693&var_suff=360x360c",
+            "width": 360,
+            "height": 360,
+            "sizeType": "thumbnail big"
+          }
+        },
+        {
+          "type": "image",
+          "id": "276389693",
+          "attributes": {
+            "order": null
+          },
+          "relationships": {
+            "variations": {
+              "data": [
+                {
+                  "type": "imageVariation",
+                  "id": "276389693-variation-360x360c"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "imageVariation",
+          "id": "267868848-variation-360x360c",
+          "attributes": {
+            "variationName": "360x360c",
+            "url": "https://www.njuskalo.hr/scripts/get_image_variation.php?image_id=267868848&var_suff=360x360c",
+            "width": 360,
+            "height": 360,
+            "sizeType": "thumbnail big"
+          }
+        },
+        {
+          "type": "image",
+          "id": "267868848",
+          "attributes": {
+            "order": null
+          },
+          "relationships": {
+            "variations": {
+              "data": [
+                {
+                  "type": "imageVariation",
+                  "id": "267868848-variation-360x360c"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "imageVariation",
+          "id": "260399865-variation-360x360c",
+          "attributes": {
+            "variationName": "360x360c",
+            "url": "https://www.njuskalo.hr/scripts/get_image_variation.php?image_id=260399865&var_suff=360x360c",
+            "width": 360,
+            "height": 360,
+            "sizeType": "thumbnail big"
+          }
+        },
+        {
+          "type": "image",
+          "id": "260399865",
+          "attributes": {
+            "order": null
+          },
+          "relationships": {
+            "variations": {
+              "data": [
+                {
+                  "type": "imageVariation",
+                  "id": "260399865-variation-360x360c"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "imageVariation",
+          "id": "272698510-variation-360x360c",
+          "attributes": {
+            "variationName": "360x360c",
+            "url": "https://www.njuskalo.hr/scripts/get_image_variation.php?image_id=272698510&var_suff=360x360c",
+            "width": 360,
+            "height": 360,
+            "sizeType": "thumbnail big"
+          }
+        },
+        {
+          "type": "image",
+          "id": "272698510",
+          "attributes": {
+            "order": null
+          },
+          "relationships": {
+            "variations": {
+              "data": [
+                {
+                  "type": "imageVariation",
+                  "id": "272698510-variation-360x360c"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "imageVariation",
+          "id": "272315220-variation-360x360c",
+          "attributes": {
+            "variationName": "360x360c",
+            "url": "https://www.njuskalo.hr/scripts/get_image_variation.php?image_id=272315220&var_suff=360x360c",
+            "width": 360,
+            "height": 360,
+            "sizeType": "thumbnail big"
+          }
+        },
+        {
+          "type": "image",
+          "id": "272315220",
+          "attributes": {
+            "order": null
+          },
+          "relationships": {
+            "variations": {
+              "data": [
+                {
+                  "type": "imageVariation",
+                  "id": "272315220-variation-360x360c"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "imageVariation",
+          "id": "272315269-variation-360x360c",
+          "attributes": {
+            "variationName": "360x360c",
+            "url": "https://www.njuskalo.hr/scripts/get_image_variation.php?image_id=272315269&var_suff=360x360c",
+            "width": 360,
+            "height": 360,
+            "sizeType": "thumbnail big"
+          }
+        },
+        {
+          "type": "image",
+          "id": "272315269",
+          "attributes": {
+            "order": null
+          },
+          "relationships": {
+            "variations": {
+              "data": [
+                {
+                  "type": "imageVariation",
+                  "id": "272315269-variation-360x360c"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "body_shape": {
+      "jsonapi": "{version}",
+      "meta": "{total, totalCount, requestId}",
+      "links": "{self}",
+      "data": "array[12] of {type, id, attributes, relationships}",
+      "included": "array[24] of {type, id, attributes}"
+    }
+  }
+]
