@@ -107,7 +107,7 @@
   "https://mojposao.hr/posao/e67f8504-455d-4812-9055-5676b508455a/konobar-m-z": {
     "title": "Konobar (m/ž)",
     "date": "06. 07. 2026.",
-    "seen_at": "2026-06-17T10:26:14.214798"
+    "seen_at": "2026-07-03T08:49:05.928265"
   },
   "https://mojposao.hr/posao/dc2cbaad-f801-44b7-9c60-d5d02af8ea14/agent-za-usluge-najma-m-z": {
     "title": "Agent za usluge najma (m/ž)",
@@ -116,8 +116,8 @@
   },
   "https://mojposao.hr/posao/fa646258-be39-4b9b-ab11-cd7cbc53858c/konobar-m-z": {
     "title": "Konobar (m/ž)",
-    "date": "25. 06. 2026.",
-    "seen_at": "2026-06-17T10:26:14.214801"
+    "date": "05. 07. 2026.",
+    "seen_at": "2026-07-03T08:49:05.928266"
   },
   "https://mojposao.hr/posao/e3714d25-7100-494a-925b-c22b4c62e27b/novinar-m-z": {
     "title": "Novinar (m/ž)",
@@ -133,5 +133,30 @@
     "title": "Kurir / Dostavljač (m/ž)",
     "date": "25. 06. 2026.",
     "seen_at": "2026-06-17T10:26:14.214804"
+  },
+  "https://mojposao.hr/posao/158a0b0a-1d00-4168-a56b-e93a10ec8a53/dostavljac-pomocni-radnik-u-restoranu-m-z": {
+    "title": "Dostavljač / Pomoćni radnik u restoranu (m/ž)",
+    "date": "07. 07. 2026.",
+    "seen_at": "2026-07-03T08:49:05.928251"
+  },
+  "https://mojposao.hr/posao/9ae24651-1315-410e-a4c7-0b41aafa0131/dostavljac-pomocni-radnik-u-slasticarnici-m-z": {
+    "title": "Dostavljač / Pomoćni radnik u slastičarnici (m/ž)",
+    "date": "13. 07. 2026.",
+    "seen_at": "2026-07-03T08:49:05.928260"
+  },
+  "https://mojposao.hr/posao/1a9dcfdd-542d-4517-adc2-4967d08d14e5/spremac-spremacica": {
+    "title": "Spremač / Spremačica",
+    "date": "09. 07. 2026.",
+    "seen_at": "2026-07-03T08:49:05.928262"
+  },
+  "https://mojposao.hr/posao/a802087e-9b24-44f3-821c-3abd0941235f/perac-automobila-u-automatskoj-praonici-za-interne-potrebe-m-z": {
+    "title": "Perač automobila u automatskoj praonici za interne potrebe (m/ž)",
+    "date": "09. 07. 2026.",
+    "seen_at": "2026-07-03T08:49:05.928263"
+  },
+  "https://mojposao.hr/posao/7720ebdd-f795-471c-bfb9-d040481cce70/pomocni-prodavac-m-z": {
+    "title": "Pomoćni prodavač (m/ž)",
+    "date": "04. 07. 2026.",
+    "seen_at": "2026-07-03T08:49:05.928264"
   }
 }
