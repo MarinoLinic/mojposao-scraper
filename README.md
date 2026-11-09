@@ -1,22 +1,26 @@
 # MojPosao Job Scraper
 
+<img src="favicon.svg" width="56" height="56" alt="MojPosao notifier project icon">
+
+![MojPosao notifier workflow diagram](docs/readme-workflow.svg)
+
 This is an automated web scraping tool designed to find and report new job listings from the Croatian job board, [mojposao.hr](https://mojposao.hr).
 
 ## What it Does
 
 The project automates the process of checking for specific job opportunities. Its main functions are:
 
-1.  **Daily Scraping**: A GitHub Actions workflow runs the scraper every day on a schedule.
+1.  **Daily Scraping**: A GitHub Actions workflow schedules the scraper at 06:00 UTC on every second day-of-month (`0 6 */2 * *`).
 2.  **Multiple searches**: It tracks both Zagreb part-time listings and IT / Telekomunikacije listings for Zagreb.
 3.  **Notification**: If any new jobs are found, it sends a Telegram notification with titles, deadlines, and links.
 4.  **Seen-job tracking**: The workflow can commit and push updated `seen_jobs` JSON files back to the repository.
 
-This eliminates the need to manually check the website every day.
+The workflow file defines the intended schedule. Repository documentation does not establish whether a scheduled run succeeded.
 
 ## How It Works
 
 - **Scraper (`scraper.py`)**: A Python script using `requests` and `BeautifulSoup` to fetch and parse the job listings pages for two configured searches.
-- **Automation (`.github/workflows/daily-job-scrape.yml`)**: A GitHub Actions workflow that runs daily at `06:00 UTC` and can also be triggered manually via `workflow_dispatch`.
+- **Automation (`.github/workflows/daily-job-scrape.yml`)**: A GitHub Actions workflow that is scheduled at `06:00 UTC` on every second day-of-month (`0 6 */2 * *`) and can also be triggered manually via `workflow_dispatch`.
 - **Push updates**: The workflow may add and push updated `seen_jobs_part_time.json` and `seen_jobs_it.json` files when new job state is recorded.
 - **Notifications**: The scraper sends Telegram messages via the Bot API using repository secrets.
 - **Exploratory tooling (`capture_network.py`)**: A separate optional helper for capturing browser network traffic and discovering hidden APIs during investigation.
