@@ -10,7 +10,7 @@ This is an automated web scraping tool designed to find and report new job listi
 
 The project automates the process of checking for specific job opportunities. Its main functions are:
 
-1.  **Daily Scraping**: A GitHub Actions workflow schedules the scraper at 06:00 UTC on every second day-of-month (`0 6 */2 * *`).
+1.  **Scheduled scraping**: A GitHub Actions workflow schedules the scraper at 06:00 UTC on every second day-of-month (`0 6 */2 * *`).
 2.  **Multiple searches**: It tracks both Zagreb part-time listings and IT / Telekomunikacije listings for Zagreb.
 3.  **Notification**: If any new jobs are found, it sends a Telegram notification with titles, deadlines, and links.
 4.  **Seen-job tracking**: The workflow can commit and push updated `seen_jobs` JSON files back to the repository.
